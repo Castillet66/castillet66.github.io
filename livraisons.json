@@ -128,5 +128,107 @@
     "Ordinateur"
    ]
   ]
+ },
+ {
+  "dossier": "recettes-2026-10-31",
+  "date": "31/10/2026",
+  "titre": "Recettes — visuels et repas complets",
+  "note": "Onze images générées relues contre leur fiche (à valider à l'œil avant production), treize repas complétés, Protéiné et allergènes par composition ; aperçu interactif sur iPhone à part (tunnel).",
+  "pages": [
+   [
+    "index.html",
+    "Ce qui change, les captures, les limites"
+   ]
+  ],
+  "captures": [
+   [
+    "captures/iphone-accueil-cuisine.png",
+    "Accueil — Cuisine, choix Protéiné"
+   ],
+   [
+    "captures/iphone-page-recettes.png",
+    "Page Recettes — besoins illustrés"
+   ],
+   [
+    "captures/iphone-fiche-penne.png",
+    "Fiche — penne all'arrabbiata, photo générée végane"
+   ],
+   [
+    "captures/iphone-fiche-curry-poulet.png",
+    "Fiche — curry de poulet et son riz"
+   ],
+   [
+    "captures/iphone-fiche-stroganoff.png",
+    "Fiche — Bœuf Stroganoff et tagliatelles, image générée"
+   ],
+   [
+    "captures/iphone-credit-recette-origine.png",
+    "Crédit — recette d'origine TheMealDB, image générée"
+   ],
+   [
+    "captures/iphone-fiche-pancakes.png",
+    "Fiche — pancakes, framboises et myrtilles"
+   ],
+   [
+    "captures/iphone-pancakes-ingredients.png",
+    "Pancakes — myrtille, sirop d'érable"
+   ],
+   [
+    "captures/iphone-page-credits.png",
+    "Page des crédits"
+   ],
+   [
+    "captures/iphone-preparation-debut.png",
+    "Préparation — étapes numérotées"
+   ],
+   [
+    "captures/iphone-preparation-fin.png",
+    "Préparation — la fin"
+   ],
+   [
+    "captures/iphone-nutrition-allergenes.png",
+    "Nutrition et allergènes"
+   ],
+   [
+    "captures/iphone-ma-semaine.png",
+    "Ma semaine"
+   ],
+   [
+    "captures/iphone-ma-semaine-repas.png",
+    "Ma semaine — les repas"
+   ],
+   [
+    "captures/iphone-courses.png",
+    "Courses"
+   ],
+   [
+    "captures/iphone-courses-rayons.png",
+    "Courses — rayons"
+   ],
+   [
+    "captures/iphone-magasins.png",
+    "Magasins à proximité"
+   ],
+   [
+    "captures/planche-photos-generees.jpg",
+    "Les onze photos générées"
+   ],
+   [
+    "captures/planche-objets.png",
+    "Objets : oignon nouveau, minuteur, myrtille, sirop d'érable"
+   ],
+   [
+    "captures/verif-lentille-corail.png",
+    "Vérification — lentille corail"
+   ],
+   [
+    "captures/verif-recette-retiree.png",
+    "Vérification — recette retirée consultable"
+   ],
+   [
+    "captures/verif-bandeau-titre.png",
+    "Vérification — titre du bandeau"
+   ]
+  ]
  }
 ]

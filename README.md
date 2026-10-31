@@ -5,7 +5,35 @@ Dépôt réservé aux aperçus et aux captures de Pulse : rien ici n'est le code
 ## Aperçus en direct (servis par le Mac, lecture seule)
 
 - Autour de moi — l'application de la branche (carte, filtres, localisation) : https://doll-ballet-pets-defines.trycloudflare.com/autour
-- Recettes — l'aperçu de la session Recettes : https://weighted-meanwhile-endless-delete.trycloudflare.com/recettes
+- Recettes — l'application de la branche (visuels, repas complets) : https://weighted-meanwhile-endless-delete.trycloudflare.com/recettes
+
+## Recettes — visuels et repas complets (31/10/2026)
+
+Onze images générées relues contre leur fiche (à valider à l'œil avant production), treize repas complétés, Protéiné et allergènes par composition ; aperçu interactif sur iPhone à part (tunnel).
+
+- Ce qui change, les captures, les limites : https://castillet66.github.io/recettes-2026-10-31/index.html
+- PNG — Accueil — Cuisine, choix Protéiné : https://castillet66.github.io/recettes-2026-10-31/captures/iphone-accueil-cuisine.png
+- PNG — Page Recettes — besoins illustrés : https://castillet66.github.io/recettes-2026-10-31/captures/iphone-page-recettes.png
+- PNG — Fiche — penne all'arrabbiata, photo générée végane : https://castillet66.github.io/recettes-2026-10-31/captures/iphone-fiche-penne.png
+- PNG — Fiche — curry de poulet et son riz : https://castillet66.github.io/recettes-2026-10-31/captures/iphone-fiche-curry-poulet.png
+- PNG — Fiche — Bœuf Stroganoff et tagliatelles, image générée : https://castillet66.github.io/recettes-2026-10-31/captures/iphone-fiche-stroganoff.png
+- PNG — Crédit — recette d'origine TheMealDB, image générée : https://castillet66.github.io/recettes-2026-10-31/captures/iphone-credit-recette-origine.png
+- PNG — Fiche — pancakes, framboises et myrtilles : https://castillet66.github.io/recettes-2026-10-31/captures/iphone-fiche-pancakes.png
+- PNG — Pancakes — myrtille, sirop d'érable : https://castillet66.github.io/recettes-2026-10-31/captures/iphone-pancakes-ingredients.png
+- PNG — Page des crédits : https://castillet66.github.io/recettes-2026-10-31/captures/iphone-page-credits.png
+- PNG — Préparation — étapes numérotées : https://castillet66.github.io/recettes-2026-10-31/captures/iphone-preparation-debut.png
+- PNG — Préparation — la fin : https://castillet66.github.io/recettes-2026-10-31/captures/iphone-preparation-fin.png
+- PNG — Nutrition et allergènes : https://castillet66.github.io/recettes-2026-10-31/captures/iphone-nutrition-allergenes.png
+- PNG — Ma semaine : https://castillet66.github.io/recettes-2026-10-31/captures/iphone-ma-semaine.png
+- PNG — Ma semaine — les repas : https://castillet66.github.io/recettes-2026-10-31/captures/iphone-ma-semaine-repas.png
+- PNG — Courses : https://castillet66.github.io/recettes-2026-10-31/captures/iphone-courses.png
+- PNG — Courses — rayons : https://castillet66.github.io/recettes-2026-10-31/captures/iphone-courses-rayons.png
+- PNG — Magasins à proximité : https://castillet66.github.io/recettes-2026-10-31/captures/iphone-magasins.png
+- PNG — Les onze photos générées : https://castillet66.github.io/recettes-2026-10-31/captures/planche-photos-generees.jpg
+- PNG — Objets : oignon nouveau, minuteur, myrtille, sirop d'érable : https://castillet66.github.io/recettes-2026-10-31/captures/planche-objets.png
+- PNG — Vérification — lentille corail : https://castillet66.github.io/recettes-2026-10-31/captures/verif-lentille-corail.png
+- PNG — Vérification — recette retirée consultable : https://castillet66.github.io/recettes-2026-10-31/captures/verif-recette-retiree.png
+- PNG — Vérification — titre du bandeau : https://castillet66.github.io/recettes-2026-10-31/captures/verif-bandeau-titre.png
 
 ## Autour de moi — la carte d'abord (31/10/2026)
 
