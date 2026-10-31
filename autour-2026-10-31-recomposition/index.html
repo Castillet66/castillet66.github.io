@@ -1,0 +1,57 @@
+<!doctype html><html lang="fr"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1"><meta name="robots" content="noindex, nofollow">
+<title>Autour de moi — la carte d'abord, recomposée (aperçu du 31/10/2026)</title>
+<style>:root{color-scheme:dark}body{margin:0;background:#111;color:#f4f2ee;font:16px/1.55 -apple-system,system-ui,sans-serif}
+main{max-width:780px;margin:0 auto;padding:26px 18px 56px}h1{font-size:25px;margin:0 0 4px}h2{font-size:18px;margin:28px 0 6px}
+p,li{color:#c9c5be;font-size:15px}ul{padding-left:20px}a{color:#7fd8d0}.n{color:#8f8c86;font-size:13.5px}
+.g{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-top:10px}.g a{display:block;background:#1b1b1e;border-radius:14px;padding:8px;color:#ddd;text-decoration:none;font-size:13px}
+.g img{width:100%;border-radius:9px;display:block;margin-bottom:6px}.large{grid-column:1/-1}</style></head><body><main>
+<h1>Autour de moi — la carte d'abord, recomposée</h1>
+<p class="n">Aperçu du 31 octobre 2026, au soir · branche <code>chantier/autour-de-moi-finitions</code> (base : l'Agenda) · rien n'est publié dans l'application.</p>
+<p><a href="https://doll-ballet-pets-defines.trycloudflare.com/autour"><b>Ouvrir Autour de moi en direct sur iPhone</b></a> — servi par le Mac tant qu'il reste allumé, lecture seule. · <a href="../">Tous les aperçus</a></p>
+
+<h2>Ce qui a changé</h2>
+<ul>
+<li><b>La carte d'abord.</b> Sous l'en-tête du site, il n'y a plus que les familles illustrées, sur une bande de hauteur fixe. La rangée « Ma position / Aujourd'hui / Filtres », la rangée Tout / Lieux / Événements, la phrase d'origine, le carrousel et le bouton de liste ont quitté l'écran.</li>
+<li><b>Dix familles stables</b> : Tout, Patrimoine, Nature, Mer, Sensations, Culture, Loisirs, Bien-être, Marchés, Fêtes. La famille choisie se dit par son nom sur une petite capsule claire, sans halo. Ses précisions s'affichent sur une deuxième rangée, dont la place est tenue même vide : rien ne saute.</li>
+<li><b>Fêtes</b> regroupe les fêtes de village, les festivals et les rifles et lotos (reconnus au titre). Halloween, Noël, Carnaval, Sant Joan… ne sont plus des familles : ce sont des précisions de Fêtes, qui n'apparaissent que si la période choisie en compte. « Vide-greniers et brocantes » est une précision de Marchés. Fêtes porte l'illustration festive existante, sans nouvelle image.</li>
+<li><b>Une seule flèche GPS</b> (l'icône validée) remplace la capsule « Ma position » et les réticules. Elle ouvre une petite feuille : Me localiser, Choisir une commune ou un lieu, Explorer depuis le centre de la carte. La proposition de localisation à la première arrivée est gardée ; un refus ouvre l'aide déjà construite.</li>
+<li><b>Une carte propre à Autour de moi</b>, plus claire et plus chaude : fond brun doux, eau et forêts lisibles, petites routes et noms plus discrets. Les repères se regroupent davantage quand on voit tout le département. Une visite guidée montre le monument, plus une clé.</li>
+<li><b>Les résultats dans une feuille basse</b>, que l'on tire au doigt. Fermée, elle montre la poignée et le nombre de résultats. À mi-hauteur : Tout / Lieux / Événements, les filtres actifs et quelques propositions. Ouverte : la liste entière, la date et les filtres. Un repère touché montre une seule fiche compacte, et la carte se décale si le repère passait dessous.</li>
+<li><b>Le mode exploration</b> : dès que l'on déplace ou zoome la carte du doigt, les familles, la feuille et la barre du bas se retirent. Il reste la carte, la flèche et, après un déplacement, « Explorer cette zone ». Un toucher sur la carte les ramène. Le mode ne change pas d'état au milieu d'un geste.</li>
+</ul>
+
+<h2>Vérifications</h2>
+<ul>
+<li>Chromium et WebKit (le moteur de Safari) à 360, 375, 390 et 430 px, tablette 820 px, ordinateur 1440 px : aucune famille coupée, aucune zone tactile sous 44 px, focus visible au clavier, animations coupées quand le téléphone demande moins d'animations.</li>
+<li>Gestes rejoués au banc : la feuille se tire et se pose (lentement ou d'un élan), la liste défile quand elle est ouverte. Pendant un long geste sur la carte, les commandes ne disparaissent et ne réapparaissent pas une seule fois. Un toucher sur une zone vide les ramène.</li>
+<li><b>L'Agenda n'a pas changé</b> : sa page est identique avant et après dans les deux moteurs. Les seuls pixels différents viennent de l'anneau animé autour de la position.</li>
+<li>La relecture qualité a d'abord refusé le lot pour deux motifs. Le premier : la barre du bas perdait son effet de verre pendant qu'elle se retirait. Le second : une clé restait visible sur les vignettes sans photo. Les deux ont été corrigés et le lot a été accepté. Tous les tests du dépôt passent.</li>
+</ul>
+
+<h2>Limites</h2>
+<ul>
+<li>À confirmer sur un vrai iPhone : le geste de la feuille, le mode exploration, et le retrait de la barre du bas sous Safari, dont la barre d'adresse bouge en même temps.</li>
+<li>Une précision saisonnière (Halloween) s'affiche quand la période en compte une dans le département, même si la zone regardée n'en a pas. La feuille dit alors « Aucun événement aujourd'hui ici » et propose le week-end.</li>
+<li>L'Agenda garde pour l'instant son propre rail, sa fiche et ses icônes de localisation, comme demandé. Faut-il lui donner la même grammaire ? C'est une question ouverte, inscrite au backlog.</li>
+</ul>
+
+<h2>Captures</h2>
+<div class="g">
+<a class="large" href="planche-iphone.jpg"><img src="planche-iphone.jpg" alt="">Avant / après, puis les principaux écrans iPhone</a>
+<a href="captures/avant-arrivee.png"><img src="captures/avant-arrivee.png" alt="">Avant : l'arrivée</a>
+<a href="captures/iphone-arrivee.png"><img src="captures/iphone-arrivee.png" alt="">Après : l'arrivée</a>
+<a href="captures/iphone-feuille-intermediaire.png"><img src="captures/iphone-feuille-intermediaire.png" alt="">La feuille, à mi-hauteur</a>
+<a href="captures/iphone-feuille-ouverte.png"><img src="captures/iphone-feuille-ouverte.png" alt="">Ouverte : la date et les filtres</a>
+<a href="captures/iphone-fiche.png"><img src="captures/iphone-fiche.png" alt="">Un repère touché, une fiche</a>
+<a href="captures/iphone-patrimoine.png"><img src="captures/iphone-patrimoine.png" alt="">Patrimoine et ses précisions</a>
+<a href="captures/iphone-fetes.png"><img src="captures/iphone-fetes.png" alt="">Fêtes, depuis Canet</a>
+<a href="captures/iphone-fetes-halloween.png"><img src="captures/iphone-fetes-halloween.png" alt="">Fêtes · Halloween</a>
+<a href="captures/iphone-exploration.png"><img src="captures/iphone-exploration.png" alt="">En exploration</a>
+<a href="captures/iphone-localisation.png"><img src="captures/iphone-localisation.png" alt="">La flèche GPS : d'où regarder</a>
+<a href="captures/iphone-360-webkit.png"><img src="captures/iphone-360-webkit.png" alt="">360 px, moteur WebKit</a>
+<a href="captures/iphone-430.png"><img src="captures/iphone-430.png" alt="">430 px</a>
+<a class="large" href="captures/tablette.png"><img src="captures/tablette.png" alt="">Tablette</a>
+<a class="large" href="captures/bureau.png"><img src="captures/bureau.png" alt="">Ordinateur</a>
+</div>
+</main></body></html>

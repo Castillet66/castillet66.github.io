@@ -4,9 +4,30 @@ Dépôt réservé aux aperçus et aux captures de Pulse : rien ici n'est le code
 
 ## Aperçus en direct (servis par le Mac, lecture seule)
 
-- Autour de moi — l'application de la branche : https://doll-ballet-pets-defines.trycloudflare.com/autour
+- Autour de moi — la carte d'abord, recomposée (branche chantier/autour-de-moi-finitions) : https://doll-ballet-pets-defines.trycloudflare.com/autour
 - Agenda — la carte et le programme (branche chantier/agenda-carte) : https://doll-ballet-pets-defines.trycloudflare.com/agenda
 - Recettes — l'application de la branche (visuels, repas complets) : https://weighted-meanwhile-endless-delete.trycloudflare.com/recettes
+
+## Autour de moi — la carte d'abord, recomposée (31/10/2026)
+
+Les familles sous l'en-tête, une flèche GPS, les résultats dans une feuille basse, un mode exploration ; carte plus claire et plus chaude. L'Agenda est inchangé. Aperçu interactif sur iPhone.
+
+- Ce qui a changé, vérifications, limites : https://castillet66.github.io/autour-2026-10-31-recomposition/index.html
+- PNG — Avant / après et les principaux écrans iPhone : https://castillet66.github.io/autour-2026-10-31-recomposition/planche-iphone.jpg
+- PNG — Avant : l'arrivée : https://castillet66.github.io/autour-2026-10-31-recomposition/captures/avant-arrivee.png
+- PNG — Après : l'arrivée : https://castillet66.github.io/autour-2026-10-31-recomposition/captures/iphone-arrivee.png
+- PNG — La feuille, à mi-hauteur : https://castillet66.github.io/autour-2026-10-31-recomposition/captures/iphone-feuille-intermediaire.png
+- PNG — Ouverte : la date et les filtres : https://castillet66.github.io/autour-2026-10-31-recomposition/captures/iphone-feuille-ouverte.png
+- PNG — Un repère touché, une fiche : https://castillet66.github.io/autour-2026-10-31-recomposition/captures/iphone-fiche.png
+- PNG — Patrimoine et ses précisions : https://castillet66.github.io/autour-2026-10-31-recomposition/captures/iphone-patrimoine.png
+- PNG — Fêtes, depuis Canet : https://castillet66.github.io/autour-2026-10-31-recomposition/captures/iphone-fetes.png
+- PNG — Fêtes · Halloween : https://castillet66.github.io/autour-2026-10-31-recomposition/captures/iphone-fetes-halloween.png
+- PNG — En exploration : https://castillet66.github.io/autour-2026-10-31-recomposition/captures/iphone-exploration.png
+- PNG — La flèche GPS : d'où regarder : https://castillet66.github.io/autour-2026-10-31-recomposition/captures/iphone-localisation.png
+- PNG — 360 px, moteur WebKit : https://castillet66.github.io/autour-2026-10-31-recomposition/captures/iphone-360-webkit.png
+- PNG — 430 px : https://castillet66.github.io/autour-2026-10-31-recomposition/captures/iphone-430.png
+- PNG — Tablette : https://castillet66.github.io/autour-2026-10-31-recomposition/captures/tablette.png
+- PNG — Ordinateur : https://castillet66.github.io/autour-2026-10-31-recomposition/captures/bureau.png
 
 ## Agenda — la carte et le programme (31/10/2026)
 

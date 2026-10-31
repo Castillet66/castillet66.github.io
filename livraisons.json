@@ -386,5 +386,79 @@
     "Ordinateur"
    ]
   ]
+ },
+ {
+  "dossier": "autour-2026-10-31-recomposition",
+  "date": "31/10/2026",
+  "titre": "Autour de moi — la carte d'abord, recomposée",
+  "note": "Les familles sous l'en-tête, une flèche GPS, les résultats dans une feuille basse, un mode exploration ; carte plus claire et plus chaude. L'Agenda est inchangé. Aperçu interactif sur iPhone.",
+  "pages": [
+   [
+    "index.html",
+    "Ce qui a changé, vérifications, limites"
+   ]
+  ],
+  "captures": [
+   [
+    "planche-iphone.jpg",
+    "Avant / après et les principaux écrans iPhone"
+   ],
+   [
+    "captures/avant-arrivee.png",
+    "Avant : l'arrivée"
+   ],
+   [
+    "captures/iphone-arrivee.png",
+    "Après : l'arrivée"
+   ],
+   [
+    "captures/iphone-feuille-intermediaire.png",
+    "La feuille, à mi-hauteur"
+   ],
+   [
+    "captures/iphone-feuille-ouverte.png",
+    "Ouverte : la date et les filtres"
+   ],
+   [
+    "captures/iphone-fiche.png",
+    "Un repère touché, une fiche"
+   ],
+   [
+    "captures/iphone-patrimoine.png",
+    "Patrimoine et ses précisions"
+   ],
+   [
+    "captures/iphone-fetes.png",
+    "Fêtes, depuis Canet"
+   ],
+   [
+    "captures/iphone-fetes-halloween.png",
+    "Fêtes · Halloween"
+   ],
+   [
+    "captures/iphone-exploration.png",
+    "En exploration"
+   ],
+   [
+    "captures/iphone-localisation.png",
+    "La flèche GPS : d'où regarder"
+   ],
+   [
+    "captures/iphone-360-webkit.png",
+    "360 px, moteur WebKit"
+   ],
+   [
+    "captures/iphone-430.png",
+    "430 px"
+   ],
+   [
+    "captures/tablette.png",
+    "Tablette"
+   ],
+   [
+    "captures/bureau.png",
+    "Ordinateur"
+   ]
+  ]
  }
 ]
