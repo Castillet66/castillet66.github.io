@@ -230,5 +230,79 @@
     "Vérification — titre du bandeau"
    ]
   ]
+ },
+ {
+  "dossier": "autour-2026-10-31-finition",
+  "date": "31/10/2026",
+  "titre": "Autour de moi — la finition",
+  "note": "Carte dégagée, filtres simplifiés, groupes d'événements complets, positions approchées dites ; avant / après. Aperçu interactif à la même adresse.",
+  "pages": [
+   [
+    "index.html",
+    "Ce qui a changé, contenus contrôlés, limites"
+   ]
+  ],
+  "captures": [
+   [
+    "planche-iphone.jpg",
+    "Avant / après et les nouveaux parcours, huit écrans iPhone"
+   ],
+   [
+    "captures/avant-arrivee.png",
+    "Avant : arrivée"
+   ],
+   [
+    "captures/iphone-arrivee.png",
+    "Après : arrivée"
+   ],
+   [
+    "captures/avant-les-angles-groupe.png",
+    "Avant : Les Angles, 2,1 km"
+   ],
+   [
+    "captures/iphone-les-angles-rue.png",
+    "Après : rue sans numéro"
+   ],
+   [
+    "captures/iphone-les-angles-feuille.png",
+    "Voir les 3 événements"
+   ],
+   [
+    "captures/iphone-saint-cyprien-commune.png",
+    "22 événements situés à la commune"
+   ],
+   [
+    "captures/iphone-saint-cyprien-feuille.png",
+    "Les 22 événements"
+   ],
+   [
+    "captures/iphone-360-groupe.png",
+    "Petit écran, 360 px"
+   ],
+   [
+    "captures/iphone-fiche-lieu.png",
+    "Fiche d'un lieu"
+   ],
+   [
+    "captures/iphone-filtres.png",
+    "Filtres simplifiés"
+   ],
+   [
+    "captures/iphone-filtres-actifs-explorer.png",
+    "Filtres actifs et Explorer cette zone"
+   ],
+   [
+    "captures/iphone-webkit-evenements.png",
+    "Événements, WebKit"
+   ],
+   [
+    "captures/objets-avant-apres.png",
+    "Détourages avant / après"
+   ],
+   [
+    "captures/bureau.png",
+    "Ordinateur"
+   ]
+  ]
  }
 ]

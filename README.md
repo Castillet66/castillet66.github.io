@@ -4,8 +4,29 @@ Dépôt réservé aux aperçus et aux captures de Pulse : rien ici n'est le code
 
 ## Aperçus en direct (servis par le Mac, lecture seule)
 
-- Autour de moi — l'application de la branche (carte, filtres, localisation) : https://doll-ballet-pets-defines.trycloudflare.com/autour
+- Autour de moi — l'application de la branche (finition du 31/10 après-midi) : https://doll-ballet-pets-defines.trycloudflare.com/autour
 - Recettes — l'application de la branche (visuels, repas complets) : https://weighted-meanwhile-endless-delete.trycloudflare.com/recettes
+
+## Autour de moi — la finition (31/10/2026)
+
+Carte dégagée, filtres simplifiés, groupes d'événements complets, positions approchées dites ; avant / après. Aperçu interactif à la même adresse.
+
+- Ce qui a changé, contenus contrôlés, limites : https://castillet66.github.io/autour-2026-10-31-finition/index.html
+- PNG — Avant / après et les nouveaux parcours, huit écrans iPhone : https://castillet66.github.io/autour-2026-10-31-finition/planche-iphone.jpg
+- PNG — Avant : arrivée : https://castillet66.github.io/autour-2026-10-31-finition/captures/avant-arrivee.png
+- PNG — Après : arrivée : https://castillet66.github.io/autour-2026-10-31-finition/captures/iphone-arrivee.png
+- PNG — Avant : Les Angles, 2,1 km : https://castillet66.github.io/autour-2026-10-31-finition/captures/avant-les-angles-groupe.png
+- PNG — Après : rue sans numéro : https://castillet66.github.io/autour-2026-10-31-finition/captures/iphone-les-angles-rue.png
+- PNG — Voir les 3 événements : https://castillet66.github.io/autour-2026-10-31-finition/captures/iphone-les-angles-feuille.png
+- PNG — 22 événements situés à la commune : https://castillet66.github.io/autour-2026-10-31-finition/captures/iphone-saint-cyprien-commune.png
+- PNG — Les 22 événements : https://castillet66.github.io/autour-2026-10-31-finition/captures/iphone-saint-cyprien-feuille.png
+- PNG — Petit écran, 360 px : https://castillet66.github.io/autour-2026-10-31-finition/captures/iphone-360-groupe.png
+- PNG — Fiche d'un lieu : https://castillet66.github.io/autour-2026-10-31-finition/captures/iphone-fiche-lieu.png
+- PNG — Filtres simplifiés : https://castillet66.github.io/autour-2026-10-31-finition/captures/iphone-filtres.png
+- PNG — Filtres actifs et Explorer cette zone : https://castillet66.github.io/autour-2026-10-31-finition/captures/iphone-filtres-actifs-explorer.png
+- PNG — Événements, WebKit : https://castillet66.github.io/autour-2026-10-31-finition/captures/iphone-webkit-evenements.png
+- PNG — Détourages avant / après : https://castillet66.github.io/autour-2026-10-31-finition/captures/objets-avant-apres.png
+- PNG — Ordinateur : https://castillet66.github.io/autour-2026-10-31-finition/captures/bureau.png
 
 ## Recettes — visuels et repas complets (31/10/2026)
 

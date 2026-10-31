@@ -1,0 +1,57 @@
+<!doctype html><html lang="fr"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1"><meta name="robots" content="noindex, nofollow">
+<title>Autour de moi — la finition (aperçu du 31/10/2026)</title>
+<style>:root{color-scheme:dark}body{margin:0;background:#111;color:#f4f2ee;font:16px/1.55 -apple-system,system-ui,sans-serif}
+main{max-width:780px;margin:0 auto;padding:26px 18px 56px}h1{font-size:25px;margin:0 0 4px}h2{font-size:18px;margin:28px 0 6px}
+p,li{color:#c9c5be;font-size:15px}ul{padding-left:20px}a{color:#7fd8d0}.n{color:#8f8c86;font-size:13.5px}
+.g{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-top:10px}.g a{display:block;background:#1b1b1e;border-radius:14px;padding:8px;color:#ddd;text-decoration:none;font-size:13px}
+.g img{width:100%;border-radius:9px;display:block;margin-bottom:6px}.large{grid-column:1/-1}</style></head><body><main>
+<h1>Autour de moi — la finition</h1>
+<p class="n">Aperçu du 31 octobre 2026, après-midi · branche <code>chantier/autour-de-moi</code> · rien n'est publié dans l'application.</p>
+<p><a href="https://doll-ballet-pets-defines.trycloudflare.com/autour"><b>Ouvrir l'aperçu en direct sur iPhone</b></a> — même adresse que ce matin, servie par le Mac, lecture seule. · <a href="../autour-2026-10-31/">La première version (matin)</a> · <a href="../">Tous les aperçus</a></p>
+
+<h2>Ce qui a changé</h2>
+<ul>
+<li><b>La carte est dégagée.</b> Les familles reposent sur un fond calme : les repères passent dessous au lieu de transparaître. Les commandes sont plus basses, les intitulés entiers. En bas, plus de panneau : une rangée Tout / Lieux / Événements, la liste, et des cartes plus courtes. À 390 × 844, la carte libre entre les deux mesure 385 px de haut ; le bas occupe 168 px au-dessus de la barre, contre environ 213 avant.</li>
+<li><b>Le repère choisi reste visible.</b> Le cadrage oubliait la barre de navigation sous la fiche ; il lit maintenant ce qui couvre réellement la carte. Pendant qu'une fiche est ouverte, les autres repères s'atténuent.</li>
+<li><b>Le fond de carte est plus discret.</b> Les routes secondaires sont plus sombres et plus fines, et les numéros de départementales n'ont plus de cartouche clair. Les repères ont une ombre courte à la place du contour noir.</li>
+<li><b>Les illustrations sont détourées à nouveau.</b> Le liseré blanc sous la tour, la dalle de neige coupée et les traits de sol sous la quille, le parasol et les galets ont disparu. Les parties blanches des objets sont intactes.</li>
+<li><b>Les filtres sont simplifiés.</b> Intitulés courts, plus aucune explication. Les filtres allumés s'affichent sous les familles, avec une croix chacun et « Tout effacer ». Une autre période qu'aujourd'hui allume sa capsule.</li>
+<li><b>Les groupes d'événements ont une action claire.</b> « Voir les 22 événements » ouvre la liste complète, et chaque ligne ouvre sa fiche. Plusieurs dates d'un même événement s'annoncent « 2 dates » et gardent leur affiche. Plusieurs sorties différentes sont représentées par les objets de leurs familles, jamais par l'affiche de l'une d'elles.</li>
+<li><b>Une position approximative n'est plus présentée comme exacte.</b> « Les Angles — 3 événements — 650 m » venait d'une avenue sans numéro, placée quelque part sur sa longueur par le géocodeur. Un événement est maintenant à l'une de trois précisions : <i>lieu exact</i> (salle nommée, numéro, place), <i>rue sans numéro</i> ou <i>commune seule</i>. Les deux dernières sont en pointillé, le disent (« numéro non précisé », « lieu exact non précisé ») et n'ont jamais de distance au mètre. Les événements situés seulement à la commune se rejoignent à la mairie.</li>
+<li><b>Le lot a été relu par <code>pulse-qa</code>.</b> Premier verdict : refusé. Une phrase promettait un lieu exact que les fiches de commune ne donnent pas, et deux boutons ronds n'avaient pas leur cible de 44 × 44. Les deux points sont corrigés et le lot est accepté. En mesurant les petites largeurs, une vraie course est aussi apparue : quand l'index sortait du cache avant la première lecture de l'heure, le bas restait vide. Elle est corrigée et couverte par un test. Le nom d'une destination tient maintenant entier de 360 à 430 px.</li>
+<li><b>On sait d'où partent les distances.</b> Un lien vers une commune part de sa mairie, comme la recherche. Avant, la même destination donnait 2,1 km par le lien et 650 m par la recherche. Le point de départ est nommé sur la carte, et la fiche indique « 12 km depuis Les Angles ».</li>
+</ul>
+
+<h2>Contenus contrôlés</h2>
+<ul>
+<li>Lieux : 2 433 sur 2 435 gardés ; les 2 écartés sont hors du département. Tous ont une famille, toujours celle de leur sous-catégorie. Restaurants, commerces et équipements restent éteints par défaut.</li>
+<li>Événements : 973 sur 1 606 gardés. 629 sont hors de la fenêtre de 31 jours, 4 hors du département. Les huit catégories de l'Agenda (Expo, Famille, Marché, Concert, Fête, Sport, Gastronomie, Festival) se retrouvent toutes dans les familles. Le regroupement ne perd aucun événement.</li>
+<li>Précision : 361 événements ne sont situés qu'à la commune et 97 à une rue sans numéro.</li>
+</ul>
+
+<h2>Limites</h2>
+<ul>
+<li>Il reste 42 illustrations à produire, et le compte Recraft n'a plus de crédits. Deux traces de détourage minimes subsistent, invisibles à la taille d'usage.</li>
+<li>Les contrôles ont été faits dans Chromium et WebKit (le moteur de Safari) sur ordinateur, à 390 × 844 et 1440 × 900. Le rendu sur un vrai iPhone reste à confirmer.</li>
+</ul>
+
+<h2>Captures</h2>
+<div class="g">
+<a class="large" href="planche-iphone.jpg"><img src="planche-iphone.jpg" alt="">Avant / après, puis groupes, filtres et zone — huit écrans iPhone</a>
+<a href="captures/avant-arrivee.png"><img src="captures/avant-arrivee.png" alt="">Avant : arrivée</a>
+<a href="captures/iphone-arrivee.png"><img src="captures/iphone-arrivee.png" alt="">Après : arrivée</a>
+<a href="captures/avant-les-angles-groupe.png"><img src="captures/avant-les-angles-groupe.png" alt="">Avant : « Les Angles · 2,1 km », une affiche pour trois sorties</a>
+<a href="captures/iphone-les-angles-rue.png"><img src="captures/iphone-les-angles-rue.png" alt="">Après : la rue sans numéro, sans distance au mètre</a>
+<a href="captures/iphone-les-angles-feuille.png"><img src="captures/iphone-les-angles-feuille.png" alt="">« Voir les 3 événements »</a>
+<a href="captures/iphone-saint-cyprien-commune.png"><img src="captures/iphone-saint-cyprien-commune.png" alt="">22 événements situés à la commune</a>
+<a href="captures/iphone-saint-cyprien-feuille.png"><img src="captures/iphone-saint-cyprien-feuille.png" alt="">Les 22, chacun vers sa fiche</a>
+<a href="captures/iphone-360-groupe.png"><img src="captures/iphone-360-groupe.png" alt="">Petit écran (360 px) : rien n'est rogné</a>
+<a href="captures/iphone-fiche-lieu.png"><img src="captures/iphone-fiche-lieu.png" alt="">Fiche d'un lieu, repère visible</a>
+<a href="captures/iphone-filtres.png"><img src="captures/iphone-filtres.png" alt="">Les filtres simplifiés</a>
+<a href="captures/iphone-filtres-actifs-explorer.png"><img src="captures/iphone-filtres-actifs-explorer.png" alt="">Filtres actifs, « 2 dates », Explorer cette zone</a>
+<a href="captures/iphone-webkit-evenements.png"><img src="captures/iphone-webkit-evenements.png" alt="">Événements, moteur WebKit</a>
+<a class="large" href="captures/objets-avant-apres.png"><img src="captures/objets-avant-apres.png" alt="">Les détourages, avant et après</a>
+<a class="large" href="captures/bureau.png"><img src="captures/bureau.png" alt="">Ordinateur</a>
+</div>
+</main></body></html>
