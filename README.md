@@ -9,6 +9,7 @@ Dépôt réservé aux aperçus et aux captures de Pulse : rien ici n'est le code
 - Agenda — la carte et le programme (branche chantier/agenda-carte) : https://doll-ballet-pets-defines.trycloudflare.com/agenda
 - Recettes — comparer son panier (Courses → « Comparer mon panier ») : https://weighted-meanwhile-endless-delete.trycloudflare.com/recettes/courses
 - Recettes — le comparateur rempli, en démonstration (prix fictifs) : https://weighted-meanwhile-endless-delete.trycloudflare.com/recettes/comparer/demonstration?scenario=incomplet
+- Recettes — le comparateur en démonstration, version statique (prix fictifs, sans tunnel) : https://castillet66.github.io/recettes/comparer/demonstration/?scenario=incomplet
 
 ## Autour de moi — Fêtes, situations iPhone, revue autonome (31/10/2026)
 

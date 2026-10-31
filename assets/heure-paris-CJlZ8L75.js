@@ -1,0 +1,1 @@
+function a(i){const t=new Intl.DateTimeFormat("en-US",{timeZone:"Europe/Paris",year:"numeric",month:"2-digit",day:"2-digit",hour:"2-digit",minute:"2-digit",second:"2-digit",hour12:!1}).formatToParts(i).reduce((o,e)=>(e.type!=="literal"&&(o[e.type]=e.value),o),{});return(Date.UTC(+t.year,+t.month-1,+t.day,+t.hour==24?0:+t.hour,+t.minute,+t.second)-i.getTime())/6e4}export{a as o};
