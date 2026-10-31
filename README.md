@@ -4,10 +4,36 @@ Dépôt réservé aux aperçus et aux captures de Pulse : rien ici n'est le code
 
 ## Aperçus en direct (servis par le Mac, lecture seule)
 
+- Autour de moi — aperçu interactif statique, sans le Mac (GitHub Pages) : https://castillet66.github.io/autour/
 - Autour de moi — un écran de carte, sans flou (branche chantier/autour-de-moi-finitions) : https://doll-ballet-pets-defines.trycloudflare.com/autour
 - Agenda — la carte et le programme (branche chantier/agenda-carte) : https://doll-ballet-pets-defines.trycloudflare.com/agenda
 - Recettes — comparer son panier (Courses → « Comparer mon panier ») : https://weighted-meanwhile-endless-delete.trycloudflare.com/recettes/courses
 - Recettes — le comparateur rempli, en démonstration (prix fictifs) : https://weighted-meanwhile-endless-delete.trycloudflare.com/recettes/comparer/demonstration?scenario=incomplet
+
+## Autour de moi — Fêtes, situations iPhone, revue autonome (31/10/2026)
+
+Le cône Fêtes, les situations iPhone reproduites puis corrigées, un aperçu interactif statique, six vidéos. Version 242e271d5.
+
+- Ce qui est interactif, filmé, photographié ; changements, mesures, limites : https://castillet66.github.io/autour-2026-10-31-fetes/index.html
+- Vidéo — Familles, le cône Fêtes, une sous-catégorie, Culture et ses masques : https://castillet66.github.io/autour-2026-10-31-fetes/films/1-familles-et-fetes.webm
+- Vidéo — Liste ouverte → fiche → fiche détaillée → retour : la liste revient au même endroit : https://castillet66.github.io/autour-2026-10-31-fetes/films/2-fiche-et-retour.webm
+- Vidéo — La carte s'éloigne : « près de … · distances depuis ta position » : https://castillet66.github.io/autour-2026-10-31-fetes/films/3-deplacement-et-distances.webm
+- Vidéo — Elne, la Cathédrale et le Cloître à 4 m : chacun se touche au zoom maximal : https://castillet66.github.io/autour-2026-10-31-fetes/films/4-reperes-empiles.webm
+- Vidéo — Argelès, cinéma et spectacle au même point : « 2 repères au même endroit » : https://castillet66.github.io/autour-2026-10-31-fetes/films/4b-meme-point.webm
+- Vidéo — Peu de résultats : « Date et filtres » replié, puis déplié : https://castillet66.github.io/autour-2026-10-31-fetes/films/5-reglages-repliables.webm
+- PNG — Planche — Familles, le cône Fêtes, une sous-catégorie, Culture et ses masques : https://castillet66.github.io/autour-2026-10-31-fetes/films/1-familles-et-fetes.jpg
+- PNG — Planche — Liste ouverte → fiche → fiche détaillée → retour : la liste revient au même endroit : https://castillet66.github.io/autour-2026-10-31-fetes/films/2-fiche-et-retour.jpg
+- PNG — Planche — La carte s'éloigne : « près de … · distances depuis ta position » : https://castillet66.github.io/autour-2026-10-31-fetes/films/3-deplacement-et-distances.jpg
+- PNG — Planche — Elne, la Cathédrale et le Cloître à 4 m : chacun se touche au zoom maximal : https://castillet66.github.io/autour-2026-10-31-fetes/films/4-reperes-empiles.jpg
+- PNG — Planche — Argelès, cinéma et spectacle au même point : « 2 repères au même endroit » : https://castillet66.github.io/autour-2026-10-31-fetes/films/4b-meme-point.jpg
+- PNG — Planche — Peu de résultats : « Date et filtres » replié, puis déplié : https://castillet66.github.io/autour-2026-10-31-fetes/films/5-reglages-repliables.jpg
+- PNG — Le bandeau, le cône Fêtes au bout (430 px) : https://castillet66.github.io/autour-2026-10-31-fetes/captures/rail-fetes.png
+- PNG — L'objet Fêtes à sa taille d'usage (30 px) : https://castillet66.github.io/autour-2026-10-31-fetes/captures/objet-fetes-30px.png
+- PNG — Elne : le point GPS sous l'amas, le compteur lisible : https://castillet66.github.io/autour-2026-10-31-fetes/captures/gps-sous-le-compteur.png
+- PNG — « Piscine et multisport » (complexe sportif d'Elne) : https://castillet66.github.io/autour-2026-10-31-fetes/captures/piscine-et-multisport.png
+- PNG — « Le Tropique du Papillon », sa photo : https://castillet66.github.io/autour-2026-10-31-fetes/captures/tropique-du-papillon.png
+- PNG — Elne, à l'arrivée (430 × 932) : https://castillet66.github.io/autour-2026-10-31-fetes/captures/elne-arrivee-430.png
+- PNG — L'Agenda en hérite : une fête sans affiche, le cône (horloge au 28/11) : https://castillet66.github.io/autour-2026-10-31-fetes/captures/agenda-fete-sans-affiche.png
 
 ## Recettes — les onze nouvelles photos, dans leurs vrais cadres (31/10/2026)
 

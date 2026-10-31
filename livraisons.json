@@ -684,5 +684,95 @@
     "Bar croustillant — le cadrage au téléphone"
    ]
   ]
+ },
+ {
+  "dossier": "autour-2026-10-31-fetes",
+  "date": "31/10/2026",
+  "titre": "Autour de moi — Fêtes, situations iPhone, revue autonome",
+  "note": "Le cône Fêtes, les situations iPhone reproduites puis corrigées, un aperçu interactif statique, six vidéos. Version 242e271d5.",
+  "pages": [
+   [
+    "index.html",
+    "Ce qui est interactif, filmé, photographié ; changements, mesures, limites"
+   ],
+   [
+    "films/1-familles-et-fetes.webm",
+    "Vidéo — Familles, le cône Fêtes, une sous-catégorie, Culture et ses masques"
+   ],
+   [
+    "films/2-fiche-et-retour.webm",
+    "Vidéo — Liste ouverte → fiche → fiche détaillée → retour : la liste revient au même endroit"
+   ],
+   [
+    "films/3-deplacement-et-distances.webm",
+    "Vidéo — La carte s'éloigne : « près de … · distances depuis ta position »"
+   ],
+   [
+    "films/4-reperes-empiles.webm",
+    "Vidéo — Elne, la Cathédrale et le Cloître à 4 m : chacun se touche au zoom maximal"
+   ],
+   [
+    "films/4b-meme-point.webm",
+    "Vidéo — Argelès, cinéma et spectacle au même point : « 2 repères au même endroit »"
+   ],
+   [
+    "films/5-reglages-repliables.webm",
+    "Vidéo — Peu de résultats : « Date et filtres » replié, puis déplié"
+   ]
+  ],
+  "captures": [
+   [
+    "films/1-familles-et-fetes.jpg",
+    "Planche — Familles, le cône Fêtes, une sous-catégorie, Culture et ses masques"
+   ],
+   [
+    "films/2-fiche-et-retour.jpg",
+    "Planche — Liste ouverte → fiche → fiche détaillée → retour : la liste revient au même endroit"
+   ],
+   [
+    "films/3-deplacement-et-distances.jpg",
+    "Planche — La carte s'éloigne : « près de … · distances depuis ta position »"
+   ],
+   [
+    "films/4-reperes-empiles.jpg",
+    "Planche — Elne, la Cathédrale et le Cloître à 4 m : chacun se touche au zoom maximal"
+   ],
+   [
+    "films/4b-meme-point.jpg",
+    "Planche — Argelès, cinéma et spectacle au même point : « 2 repères au même endroit »"
+   ],
+   [
+    "films/5-reglages-repliables.jpg",
+    "Planche — Peu de résultats : « Date et filtres » replié, puis déplié"
+   ],
+   [
+    "captures/rail-fetes.png",
+    "Le bandeau, le cône Fêtes au bout (430 px)"
+   ],
+   [
+    "captures/objet-fetes-30px.png",
+    "L'objet Fêtes à sa taille d'usage (30 px)"
+   ],
+   [
+    "captures/gps-sous-le-compteur.png",
+    "Elne : le point GPS sous l'amas, le compteur lisible"
+   ],
+   [
+    "captures/piscine-et-multisport.png",
+    "« Piscine et multisport » (complexe sportif d'Elne)"
+   ],
+   [
+    "captures/tropique-du-papillon.png",
+    "« Le Tropique du Papillon », sa photo"
+   ],
+   [
+    "captures/elne-arrivee-430.png",
+    "Elne, à l'arrivée (430 × 932)"
+   ],
+   [
+    "captures/agenda-fete-sans-affiche.png",
+    "L'Agenda en hérite : une fête sans affiche, le cône (horloge au 28/11)"
+   ]
+  ]
  }
 ]
