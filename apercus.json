@@ -13,5 +13,10 @@
   "titre": "Recettes — comparer son panier (Courses → « Comparer mon panier »)",
   "url": "https://weighted-meanwhile-endless-delete.trycloudflare.com/recettes/courses",
   "note": "Build du 31/10 au soir de la branche Recettes ; prix consultés chaque jour, aucun prix actuel encore disponible ; lectures de production, aucune écriture."
+ },
+ {
+  "titre": "Recettes — le comparateur rempli, en démonstration (prix fictifs)",
+  "url": "https://weighted-meanwhile-endless-delete.trycloudflare.com/recettes/comparer/demonstration?scenario=incomplet",
+  "note": "Magasins et prix inventés, bandeau permanent ; trois situations au choix sur la page. N'existe que sur l'aperçu. Version 5669b89d2."
  }
 ]

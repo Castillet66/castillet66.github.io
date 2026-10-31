@@ -7,6 +7,37 @@ Dépôt réservé aux aperçus et aux captures de Pulse : rien ici n'est le code
 - Autour de moi — un écran de carte, sans flou (branche chantier/autour-de-moi-finitions) : https://doll-ballet-pets-defines.trycloudflare.com/autour
 - Agenda — la carte et le programme (branche chantier/agenda-carte) : https://doll-ballet-pets-defines.trycloudflare.com/agenda
 - Recettes — comparer son panier (Courses → « Comparer mon panier ») : https://weighted-meanwhile-endless-delete.trycloudflare.com/recettes/courses
+- Recettes — le comparateur rempli, en démonstration (prix fictifs) : https://weighted-meanwhile-endless-delete.trycloudflare.com/recettes/comparer/demonstration?scenario=incomplet
+
+## Recettes — les onze nouvelles photos, dans leurs vrais cadres (31/10/2026)
+
+Téléphone, vignette et bureau pour chaque photo, avec les ingrédients de la fiche et la relecture : une réserve nette (curry de haricots rouges), trois légères. Version 5669b89d2.
+
+- Les onze photos, cadre par cadre : https://castillet66.github.io/recettes-2026-10-31-photos/index.html
+- PNG — Curry de haricots rouges — la réserve nette : https://castillet66.github.io/recettes-2026-10-31-photos/cadres/curry-haricots-rouges-telephone.jpg
+- PNG — Bar croustillant — le cadrage au téléphone : https://castillet66.github.io/recettes-2026-10-31-photos/cadres/bar-gingembre-piment-telephone.jpg
+
+## Recettes — le comparateur rempli, en démonstration (prix fictifs) (31/10/2026)
+
+Magasin A/B/C et prix inventés, bandeau permanent ; panier complet, périmètre commun, produit absent, rupture, remplacement accepté puis annulé, frais inconnus, consultation en échec, prix anciens. Vidéo de 50 s. Ce n'est pas la preuve sur prix réels. Version 5669b89d2.
+
+- La démonstration : vidéo, captures, liens en direct : https://castillet66.github.io/recettes-2026-10-31-demonstrateur/index.html
+- PNG — panier complet haut : https://castillet66.github.io/recettes-2026-10-31-demonstrateur/captures/01-panier-complet-haut.png
+- PNG — panier complet cartes : https://castillet66.github.io/recettes-2026-10-31-demonstrateur/captures/02-panier-complet-cartes.png
+- PNG — placard sel confirme : https://castillet66.github.io/recettes-2026-10-31-demonstrateur/captures/03-placard-sel-confirme.png
+- PNG — releves incomplets cartes : https://castillet66.github.io/recettes-2026-10-31-demonstrateur/captures/04-releves-incomplets-cartes.png
+- PNG — releves incomplets frais inconnus echec : https://castillet66.github.io/recettes-2026-10-31-demonstrateur/captures/05-releves-incomplets-frais-inconnus-echec.png
+- PNG — feuille magasin B : https://castillet66.github.io/recettes-2026-10-31-demonstrateur/captures/06-feuille-magasin-B.png
+- PNG — feuille B absent ancien remplacement : https://castillet66.github.io/recettes-2026-10-31-demonstrateur/captures/07-feuille-B-absent-ancien-remplacement.png
+- PNG — feuille B remplacement accepte : https://castillet66.github.io/recettes-2026-10-31-demonstrateur/captures/08-feuille-B-remplacement-accepte.png
+- PNG — feuille B remplacement annule : https://castillet66.github.io/recettes-2026-10-31-demonstrateur/captures/09-feuille-B-remplacement-annule.png
+- PNG — feuille C rupture : https://castillet66.github.io/recettes-2026-10-31-demonstrateur/captures/10-feuille-C-rupture.png
+- PNG — prix anciens : https://castillet66.github.io/recettes-2026-10-31-demonstrateur/captures/11-prix-anciens.png
+- PNG — pied de page allege : https://castillet66.github.io/recettes-2026-10-31-demonstrateur/captures/12-pied-de-page-allege.png
+- PNG — courses pied de page allege : https://castillet66.github.io/recettes-2026-10-31-demonstrateur/captures/13-courses-pied-de-page-allege.png
+- PNG — tablette portrait : https://castillet66.github.io/recettes-2026-10-31-demonstrateur/captures/14-tablette-portrait.png
+- PNG — tablette paysage : https://castillet66.github.io/recettes-2026-10-31-demonstrateur/captures/15-tablette-paysage.png
+- PNG — telephone paysage : https://castillet66.github.io/recettes-2026-10-31-demonstrateur/captures/16-telephone-paysage.png
 
 ## Recettes — les prix des courses : actualisation et comparaison équitable (31/10/2026)
 

@@ -584,5 +584,105 @@
     "Comparer : enseignes pas encore comparées"
    ]
   ]
+ },
+ {
+  "dossier": "recettes-2026-10-31-demonstrateur",
+  "date": "31/10/2026",
+  "titre": "Recettes — le comparateur rempli, en démonstration (prix fictifs)",
+  "note": "Magasin A/B/C et prix inventés, bandeau permanent ; panier complet, périmètre commun, produit absent, rupture, remplacement accepté puis annulé, frais inconnus, consultation en échec, prix anciens. Vidéo de 50 s. Ce n'est pas la preuve sur prix réels. Version 5669b89d2.",
+  "pages": [
+   [
+    "index.html",
+    "La démonstration : vidéo, captures, liens en direct"
+   ]
+  ],
+  "captures": [
+   [
+    "captures/01-panier-complet-haut.png",
+    "panier complet haut"
+   ],
+   [
+    "captures/02-panier-complet-cartes.png",
+    "panier complet cartes"
+   ],
+   [
+    "captures/03-placard-sel-confirme.png",
+    "placard sel confirme"
+   ],
+   [
+    "captures/04-releves-incomplets-cartes.png",
+    "releves incomplets cartes"
+   ],
+   [
+    "captures/05-releves-incomplets-frais-inconnus-echec.png",
+    "releves incomplets frais inconnus echec"
+   ],
+   [
+    "captures/06-feuille-magasin-B.png",
+    "feuille magasin B"
+   ],
+   [
+    "captures/07-feuille-B-absent-ancien-remplacement.png",
+    "feuille B absent ancien remplacement"
+   ],
+   [
+    "captures/08-feuille-B-remplacement-accepte.png",
+    "feuille B remplacement accepte"
+   ],
+   [
+    "captures/09-feuille-B-remplacement-annule.png",
+    "feuille B remplacement annule"
+   ],
+   [
+    "captures/10-feuille-C-rupture.png",
+    "feuille C rupture"
+   ],
+   [
+    "captures/11-prix-anciens.png",
+    "prix anciens"
+   ],
+   [
+    "captures/12-pied-de-page-allege.png",
+    "pied de page allege"
+   ],
+   [
+    "captures/13-courses-pied-de-page-allege.png",
+    "courses pied de page allege"
+   ],
+   [
+    "captures/14-tablette-portrait.png",
+    "tablette portrait"
+   ],
+   [
+    "captures/15-tablette-paysage.png",
+    "tablette paysage"
+   ],
+   [
+    "captures/16-telephone-paysage.png",
+    "telephone paysage"
+   ]
+  ]
+ },
+ {
+  "dossier": "recettes-2026-10-31-photos",
+  "date": "31/10/2026",
+  "titre": "Recettes — les onze nouvelles photos, dans leurs vrais cadres",
+  "note": "Téléphone, vignette et bureau pour chaque photo, avec les ingrédients de la fiche et la relecture : une réserve nette (curry de haricots rouges), trois légères. Version 5669b89d2.",
+  "pages": [
+   [
+    "index.html",
+    "Les onze photos, cadre par cadre"
+   ]
+  ],
+  "captures": [
+   [
+    "cadres/curry-haricots-rouges-telephone.jpg",
+    "Curry de haricots rouges — la réserve nette"
+   ],
+   [
+    "cadres/bar-gingembre-piment-telephone.jpg",
+    "Bar croustillant — le cadrage au téléphone"
+   ]
+  ]
  }
 ]

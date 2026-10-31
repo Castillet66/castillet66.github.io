@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="fr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow"><title>Recettes — le comparateur rempli, en démonstration (prix fictifs)</title><style>
+body{margin:0;background:#0f0f10;color:#e9e9ec;font:16px/1.55 -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif}
+main{max-width:980px;margin:0 auto;padding:28px 20px 60px}
+h1{font-size:28px;line-height:1.15;margin:0 0 6px} h2{font-size:21px;margin:38px 0 8px} h3{font-size:16px;margin:16px 0 6px;color:#cfd0d4}
+p,li{color:#cfd0d4} a{color:#f4f6f8} .date{color:#8d8f96;font-size:14px}
+.alerte{border-left:3px solid #e9e9ec;padding:2px 0 2px 14px}
+.bandeau{display:inline-block;background:#fff;color:#0f0f10;font-weight:700;letter-spacing:.08em;text-transform:uppercase;font-size:12px;padding:7px 14px;border-radius:999px}
+ul.captures{list-style:none;padding:0;display:grid;grid-template-columns:repeat(auto-fill,minmax(180px,1fr));gap:14px}
+ul.captures a{display:block;text-decoration:none;color:#cfd0d4;font-size:14px}
+ul.captures img{width:100%;border-radius:10px;display:block;margin-bottom:6px;background:#1b1b1e}
+.cadres{display:flex;gap:14px;align-items:flex-start;flex-wrap:wrap}
+.cadres figure{margin:0} .cadres img{display:block;border-radius:10px;background:#1b1b1e}
+figcaption{font-size:13px;color:#8d8f96;margin-top:4px}
+.reserve{font-weight:600} code{color:#9fa1a8;font-size:13px} video{width:100%;max-width:390px;border-radius:14px;background:#000}
+</style></head>
+<body><main><h1>Recettes — le comparateur rempli, en démonstration</h1>
+<p><span class="bandeau">Démonstration — prix fictifs</span></p>
+<p class="date">31/10/2026 dans la nuit · version <code>5669b89d2</code> de la branche Recettes · rien n'est fusionné ni publié en production · iPhone émulé dans WebKit (moteur de Safari) pour les captures, dans Chromium pour la vidéo ; pas d'essai sur un iPhone réel.</p>
+<p class="alerte"><strong>Trois magasins inventés, des prix inventés.</strong> « Magasin A », « Magasin B », « Magasin C » n'existent pas, aucune enseigne réelle n'apparaît. Cette page sert à relire l'interface. <strong>Ce n'est pas la preuve sur des prix réels</strong> : aucun panier actuel n'est encore comparé sur des prix réels, la source reste à obtenir.</p>
+<h2>La vidéo (50 s)</h2>
+<video src="demonstration-comparateur.mp4" controls playsinline muted preload="metadata"></video>
+<p><a href="demonstration-comparateur.mp4">Ouvrir la vidéo</a> — situation complète, une pastille confirmée puis défaite, relevés incomplets, feuille du magasin B avec le remplacement accepté puis annulé, prix anciens, bas de page.</p>
+<h2>En direct, sur l'aperçu</h2>
+<ul>
+<li><a href="https://weighted-meanwhile-endless-delete.trycloudflare.com/recettes/comparer/demonstration?scenario=complet">Panier complet</a></li>
+<li><a href="https://weighted-meanwhile-endless-delete.trycloudflare.com/recettes/comparer/demonstration?scenario=incomplet">Relevés incomplets</a></li>
+<li><a href="https://weighted-meanwhile-endless-delete.trycloudflare.com/recettes/comparer/demonstration?scenario=anciens">Prix anciens</a></li>
+</ul>
+<p class="date">Servi par le Mac tant qu'il reste allumé. Cette adresse de démonstration n'existe que sur l'aperçu, jamais en production. Tes courses, ton placard et tes choix n'y sont ni lus ni modifiés.</p>
+<h2>Ce que montre chaque situation</h2>
+<ul>
+<li><strong>Panier complet</strong> : tous les articles relevés partout, frais connus — le panier entier se classe, frais compris.</li>
+<li><strong>Relevés incomplets</strong> : un produit absent, une rupture, un prix trop ancien, un seul produit de remplacement (proposé, jamais pris d'office, réversible), des frais inconnus (jamais comptés zéro, aucun total à payer annoncé), une consultation en échec — seul le périmètre commun se classe, et la carte le dit à côté du montant.</li>
+<li><strong>Prix anciens</strong> : les mêmes articles relevés il y a 9 à 16 jours — affichés avec leur âge, jamais présentés comme du jour, sans « moins cher ».</li>
+</ul>
+<h2>Les captures</h2>
+<ul class="captures">
+<li><a href="captures/01-panier-complet-haut.png"><img src="captures/01-panier-complet-haut.png" alt="" loading="lazy">Bandeau, les trois situations, « Déjà dans tes placards ? » : rien n&#x27;est coché avant le geste</a></li>
+<li><a href="captures/02-panier-complet-cartes.png"><img src="captures/02-panier-complet-cartes.png" alt="" loading="lazy">Panier complet : tout le panier, frais compris ; B a des articles moins chers mais 2 € de frais, A reste le moins cher</a></li>
+<li><a href="captures/03-placard-sel-confirme.png"><img src="captures/03-placard-sel-confirme.png" alt="" loading="lazy">Sel confirmé : pastille pleine et cochée, retiré du panier ; un second toucher le remet</a></li>
+<li><a href="captures/04-releves-incomplets-cartes.png"><img src="captures/04-releves-incomplets-cartes.png" alt="" loading="lazy">Relevés incomplets : « 13 articles communs, hors frais » à côté du montant et de l&#x27;étiquette</a></li>
+<li><a href="captures/05-releves-incomplets-frais-inconnus-echec.png"><img src="captures/05-releves-incomplets-frais-inconnus-echec.png" alt="" loading="lazy">Magasin C : frais non renseignés, estimation partielle ; la dernière consultation a échoué</a></li>
+<li><a href="captures/06-feuille-magasin-B.png"><img src="captures/06-feuille-magasin-B.png" alt="" loading="lazy">Feuille du magasin B : bandeau, « Articles » hors frais, frais de préparation à part, âge des prix</a></li>
+<li><a href="captures/07-feuille-B-absent-ancien-remplacement.png"><img src="captures/07-feuille-B-absent-ancien-remplacement.png" alt="" loading="lazy">Sans prix actuel ici : un prix trop ancien (carotte), un produit absent (crème fraîche), un seul produit de remplacement pour les lardons</a></li>
+<li><a href="captures/08-feuille-B-remplacement-accepte.png"><img src="captures/08-feuille-B-remplacement-accepte.png" alt="" loading="lazy">Remplacement accepté : « Allumettes de bacon · un autre produit que celui de la recette »</a></li>
+<li><a href="captures/09-feuille-B-remplacement-annule.png"><img src="captures/09-feuille-B-remplacement-annule.png" alt="" loading="lazy">Remplacement annulé : la ligne repart dans « Sans prix actuel ici »</a></li>
+<li><a href="captures/10-feuille-C-rupture.png"><img src="captures/10-feuille-C-rupture.png" alt="" loading="lazy">Magasin C : le parmesan en rupture au dernier relevé, jamais compté</a></li>
+<li><a href="captures/11-prix-anciens.png"><img src="captures/11-prix-anciens.png" alt="" loading="lazy">Prix anciens : « relevés il y a 9 à 16 jours · à vérifier en magasin », aucun « moins cher »</a></li>
+<li><a href="captures/12-pied-de-page-allege.png"><img src="captures/12-pied-de-page-allege.png" alt="" loading="lazy">Bas de page : le bandeau s&#x27;arrête avant le pied de page, réduit au légal</a></li>
+<li><a href="captures/13-courses-pied-de-page-allege.png"><img src="captures/13-courses-pied-de-page-allege.png" alt="" loading="lazy">Courses : le même pied de page allégé</a></li>
+<li><a href="captures/14-tablette-portrait.png"><img src="captures/14-tablette-portrait.png" alt="" loading="lazy">Tablette, portrait (768 px)</a></li>
+<li><a href="captures/15-tablette-paysage.png"><img src="captures/15-tablette-paysage.png" alt="" loading="lazy">Tablette, paysage (1024 px)</a></li>
+<li><a href="captures/16-telephone-paysage.png"><img src="captures/16-telephone-paysage.png" alt="" loading="lazy">Téléphone, paysage (844 × 390)</a></li>
+</ul>
+<h2>Les contrôles</h2>
+<ul>
+<li>Types, lint des fichiers touchés, build et la suite complète de tests verts ; relecture qualité acceptée sous réserves, réserves levées.</li>
+<li>Aucun débordement à 320, 360, 390 et 430 px de large, en paysage téléphone (844 × 390), sur tablette (768 et 1024) et au bureau (1280) ; hauteur courte (390 × 560) contrôlée.</li>
+<li>Clavier : une carte s'ouvre à Entrée, Échap referme la feuille, le focus revient sur la carte.</li>
+</ul>
+</main></body></html>
