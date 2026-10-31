@@ -12,6 +12,6 @@
  {
   "titre": "Recettes — comparer son panier (Courses → « Comparer mon panier »)",
   "url": "https://weighted-meanwhile-endless-delete.trycloudflare.com/recettes/courses",
-  "note": "Build figé du 31/10 au soir de la branche Recettes ; lectures de production, aucune écriture."
+  "note": "Build du 31/10 au soir de la branche Recettes ; prix consultés chaque jour, aucun prix actuel encore disponible ; lectures de production, aucune écriture."
  }
 ]

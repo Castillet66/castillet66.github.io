@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>Recettes — les prix des courses : l'actualisation, la comparaison équitable (31/10/2026)</title>
+<style>
+  body { margin: 0; background: #0f0f10; color: #e9e9ec; font: 16px/1.55 -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; }
+  main { max-width: 860px; margin: 0 auto; padding: 28px 20px 60px; }
+  h1 { font-size: 28px; line-height: 1.15; margin: 0 0 6px; }
+  h2 { font-size: 20px; margin: 34px 0 10px; }
+  p, li { color: #cfd0d4; }
+  a { color: #f4f6f8; }
+  .date { color: #8d8f96; font-size: 14px; }
+  .alerte { border-left: 3px solid #e9e9ec; padding: 2px 0 2px 14px; }
+  ul.captures { list-style: none; padding: 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); gap: 14px; }
+  ul.captures a { display: block; text-decoration: none; color: #cfd0d4; font-size: 14px; }
+  ul.captures img { width: 100%; border-radius: 10px; display: block; margin-bottom: 6px; background: #1b1b1e; }
+  code { color: #9fa1a8; font-size: 13px; }
+</style>
+</head>
+<body>
+<main>
+<h1>Recettes — les prix des courses</h1>
+<p class="date">31/10/2026 au soir · rien n'est fusionné ni publié en production · captures iPhone (390 px) prises sur l'aperçu ci-dessous.</p>
+
+<h2>L'aperçu en direct</h2>
+<ul>
+  <li><a href="https://weighted-meanwhile-endless-delete.trycloudflare.com/recettes/courses">Courses → « Comparer mon panier »</a> — lecture seule, servi par le Mac tant qu'il reste allumé.</li>
+</ul>
+
+<h2>Où en est la connexion des prix</h2>
+<p class="alerte"><strong>Aucun prix actuel n'est encore affiché.</strong> Aucune source gratuite et autorisée ne donne aujourd'hui les prix du jour, magasin par magasin, pour E.Leclerc, Intermarché, Auchan et Carrefour autour de Perpignan : pas d'interface ouverte, des sites protégés contre la lecture automatique, des conditions qui interdisent la reprise sans licence. Une source qui relève ces prix chaque jour existe, mais elle est payante : la décision t'appartient, les demandes de devis et de licence sont prêtes dans le dépôt (<code>docs/RECETTES-DEMANDES-FOURNISSEURS.md</code>). Rien n'a été envoyé ni acheté.</p>
+<p>Ce qui tourne déjà : l'<strong>actualisation quotidienne</strong>. Elle consulte chaque jour les sources disponibles pour les supermarchés visés de l'édition, garde séparées la date du relevé et la date de consultation, et n'affiche jamais un ancien prix comme actuel. Trois passages vérifiés ce soir : la seule source ouverte n'a, autour de Perpignan, que des relevés de 2025 — écartés. L'écran le dit : « Pas encore de prix actuels », avec l'heure de la dernière consultation.</p>
+
+<h2>Ce qui est terminé</h2>
+<ul>
+  <li><strong>Une comparaison qui compare la même chose</strong> : à marque identique, le même produit exact ; entre marques de distributeur, seulement des équivalents déclarés (même dénomination, même format) ; le classement porte sur le panier entier, ou sur les articles relevés partout — et l'écran dit lequel. Un magasin incomplet ne gagne jamais grâce à ses manques.</li>
+  <li><strong>Ce qui ne compte pas</strong> : un prix de plus de 30 jours, une rupture, un produit de remplacement (des allumettes de bacon pour des lardons : proposé, jamais pris d'office, et réversible). Les avantages de carte ou de lot et les frais du magasin s'affichent à part, jamais retranchés ni oubliés.</li>
+  <li><strong>« Déjà dans tes placards ? »</strong> : ce que les recettes disent souvent au placard (sel, poivre, huiles, bouillon) se confirme d'un toucher ; rien n'est retiré sans ton geste.</li>
+  <li><strong>Les titres respirent</strong> sous l'en-tête et sa barre : Courses, Ma semaine, Comparer mon panier (5 px avant, 24 px maintenant). L'en-tête n'a pas bougé.</li>
+  <li>Prêt pour la production, non déployé : la tâche quotidienne, le stockage et la route de lecture, avec leur procédure de mise en service.</li>
+</ul>
+
+<h2>Le scénario, à refaire sur l'aperçu</h2>
+<ol>
+  <li>Ouvrir une recette (Bœuf Stroganoff), passer à 6 personnes, « Ajouter aux courses » ; ajouter deux autres recettes (lasagnes, latkes).</li>
+  <li>Ouvrir Courses : les ingrédients sont regroupés, quantités additionnées ; toucher « Comparer mon panier ».</li>
+  <li>Confirmer ce qui est au placard ; lire l'état des prix et l'heure de la dernière consultation.</li>
+</ol>
+<p class="date">Avec des prix actuels, chaque magasin aura sa carte (logo, montant en caisse, couverture, date des relevés) et son détail en feuille basse — vérifiés sur un banc local à prix fictifs, qui ne sont pas publiés ici.</p>
+
+<h2>Les contrôles</h2>
+<ul>
+  <li>11 899 tests verts, types, lint et build verts ; relecture qualité : refusée puis acceptée après corrections.</li>
+  <li>Affichage contrôlé à 320, 390 et 430 px, Chromium et WebKit (moteur de Safari) : aucun débordement, cibles tactiles de 44 px au moins. Pas d'essai sur un iPhone réel.</li>
+</ul>
+
+<h2>Les captures</h2>
+<ul class="captures">
+  <li><a href="captures/iphone-courses-titre.png"><img src="captures/iphone-courses-titre.png" alt="" loading="lazy">Courses — le titre dégagé, la liste regroupée</a></li>
+  <li><a href="captures/iphone-courses-comparer.png"><img src="captures/iphone-courses-comparer.png" alt="" loading="lazy">Courses — « Comparer mon panier »</a></li>
+  <li><a href="captures/iphone-ma-semaine-titre.png"><img src="captures/iphone-ma-semaine-titre.png" alt="" loading="lazy">Ma semaine — le titre dégagé</a></li>
+  <li><a href="captures/iphone-comparer-sans-prix.png"><img src="captures/iphone-comparer-sans-prix.png" alt="" loading="lazy">Comparer — placard à confirmer, pas encore de prix actuels</a></li>
+  <li><a href="captures/iphone-comparer-pas-encore.png"><img src="captures/iphone-comparer-pas-encore.png" alt="" loading="lazy">Comparer — les enseignes visées, pas encore comparées</a></li>
+</ul>
+</main>
+</body>
+</html>

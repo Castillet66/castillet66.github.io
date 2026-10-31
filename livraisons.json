@@ -550,5 +550,39 @@
     "Ordinateur"
    ]
   ]
+ },
+ {
+  "dossier": "recettes-2026-10-31-prix",
+  "date": "31/10/2026",
+  "titre": "Recettes — les prix des courses : actualisation et comparaison équitable",
+  "note": "Aucun prix actuel affiché : aucune source gratuite autorisée ; une source payante attend ta décision. L'actualisation quotidienne tourne, la comparaison à produits équivalents est prête, les titres respirent.",
+  "pages": [
+   [
+    "index.html",
+    "Où en est la connexion, ce qui est terminé, le scénario, les contrôles"
+   ]
+  ],
+  "captures": [
+   [
+    "captures/iphone-courses-titre.png",
+    "Courses, le titre dégagé"
+   ],
+   [
+    "captures/iphone-courses-comparer.png",
+    "Courses, Comparer mon panier"
+   ],
+   [
+    "captures/iphone-ma-semaine-titre.png",
+    "Ma semaine, le titre dégagé"
+   ],
+   [
+    "captures/iphone-comparer-sans-prix.png",
+    "Comparer : placard, pas encore de prix actuels"
+   ],
+   [
+    "captures/iphone-comparer-pas-encore.png",
+    "Comparer : enseignes pas encore comparées"
+   ]
+  ]
  }
 ]

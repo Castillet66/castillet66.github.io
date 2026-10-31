@@ -8,6 +8,17 @@ Dépôt réservé aux aperçus et aux captures de Pulse : rien ici n'est le code
 - Agenda — la carte et le programme (branche chantier/agenda-carte) : https://doll-ballet-pets-defines.trycloudflare.com/agenda
 - Recettes — comparer son panier (Courses → « Comparer mon panier ») : https://weighted-meanwhile-endless-delete.trycloudflare.com/recettes/courses
 
+## Recettes — les prix des courses : actualisation et comparaison équitable (31/10/2026)
+
+Aucun prix actuel affiché : aucune source gratuite autorisée ; une source payante attend ta décision. L'actualisation quotidienne tourne, la comparaison à produits équivalents est prête, les titres respirent.
+
+- Où en est la connexion, ce qui est terminé, le scénario, les contrôles : https://castillet66.github.io/recettes-2026-10-31-prix/index.html
+- PNG — Courses, le titre dégagé : https://castillet66.github.io/recettes-2026-10-31-prix/captures/iphone-courses-titre.png
+- PNG — Courses, Comparer mon panier : https://castillet66.github.io/recettes-2026-10-31-prix/captures/iphone-courses-comparer.png
+- PNG — Ma semaine, le titre dégagé : https://castillet66.github.io/recettes-2026-10-31-prix/captures/iphone-ma-semaine-titre.png
+- PNG — Comparer : placard, pas encore de prix actuels : https://castillet66.github.io/recettes-2026-10-31-prix/captures/iphone-comparer-sans-prix.png
+- PNG — Comparer : enseignes pas encore comparées : https://castillet66.github.io/recettes-2026-10-31-prix/captures/iphone-comparer-pas-encore.png
+
 ## Autour de moi — un écran de carte, sans flou (31/10/2026)
 
 La carte prend l'écran (plus de grand en-tête au téléphone), aucun flou, flèche GPS en haut à droite, résultats qui suivent la carte ; données d'Elne vérifiées. Aperçu interactif sur iPhone.
