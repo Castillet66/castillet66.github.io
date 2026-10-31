@@ -2,16 +2,12 @@
  {
   "dossier": "recettes-2026-10-29",
   "date": "29/10/2026",
-  "titre": "Recettes — écran proposé et photos de la maquette",
-  "note": "Photos Pexels utilisées pour évaluer l'écran, pas pour le catalogue ; durées = objectifs de maquette, non vérifiées.",
+  "titre": "Recettes — écran proposé (maquette)",
+  "note": "Maquette de l'écran du 29/10, pour en juger la composition ; durées visées, non vérifiées.",
   "pages": [
    [
     "ecran.html",
     "Écran proposé (à ouvrir sur téléphone)"
-   ],
-   [
-    "echantillon.html",
-    "Les six photos, avec leurs droits"
    ]
   ],
   "captures": [
@@ -22,36 +18,6 @@
    [
     "captures/ecran-iphone-complet.png",
     "Écran entier"
-   ],
-   [
-    "captures/echantillon-planche.png",
-    "Les six photos et leurs droits, sur une planche"
-   ],
-   [
-    "captures/echantillon-iphone-complet.png",
-    "Les six photos, sur iPhone"
-   ]
-  ]
- },
- {
-  "dossier": "recettes-2026-10-30",
-  "date": "30/10/2026",
-  "titre": "Recettes — diagnostic et proposition",
-  "note": "Compte rendu de la session Recettes (docs/RECETTES-PROPOSITION-2026-10-30.md, relu avec ChatGPT avant toute modification) ; captures prises sur son aperçu, en lecture seule.",
-  "pages": [
-   [
-    "proposition.html",
-    "Le compte rendu complet"
-   ]
-  ],
-  "captures": [
-   [
-    "captures/iphone-recettes.png",
-    "Recettes aujourd'hui, premier écran iPhone"
-   ],
-   [
-    "captures/iphone-recettes-page-entiere.jpg",
-    "Recettes, la page entière"
    ]
   ]
  },
@@ -133,7 +99,7 @@
   "dossier": "recettes-2026-10-31",
   "date": "31/10/2026",
   "titre": "Recettes — visuels et repas complets",
-  "note": "Onze images générées relues contre leur fiche (à valider à l'œil avant production), treize repas complétés, Protéiné et allergènes par composition ; aperçu interactif sur iPhone à part (tunnel).",
+  "note": "Onze nouvelles photos de plats relues contre leur fiche (à valider à l'œil avant production), treize repas complétés, Protéiné et allergènes par composition.",
   "pages": [
    [
     "index.html",
@@ -151,7 +117,7 @@
    ],
    [
     "captures/iphone-fiche-penne.png",
-    "Fiche — penne all'arrabbiata, photo générée végane"
+    "Fiche — penne all'arrabbiata, végane"
    ],
    [
     "captures/iphone-fiche-curry-poulet.png",
@@ -159,11 +125,7 @@
    ],
    [
     "captures/iphone-fiche-stroganoff.png",
-    "Fiche — Bœuf Stroganoff et tagliatelles, image générée"
-   ],
-   [
-    "captures/iphone-credit-recette-origine.png",
-    "Crédit — recette d'origine TheMealDB, image générée"
+    "Fiche — Bœuf Stroganoff et tagliatelles"
    ],
    [
     "captures/iphone-fiche-pancakes.png",
@@ -172,10 +134,6 @@
    [
     "captures/iphone-pancakes-ingredients.png",
     "Pancakes — myrtille, sirop d'érable"
-   ],
-   [
-    "captures/iphone-page-credits.png",
-    "Page des crédits"
    ],
    [
     "captures/iphone-preparation-debut.png",
@@ -210,8 +168,8 @@
     "Magasins à proximité"
    ],
    [
-    "captures/planche-photos-generees.jpg",
-    "Les onze photos générées"
+    "captures/planche-photos-plats.jpg",
+    "Les onze nouvelles photos de plats"
    ],
    [
     "captures/planche-objets.png",
@@ -458,6 +416,64 @@
    [
     "captures/bureau.png",
     "Ordinateur"
+   ]
+  ]
+ },
+ {
+  "dossier": "recettes-2026-10-31-panier",
+  "date": "31/10/2026",
+  "titre": "Recettes — comparer son panier, enseignes, crédits et sources",
+  "note": "Comparateur relié à Courses : un seul magasin a des prix publiés dans le 66 (E.Leclerc Perpignan Sud, 2025), donc 8 articles sur 38 comparés et aucun « moins cher » ; logos officiels ; fiches sans mention de provenance.",
+  "pages": [
+   [
+    "index.html",
+    "Ce qui change, le panier témoin, les sources, les limites"
+   ]
+  ],
+  "captures": [
+   [
+    "captures/iphone-courses-comparer.png",
+    "Courses — Comparer mon panier"
+   ],
+   [
+    "captures/iphone-comparer.png",
+    "Le comparateur, une carte par magasin"
+   ],
+   [
+    "captures/iphone-comparer-feuille.png",
+    "Le détail : en caisse, utilisé, itinéraire, drive"
+   ],
+   [
+    "captures/iphone-comparer-remplacer.png",
+    "Remplacer un produit"
+   ],
+   [
+    "captures/iphone-comparer-manquants.png",
+    "Les articles sans prix"
+   ],
+   [
+    "captures/iphone-magasins-logos.png",
+    "Magasins à proximité, logos et mots-symboles"
+   ],
+   [
+    "captures/iphone-fiche-nutrition.png",
+    "Fiche, nutrition sans mention de méthode"
+   ],
+   [
+    "captures/iphone-credits-sources.png",
+    "Crédits et sources"
+   ],
+   [
+    "captures/iphone-credits-prix.png",
+    "Crédits et sources : nutrition, magasins, prix"
+   ],
+   [
+    "captures/webkit-320-comparer.png",
+    "WebKit 320 px, le comparateur"
+   ],
+   [
+    "captures/webkit-430-feuille.png",
+    "WebKit 430 px, le détail"
    ]
   ]
  }

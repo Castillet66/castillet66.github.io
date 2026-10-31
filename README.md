@@ -6,7 +6,24 @@ Dépôt réservé aux aperçus et aux captures de Pulse : rien ici n'est le code
 
 - Autour de moi — la carte d'abord, recomposée (branche chantier/autour-de-moi-finitions) : https://doll-ballet-pets-defines.trycloudflare.com/autour
 - Agenda — la carte et le programme (branche chantier/agenda-carte) : https://doll-ballet-pets-defines.trycloudflare.com/agenda
-- Recettes — l'application de la branche (visuels, repas complets) : https://weighted-meanwhile-endless-delete.trycloudflare.com/recettes
+- Recettes — comparer son panier (Courses → « Comparer mon panier ») : https://weighted-meanwhile-endless-delete.trycloudflare.com/recettes/courses
+
+## Recettes — comparer son panier, enseignes, crédits et sources (31/10/2026)
+
+Comparateur relié à Courses : un seul magasin a des prix publiés dans le 66 (E.Leclerc Perpignan Sud, 2025), donc 8 articles sur 38 comparés et aucun « moins cher » ; logos officiels ; fiches sans mention de provenance.
+
+- Ce qui change, le panier témoin, les sources, les limites : https://castillet66.github.io/recettes-2026-10-31-panier/index.html
+- PNG — Courses — Comparer mon panier : https://castillet66.github.io/recettes-2026-10-31-panier/captures/iphone-courses-comparer.png
+- PNG — Le comparateur, une carte par magasin : https://castillet66.github.io/recettes-2026-10-31-panier/captures/iphone-comparer.png
+- PNG — Le détail : en caisse, utilisé, itinéraire, drive : https://castillet66.github.io/recettes-2026-10-31-panier/captures/iphone-comparer-feuille.png
+- PNG — Remplacer un produit : https://castillet66.github.io/recettes-2026-10-31-panier/captures/iphone-comparer-remplacer.png
+- PNG — Les articles sans prix : https://castillet66.github.io/recettes-2026-10-31-panier/captures/iphone-comparer-manquants.png
+- PNG — Magasins à proximité, logos et mots-symboles : https://castillet66.github.io/recettes-2026-10-31-panier/captures/iphone-magasins-logos.png
+- PNG — Fiche, nutrition sans mention de méthode : https://castillet66.github.io/recettes-2026-10-31-panier/captures/iphone-fiche-nutrition.png
+- PNG — Crédits et sources : https://castillet66.github.io/recettes-2026-10-31-panier/captures/iphone-credits-sources.png
+- PNG — Crédits et sources : nutrition, magasins, prix : https://castillet66.github.io/recettes-2026-10-31-panier/captures/iphone-credits-prix.png
+- PNG — WebKit 320 px, le comparateur : https://castillet66.github.io/recettes-2026-10-31-panier/captures/webkit-320-comparer.png
+- PNG — WebKit 430 px, le détail : https://castillet66.github.io/recettes-2026-10-31-panier/captures/webkit-430-feuille.png
 
 ## Autour de moi — la carte d'abord, recomposée (31/10/2026)
 
@@ -75,18 +92,16 @@ Carte dégagée, filtres simplifiés, groupes d'événements complets, positions
 
 ## Recettes — visuels et repas complets (31/10/2026)
 
-Onze images générées relues contre leur fiche (à valider à l'œil avant production), treize repas complétés, Protéiné et allergènes par composition ; aperçu interactif sur iPhone à part (tunnel).
+Onze nouvelles photos de plats relues contre leur fiche (à valider à l'œil avant production), treize repas complétés, Protéiné et allergènes par composition.
 
 - Ce qui change, les captures, les limites : https://castillet66.github.io/recettes-2026-10-31/index.html
 - PNG — Accueil — Cuisine, choix Protéiné : https://castillet66.github.io/recettes-2026-10-31/captures/iphone-accueil-cuisine.png
 - PNG — Page Recettes — besoins illustrés : https://castillet66.github.io/recettes-2026-10-31/captures/iphone-page-recettes.png
-- PNG — Fiche — penne all'arrabbiata, photo générée végane : https://castillet66.github.io/recettes-2026-10-31/captures/iphone-fiche-penne.png
+- PNG — Fiche — penne all'arrabbiata, végane : https://castillet66.github.io/recettes-2026-10-31/captures/iphone-fiche-penne.png
 - PNG — Fiche — curry de poulet et son riz : https://castillet66.github.io/recettes-2026-10-31/captures/iphone-fiche-curry-poulet.png
-- PNG — Fiche — Bœuf Stroganoff et tagliatelles, image générée : https://castillet66.github.io/recettes-2026-10-31/captures/iphone-fiche-stroganoff.png
-- PNG — Crédit — recette d'origine TheMealDB, image générée : https://castillet66.github.io/recettes-2026-10-31/captures/iphone-credit-recette-origine.png
+- PNG — Fiche — Bœuf Stroganoff et tagliatelles : https://castillet66.github.io/recettes-2026-10-31/captures/iphone-fiche-stroganoff.png
 - PNG — Fiche — pancakes, framboises et myrtilles : https://castillet66.github.io/recettes-2026-10-31/captures/iphone-fiche-pancakes.png
 - PNG — Pancakes — myrtille, sirop d'érable : https://castillet66.github.io/recettes-2026-10-31/captures/iphone-pancakes-ingredients.png
-- PNG — Page des crédits : https://castillet66.github.io/recettes-2026-10-31/captures/iphone-page-credits.png
 - PNG — Préparation — étapes numérotées : https://castillet66.github.io/recettes-2026-10-31/captures/iphone-preparation-debut.png
 - PNG — Préparation — la fin : https://castillet66.github.io/recettes-2026-10-31/captures/iphone-preparation-fin.png
 - PNG — Nutrition et allergènes : https://castillet66.github.io/recettes-2026-10-31/captures/iphone-nutrition-allergenes.png
@@ -95,7 +110,7 @@ Onze images générées relues contre leur fiche (à valider à l'œil avant pro
 - PNG — Courses : https://castillet66.github.io/recettes-2026-10-31/captures/iphone-courses.png
 - PNG — Courses — rayons : https://castillet66.github.io/recettes-2026-10-31/captures/iphone-courses-rayons.png
 - PNG — Magasins à proximité : https://castillet66.github.io/recettes-2026-10-31/captures/iphone-magasins.png
-- PNG — Les onze photos générées : https://castillet66.github.io/recettes-2026-10-31/captures/planche-photos-generees.jpg
+- PNG — Les onze nouvelles photos de plats : https://castillet66.github.io/recettes-2026-10-31/captures/planche-photos-plats.jpg
 - PNG — Objets : oignon nouveau, minuteur, myrtille, sirop d'érable : https://castillet66.github.io/recettes-2026-10-31/captures/planche-objets.png
 - PNG — Vérification — lentille corail : https://castillet66.github.io/recettes-2026-10-31/captures/verif-lentille-corail.png
 - PNG — Vérification — recette retirée consultable : https://castillet66.github.io/recettes-2026-10-31/captures/verif-recette-retiree.png
@@ -122,21 +137,10 @@ Lieux et événements sur une carte, huit envies, localisation fiable ; aperçu 
 - PNG — Tablette : https://castillet66.github.io/autour-2026-10-31/captures/tablette.png
 - PNG — Ordinateur : https://castillet66.github.io/autour-2026-10-31/captures/bureau.png
 
-## Recettes — diagnostic et proposition (30/10/2026)
+## Recettes — écran proposé (maquette) (29/10/2026)
 
-Compte rendu de la session Recettes (docs/RECETTES-PROPOSITION-2026-10-30.md, relu avec ChatGPT avant toute modification) ; captures prises sur son aperçu, en lecture seule.
-
-- Le compte rendu complet : https://castillet66.github.io/recettes-2026-10-30/proposition.html
-- PNG — Recettes aujourd'hui, premier écran iPhone : https://castillet66.github.io/recettes-2026-10-30/captures/iphone-recettes.png
-- PNG — Recettes, la page entière : https://castillet66.github.io/recettes-2026-10-30/captures/iphone-recettes-page-entiere.jpg
-
-## Recettes — écran proposé et photos de la maquette (29/10/2026)
-
-Photos Pexels utilisées pour évaluer l'écran, pas pour le catalogue ; durées = objectifs de maquette, non vérifiées.
+Maquette de l'écran du 29/10, pour en juger la composition ; durées visées, non vérifiées.
 
 - Écran proposé (à ouvrir sur téléphone) : https://castillet66.github.io/recettes-2026-10-29/ecran.html
-- Les six photos, avec leurs droits : https://castillet66.github.io/recettes-2026-10-29/echantillon.html
 - PNG — Premier écran, iPhone : https://castillet66.github.io/recettes-2026-10-29/captures/ecran-iphone.png
 - PNG — Écran entier : https://castillet66.github.io/recettes-2026-10-29/captures/ecran-iphone-complet.png
-- PNG — Les six photos et leurs droits, sur une planche : https://castillet66.github.io/recettes-2026-10-29/captures/echantillon-planche.png
-- PNG — Les six photos, sur iPhone : https://castillet66.github.io/recettes-2026-10-29/captures/echantillon-iphone-complet.png

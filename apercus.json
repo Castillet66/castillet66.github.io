@@ -10,8 +10,8 @@
   "note": "Servi par le même build qu'Autour de moi (branche finitions, qui contient l'Agenda inchangé) ; lectures de production, aucune écriture."
  },
  {
-  "titre": "Recettes — l'application de la branche (visuels, repas complets)",
-  "url": "https://weighted-meanwhile-endless-delete.trycloudflare.com/recettes",
-  "note": "Branche chantier/recettes-themealdb, build figé du 31/10 ; lectures de production, aucune écriture."
+  "titre": "Recettes — comparer son panier (Courses → « Comparer mon panier »)",
+  "url": "https://weighted-meanwhile-endless-delete.trycloudflare.com/recettes/courses",
+  "note": "Build figé du 31/10 au soir de la branche Recettes ; lectures de production, aucune écriture."
  }
 ]
