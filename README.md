@@ -4,8 +4,32 @@ Dépôt réservé aux aperçus et aux captures de Pulse : rien ici n'est le code
 
 ## Aperçus en direct (servis par le Mac, lecture seule)
 
-- Autour de moi — l'application de la branche (finition du 31/10 après-midi) : https://doll-ballet-pets-defines.trycloudflare.com/autour
+- Autour de moi — l'application de la branche : https://doll-ballet-pets-defines.trycloudflare.com/autour
+- Agenda — la carte et le programme (branche chantier/agenda-carte) : https://doll-ballet-pets-defines.trycloudflare.com/agenda
 - Recettes — l'application de la branche (visuels, repas complets) : https://weighted-meanwhile-endless-delete.trycloudflare.com/recettes
+
+## Agenda — la carte et le programme (31/10/2026)
+
+Refonte : carte des rendez-vous dès le premier écran, programme par jour et par moment, lignes courtes ; 1 690 Ko au lieu de 4 278 en 4G. Aperçu interactif sur iPhone.
+
+- Ce que fait la page, mesures, vérifications, limites : https://castillet66.github.io/agenda-2026-10-31/index.html
+- PNG — Avant / après et les principaux écrans iPhone : https://castillet66.github.io/agenda-2026-10-31/planche-iphone.jpg
+- PNG — Avant : l'Agenda en production : https://castillet66.github.io/agenda-2026-10-31/captures/avant-arrivee.png
+- PNG — Après : l'arrivée : https://castillet66.github.io/agenda-2026-10-31/captures/iphone-arrivee.png
+- PNG — Le programme du jour : https://castillet66.github.io/agenda-2026-10-31/captures/iphone-programme.png
+- PNG — Une séance sur la carte : https://castillet66.github.io/agenda-2026-10-31/captures/iphone-fiche-courte.png
+- PNG — La carte en grand : https://castillet66.github.io/agenda-2026-10-31/captures/iphone-carte-en-grand.png
+- PNG — Demain : https://castillet66.github.io/agenda-2026-10-31/captures/iphone-demain.png
+- PNG — Ce week-end : https://castillet66.github.io/agenda-2026-10-31/captures/iphone-week-end.png
+- PNG — Une date : https://castillet66.github.io/agenda-2026-10-31/captures/iphone-date.png
+- PNG — Lieu connu à la commune : https://castillet66.github.io/agenda-2026-10-31/captures/iphone-groupe-fiche.png
+- PNG — Voir les 2 événements : https://castillet66.github.io/agenda-2026-10-31/captures/iphone-groupe.png
+- PNG — Expositions en continu : https://castillet66.github.io/agenda-2026-10-31/captures/iphone-en-continu.png
+- PNG — Les filtres : https://castillet66.github.io/agenda-2026-10-31/captures/iphone-filtres.png
+- PNG — Depuis Prades, 20 km : https://castillet66.github.io/agenda-2026-10-31/captures/iphone-filtres-actifs.png
+- PNG — 360 px, WebKit : https://castillet66.github.io/agenda-2026-10-31/captures/iphone-360-webkit.png
+- PNG — Tablette : https://castillet66.github.io/agenda-2026-10-31/captures/tablette.png
+- PNG — Ordinateur : https://castillet66.github.io/agenda-2026-10-31/captures/bureau.png
 
 ## Autour de moi — la finition (31/10/2026)
 

@@ -1,8 +1,13 @@
 [
  {
-  "titre": "Autour de moi — l'application de la branche (finition du 31/10 après-midi)",
+  "titre": "Autour de moi — l'application de la branche",
   "url": "https://doll-ballet-pets-defines.trycloudflare.com/autour",
-  "note": "Branche chantier/autour-de-moi, build figé ; lectures de production, aucune écriture. Toucher « Autour de moi » depuis l'accueil pour la demande de position."
+  "note": "Même aperçu que l'Agenda (branche chantier/agenda-carte, qui contient Autour de moi) ; build figé, lectures de production, aucune écriture."
+ },
+ {
+  "titre": "Agenda — la carte et le programme (branche chantier/agenda-carte)",
+  "url": "https://doll-ballet-pets-defines.trycloudflare.com/agenda",
+  "note": "Build figé du 31/10 ; lectures de production, aucune écriture. Aujourd'hui, Demain, Ce week-end ou une date ; la carte et le programme."
  },
  {
   "titre": "Recettes — l'application de la branche (visuels, repas complets)",

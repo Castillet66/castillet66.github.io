@@ -304,5 +304,87 @@
     "Ordinateur"
    ]
   ]
+ },
+ {
+  "dossier": "agenda-2026-10-31",
+  "date": "31/10/2026",
+  "titre": "Agenda — la carte et le programme",
+  "note": "Refonte : carte des rendez-vous dès le premier écran, programme par jour et par moment, lignes courtes ; 1 690 Ko au lieu de 4 278 en 4G. Aperçu interactif sur iPhone.",
+  "pages": [
+   [
+    "index.html",
+    "Ce que fait la page, mesures, vérifications, limites"
+   ]
+  ],
+  "captures": [
+   [
+    "planche-iphone.jpg",
+    "Avant / après et les principaux écrans iPhone"
+   ],
+   [
+    "captures/avant-arrivee.png",
+    "Avant : l'Agenda en production"
+   ],
+   [
+    "captures/iphone-arrivee.png",
+    "Après : l'arrivée"
+   ],
+   [
+    "captures/iphone-programme.png",
+    "Le programme du jour"
+   ],
+   [
+    "captures/iphone-fiche-courte.png",
+    "Une séance sur la carte"
+   ],
+   [
+    "captures/iphone-carte-en-grand.png",
+    "La carte en grand"
+   ],
+   [
+    "captures/iphone-demain.png",
+    "Demain"
+   ],
+   [
+    "captures/iphone-week-end.png",
+    "Ce week-end"
+   ],
+   [
+    "captures/iphone-date.png",
+    "Une date"
+   ],
+   [
+    "captures/iphone-groupe-fiche.png",
+    "Lieu connu à la commune"
+   ],
+   [
+    "captures/iphone-groupe.png",
+    "Voir les 2 événements"
+   ],
+   [
+    "captures/iphone-en-continu.png",
+    "Expositions en continu"
+   ],
+   [
+    "captures/iphone-filtres.png",
+    "Les filtres"
+   ],
+   [
+    "captures/iphone-filtres-actifs.png",
+    "Depuis Prades, 20 km"
+   ],
+   [
+    "captures/iphone-360-webkit.png",
+    "360 px, WebKit"
+   ],
+   [
+    "captures/tablette.png",
+    "Tablette"
+   ],
+   [
+    "captures/bureau.png",
+    "Ordinateur"
+   ]
+  ]
  }
 ]

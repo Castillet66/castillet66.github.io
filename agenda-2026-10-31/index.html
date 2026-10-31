@@ -1,0 +1,72 @@
+<!doctype html><html lang="fr"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1"><meta name="robots" content="noindex, nofollow">
+<title>Agenda — la carte et le programme (aperçu du 31/10/2026)</title>
+<style>:root{color-scheme:dark}body{margin:0;background:#111;color:#f4f2ee;font:16px/1.55 -apple-system,system-ui,sans-serif}
+main{max-width:780px;margin:0 auto;padding:26px 18px 56px}h1{font-size:25px;margin:0 0 4px}h2{font-size:18px;margin:28px 0 6px}
+p,li{color:#c9c5be;font-size:15px}ul{padding-left:20px}a{color:#7fd8d0}.n{color:#8f8c86;font-size:13.5px}
+table{border-collapse:collapse;width:100%;font-size:14px;margin-top:8px}td,th{padding:6px 8px;border-bottom:1px solid #2a2a2e;text-align:left;color:#d6d2cb}th{color:#9a968f;font-weight:600}
+.g{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-top:10px}.g a{display:block;background:#1b1b1e;border-radius:14px;padding:8px;color:#ddd;text-decoration:none;font-size:13px}
+.g img{width:100%;border-radius:9px;display:block;margin-bottom:6px}.large{grid-column:1/-1}</style></head><body><main>
+<h1>Agenda — la carte et le programme</h1>
+<p class="n">Aperçu du 31 octobre 2026 · branche <code>chantier/agenda-carte</code> (base : Autour de moi) · rien n'est publié dans l'application.</p>
+<p><a href="https://doll-ballet-pets-defines.trycloudflare.com/agenda"><b>Ouvrir l'Agenda en direct sur iPhone</b></a> — servi par le Mac tant qu'il reste allumé, lecture seule. Le même aperçu sert aussi Autour de moi. · <a href="../">Tous les aperçus</a></p>
+
+<h2>Ce que fait la page</h2>
+<ul>
+<li><b>Elle répond à « que se passe-t-il, et quand ? ».</b> En haut : Aujourd'hui, Demain, Ce week-end, ou une date jusqu'à trois mois. En dessous, d'où se mesurent les distances, les filtres et les familles illustrées d'Autour de moi. Puis une carte des rendez-vous de la période, visible dès le premier écran, et enfin le programme.</li>
+<li><b>Le programme se lit jour par jour, et dans chaque jour par moment</b> : en ce moment, ce matin, cet après-midi, ce soir, et « horaire non communiqué » quand la source ne le donne pas. Viennent ensuite les expositions en continu, puis les jours suivants, une semaine à la fois.</li>
+<li><b>Une ligne par séance</b>, jamais une grande affiche. Elle donne l'heure, l'illustration de la famille, la catégorie, le titre entier, la commune, la distance quand elle est sûre, et le prix quand il est connu. Toucher la ligne ouvre la fiche ; l'épingle montre la séance sur la carte.</li>
+<li><b>Les récurrences sont lues séance par séance.</b> Ce qui est fini disparaît à la minute : un marché du samedi de 5 h 30 à 12 h n'est plus « ce matin » à 15 h. Une exposition longue apparaît une seule fois par période, avec « Jusqu'au… ». Une soirée de 21 h à 1 h ne crée pas de séance le lendemain.</li>
+<li><b>Les règles de précision d'Autour de moi s'appliquent ici aussi.</b> Aucune distance au mètre pour un lieu connu seulement par sa commune ou par une rue sans numéro. Aucun prix, horaire ou « avec enfants » que la source ne déclare pas. Trois sorties au même lieu et au même moment se regroupent en une ligne « Voir les 3 », et chacune reste accessible.</li>
+<li><b>Les filtres</b> : familles, avec enfants, gratuit, et distance (5, 10, 20 ou 50 km) depuis ta position ou une commune choisie. Les filtres actifs apparaissent en puces que l'on retire d'un geste. Le choix de la commune est gardé sur le téléphone, comme dans Autour de moi.</li>
+<li><b>La page ne demande jamais la position à l'arrivée.</b> Elle reprend une position déjà accordée ; sinon, il faut toucher « Ma position ».</li>
+</ul>
+
+<h2>Lenteurs : mesures</h2>
+<p class="n">iPhone 390 px, réseau 4G simulé, cache vide, même méthode des deux côtés. L'aperçu passe par un tunnel vers le Mac : comparez les octets, pas les temps au pied de la lettre.</p>
+<table>
+<tr><th></th><th>Production aujourd'hui</th><th>Nouvelle page (aperçu)</th></tr>
+<tr><td>Transféré au total</td><td>4 278 Ko</td><td>1 690 Ko</td></tr>
+<tr><td>Images</td><td>2 332 Ko (55 affiches)</td><td>97 Ko (les 8 illustrations)</td></tr>
+<tr><td>Données</td><td>catalogue complet, 650 Ko</td><td>couche Agenda de l'index, 105 Ko</td></tr>
+<tr><td>Hauteur de la page</td><td>6 853 px</td><td>4 002 px, jours suivants à la demande</td></tr>
+<tr><td>Premier écran</td><td>un seul événement</td><td>carte, période, et le programme qui commence</td></tr>
+</table>
+<p>La feuille d'icônes de la carte passe de 314 Ko à 0,7 Ko. Le gain vaut aussi pour Autour de moi.</p>
+
+<h2>Vérifications</h2>
+<ul>
+<li>Parcours vérifiés sur l'aperçu dans Chromium et WebKit (le moteur de Safari) : 360, 390 et 430 px, tablette 820 px, ordinateur 1440 px.</li>
+<li>La relecture qualité a d'abord refusé le lot pour six motifs : demande de position à l'arrivée, soirée après minuit, absence affirmée sur des données incomplètes, regroupement, cible de la date, données anciennes non signalées. Tout a été corrigé, et le lot a été accepté à la troisième passe.</li>
+<li>En testant WebKit, j'ai trouvé et corrigé une panne : avec la nouvelle feuille d'icônes, la carte ne s'affichait pas, sur l'Agenda comme sur Autour de moi.</li>
+<li>Tous les tests du dépôt passent.</li>
+</ul>
+
+<h2>Limites</h2>
+<ul>
+<li>Le rendu sur un vrai iPhone reste à confirmer, en particulier la carte, qui se déplace à deux doigts dans la page, et le sélecteur de date.</li>
+<li>Les pages par commune (<code>/agenda/commune/…</code>) gardent l'ancienne présentation. Elles sont inscrites au backlog.</li>
+<li>À la publication, l'index devra être conservé en production pour cette nouvelle couche, puis mesuré en vrai.</li>
+</ul>
+
+<h2>Captures</h2>
+<div class="g">
+<a class="large" href="planche-iphone.jpg"><img src="planche-iphone.jpg" alt="">Avant / après, puis les principaux écrans iPhone</a>
+<a href="captures/avant-arrivee.png"><img src="captures/avant-arrivee.png" alt="">Avant : l'Agenda en production</a>
+<a href="captures/iphone-arrivee.png"><img src="captures/iphone-arrivee.png" alt="">Après : l'arrivée</a>
+<a href="captures/iphone-programme.png"><img src="captures/iphone-programme.png" alt="">Le programme du jour, par moment</a>
+<a href="captures/iphone-fiche-courte.png"><img src="captures/iphone-fiche-courte.png" alt="">Une séance montrée sur la carte</a>
+<a href="captures/iphone-carte-en-grand.png"><img src="captures/iphone-carte-en-grand.png" alt="">La carte en grand</a>
+<a href="captures/iphone-demain.png"><img src="captures/iphone-demain.png" alt="">Demain</a>
+<a href="captures/iphone-week-end.png"><img src="captures/iphone-week-end.png" alt="">Ce week-end</a>
+<a href="captures/iphone-date.png"><img src="captures/iphone-date.png" alt="">Une date choisie</a>
+<a href="captures/iphone-groupe-fiche.png"><img src="captures/iphone-groupe-fiche.png" alt="">Un lieu connu à la commune seulement</a>
+<a href="captures/iphone-groupe.png"><img src="captures/iphone-groupe.png" alt="">« Voir les 2 événements »</a>
+<a href="captures/iphone-en-continu.png"><img src="captures/iphone-en-continu.png" alt="">Expositions en continu, « Jusqu'au… »</a>
+<a href="captures/iphone-filtres.png"><img src="captures/iphone-filtres.png" alt="">Les filtres</a>
+<a href="captures/iphone-filtres-actifs.png"><img src="captures/iphone-filtres-actifs.png" alt="">Depuis Prades, 20 km</a>
+<a href="captures/iphone-360-webkit.png"><img src="captures/iphone-360-webkit.png" alt="">360 px, moteur WebKit</a>
+<a class="large" href="captures/tablette.png"><img src="captures/tablette.png" alt="">Tablette</a>
+<a class="large" href="captures/bureau.png"><img src="captures/bureau.png" alt="">Ordinateur</a>
+</div>
+</main></body></html>
