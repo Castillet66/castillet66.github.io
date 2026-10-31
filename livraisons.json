@@ -1,7 +1,102 @@
 [
- {"dossier": "recettes-2026-10-29", "date": "29/10/2026", "titre": "Recettes — écran proposé et photos de la maquette",
+ {
+  "dossier": "recettes-2026-10-29",
+  "date": "29/10/2026",
+  "titre": "Recettes — écran proposé et photos de la maquette",
   "note": "Photos Pexels utilisées pour évaluer l'écran, pas pour le catalogue ; durées = objectifs de maquette, non vérifiées.",
-  "pages": [["ecran.html", "Écran proposé (à ouvrir sur téléphone)"], ["echantillon.html", "Les six photos, avec leurs droits"]],
-  "captures": [["captures/ecran-iphone.png", "Premier écran, iPhone"], ["captures/ecran-iphone-complet.png", "Écran entier"],
-               ["captures/echantillon-planche.png", "Les six photos et leurs droits, sur une planche"], ["captures/echantillon-iphone-complet.png", "Les six photos, sur iPhone"]]}
+  "pages": [
+   [
+    "ecran.html",
+    "Écran proposé (à ouvrir sur téléphone)"
+   ],
+   [
+    "echantillon.html",
+    "Les six photos, avec leurs droits"
+   ]
+  ],
+  "captures": [
+   [
+    "captures/ecran-iphone.png",
+    "Premier écran, iPhone"
+   ],
+   [
+    "captures/ecran-iphone-complet.png",
+    "Écran entier"
+   ],
+   [
+    "captures/echantillon-planche.png",
+    "Les six photos et leurs droits, sur une planche"
+   ],
+   [
+    "captures/echantillon-iphone-complet.png",
+    "Les six photos, sur iPhone"
+   ]
+  ]
+ },
+ {
+  "dossier": "autour-2026-10-31",
+  "date": "31/10/2026",
+  "titre": "Autour de moi — la carte d'abord",
+  "note": "Lieux et événements sur une carte, huit envies, localisation fiable ; aperçu interactif sur iPhone à part (tunnel).",
+  "pages": [
+   [
+    "index.html",
+    "Ce qui est construit, mesures, limites"
+   ]
+  ],
+  "captures": [
+   [
+    "captures/objets-familles.png",
+    "Les huit objets des familles"
+   ],
+   [
+    "captures/iphone-arrivee.png",
+    "Arrivée, iPhone"
+   ],
+   [
+    "captures/iphone-fiche-lieu.png",
+    "Fiche courte d'un lieu"
+   ],
+   [
+    "captures/iphone-groupe-evenements.png",
+    "Plusieurs dates au même endroit"
+   ],
+   [
+    "captures/iphone-les-angles.png",
+    "Destination : Les Angles"
+   ],
+   [
+    "captures/iphone-les-angles-liste.png",
+    "La liste synchronisée"
+   ],
+   [
+    "captures/iphone-filtres.png",
+    "Les filtres"
+   ],
+   [
+    "captures/iphone-bien-etre.png",
+    "Une famille et ses sous-catégories"
+   ],
+   [
+    "captures/iphone-refus-aide.png",
+    "Localisation refusée"
+   ],
+   [
+    "captures/iphone-position-approximative.png",
+    "Position approximative"
+   ],
+   [
+    "captures/iphone-delai-depasse.png",
+    "Délai dépassé"
+   ],
+   [
+    "captures/tablette.png",
+    "Tablette"
+   ],
+   [
+    "captures/bureau.png",
+    "Ordinateur"
+   ]
+  ]
+ }
 ]

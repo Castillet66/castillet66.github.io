@@ -1,0 +1,55 @@
+<!doctype html><html lang="fr"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1"><meta name="robots" content="noindex, nofollow">
+<title>Autour de moi — la carte d'abord (aperçu du 31/10/2026)</title>
+<style>:root{color-scheme:dark}body{margin:0;background:#111;color:#f4f2ee;font:16px/1.55 -apple-system,system-ui,sans-serif}
+main{max-width:780px;margin:0 auto;padding:26px 18px 56px}h1{font-size:25px;margin:0 0 4px}h2{font-size:18px;margin:28px 0 6px}
+p,li{color:#c9c5be;font-size:15px}ul{padding-left:20px}a{color:#7fd8d0}.n{color:#8f8c86;font-size:13.5px}
+.g{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-top:10px}.g a{display:block;background:#1b1b1e;border-radius:14px;padding:8px;color:#ddd;text-decoration:none;font-size:13px}
+.g img{width:100%;border-radius:9px;display:block;margin-bottom:6px}.large{grid-column:1/-1}</style></head><body><main>
+<h1>Autour de moi — la carte d'abord</h1>
+<p class="n">Aperçu du 31 octobre 2026 · branche <code>chantier/autour-de-moi</code> · rien n'est publié dans l'application.</p>
+
+<h2>Ce qui est construit</h2>
+<ul>
+<li>Une carte plein écran (fond IGN) qui réunit les lieux de Découvrir et les événements de l'Agenda.</li>
+<li>Huit envies illustrées : Patrimoine, Nature, Mer et baignade, Sport et sensations, Culture et spectacles, Loisirs, Bien-être, Marchés et fêtes. Leurs sous-catégories s'ouvrent au second toucher, et un thème de saison apparaît quand l'agenda le justifie (Halloween aujourd'hui).</li>
+<li>Trois formes de repère : un rond pour un lieu, un ticket pour un événement, une bulle en pointillé pour des événements dont seule la commune est connue. Les repères se regroupent à partir de quatre points.</li>
+<li>Au toucher, une fiche courte remonte du bas : photo, nom, distance, horaires ou date connus, prix connu. On glisse de côté pour la suivante, vers le bas pour la fermer. Plusieurs dates au même endroit tiennent dans une seule fiche.</li>
+<li>Tout, Lieux ou Événements ; aujourd'hui, ce week-end ou une date ; Avec enfants, Gratuit, et en plus les restaurants, commerces et équipements, éteints par défaut.</li>
+<li>Une liste synchronisée avec la carte. Les états vides proposent d'élargir la période, sans changer la demande en silence.</li>
+<li>La localisation demandée à l'entrée volontaire. Après un refus, une aide indique le bon réglage selon l'appareil. Une position approximative se dit « ± 3 km », sans distance précise. Après un délai dépassé, on peut réessayer.</li>
+<li>La destination choisie, Les Angles par exemple, est conservée à la réouverture. « Explorer cette zone » et « le centre de la carte » sont deux gestes distincts.</li>
+</ul>
+
+<h2>Lenteur : mesures</h2>
+<ul>
+<li>Avant (production, 30/10) : de 2 à 4,5 s quand l'instance serveur est froide, parfois plus de 20 s ; aucune carte.</li>
+<li>Après (aperçu local, iPhone simulé, profil 4G, accueil posé) : interface en 0,3 à 0,5 s, repères et propositions en 1,1 à 1,5 s. Sans bridage, instance chaude : 0,2 à 0,3 s.</li>
+<li>L'index compact pèse 183 Ko compressés. En production, il est recomposé chaque heure, conservé, et les événements terminés quittent la carte d'eux-mêmes.</li>
+</ul>
+<p class="n">Ces mesures viennent d'un Chromium sur le Mac, pas d'un vrai iPhone. Le premier passage à froid de la production ne sera mesurable qu'après publication.</p>
+
+<h2>Limites connues</h2>
+<ul>
+<li><b>Recraft est à court de crédits.</b> Huit objets sur cinquante sont faits (les huit familles). Les sous-catégories, Noël, Halloween et les monuments gardent une silhouette en attendant.</li>
+<li>Dans cet aperçu, les événements de Pulse Pro ne figurent pas (leur lecture exige la clé du serveur). Ils seront présents en production.</li>
+<li>Le comportement de la localisation dans l'app installée sur iPhone reste à vérifier sur un vrai iPhone.</li>
+</ul>
+
+<h2>Captures</h2>
+<div class="g">
+<a class="large" href="captures/objets-familles.png"><img src="captures/objets-familles.png" alt="">Les huit objets des familles, sur le sombre, en grand et à leur taille d'usage (42 px)</a>
+<a href="captures/iphone-arrivee.png"><img src="captures/iphone-arrivee.png" alt="">Arrivée, position connue</a>
+<a href="captures/iphone-fiche-lieu.png"><img src="captures/iphone-fiche-lieu.png" alt="">Fiche courte d'un lieu</a>
+<a href="captures/iphone-groupe-evenements.png"><img src="captures/iphone-groupe-evenements.png" alt="">Plusieurs dates au même endroit (lieu précis non communiqué)</a>
+<a href="captures/iphone-les-angles.png"><img src="captures/iphone-les-angles.png" alt="">Destination choisie : Les Angles</a>
+<a href="captures/iphone-les-angles-liste.png"><img src="captures/iphone-les-angles-liste.png" alt="">La liste, mêmes filtres que la carte</a>
+<a href="captures/iphone-filtres.png"><img src="captures/iphone-filtres.png" alt="">Les filtres</a>
+<a href="captures/iphone-bien-etre.png"><img src="captures/iphone-bien-etre.png" alt="">Une famille choisie et ses sous-catégories</a>
+<a href="captures/iphone-refus-aide.png"><img src="captures/iphone-refus-aide.png" alt="">Localisation refusée : le bon réglage</a>
+<a href="captures/iphone-position-approximative.png"><img src="captures/iphone-position-approximative.png" alt="">Position approximative (± 3 km)</a>
+<a href="captures/iphone-delai-depasse.png"><img src="captures/iphone-delai-depasse.png" alt="">Délai dépassé : Réessayer</a>
+<a href="captures/tablette.png"><img src="captures/tablette.png" alt="">Tablette</a>
+<a class="large" href="captures/bureau.png"><img src="captures/bureau.png" alt="">Ordinateur</a>
+</div>
+</main></body></html>
