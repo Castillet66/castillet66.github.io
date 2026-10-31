@@ -34,6 +34,28 @@
   ]
  },
  {
+  "dossier": "recettes-2026-10-30",
+  "date": "30/10/2026",
+  "titre": "Recettes — diagnostic et proposition",
+  "note": "Compte rendu de la session Recettes (docs/RECETTES-PROPOSITION-2026-10-30.md, relu avec ChatGPT avant toute modification) ; captures prises sur son aperçu, en lecture seule.",
+  "pages": [
+   [
+    "proposition.html",
+    "Le compte rendu complet"
+   ]
+  ],
+  "captures": [
+   [
+    "captures/iphone-recettes.png",
+    "Recettes aujourd'hui, premier écran iPhone"
+   ],
+   [
+    "captures/iphone-recettes-page-entiere.jpg",
+    "Recettes, la page entière"
+   ]
+  ]
+ },
+ {
   "dossier": "autour-2026-10-31",
   "date": "31/10/2026",
   "titre": "Autour de moi — la carte d'abord",
@@ -42,12 +64,20 @@
    [
     "index.html",
     "Ce qui est construit, mesures, limites"
+   ],
+   [
+    "diagnostic.html",
+    "Le diagnostic du 30/10 (avant la refonte)"
    ]
   ],
   "captures": [
    [
     "captures/objets-familles.png",
     "Les huit objets des familles"
+   ],
+   [
+    "planche-iphone.jpg",
+    "Les dix écrans iPhone sur une planche"
    ],
    [
     "captures/iphone-arrivee.png",

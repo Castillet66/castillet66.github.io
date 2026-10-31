@@ -1,0 +1,582 @@
+<!doctype html><html lang="fr"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1"><meta name="robots" content="noindex, nofollow">
+<title>Autour de moi — diagnostic du 30/10/2026</title>
+<style>:root{color-scheme:dark}body{margin:0;background:#111;color:#e9e6e0;font:16px/1.6 -apple-system,system-ui,sans-serif}
+main{max-width:780px;margin:0 auto;padding:24px 18px 56px}h1{font-size:24px;line-height:1.25}h2{font-size:19px;margin-top:30px}h3{font-size:16.5px;margin-top:22px}
+a{color:#7fd8d0}code{background:#1d1d20;padding:1px 5px;border-radius:5px;font-size:13.5px}pre{background:#1a1a1d;padding:12px;border-radius:10px;overflow-x:auto;font-size:12.5px}
+table{border-collapse:collapse;display:block;overflow-x:auto;font-size:14px;margin:12px 0}th,td{border:1px solid #2c2c30;padding:6px 8px;text-align:left;vertical-align:top}th{background:#1b1b1e}
+blockquote{border-left:3px solid #3a3a40;margin:12px 0;padding:2px 14px;color:#bdb9b2}hr{border:0;border-top:1px solid #2a2a2e;margin:26px 0}.retour{font-size:14px}</style></head>
+<body><main><p class="retour"><a href="../">← Tous les aperçus</a></p><h1>« Autour de moi » — diagnostic et proposition (30/10/2026)</h1>
+<p><em>Phase d&#39;audit seule : aucune ligne de l&#39;application modifiée, aucune génération
+payante. Mesures faites le 30/10 entre 22 h 55 et 23 h 30 (heure de Paris) sur
+<code>perpignanpulse.com</code>, déploiement <code>59ab5128</code>, iPhone émulé (390 × 844, DPR 3)
+dans Chromium. Requêtes en base : lecture seule. Les scripts de banc vivent dans
+<code>/tmp/adm-banc</code>, hors dépôt.</em></p>
+<p>Légende : <strong>observé</strong> = mesuré · <strong>inféré</strong> = lu dans le code · <strong>tiers</strong> =
+dépend d&#39;un service qu&#39;on ne mesure pas ici.</p>
+<hr>
+<h2>1. Diagnostic</h2>
+<h3>1.1 La lenteur : le catalogue relu à froid, pas les images</h3>
+<table>
+<thead>
+<tr>
+<th>Mesure (observé)</th>
+<th>Valeur</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>Temps de réponse serveur de <code>/autour</code>, 5 essais</td>
+<td>3,66 · 1,15 · 2,68 · 0,33 · 0,31 s</td>
+</tr>
+<tr>
+<td>Même série sur <code>/decouvrir</code></td>
+<td>4,40 · 1,44 · 0,12 · 2,25 · 0,20 s</td>
+</tr>
+<tr>
+<td>Témoins <code>/cinema</code> et <code>/</code></td>
+<td>0,12 – 0,41 s</td>
+</tr>
+<tr>
+<td>Appel <code>radarAutour</code> du navigateur, 6 essais</td>
+<td>4,54 · 2,52 · 0,21 · 2,15 · 0,13 · 0,17 s</td>
+</tr>
+<tr>
+<td>Toucher de la capsule → contenu affiché, 4 essais</td>
+<td>1,0 · 2,5 · 2,9 · 3,1 s</td>
+</tr>
+<tr>
+<td>Un essai sur sept</td>
+<td>contenu absent après ~20 s, pendant que les appels de l&#39;accueil prenaient 8 à 12 s</td>
+</tr>
+<tr>
+<td>Images du premier écran</td>
+<td>3 photos WebP, 257 Ko, servies en 70 à 220 ms</td>
+</tr>
+</tbody></table>
+<p><strong>Cause (observé et inféré, D-564)</strong> : <code>radarAutour</code> relit tout le catalogue
+des lieux — environ 6 Mo, en trois pages PostgREST — dans une mémoire
+d&#39;instance qui ne dure que 10 minutes. Sur cet hébergement, les requêtes
+retombent souvent sur une instance froide : on paie alors 2 à 4,5 s. Chaude,
+la même requête répond en 0,13 s. Le calcul du classement, lui, coûte environ
+10 ms.</p>
+<p><strong>Deuxième coût (observé)</strong> : <code>momentsProches</code> retélécharge et relit
+<code>agenda/events.json</code> à chaque appel, sans aucun cache. Le fichier pèse
+<strong>3 002 712 octets</strong>.</p>
+<p><strong>Troisième coût (observé)</strong> : quand l&#39;autorisation est déjà accordée, le
+contenu de Perpignan s&#39;affiche d&#39;abord. La page relance ensuite les deux
+appels avec la position, ce qui ajoute 1,0 à 1,3 s, puis le contenu est
+remplacé sous les yeux de l&#39;utilisateur.</p>
+<p><strong>Hors périmètre, à consigner au backlog</strong> :</p>
+<ul>
+<li>le paquet d&#39;entrée <code>index-*.js</code> pèse 656 Ko compressés ;</li>
+<li>l&#39;accueil télécharge le flux d&#39;agenda entier, 680 Ko compressés.</li>
+</ul>
+<p><strong>Les images ne sont pas en cause ici.</strong> Leurs dérivés sont adaptés : 800 w
+pour une carte de 259 px affichée en DPR 3.</p>
+<h3>1.2 « Peu remplie » : une conception volontairement minimale</h3>
+<ul>
+<li><strong>Contenu affiché (observé)</strong> : 13 lieux autour de Perpignan, 11 autour des
+Angles. À 23 h, aucun événement. La page mesure 1 132 px de haut, pied de
+page compris.</li>
+<li><strong>Contenu disponible en base (observé)</strong> : 1 866 lieux candidats à une carte
+(hors restaurants et commerces). L&#39;agenda compte 451 événements actifs dans
+les 7 jours, dont 313 ce week-end.</li>
+<li><strong>Pourquoi l&#39;écart (inféré)</strong> : le « radar » (D-555) est plafonné à une tête
+et 12 lieux, avec au plus 2 par famille et 1 église. Son rayon s&#39;arrête dès
+8 lieux trouvés (2 km, puis 5, puis 10).</li>
+<li><strong>Événements</strong> : la page ne montre que ceux qui commencent dans les 8 heures,
+à moins de 12 km, et au plus 6.</li>
+<li><strong>« Ouvert maintenant »</strong> n&#39;apparaît qu&#39;à partir de 3 lieux aux horaires
+connus. Or ces horaires ne sont connus que pour 8 % des activités.</li>
+<li><strong>Aucune carte n&#39;est possible avec ces données</strong> : les données envoyées ne
+portent aucune coordonnée.</li>
+</ul>
+<h3>1.3 La localisation (observé dans le navigateur, inféré dans le code)</h3>
+<table>
+<thead>
+<tr>
+<th>Cas</th>
+<th>Comportement actuel</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>Première entrée, autorisation jamais demandée</td>
+<td>Aucune demande. La page reste sur Perpignan ; la demande se cache derrière la ligne « AUTOUR DE PERPIGNAN ▾ », puis « Autour de moi » dans une feuille.</td>
+</tr>
+<tr>
+<td>Un toucher</td>
+<td><strong>Deux</strong> <code>getCurrentPosition</code> simultanés (le radar et les moments ont chacun leur crochet).</td>
+</tr>
+<tr>
+<td>Refus</td>
+<td>« LOCALISATION REFUSÉE ». À la réouverture de la feuille, <strong>le bouton de position a disparu</strong>.</td>
+</tr>
+<tr>
+<td>Délai dépassé (8 s)</td>
+<td>« LOCALISATION INDISPONIBLE », et le bouton disparaît aussi : <strong>aucune nouvelle tentative possible avant un rechargement</strong>.</td>
+</tr>
+<tr>
+<td>Position approximative (± 3 km)</td>
+<td>Distances masquées et mention « POSITION APPROXIMATIVE » : correct. Aucun cercle de précision.</td>
+</tr>
+<tr>
+<td>Autorisation accordée</td>
+<td>Position silencieuse, gardée en mémoire 5 min, jamais persistée.</td>
+</tr>
+<tr>
+<td>Commune choisie</td>
+<td>Gardée uniquement dans l&#39;URL (<code>?commune=</code>). La PWA rouvre sur <code>/</code> et l&#39;oublie.</td>
+</tr>
+<tr>
+<td>Réouverture de la PWA</td>
+<td>L&#39;app démarre sur <code>/</code> ; les navigations ne sont pas mises en cache par le service worker. Tout le coût du §1.1 est repayé.</td>
+</tr>
+<tr>
+<td>iOS, app installée</td>
+<td><strong>Tiers, non mesurable ici</strong> (aucun Safari réel sur ce Mac). Des témoignages, non documentés par Apple, signalent une nouvelle demande à chaque lancement. À mesurer sur l&#39;iPhone du fondateur au lot 1.</td>
+</tr>
+</tbody></table>
+<h3>1.4 Les cartes déjà présentes</h3>
+<ul>
+<li><strong>Moteur et fond de carte</strong> :<ul>
+<li>une seule carte vivante, <code>CarteService</code> (« Sur la route ») ;</li>
+<li><code>maplibre-gl</code> 5.24, chargé à la demande (276 Ko) ;</li>
+<li>fond <strong>IGN Plan vectoriel, sans clé ni coût</strong> ; style pré-construit par <code>scripts/route/style-carte.mjs</code>.</li>
+</ul>
+</li>
+<li><strong>Coût mesuré sur <code>/info-route</code></strong> :<ul>
+<li>458 Ko de tuiles IGN pour la première vue ;</li>
+<li>carte peinte 5,3 s après la navigation, parce que style et moteur arrivent en chaîne (style reçu à 4,3 s).</li>
+</ul>
+</li>
+<li><strong>Les repères</strong> sont des boutons DOM (<code>.srv-epingle</code>). Les collisions se règlent par <code>regrouper</code> / <code>disposer-reperes</code>.</li>
+<li><strong>Aucun regroupement de type « cluster »</strong>, ni bibliothèque pour cela : des repères DOM ne tiennent pas au-delà de quelques centaines.</li>
+<li><strong>Ce qui est déjà réutilisable</strong> :<ul>
+<li>carte en bas d&#39;écran par-dessus la carte (<code>PiedSelection</code>), avec glissement horizontal entre résultats ;</li>
+<li>vue liste synchronisée (<code>VueListe</code>) ;</li>
+<li>« Où regarder ? » (<code>ChoixDuLieu</code>) : 226 communes et géocodage IGN gratuit ;</li>
+<li>bouton « Me localiser », boussole ;</li>
+<li>repli en liste sans WebGL ;</li>
+<li>pastille bleue <code>#4A87EB</code> pour la position.</li>
+</ul>
+</li>
+<li><strong>Seule TomTom est payante</strong>, et seulement pour le trafic, qui ne concerne pas Autour de moi.</li>
+</ul>
+<h3>1.5 Ce que contiennent vraiment Découvrir et l&#39;Agenda (observé en base et sur le flux servi)</h3>
+<p><strong>Lieux</strong> : 2 435 publiés, <strong>100 % géolocalisés</strong> (colonne PostGIS <code>geo</code> et index GIST).</p>
+<table>
+<thead>
+<tr>
+<th>Nature</th>
+<th>Total</th>
+<th>Avec photo</th>
+<th>Horaires</th>
+<th>Tarif</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>activite</td>
+<td>1 180</td>
+<td>462</td>
+<td>94</td>
+<td>352</td>
+</tr>
+<tr>
+<td>table</td>
+<td>497</td>
+<td>491</td>
+<td>352</td>
+<td>323</td>
+</tr>
+<tr>
+<td>site-naturel</td>
+<td>226</td>
+<td>62</td>
+<td>1</td>
+<td>1</td>
+</tr>
+<tr>
+<td>producteur</td>
+<td>175</td>
+<td>174</td>
+<td>4</td>
+<td>32</td>
+</tr>
+<tr>
+<td>patrimoine</td>
+<td>166</td>
+<td>160</td>
+<td>96</td>
+<td>54</td>
+</tr>
+<tr>
+<td>balade</td>
+<td>99</td>
+<td>99</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>plage</td>
+<td>71</td>
+<td>43</td>
+<td>6</td>
+<td>2</td>
+</tr>
+<tr>
+<td>parc-jardin</td>
+<td>21</td>
+<td>20</td>
+<td>17</td>
+<td>7</td>
+</tr>
+</tbody></table>
+<ul>
+<li><p><strong>Les « activités » sont surtout des équipements sportifs</strong> (recensement RES) :
+pétanque 248, piscines 134, terrains multisports 133, skateparks 53. La
+distinction sujet / agrément de D-557 existe pour ne pas les montrer comme
+des sorties.</p>
+</li>
+<li><p><strong>Enfants, lieux</strong> : seulement ce que la source déclare —</p>
+<ul>
+<li><code>contextes.famille</code> : 110 lieux ;</li>
+<li>label Famille Plus : 76 ;</li>
+<li>équipement bébé : 168.</li>
+</ul>
+<p><strong>Aucun âge, nulle part.</strong></p>
+</li>
+<li><p><strong>Événements</strong> : 1 624, <strong>100 % géolocalisés</strong>, 1 606 avec une image.</p>
+<ul>
+<li>Prix :<ul>
+<li>gratuit 535 ;</li>
+<li>montant connu 80 ;</li>
+<li>« à partir de » 202 ;</li>
+<li>payant, montant inconnu 345 ;</li>
+<li>non communiqué 151 ;</li>
+<li>absent 307.</li>
+</ul>
+</li>
+<li>Aucun champ enfants : seule l&#39;inférence textuelle <code>pourLesEnfants</code> existe.</li>
+<li>141 des 145 événements « en cours » à 23 h durent au moins 7 jours
+(expositions, marchés).</li>
+</ul>
+</li>
+<li><p><strong>Même endroit</strong> :</p>
+<ul>
+<li>217 positions portent au moins 2 événements ;</li>
+<li>place Cassanyes en porte 78, le Théâtre de l&#39;Archipel 37 ;</li>
+<li>certains ne sont situés qu&#39;à la commune (« Le Barcarès » 39, « Canet-Village » 26), et 1 112 n&#39;ont pas d&#39;adresse.</li>
+</ul>
+</li>
+<li><p><strong>Images d&#39;événements</strong> :</p>
+<ul>
+<li>les PNG de Tourinsoft sont lourds : 90e centile 1,2 Mo, 176 fichiers de plus d&#39;1 Mo ;</li>
+<li>la variante 480 manque sur la majorité.</li>
+</ul>
+</li>
+<li><p><strong>Thèmes saisonniers</strong> :</p>
+<ul>
+<li>aucune couche dédiée ; seule une expression régulière choisit l&#39;illustration ;</li>
+<li>83 événements « Halloween » sont actifs dans les 7 jours ;</li>
+<li>« Noël » reviendra seul en décembre.</li>
+</ul>
+</li>
+</ul>
+<h3>1.6 Les illustrations des Recettes</h3>
+<ul>
+<li><strong>La chaîne est dans le dépôt et reproductible</strong>, pour 110 objets :<ul>
+<li><code>scripts/famille-pulse.mjs</code> : gabarit commun (caméra, lumière, matière dosée) ;</li>
+<li>puis <code>scripts/recraft.mjs generer</code> et <code>detourer</code> ;</li>
+<li>puis <code>scripts/integrer-illustrations.mjs</code> ;</li>
+<li>sortie en PNG 512 px, palette de 256 couleurs, environ 60 Ko.</li>
+</ul>
+</li>
+<li><strong>Elle est réutilisable telle quelle, à deux conditions</strong> :<ol>
+<li><strong>Recraft est payant</strong> : quelques centimes l&#39;image, sans compteur dans l&#39;API (D-1395 : environ 70 images pour quelques euros) ;</li>
+<li><strong>il faut des dérivés légers</strong> (WebP de 144 px, quelques Ko) : huit puces à 60 Ko feraient 0,5 Mo.</li>
+</ol>
+</li>
+<li><strong>Elles ne servent pas de repères sur la carte</strong> : un objet 3D n&#39;est plus lisible à 30 px. Les glyphes vectoriels de famille (<code>glyphe-famille.tsx</code>) le restent.</li>
+</ul>
+<hr>
+<h2>2. L&#39;organisation recommandée</h2>
+<p>L&#39;hypothèse du fondateur tient. Elle se précise en <strong>une question par entrée</strong>,
+avec les données en commun.</p>
+<table>
+<thead>
+<tr>
+<th>Entrée</th>
+<th>Sa question</th>
+<th>Ce qu&#39;elle montre</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><strong>Autour de moi</strong></td>
+<td><strong>Où ?</strong> — qu&#39;y a-t-il ici, ou là où je vais</td>
+<td>La carte : lieux et événements réunis, filtrés par famille et par période</td>
+</tr>
+<tr>
+<td><strong>Découvrir</strong></td>
+<td><strong>Quoi ?</strong> — de quoi ai-je envie</td>
+<td>L&#39;inspiration par envies, les lieux permanents</td>
+</tr>
+<tr>
+<td><strong>Agenda</strong></td>
+<td><strong>Quand ?</strong> — que faire tel jour</td>
+<td>Les événements par date, la préparation</td>
+</tr>
+<tr>
+<td>Bons plans &amp; services</td>
+<td><em>(à venir)</em></td>
+<td>Une <strong>couche</strong> de plus sur la même carte. Restaurants, commerces et services y vont : pas dans Autour de moi</td>
+</tr>
+</tbody></table>
+<ul>
+<li><strong>Ce qui se partage</strong> : le corpus (un seul catalogue de lieux, un seul flux
+d&#39;agenda), la taxonomie des familles, les fiches (<code>FicheEvenement</code>, fiche
+lieu de D-972) et le modèle de filtres.</li>
+<li><strong>Ce qui ne se partage pas</strong> : l&#39;usage. Découvrir et l&#39;Agenda gagneront plus
+tard un « Voir sur la carte », qui ouvre Autour de moi déjà filtré. Ce n&#39;est
+pas dans ce chantier.</li>
+<li><strong>Le contre-choix écarté</strong> : fondre Autour de moi dans « Sur la route ».
+C&#39;est un service (prix, kW, trafic) avec ses couleurs réservées. On
+réutilise ses <strong>modules</strong>, pas son écran.</li>
+</ul>
+<hr>
+<h2>3. Le premier écran mobile</h2>
+<p>Disposition de haut en bas, sur un iPhone de 390 × 844 :</p>
+<pre><code>┌ en-tête commun (logo, capsules)                       ┐  existant
+│ [◉ Ma position ▾]  [Aujourd&#39;hui ▾]  [Filtres]          │  une rangée, 44 px
+│ (Halloween) Tout · Patrimoine · Nature · Mer · …      │  familles illustrées, défilantes
+│                                                       │
+│               CARTE  (≈ 60 % de l&#39;écran)              │  repères, regroupements
+│                                   [Explorer ici]      │  après un déplacement
+│ [≡ Liste · 38]                              [◎]       │
+│ ┌───────────────────────────────────────────────────┐ │
+│ │ photo │ Nom · famille                    ‹ 1/38 › │ │  carte du bas, glissement
+│ │       │ Collioure · 800 m · ouvert jusqu&#39;à 18 h   │ │  horizontal entre résultats
+│ └───────────────────────────────────────────────────┘ │
+└ barre basse (existant)                                ┘
+</code></pre>
+<ul>
+<li><strong>Pas de titre</strong> : l&#39;en-tête dit déjà « Autour de moi ». <strong>Pas de texte promotionnel.</strong></li>
+<li><strong>Sans sélection</strong>, la carte du bas fait défiler les cinq meilleures
+propositions de la zone visible. <strong>Toucher un repère</strong> la remplace par la
+fiche courte : photo, nom, lieu, distance (si la position est précise),
+date ou horaires <strong>connus</strong>, prix <strong>connu</strong>, « Voir le détail ». Le détail
+ouvre la fiche existante dans <code>PulseModal</code>.</li>
+<li><strong>Lieu permanent ≠ événement</strong> :<ul>
+<li>lieu : pastille ronde de la couleur de la famille, avec son glyphe ;</li>
+<li>événement : pastille en ticket, avec un fanion de date (« AUJ. 20 H », « SAM. ») ;</li>
+<li>expositions et autres offres longues : « jusqu&#39;au 15 nov. ».</li>
+</ul>
+</li>
+<li><strong>Plusieurs événements au même endroit</strong> : un repère unique avec un compteur.
+La fiche courte devient une mini-liste (« Théâtre de l&#39;Archipel · 4 dates »).
+Les événements situés seulement à la commune n&#39;ont <strong>pas de point exact</strong> :
+une bulle en pointillé, « 6 à Le Barcarès · lieu précis non communiqué ».</li>
+<li><strong>Regroupements</strong> : regroupement natif de MapLibre sur une source GeoJSON.
+Aucune dépendance nouvelle.</li>
+<li><strong>Monuments emblématiques</strong> : une dizaine d&#39;objets illustrés au lieu de la
+pastille, à partir du zoom 11. Ils sont choisis par la donnée (notoriété
+Wikidata), donc valables dans chaque territoire. Lot 2.</li>
+<li><strong>La liste</strong> : bouton « Liste · n ». Mêmes filtres, mêmes résultats que la
+zone visible, triés par distance ou par heure. Elle est aussi le repli si
+WebGL manque et l&#39;entrée accessible au lecteur d&#39;écran.</li>
+</ul>
+<h3>Les filtres</h3>
+<ul>
+<li><p><strong>Sept familles visibles</strong>, tirées du contenu réel : Patrimoine · Nature ·
+Mer &amp; baignade · Sport &amp; sensations · Culture &amp; spectacles · Loisirs ·
+Marchés &amp; fêtes.</p>
+</li>
+<li><p><strong>Les sous-catégories</strong> n&#39;apparaissent qu&#39;une fois la famille touchée, sur
+une seconde rangée. Exemples :</p>
+<ul>
+<li>Patrimoine : art roman, forts et châteaux, villages, musées ;</li>
+<li>Sport &amp; sensations : escalade, canyoning, via ferrata, parapente, équitation, neige ;</li>
+<li>Loisirs : jeux, parcs, bains chauds et bien-être, petits trains.</li>
+</ul>
+<p>Elles sont calculées par les familles et les thèmes existants
+(<code>familleDe</code>, <code>themes</code>, <code>genre</code>), sans nouvelle saisie.</p>
+</li>
+<li><p><strong>Équipements sportifs</strong> (pétanque, city-stades) : une sous-catégorie
+« Équipements » <strong>éteinte par défaut</strong> (D-557).</p>
+</li>
+<li><p><strong>Thème saisonnier</strong> : une puce en tête de rangée dès que la période contient
+au moins 5 événements d&#39;un « temps fort » (Halloween aujourd&#39;hui, Noël en
+décembre). Il s&#39;appuie sur la liste existante de <code>illustration.ts</code>. <strong>Aucune
+catégorie permanente.</strong></p>
+</li>
+<li><p><strong>Filtres transversaux</strong>, dans « Filtres » :</p>
+<ul>
+<li><strong>Période</strong> : Maintenant · Aujourd&#39;hui · Ce week-end · 7 jours · une date.</li>
+<li><strong>Avec enfants</strong> : ce que la source déclare, plus l&#39;inférence textuelle déjà utilisée par l&#39;Agenda, avec sa raison affichée (« Famille Plus », « jeune public »). <strong>Jamais un âge.</strong></li>
+<li><strong>Gratuit</strong> : déclaré gratuit seulement.</li>
+<li><strong>Petit budget</strong> : montant connu ≤ 10 €.</li>
+<li><strong>« Prix inconnu » ne compte jamais comme gratuit.</strong></li>
+</ul>
+</li>
+<li><p><strong>Statuts</strong> : on s&#39;appuie sur les fonctions existantes (<code>estEnCours</code>,
+<code>encoreDevant</code>, <code>eventStillJoinable</code>, <code>estUneOffreEnCours</code>) pour distinguer
+« en cours », « aujourd&#39;hui à 20 h 30 » et « terminé ». Un événement terminé
+quitte la carte. <strong>Un lieu aux horaires inconnus ne disparaît jamais</strong> : il
+porte « horaires non communiqués » sur sa fiche.</p>
+</li>
+</ul>
+<hr>
+<h2>4. La localisation et les destinations</h2>
+<h3>4.1 Les règles communes</h3>
+<ul>
+<li><strong>Une seule demande en vol</strong> à la fois : on corrige le double
+<code>getCurrentPosition</code>.</li>
+<li><strong>Position en deux temps</strong> :<ol>
+<li>une position récente en cache (<code>maximumAge</code> 5 min) centre tout de suite ;</li>
+<li>un affinage en haute précision suit, avec un délai de 10 s.</li>
+</ol>
+</li>
+<li><strong>Approximative au-delà de 1 000 m</strong> : cercle de précision et
+« Position approximative (± 3 km) ». Distances arrondies (« ~ 3 km »), ou
+masquées. <strong>Jamais « à 200 m ».</strong></li>
+<li><strong>Pendant la demande</strong>, la carte montre déjà la dernière vue, ou le
+territoire. <strong>Jamais une page vide.</strong></li>
+</ul>
+<h3>4.2 Selon l&#39;état de l&#39;autorisation</h3>
+<table>
+<thead>
+<tr>
+<th>État</th>
+<th>Comportement proposé</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>Jamais demandée, <strong>entrée volontaire</strong> (toucher de la capsule)</td>
+<td>Demande native <strong>immédiate</strong>, une fois.</td>
+</tr>
+<tr>
+<td>Jamais demandée, lien direct ou partagé</td>
+<td>On ne demande pas. Le bouton ◎ reste visible.</td>
+</tr>
+<tr>
+<td>Accordée</td>
+<td>Position silencieuse, point bleu et cercle de précision.</td>
+</tr>
+<tr>
+<td>Refusée par le navigateur</td>
+<td><strong>Aucune nouvelle demande.</strong> Le bouton ◎ reste. Au toucher, une feuille courte donne le chemin exact selon la plateforme (Safari iPhone, app installée, Chrome Android), puis le choix d&#39;une commune.</td>
+</tr>
+<tr>
+<td>Délai dépassé ou indisponible</td>
+<td>« Position introuvable pour l&#39;instant » et <strong>Réessayer</strong>. La carte reste où elle est.</td>
+</tr>
+<tr>
+<td>Hors du territoire</td>
+<td>Carte sur le territoire, avec « Tu es loin des Pyrénées-Orientales » et le choix d&#39;une destination.</td>
+</tr>
+</tbody></table>
+<h3>4.3 Destination et exploration</h3>
+<ul>
+<li><strong>Destination</strong> (« Les Angles ») :<ul>
+<li>capsule <code>Les Angles ✕</code> ;</li>
+<li><strong>gardée</strong> dans l&#39;URL <strong>et</strong> en <code>localStorage</code> : la PWA rouvre dessus ;</li>
+<li>on en sort en touchant ◎ « Ma position ».</li>
+</ul>
+</li>
+<li><strong>« Rechercher dans cette zone »</strong> :<ul>
+<li>les points de tout le territoire sont déjà chargés : déplacer la carte montre tout, tout de suite ;</li>
+<li>la liste et la carte du bas suivent la zone visible ;</li>
+<li>ce qui reste un geste explicite, c&#39;est <strong>changer de référence</strong> : après un déplacement net, la puce « Explorer ici » fait du centre la nouvelle origine des distances (« Autour de Prades »), mémorisée comme une destination.</li>
+</ul>
+</li>
+</ul>
+<hr>
+<h2>5. Performance — l&#39;architecture</h2>
+<ol>
+<li><p><strong>Un index de carte compact par territoire</strong>. C&#39;est une projection régénérée
+automatiquement, <strong>pas un second catalogue</strong> : personne ne l&#39;édite.</p>
+<ul>
+<li><strong>Contenu</strong> :<ul>
+<li>lieux candidats (hors restaurants et commerces) ;</li>
+<li>événements des 30 prochains jours ;</li>
+<li>identifiant, coordonnées, famille, sous-catégorie, nom, commune, clé de photo, état du prix, drapeau enfants, créneaux ou dates.</li>
+</ul>
+</li>
+<li><strong>Taille mesurée</strong> :<ul>
+<li>1 866 lieux : 200 Ko bruts (321 Ko avec horaires et tarifs) ;</li>
+<li>environ 950 événements en plus ;</li>
+<li><strong>environ 100 Ko compressés</strong> pour tout le département.</li>
+</ul>
+</li>
+<li><strong>Écriture</strong> : fichier public <code>media/autour/66/index-v1.json</code>, écrit par les crons existants (lieux à 04 h 40 UTC, agenda à 07 h 00 UTC), plus une régénération horaire pour Pulse Pro.</li>
+<li><strong>Lecture</strong> : directement depuis le CDN de Storage, <strong>sans passer par le Worker</strong>. Les autres territoires auront leur fichier.</li>
+</ul>
+</li>
+<li><p><strong><code>/autour</code> rend une coquille sans données côté serveur</strong>. La page est
+<code>noindex</code> : rien n&#39;oblige à servir son contenu dans le HTML. Le temps de
+réponse cesse de dépendre du catalogue froid.</p>
+</li>
+<li><p><strong>Dès le toucher de la capsule, trois chargements en parallèle</strong> : le moteur
+de carte et le style (préchargés), l&#39;index, la position. Plus de chaîne
+comme sur <code>/info-route</code>.</p>
+</li>
+<li><p><strong>Images</strong> :</p>
+<ul>
+<li>fiche courte : dérivé 400 w ;</li>
+<li>vignettes de liste : 160 w ;</li>
+<li>événements : <code>urlLargeur(…, 480)</code>.</li>
+</ul>
+<p>Rien ne charge les photos de points qu&#39;on n&#39;a pas touchés.</p>
+</li>
+<li><p><strong>Lot 3</strong> : mise en cache de l&#39;index par le service worker (lecture du cache
+puis revalidation en arrière-plan) pour une réouverture instantanée et une
+carte hors ligne. On ne touche pas aux navigations.</p>
+</li>
+</ol>
+<hr>
+<h2>6. Lot 1 proposé — « la carte d&#39;abord »</h2>
+<p><strong>Ce qu&#39;il contient</strong> :</p>
+<ul>
+<li>l&#39;index de carte et sa génération ;</li>
+<li><code>/autour</code> en coquille et la carte MapLibre au fond IGN, avec une variante de
+style propre à Autour de moi, plus vivante ;</li>
+<li>les regroupements, les repères lieu et événement, les groupes par lieu, les
+événements localisés à la commune ;</li>
+<li>la carte du bas avec glissement, la fiche courte, le détail par les fiches
+existantes ;</li>
+<li>la liste synchronisée ;</li>
+<li>les sept familles (glyphes vectoriels, ou illustrations si le budget est
+accordé), la période, Gratuit et Avec enfants ;</li>
+<li>la localisation complète du §4 et la destination persistante ;</li>
+<li>la puce « Explorer ici ».</li>
+</ul>
+<p><strong>Lot 2</strong> : sous-catégories, monuments illustrés, thème saisonnier, petit
+budget, finitions de direction artistique.</p>
+<p><strong>Lot 3</strong> : index hors ligne par le service worker, mise en page tablette et
+bureau, entrées « Voir sur la carte » depuis Découvrir et l&#39;Agenda.</p>
+<p><strong>Critères d&#39;acceptation du lot 1</strong>, écrits avant le code :</p>
+<ol>
+<li>Temps de réponse serveur de <code>/autour</code> sous 0,5 s sur 10 essais, quelle que soit l&#39;instance.</li>
+<li>Du toucher de la capsule aux repères affichés : moins de 1,5 s instance chaude, moins de 2,5 s à froid, profil 4G.</li>
+<li>Index de moins de 120 Ko compressés.</li>
+<li>Un seul <code>getCurrentPosition</code> par geste. Au plus une demande native par entrée volontaire. « Réessayer » toujours présent après un délai dépassé ou une position indisponible.</li>
+<li>Les six états de localisation éprouvés au banc. Le comportement de l&#39;app installée constaté sur un vrai iPhone.</li>
+<li>« Les Angles » toujours choisi après fermeture puis réouverture de la PWA.</li>
+<li>La liste compte exactement les points visibles filtrés.</li>
+<li>Aucun prix inconnu présenté comme gratuit. Aucun âge. Aucun horaire inventé. Les lieux aux horaires inconnus toujours présents. Tout cela gardé par des tests.</li>
+<li>2 800 points regroupés et déplacés sans saccade (Chromium, processeur ralenti ×4).</li>
+<li>Puis l&#39;iPhone du fondateur.</li>
+</ol>
+<hr>
+<h2>7. Arbitrages demandés au fondateur</h2>
+<ol>
+<li><strong>Budget Recraft</strong> pour les familles et sous-catégories illustrées
+(environ 25 objets) et les monuments (environ 10). Service payant :
+estimé à quelques euros. Sans accord, le lot 1 sort avec les glyphes
+vectoriels.</li>
+<li><strong>Restaurants et commerces hors d&#39;Autour de moi</strong>, réservés à la future
+couche « Bons plans &amp; services ». Recommandé.</li>
+<li><strong>Sept teintes de famille pour les repères.</strong> C&#39;est une extension de
+palette : elles seront présentées au contrôle visuel du lot 1. Les
+couleurs de service de « Sur la route » restent réservées.</li>
+</ol>
+</main></body></html>
