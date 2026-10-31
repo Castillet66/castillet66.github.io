@@ -1,0 +1,65 @@
+<!doctype html><html lang="fr"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1"><meta name="robots" content="noindex, nofollow">
+<title>Autour de moi — un écran de carte, sans flou (aperçu du 31/10/2026, soir)</title>
+<style>:root{color-scheme:dark}body{margin:0;background:#111;color:#f4f2ee;font:16px/1.55 -apple-system,system-ui,sans-serif}
+main{max-width:780px;margin:0 auto;padding:26px 18px 56px}h1{font-size:25px;margin:0 0 4px}h2{font-size:18px;margin:28px 0 6px}
+p,li{color:#c9c5be;font-size:15px}ul{padding-left:20px}a{color:#7fd8d0}.n{color:#8f8c86;font-size:13.5px}
+.g{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-top:10px}.g a{display:block;background:#1b1b1e;border-radius:14px;padding:8px;color:#ddd;text-decoration:none;font-size:13px}
+.g img{width:100%;border-radius:9px;display:block;margin-bottom:6px}.large{grid-column:1/-1}</style></head><body><main>
+<h1>Autour de moi — un écran de carte, sans flou</h1>
+<p class="n">Aperçu du 31 octobre 2026, au soir · branche <code>chantier/autour-de-moi-finitions</code> · rien n'est publié dans l'application.</p>
+<p><a href="https://doll-ballet-pets-defines.trycloudflare.com/autour"><b>Ouvrir Autour de moi en direct sur iPhone</b></a> — servi par le Mac tant qu'il reste allumé, lecture seule. · <a href="../">Tous les aperçus</a></p>
+
+<h2>Ce qui a changé depuis ton essai</h2>
+<ul>
+<li><b>La carte prend l'écran.</b> Au téléphone, le grand en-tête (logo, Perpignan, Autour de moi, Découvrir, Cinéma) n'est plus affiché sur cette page. La barre de navigation du bas reste : elle ramène à l'accueil. Les familles forment le seul bandeau du haut, sur un fond sombre plein, avec une séparation nette. Sur tablette et ordinateur, l'en-tête revient.</li>
+<li><b>Aucun flou.</b> Plus de bande floutée, de fondu ni de masque en dégradé. Les rangées coupent net au bord de l'écran. La barre du bas, les boutons des fiches et le fond de la fiche détaillée sont pleins. La règle est écrite dans la charte et un test automatique l'empêche de revenir.</li>
+<li><b>La flèche GPS est en haut à droite.</b> « Explorer cette zone » a disparu : les résultats se mettent à jour d'eux-mêmes un court instant après chaque déplacement ou zoom de la carte.</li>
+<li><b>En exploration, les filtres restent à portée.</b> Quand on déplace la carte, le bandeau se replie en une petite commande « Envies », en haut à gauche, qui le rouvre d'un toucher.</li>
+<li><b>Les regroupements disent qu'il y a des sorties.</b> Une pastille ambre sur un regroupement compte les événements qu'il contient : on voit qu'il se passe quelque chose sans zoomer.</li>
+<li><b>Les photos de la feuille sont plus grandes</b> : 80 px à mi-hauteur, 92 px quand elle est ouverte, un peu moins sur les petits écrans. Le titre, l'horaire, la distance et le prix ne sont plus coupés.</li>
+</ul>
+
+<h2>Autour d'Elne : ce qui manquait, et pourquoi</h2>
+<ul>
+<li><b>Les lieux étaient bien là.</b> L'index contient toutes les fiches publiées de Découvrir : cloître, cathédrale, musée Terrus, et les autres.</li>
+<li><b>La Maternité suisse d'Elne manquait parce qu'elle est fermée pour travaux</b> depuis janvier 2026, pour dix-huit mois au moins. Deux sources le disent ; Découvrir garde sa fiche « Fermé temporairement ». Elle apparaît maintenant sur la carte, avec « Fermé · pour travaux ». C'est aussi le cas de Notre-Dame-des-Anges à Collioure et de Saint-Jean-le-Vieux à Perpignan.</li>
+<li><b>« Dia de los muertos » était bien dans l'agenda</b> (Elne, samedi 31 octobre, de 16 h à 21 h, correfoc et feu d'artifice), mais il était caché deux fois. D'abord, il était replié dans une bulle « 2 événements · Elne », parce que la source ne le situe qu'à la commune. Ensuite, il venait après tous les lieux de la ville. Il n'était pas non plus reconnu comme Halloween. Désormais, la liste nomme chaque sortie. Ce qui a lieu maintenant passe devant. « Día de los muertos » est rangé dans Fêtes · Halloween. La distance n'est jamais donnée au mètre, puisque le lieu exact n'est pas connu.</li>
+<li><b>L'aperçu reçoit l'agenda complet de production</b> : 1 594 événements, mis à jour ce matin.</li>
+<li><b>Ces exemples sont verrouillés par des tests permanents</b> sur un extrait réel autour d'Elne, figé ce soir-là : les lieux, la Maternité dite fermée, l'événement trouvé, sa disparition une fois fini, et la présence de lieux et d'événements à 3, 5 et 10 km.</li>
+</ul>
+<p class="n">⚠ « Dia de los muertos » s'est terminé à 21 h : sur l'aperçu en direct, il n'apparaît plus. Les captures ci-dessous le montrent à 17 h 30, l'horloge du navigateur ayant été avancée.</p>
+
+<h2>Vérifications</h2>
+<ul>
+<li>Chromium et WebKit (le moteur de Safari) à 320 × 568, 360 × 640, 390 × 844 et 430 × 932, plus tablette et ordinateur. Aucune zone tactile sous 44 px, focus visible au clavier, animations coupées quand le téléphone demande moins d'animations. Aucun flou calculé par le navigateur sur la page ; seuls restent les liserés d'un pixel et la découpe d'une icône, qui sont des formes nettes.</li>
+<li>L'Agenda est inchangé dans sa structure. Il perd seulement, comme le veut la nouvelle règle, le fondu au bord de ses rangées et le halo derrière la famille choisie.</li>
+<li>La relecture qualité a refusé une première version pour cinq motifs. Ils sont tous corrigés : la liste suit désormais tout déplacement de la carte, le nombre de résultats est annoncé au lecteur d'écran, le contrôle anti-flou est renforcé, les pastilles comptent les événements, et un test vérifie qu'un lieu fermé n'est jamais dit ouvert. La version corrigée a été acceptée. Tous les tests du dépôt passent.</li>
+</ul>
+
+<h2>Limites</h2>
+<ul>
+<li><b>L'illustration « Fêtes » n'a pas pu être recréée</b> : le service d'illustration (Recraft) n'a plus de crédits. L'objet est décrit, prêt à être généré dès la recharge. En attendant, Fêtes garde son pictogramme provisoire.</li>
+<li>Ni VoiceOver ni les zones sûres réelles de l'iPhone n'ont pu être essayés sur l'appareil. Le retrait de la barre du bas pendant l'exploration reste à confirmer sous Safari.</li>
+<li>La règle « aucun flou » vaut pour toute l'application. Elle est appliquée à Autour de moi ; le reste du site est inventorié pour les prochains chantiers.</li>
+</ul>
+
+<h2>Captures</h2>
+<div class="g">
+<a class="large" href="planche-iphone.jpg"><img src="planche-iphone.jpg" alt="">Avant / après, puis les principaux écrans iPhone</a>
+<a href="captures/avant-version-essayee.png"><img src="captures/avant-version-essayee.png" alt="">Avant : la version que tu as essayée</a>
+<a href="captures/iphone-elne-arrivee.png"><img src="captures/iphone-elne-arrivee.png" alt="">Après : Elne, à l'arrivée (430 px)</a>
+<a href="captures/iphone-elne-feuille.png"><img src="captures/iphone-elne-feuille.png" alt="">La feuille, à mi-hauteur</a>
+<a href="captures/iphone-elne-liste.png"><img src="captures/iphone-elne-liste.png" alt="">La liste ouverte : la date, les filtres, Dia de los muertos nommé</a>
+<a href="captures/iphone-elne-dia-de-los-muertos.png"><img src="captures/iphone-elne-dia-de-los-muertos.png" alt="">Un repère touché, une fiche</a>
+<a href="captures/iphone-fiche-sans-flou.png"><img src="captures/iphone-fiche-sans-flou.png" alt="">La fiche détaillée, sans flou</a>
+<a href="captures/iphone-fetes-halloween.png"><img src="captures/iphone-fetes-halloween.png" alt="">Fêtes · Halloween</a>
+<a href="captures/iphone-exploration.png"><img src="captures/iphone-exploration.png" alt="">En exploration : la commande « Envies »</a>
+<a href="captures/iphone-localisation.png"><img src="captures/iphone-localisation.png" alt="">La flèche GPS : d'où regarder</a>
+<a href="captures/iphone-320x568.png"><img src="captures/iphone-320x568.png" alt="">320 × 568</a>
+<a href="captures/iphone-360x640.png"><img src="captures/iphone-360x640.png" alt="">360 × 640</a>
+<a href="captures/iphone-webkit-390.png"><img src="captures/iphone-webkit-390.png" alt="">390 px, moteur WebKit</a>
+<a class="large" href="captures/tablette.png"><img src="captures/tablette.png" alt="">Tablette</a>
+<a class="large" href="captures/bureau.png"><img src="captures/bureau.png" alt="">Ordinateur</a>
+</div>
+</main></body></html>

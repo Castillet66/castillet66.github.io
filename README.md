@@ -4,9 +4,30 @@ Dépôt réservé aux aperçus et aux captures de Pulse : rien ici n'est le code
 
 ## Aperçus en direct (servis par le Mac, lecture seule)
 
-- Autour de moi — la carte d'abord, recomposée (branche chantier/autour-de-moi-finitions) : https://doll-ballet-pets-defines.trycloudflare.com/autour
+- Autour de moi — un écran de carte, sans flou (branche chantier/autour-de-moi-finitions) : https://doll-ballet-pets-defines.trycloudflare.com/autour
 - Agenda — la carte et le programme (branche chantier/agenda-carte) : https://doll-ballet-pets-defines.trycloudflare.com/agenda
 - Recettes — comparer son panier (Courses → « Comparer mon panier ») : https://weighted-meanwhile-endless-delete.trycloudflare.com/recettes/courses
+
+## Autour de moi — un écran de carte, sans flou (31/10/2026)
+
+La carte prend l'écran (plus de grand en-tête au téléphone), aucun flou, flèche GPS en haut à droite, résultats qui suivent la carte ; données d'Elne vérifiées. Aperçu interactif sur iPhone.
+
+- Ce qui a changé, Elne, vérifications, limites : https://castillet66.github.io/autour-2026-10-31-ecran-carte/index.html
+- PNG — Avant / après et les principaux écrans iPhone : https://castillet66.github.io/autour-2026-10-31-ecran-carte/planche-iphone.jpg
+- PNG — Avant : la version essayée : https://castillet66.github.io/autour-2026-10-31-ecran-carte/captures/avant-version-essayee.png
+- PNG — Après : Elne, à l'arrivée : https://castillet66.github.io/autour-2026-10-31-ecran-carte/captures/iphone-elne-arrivee.png
+- PNG — La feuille, à mi-hauteur : https://castillet66.github.io/autour-2026-10-31-ecran-carte/captures/iphone-elne-feuille.png
+- PNG — La liste ouverte : https://castillet66.github.io/autour-2026-10-31-ecran-carte/captures/iphone-elne-liste.png
+- PNG — Un repère, sa fiche : https://castillet66.github.io/autour-2026-10-31-ecran-carte/captures/iphone-elne-dia-de-los-muertos.png
+- PNG — La fiche détaillée, sans flou : https://castillet66.github.io/autour-2026-10-31-ecran-carte/captures/iphone-fiche-sans-flou.png
+- PNG — Fêtes · Halloween : https://castillet66.github.io/autour-2026-10-31-ecran-carte/captures/iphone-fetes-halloween.png
+- PNG — En exploration : « Envies » : https://castillet66.github.io/autour-2026-10-31-ecran-carte/captures/iphone-exploration.png
+- PNG — La flèche GPS : https://castillet66.github.io/autour-2026-10-31-ecran-carte/captures/iphone-localisation.png
+- PNG — 320 × 568 : https://castillet66.github.io/autour-2026-10-31-ecran-carte/captures/iphone-320x568.png
+- PNG — 360 × 640 : https://castillet66.github.io/autour-2026-10-31-ecran-carte/captures/iphone-360x640.png
+- PNG — 390 px, WebKit : https://castillet66.github.io/autour-2026-10-31-ecran-carte/captures/iphone-webkit-390.png
+- PNG — Tablette : https://castillet66.github.io/autour-2026-10-31-ecran-carte/captures/tablette.png
+- PNG — Ordinateur : https://castillet66.github.io/autour-2026-10-31-ecran-carte/captures/bureau.png
 
 ## Recettes — comparer son panier, enseignes, crédits et sources (31/10/2026)
 

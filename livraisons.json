@@ -476,5 +476,79 @@
     "WebKit 430 px, le détail"
    ]
   ]
+ },
+ {
+  "dossier": "autour-2026-10-31-ecran-carte",
+  "date": "31/10/2026",
+  "titre": "Autour de moi — un écran de carte, sans flou",
+  "note": "La carte prend l'écran (plus de grand en-tête au téléphone), aucun flou, flèche GPS en haut à droite, résultats qui suivent la carte ; données d'Elne vérifiées. Aperçu interactif sur iPhone.",
+  "pages": [
+   [
+    "index.html",
+    "Ce qui a changé, Elne, vérifications, limites"
+   ]
+  ],
+  "captures": [
+   [
+    "planche-iphone.jpg",
+    "Avant / après et les principaux écrans iPhone"
+   ],
+   [
+    "captures/avant-version-essayee.png",
+    "Avant : la version essayée"
+   ],
+   [
+    "captures/iphone-elne-arrivee.png",
+    "Après : Elne, à l'arrivée"
+   ],
+   [
+    "captures/iphone-elne-feuille.png",
+    "La feuille, à mi-hauteur"
+   ],
+   [
+    "captures/iphone-elne-liste.png",
+    "La liste ouverte"
+   ],
+   [
+    "captures/iphone-elne-dia-de-los-muertos.png",
+    "Un repère, sa fiche"
+   ],
+   [
+    "captures/iphone-fiche-sans-flou.png",
+    "La fiche détaillée, sans flou"
+   ],
+   [
+    "captures/iphone-fetes-halloween.png",
+    "Fêtes · Halloween"
+   ],
+   [
+    "captures/iphone-exploration.png",
+    "En exploration : « Envies »"
+   ],
+   [
+    "captures/iphone-localisation.png",
+    "La flèche GPS"
+   ],
+   [
+    "captures/iphone-320x568.png",
+    "320 × 568"
+   ],
+   [
+    "captures/iphone-360x640.png",
+    "360 × 640"
+   ],
+   [
+    "captures/iphone-webkit-390.png",
+    "390 px, WebKit"
+   ],
+   [
+    "captures/tablette.png",
+    "Tablette"
+   ],
+   [
+    "captures/bureau.png",
+    "Ordinateur"
+   ]
+  ]
  }
 ]
