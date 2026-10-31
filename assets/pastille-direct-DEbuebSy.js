@@ -1,0 +1,1 @@
+import{j as t}from"./index-CAzRA0nL.js";function a({taille:r=5,className:e=""}){return t.jsx("span",{"aria-hidden":!0,className:`webcam-live-dot relative inline-block shrink-0 rounded-full ${e}`.trim(),style:{height:r,width:r,backgroundColor:"var(--live)","--pastille-flou":`${Math.max(1,Math.round(r*.4))}px`}})}export{a as P};

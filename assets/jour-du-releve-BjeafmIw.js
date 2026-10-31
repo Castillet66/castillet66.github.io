@@ -1,0 +1,1 @@
+function l(n,e){if(!n||n.length===0)return null;const t=u(e);return t?n.find(r=>u(r.date)===t)??null:null}function u(n){if(!n||n.length<10)return null;const e=n.slice(0,10);return/^\d{4}-\d{2}-\d{2}$/.test(e)?e:null}export{l as j};

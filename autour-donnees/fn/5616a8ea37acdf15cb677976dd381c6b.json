@@ -1,0 +1,1 @@
+{"statut": 200, "entetes": {"cache-control": "public, s-maxage=300, stale-while-revalidate=3600", "x-tss-serialized": "true", "content-type": "application/json"}, "corps": ""}
