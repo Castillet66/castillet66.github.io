@@ -2,6 +2,29 @@
    L'index des points est figé au moment de la capture, les fonctions serveur sont rejouées
    depuis des réponses enregistrées ; une réponse absente rend une erreur, comme un serveur
    injoignable. */
+/* L'HORLOGE DE L'APERÇU (D-1443) : l'heure de la capture, qui avance normalement. Sans elle,
+   la fiche courte (calculée avec l'heure du lecteur) et la fiche détaillée (calculée par le
+   serveur au moment de la capture) se contredisaient — « ouvre à 9 h 30 » d'un côté,
+   « ouvre demain à 9 h 30 » de l'autre. L'écran le dit : « Aperçu figé au … ». */
+(function () {
+  var D = Date, base = D.parse("2026-11-01T02:14:04Z");
+  if (!isFinite(base)) return;
+  var p0 = performance.now();
+  function maintenant() { return base + (performance.now() - p0); }
+  function DateFigee() {
+    if (!(this instanceof DateFigee)) return new D(maintenant()).toString();
+    if (arguments.length === 0) return new D(maintenant());
+    return new (Function.prototype.bind.apply(D, [null].concat([].slice.call(arguments))))();
+  }
+  DateFigee.prototype = D.prototype;
+  /* ⚠ ET LE CONSTRUCTEUR SUIT (relecture pulse-qa) : seroval teste `value.constructor` contre
+     `Date` — sans cela, une date envoyée à une fonction serveur ne serait plus reconnue */
+  D.prototype.constructor = DateFigee;
+  DateFigee.now = maintenant;
+  DateFigee.parse = D.parse;
+  DateFigee.UTC = D.UTC;
+  window.Date = DateFigee;
+})();
 (function () {
   var F = window.fetch.bind(window);
   var R = "/recettes-donnees/";

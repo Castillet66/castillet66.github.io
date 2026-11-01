@@ -1,0 +1,1 @@
+import{r as n}from"./index-Ci0UVHb7.js";function s(t=!0){const[r,e]=n.useState(null);return n.useEffect(()=>{if(!t)return;e(new Date);const a=window.setInterval(()=>e(new Date),6e4);return()=>window.clearInterval(a)},[t]),r}export{s as u};

@@ -11,6 +11,46 @@ Dépôt réservé aux aperçus et aux captures de Pulse : rien ici n'est le code
 - Recettes — le comparateur rempli, en démonstration (prix fictifs) : https://weighted-meanwhile-endless-delete.trycloudflare.com/recettes/comparer/demonstration?scenario=incomplet
 - Recettes — le comparateur en démonstration, version statique (prix fictifs, sans tunnel) : https://castillet66.github.io/recettes/comparer/demonstration/?scenario=incomplet
 
+## Recettes — photos terminées, fiches sans flou, parcours vérifié (01/11/2026)
+
+Avant/après du curry (remplacé) et du bar (recadré) dans leurs cadres réels ; fiches d'événement et de recette sans flou (avant en production, après sur l'aperçu) ; parcours recette → Ma semaine → Courses → placard → comparaison, états vide/chargement/échec, petit téléphone, paysage, tablette ; démonstrateur en paysage. Version 6b76ac309.
+
+- Le lot du 1er novembre : https://castillet66.github.io/recettes-2026-11-01/index.html
+- PNG — apres bar gingembre piment bureau : https://castillet66.github.io/recettes-2026-11-01/c/apres-bar-gingembre-piment-bureau.jpg
+- PNG — apres bar gingembre piment telephone : https://castillet66.github.io/recettes-2026-11-01/c/apres-bar-gingembre-piment-telephone.jpg
+- PNG — apres bar gingembre piment vignette : https://castillet66.github.io/recettes-2026-11-01/c/apres-bar-gingembre-piment-vignette.jpg
+- PNG — apres curry haricots rouges bureau : https://castillet66.github.io/recettes-2026-11-01/c/apres-curry-haricots-rouges-bureau.jpg
+- PNG — apres curry haricots rouges telephone : https://castillet66.github.io/recettes-2026-11-01/c/apres-curry-haricots-rouges-telephone.jpg
+- PNG — apres curry haricots rouges vignette : https://castillet66.github.io/recettes-2026-11-01/c/apres-curry-haricots-rouges-vignette.jpg
+- PNG — avant bar gingembre piment bureau : https://castillet66.github.io/recettes-2026-11-01/c/avant-bar-gingembre-piment-bureau.jpg
+- PNG — avant bar gingembre piment telephone : https://castillet66.github.io/recettes-2026-11-01/c/avant-bar-gingembre-piment-telephone.jpg
+- PNG — avant bar gingembre piment vignette : https://castillet66.github.io/recettes-2026-11-01/c/avant-bar-gingembre-piment-vignette.jpg
+- PNG — avant curry haricots rouges bureau : https://castillet66.github.io/recettes-2026-11-01/c/avant-curry-haricots-rouges-bureau.jpg
+- PNG — avant curry haricots rouges telephone : https://castillet66.github.io/recettes-2026-11-01/c/avant-curry-haricots-rouges-telephone.jpg
+- PNG — avant curry haricots rouges vignette : https://castillet66.github.io/recettes-2026-11-01/c/avant-curry-haricots-rouges-vignette.jpg
+- PNG — flou apres apercu evenement : https://castillet66.github.io/recettes-2026-11-01/c/flou-apres-apercu-evenement.jpg
+- PNG — flou apres apercu recette : https://castillet66.github.io/recettes-2026-11-01/c/flou-apres-apercu-recette.jpg
+- PNG — flou avant production evenement : https://castillet66.github.io/recettes-2026-11-01/c/flou-avant-production-evenement.jpg
+- PNG — flou avant production recette : https://castillet66.github.io/recettes-2026-11-01/c/flou-avant-production-recette.jpg
+- PNG — latkes yaourt pleine definition : https://castillet66.github.io/recettes-2026-11-01/c/latkes-yaourt-pleine-definition.jpg
+- PNG — parcours 01 fiche portions courses : https://castillet66.github.io/recettes-2026-11-01/c/parcours-01-fiche-portions-courses.jpg
+- PNG — parcours 02 ma semaine : https://castillet66.github.io/recettes-2026-11-01/c/parcours-02-ma-semaine.jpg
+- PNG — parcours 03 courses regroupees : https://castillet66.github.io/recettes-2026-11-01/c/parcours-03-courses-regroupees.jpg
+- PNG — parcours 04 comparer placard confirme : https://castillet66.github.io/recettes-2026-11-01/c/parcours-04-comparer-placard-confirme.jpg
+- PNG — parcours 05 comparer 320x568 : https://castillet66.github.io/recettes-2026-11-01/c/parcours-05-comparer-320x568.jpg
+- PNG — parcours 05 comparer 768x1024 : https://castillet66.github.io/recettes-2026-11-01/c/parcours-05-comparer-768x1024.jpg
+- PNG — parcours 05 comparer 844x390 : https://castillet66.github.io/recettes-2026-11-01/c/parcours-05-comparer-844x390.jpg
+- PNG — parcours 05 courses 320x568 : https://castillet66.github.io/recettes-2026-11-01/c/parcours-05-courses-320x568.jpg
+- PNG — parcours 05 courses 768x1024 : https://castillet66.github.io/recettes-2026-11-01/c/parcours-05-courses-768x1024.jpg
+- PNG — parcours 05 courses 844x390 : https://castillet66.github.io/recettes-2026-11-01/c/parcours-05-courses-844x390.jpg
+- PNG — parcours 06 demo paysage cartes : https://castillet66.github.io/recettes-2026-11-01/c/parcours-06-demo-paysage-cartes.jpg
+- PNG — parcours 07 demo paysage feuille : https://castillet66.github.io/recettes-2026-11-01/c/parcours-07-demo-paysage-feuille.jpg
+- PNG — parcours 08 demo paysage remplacement : https://castillet66.github.io/recettes-2026-11-01/c/parcours-08-demo-paysage-remplacement.jpg
+- PNG — parcours 09 demo bureau pied : https://castillet66.github.io/recettes-2026-11-01/c/parcours-09-demo-bureau-pied.jpg
+- PNG — parcours 10 etat chargement : https://castillet66.github.io/recettes-2026-11-01/c/parcours-10-etat-chargement.jpg
+- PNG — parcours 10 etat echec : https://castillet66.github.io/recettes-2026-11-01/c/parcours-10-etat-echec.jpg
+- PNG — parcours 10 etat vide : https://castillet66.github.io/recettes-2026-11-01/c/parcours-10-etat-vide.jpg
+
 ## Autour de moi — distances, clavier, chargement, aperçu cohérent (01/11/2026)
 
 « à moins de 50 m », clavier dans le toucher, premiers résultats 7,5 → 6,4 s (6,37–6,54 s), aperçu figé et cohérent avec 1 071 fiches, vidéos MP4. Version db5f44c24.

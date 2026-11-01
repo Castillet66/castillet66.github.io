@@ -936,5 +936,155 @@
     "WebKit — texte à 130 %"
    ]
   ]
+ },
+ {
+  "dossier": "recettes-2026-11-01",
+  "date": "01/11/2026",
+  "titre": "Recettes — photos terminées, fiches sans flou, parcours vérifié",
+  "note": "Avant/après du curry (remplacé) et du bar (recadré) dans leurs cadres réels ; fiches d'événement et de recette sans flou (avant en production, après sur l'aperçu) ; parcours recette → Ma semaine → Courses → placard → comparaison, états vide/chargement/échec, petit téléphone, paysage, tablette ; démonstrateur en paysage. Version 6b76ac309.",
+  "pages": [
+   [
+    "index.html",
+    "Le lot du 1er novembre"
+   ]
+  ],
+  "captures": [
+   [
+    "c/apres-bar-gingembre-piment-bureau.jpg",
+    "apres bar gingembre piment bureau"
+   ],
+   [
+    "c/apres-bar-gingembre-piment-telephone.jpg",
+    "apres bar gingembre piment telephone"
+   ],
+   [
+    "c/apres-bar-gingembre-piment-vignette.jpg",
+    "apres bar gingembre piment vignette"
+   ],
+   [
+    "c/apres-curry-haricots-rouges-bureau.jpg",
+    "apres curry haricots rouges bureau"
+   ],
+   [
+    "c/apres-curry-haricots-rouges-telephone.jpg",
+    "apres curry haricots rouges telephone"
+   ],
+   [
+    "c/apres-curry-haricots-rouges-vignette.jpg",
+    "apres curry haricots rouges vignette"
+   ],
+   [
+    "c/avant-bar-gingembre-piment-bureau.jpg",
+    "avant bar gingembre piment bureau"
+   ],
+   [
+    "c/avant-bar-gingembre-piment-telephone.jpg",
+    "avant bar gingembre piment telephone"
+   ],
+   [
+    "c/avant-bar-gingembre-piment-vignette.jpg",
+    "avant bar gingembre piment vignette"
+   ],
+   [
+    "c/avant-curry-haricots-rouges-bureau.jpg",
+    "avant curry haricots rouges bureau"
+   ],
+   [
+    "c/avant-curry-haricots-rouges-telephone.jpg",
+    "avant curry haricots rouges telephone"
+   ],
+   [
+    "c/avant-curry-haricots-rouges-vignette.jpg",
+    "avant curry haricots rouges vignette"
+   ],
+   [
+    "c/flou-apres-apercu-evenement.jpg",
+    "flou apres apercu evenement"
+   ],
+   [
+    "c/flou-apres-apercu-recette.jpg",
+    "flou apres apercu recette"
+   ],
+   [
+    "c/flou-avant-production-evenement.jpg",
+    "flou avant production evenement"
+   ],
+   [
+    "c/flou-avant-production-recette.jpg",
+    "flou avant production recette"
+   ],
+   [
+    "c/latkes-yaourt-pleine-definition.jpg",
+    "latkes yaourt pleine definition"
+   ],
+   [
+    "c/parcours-01-fiche-portions-courses.jpg",
+    "parcours 01 fiche portions courses"
+   ],
+   [
+    "c/parcours-02-ma-semaine.jpg",
+    "parcours 02 ma semaine"
+   ],
+   [
+    "c/parcours-03-courses-regroupees.jpg",
+    "parcours 03 courses regroupees"
+   ],
+   [
+    "c/parcours-04-comparer-placard-confirme.jpg",
+    "parcours 04 comparer placard confirme"
+   ],
+   [
+    "c/parcours-05-comparer-320x568.jpg",
+    "parcours 05 comparer 320x568"
+   ],
+   [
+    "c/parcours-05-comparer-768x1024.jpg",
+    "parcours 05 comparer 768x1024"
+   ],
+   [
+    "c/parcours-05-comparer-844x390.jpg",
+    "parcours 05 comparer 844x390"
+   ],
+   [
+    "c/parcours-05-courses-320x568.jpg",
+    "parcours 05 courses 320x568"
+   ],
+   [
+    "c/parcours-05-courses-768x1024.jpg",
+    "parcours 05 courses 768x1024"
+   ],
+   [
+    "c/parcours-05-courses-844x390.jpg",
+    "parcours 05 courses 844x390"
+   ],
+   [
+    "c/parcours-06-demo-paysage-cartes.jpg",
+    "parcours 06 demo paysage cartes"
+   ],
+   [
+    "c/parcours-07-demo-paysage-feuille.jpg",
+    "parcours 07 demo paysage feuille"
+   ],
+   [
+    "c/parcours-08-demo-paysage-remplacement.jpg",
+    "parcours 08 demo paysage remplacement"
+   ],
+   [
+    "c/parcours-09-demo-bureau-pied.jpg",
+    "parcours 09 demo bureau pied"
+   ],
+   [
+    "c/parcours-10-etat-chargement.jpg",
+    "parcours 10 etat chargement"
+   ],
+   [
+    "c/parcours-10-etat-echec.jpg",
+    "parcours 10 etat echec"
+   ],
+   [
+    "c/parcours-10-etat-vide.jpg",
+    "parcours 10 etat vide"
+   ]
+  ]
  }
 ]
