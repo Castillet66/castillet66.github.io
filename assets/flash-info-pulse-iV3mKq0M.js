@@ -1,0 +1,1 @@
+import{d5 as l,j as n}from"./index-BIzS-GJc.js";function o({iso:s,className:e,style:a}){const t=l(s);return n.jsx("span",{className:e,style:a,children:t??" "})}const f="/assets/flash-info-pulse-WYFq5V5R.webp";export{o as R,f};

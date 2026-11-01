@@ -1,0 +1,1 @@
+import{j as e}from"./index-BIzS-GJc.js";const o=({error:t})=>e.jsx("div",{className:"mx-auto max-w-3xl px-5 py-24 text-center",children:e.jsxs("p",{className:"text-sm text-muted-foreground",children:["Page USAP indisponible. ",t?.message??""]})});export{o as errorComponent};
