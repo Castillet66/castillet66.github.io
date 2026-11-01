@@ -1104,5 +1104,59 @@
     "Fiche d'événement, production"
    ]
   ]
+ },
+ {
+  "dossier": "autour-2026-11-01-d1444",
+  "date": "01/11/2026",
+  "titre": "Autour de moi — flou rectifié, recherche depuis l'aide, préchauffage qui attend la carte",
+  "note": "Fonds flous choisis rétablis (lumière de l'Agenda, fiche depuis la carte), recherche dans la feuille d'aide avec le focus au toucher, moteur de carte 10,4–11,9 → 8,8–9,8 s au téléphone ralenti. Aperçu interactif sur les mêmes données figées (02 h 01). Version 92ecfb21a.",
+  "pages": [
+   [
+    "index.html",
+    "Interactif, filmé, photographié ; changements, mesures, limites"
+   ],
+   [
+    "films/7-aide-recherche.mp4",
+    "Vidéo — Position refusée → l'aide → recherche dans la même feuille → Elne"
+   ]
+  ],
+  "captures": [
+   [
+    "films/7-aide-recherche.jpg",
+    "Planche de la vidéo"
+   ],
+   [
+    "captures/chromium-aide-recherche-focus.jpg",
+    "L'aide : recherche dans la même feuille, champ focalisé"
+   ],
+   [
+    "captures/chromium-aide-apres-choix.jpg",
+    "Elne choisie : distances depuis Elne"
+   ],
+   [
+    "captures/agenda-puce-avant.png",
+    "Agenda — avant : sans lumière"
+   ],
+   [
+    "captures/agenda-puce-apres.png",
+    "Agenda — après : la lumière rétablie"
+   ],
+   [
+    "captures/fiche-depuis-la-carte-avant.jpg",
+    "Fiche depuis la carte — avant"
+   ],
+   [
+    "captures/fiche-depuis-la-carte-apres.jpg",
+    "Fiche depuis la carte — après : fond flouté"
+   ],
+   [
+    "captures/pharmacies-fixture-moins-de-50-m.jpg",
+    "Pharmacies, données FICTIVES"
+   ],
+   [
+    "captures/pulse-intelligence-fixture-moins-de-50-m.jpg",
+    "Pulse Intelligence, données FICTIVES"
+   ]
+  ]
  }
 ]

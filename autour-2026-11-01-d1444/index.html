@@ -1,0 +1,47 @@
+<!doctype html><html lang="fr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="robots" content="noindex, nofollow">
+<title>Autour de moi — flou rectifié, recherche depuis l'aide, préchauffage qui attend la carte (D-1444)</title>
+<style>:root{color-scheme:dark}body{margin:0;background:#111;color:#f4f2ee;font:16px/1.55 -apple-system,system-ui,sans-serif}main{max-width:820px;margin:0 auto;padding:28px 18px 56px}
+h1{font-size:25px;margin:0 0 4px}h2{font-size:19px;margin:30px 0 6px}p,li{color:#cfccc6}a{color:#7fd8d0}code{color:#e6c88f}table{border-collapse:collapse;margin:8px 0}td,th{border-bottom:1px solid #2a2a2a;padding:5px 10px;text-align:left;font-size:14.5px}
+.cle{background:#1b1b1e;border-radius:14px;padding:12px 16px;margin:12px 0}.grille{display:grid;grid-template-columns:repeat(auto-fill,minmax(180px,1fr));gap:12px;margin-top:10px}.png{display:block;background:#1b1b1e;border-radius:12px;padding:8px;text-decoration:none;color:#ddd;font-size:13px}.png img{width:100%;height:200px;object-fit:contain;object-position:top;border-radius:8px;display:block;margin-bottom:6px;background:#0b0b0b}</style><body><main>
+<h1>Autour de moi — flou rectifié, recherche depuis l'aide, préchauffage qui attend la carte</h1>
+<p>1ᵉʳ novembre 2026 · branche <code>chantier/autour-de-moi-finitions</code> · commit <code>92ecfb21a</code> · décision D-1444. Rien n'est fusionné dans <code>main</code> ni publié en production.</p>
+<div class="cle"><b>Ce qui est interactif, filmé, photographié</b><ul>
+<li><b>Interactif</b> : <a href="https://castillet66.github.io/autour/">castillet66.github.io/autour/</a>. Instantané <b>statique</b> du commit <code>92ecfb21a</code>, aux données <b>réelles figées</b> le 1ᵉʳ novembre 2026 à 02 h 01, heure de Paris : ce sont les mêmes données que l'aperçu précédent, seul le code a changé. L'écran dit « Aperçu figé ». Le chemin de l'aide s'y essaie si le navigateur refuse la position ; sans WebGL, la liste remplace la carte.</li>
+<li><b>Filmé</b> : une nouvelle vidéo MP4, le chemin de l'aide, tournée dans Chromium émulé en 390 × 844 tactile, sur le build du commit, avec un refus réel de la position par le navigateur. Les données réelles de production ont été lues au moment du tournage, vers 05 h 09. Le disque blanc qui marque chaque toucher est ajouté pour le tournage. Les sept vidéos de la livraison précédente restent valables : <a href="../autour-2026-11-01-finitions/index.html">livraison D-1443</a>.</li>
+<li><b>Photographié</b> : les captures ci-dessous. Celles de Pharmacies et de Pulse Intelligence montrent des pharmacies <b>FICTIVES</b> (« Pharmacie d'essai A/B/C », à 12 m, 180 m et 1 450 m), servies au navigateur à la place de la vraie source, absente en local.</li></ul></div>
+<h2>Ce qui a changé</h2><ul>
+<li><b>La règle du flou, rectifiée</b>. Seules les lignes et bandes floues de raccord sont refusées : en-têtes, en-têtes de modales, fondus de bord. Les fonds flous choisis restent. Deux d'entre eux, retirés à tort le 31/10, sont rétablis : la lumière de la famille choisie dans l'Agenda, et le fond flouté de la fiche ouverte depuis la carte. La composition nette d'Autour ne change pas, et aucun nettoyage global n'a été fait.</li>
+<li><b>Recherche depuis l'aide « position désactivée »</b>. « Choisir une commune » ouvre la recherche dans la même feuille, et le champ a le focus dans le toucher même : c'est ce qu'exige Safari iOS pour ouvrir le clavier. « Retour à l'aide » ramène aux étapes. Une commune choisie fait partir les distances de là, et l'origine est gardée.</li>
+<li><b>Le préchauffage attend la carte</b>. Pendant qu'Autour charge sa carte, la barre basse ne télécharge plus le code de Météo et de l'Agenda. Elle le fait juste après.</li></ul>
+<h2>Mesures du préchauffage</h2><p>Téléphone ralenti (Chromium) : 390 × 844, 1,6 Mb/s, 150 ms de latence, processeur ×4, contexte neuf. Avant (<code>db5f44c24</code>) et après en alternance, trois essais chacun, puis trois essais sur le build final.</p>
+<table><tr><th>Mesure</th><th>Avant</th><th>Après</th><th>Build final</th></tr>
+<tr><td>Premiers résultats affichés</td><td>6,43–6,44 s (un essai à 7,68 s)</td><td>6,42–6,46 s</td><td>6,39–6,47 s (un essai à 7,04 s)</td></tr>
+<tr><td>Moteur de carte reçu</td><td>10,40–11,94 s</td><td>9,45–9,79 s</td><td>8,75–9,76 s</td></tr>
+<tr><td>Dernière tuile du fond de carte</td><td>15,51–16,84 s</td><td>14,81–15,28 s</td><td>14,10–14,61 s</td></tr>
+<tr><td>Code de Météo (32 morceaux, 72 Ko)</td><td>vers 6,4 → 8,6–9,9 s</td><td>vers 13 → 14,4–14,9 s</td><td>jusqu'à 13,8–14,3 s</td></tr></table>
+<p>Sous WebKit, non ralenti (<code>requestIdleCallback</code> n'y existe pas) : le code de Météo part à 0,53–0,60 s avant, à 1,05–1,12 s après, une fois la carte au repos. <b>Le prix</b> : toucher Météo avant que la carte soit prête charge son code au moment du toucher. L'ouverture prend alors 741 ms sous Chromium (177 ms sous WebKit), au lieu de 148 ms (163 ms) une fois le préchauffage passé. La navigation reste interne, avec une seule requête d'index par visite.</p>
+<h2>La vidéo</h2><ul><li><a href="films/7-aide-recherche.mp4">Position refusée → l'aide → la recherche dans la même feuille, focus au toucher → retour → Elne → « Distances depuis Elne »</a> · <a href="films/7-aide-recherche.jpg">planche légendée</a></li></ul>
+<h2>Captures</h2><div class="grille">
+<a class="png" href="captures/chromium-aide.jpg"><img src="captures/chromium-aide.jpg" alt="" loading="lazy">L'aide « Ta position est désactivée » (refus réel, Chromium)</a>
+<a class="png" href="captures/chromium-aide-recherche-focus.jpg"><img src="captures/chromium-aide-recherche-focus.jpg" alt="" loading="lazy">Un toucher : la recherche dans la même feuille, champ focalisé</a>
+<a class="png" href="captures/chromium-aide-recherche-elne.jpg"><img src="captures/chromium-aide-recherche-elne.jpg" alt="" loading="lazy">« Elne » : la commune, puis les lieux</a>
+<a class="png" href="captures/chromium-aide-apres-choix.jpg"><img src="captures/chromium-aide-apres-choix.jpg" alt="" loading="lazy">Elne choisie : 63 résultats, distances depuis Elne</a>
+<a class="png" href="captures/chromium-aide-rouverte.jpg"><img src="captures/chromium-aide-rouverte.jpg" alt="" loading="lazy">L'aide rouverte revient sur ses étapes</a>
+<a class="png" href="captures/webkit-aide-recherche-focus.jpg"><img src="captures/webkit-aide-recherche-focus.jpg" alt="" loading="lazy">WebKit (refus simulé) : champ focalisé dans le toucher</a>
+<a class="png" href="captures/webkit-aide-recherche-elne.jpg"><img src="captures/webkit-aide-recherche-elne.jpg" alt="" loading="lazy">WebKit : « Elne »</a>
+<a class="png" href="captures/agenda-puce-avant.png"><img src="captures/agenda-puce-avant.png" alt="" loading="lazy">Agenda, famille choisie — AVANT (db5f44c24) : sans lumière</a>
+<a class="png" href="captures/agenda-puce-apres.png"><img src="captures/agenda-puce-apres.png" alt="" loading="lazy">Agenda, famille choisie — APRÈS : la lumière rétablie</a>
+<a class="png" href="captures/fiche-depuis-la-carte-avant.jpg"><img src="captures/fiche-depuis-la-carte-avant.jpg" alt="" loading="lazy">Fiche ouverte depuis la carte — AVANT : fond plein</a>
+<a class="png" href="captures/fiche-depuis-la-carte-apres.jpg"><img src="captures/fiche-depuis-la-carte-apres.jpg" alt="" loading="lazy">Fiche ouverte depuis la carte — APRÈS : le fond flouté rétabli</a>
+<a class="png" href="captures/pharmacies-fixture-moins-de-50-m.jpg"><img src="captures/pharmacies-fixture-moins-de-50-m.jpg" alt="" loading="lazy">Pharmacies, données FICTIVES : « moins de 50 m », « ≈ 200 m », « ≈ 1,4 km »</a>
+<a class="png" href="captures/pulse-intelligence-fixture-moins-de-50-m.jpg"><img src="captures/pulse-intelligence-fixture-moins-de-50-m.jpg" alt="" loading="lazy">Pulse Intelligence, données FICTIVES, page de contrôle : « < 50 m » sur une ligne</a>
+</div>
+<h2>Autres décisions du lot</h2><ul>
+<li><b>Soirées dansantes (AU-15)</b> : 9 rendez-vous dansants en 30 jours, 11 au sens large, contre 39 fêtes, sur la couche de l'Agenda du 01/11. La moitié sont des thés dansants l'après-midi. Recommandation : ne pas ouvrir la sous-catégorie maintenant, recompter en juin–juillet. Ni sous-catégorie ni illustration n'ont été créées.</li>
+<li><b>Doublons traduits (AU-14)</b> : les exclusions locales sont gardées, sans aucune écriture en production. Une proposition future devra garder les anciennes adresses des fiches, par une redirection qui n'existe pas encore.</li></ul>
+<h2>Limites</h2><ul>
+<li>Aucun essai sur un vrai iPhone. L'ouverture du clavier n'est pas observée, seulement le focus dans le toucher sous Chromium et WebKit émulés. La porte du préchauffage n'est pas observée sur un appareil lent.</li>
+<li>Pharmacies et Pulse Intelligence : données fictives. Le tour complet de Pulse Intelligence passe par une étape serveur sans clé en local ; le domaine pharmacie et son rendu réels ont été montrés sur une page de contrôle temporaire, supprimée avant le commit.</li>
+<li>Mesures de chargement en émulation du débit et du processeur, pas sur un vrai réseau mobile.</li>
+<li>Sous Chromium, deux passages sur une quinzaine ont fait deux requêtes d'index à la seconde visite d'Autour, une fois avant ce lot et une fois après. La cause n'est pas établie ; c'est consigné (AU-19).</li></ul>
+</main></body></html>

@@ -11,6 +11,22 @@ Dépôt réservé aux aperçus et aux captures de Pulse : rien ici n'est le code
 - Recettes — le comparateur rempli, en démonstration (prix fictifs) : https://weighted-meanwhile-endless-delete.trycloudflare.com/recettes/comparer/demonstration?scenario=incomplet
 - Recettes — le comparateur en démonstration, version statique (prix fictifs, sans tunnel) : https://castillet66.github.io/recettes/comparer/demonstration/?scenario=incomplet
 
+## Autour de moi — flou rectifié, recherche depuis l'aide, préchauffage qui attend la carte (01/11/2026)
+
+Fonds flous choisis rétablis (lumière de l'Agenda, fiche depuis la carte), recherche dans la feuille d'aide avec le focus au toucher, moteur de carte 10,4–11,9 → 8,8–9,8 s au téléphone ralenti. Aperçu interactif sur les mêmes données figées (02 h 01). Version 92ecfb21a.
+
+- Interactif, filmé, photographié ; changements, mesures, limites : https://castillet66.github.io/autour-2026-11-01-d1444/index.html
+- Vidéo — Position refusée → l'aide → recherche dans la même feuille → Elne : https://castillet66.github.io/autour-2026-11-01-d1444/films/7-aide-recherche.mp4
+- PNG — Planche de la vidéo : https://castillet66.github.io/autour-2026-11-01-d1444/films/7-aide-recherche.jpg
+- PNG — L'aide : recherche dans la même feuille, champ focalisé : https://castillet66.github.io/autour-2026-11-01-d1444/captures/chromium-aide-recherche-focus.jpg
+- PNG — Elne choisie : distances depuis Elne : https://castillet66.github.io/autour-2026-11-01-d1444/captures/chromium-aide-apres-choix.jpg
+- PNG — Agenda — avant : sans lumière : https://castillet66.github.io/autour-2026-11-01-d1444/captures/agenda-puce-avant.png
+- PNG — Agenda — après : la lumière rétablie : https://castillet66.github.io/autour-2026-11-01-d1444/captures/agenda-puce-apres.png
+- PNG — Fiche depuis la carte — avant : https://castillet66.github.io/autour-2026-11-01-d1444/captures/fiche-depuis-la-carte-avant.jpg
+- PNG — Fiche depuis la carte — après : fond flouté : https://castillet66.github.io/autour-2026-11-01-d1444/captures/fiche-depuis-la-carte-apres.jpg
+- PNG — Pharmacies, données FICTIVES : https://castillet66.github.io/autour-2026-11-01-d1444/captures/pharmacies-fixture-moins-de-50-m.jpg
+- PNG — Pulse Intelligence, données FICTIVES : https://castillet66.github.io/autour-2026-11-01-d1444/captures/pulse-intelligence-fixture-moins-de-50-m.jpg
+
 ## Recettes — le fond flouté des fiches rétabli (01/11/2026)
 
 Rectification : le fond flouté derrière les images est voulu et rétabli à l'identique (fiche recette, fiche d'événement ; même effet que la production). Seules les bandes floues de raccord sont visées. Version a52418902.
