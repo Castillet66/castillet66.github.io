@@ -13,7 +13,7 @@ Dépôt réservé aux aperçus et aux captures de Pulse : rien ici n'est le code
 
 ## Autour de moi — distances, clavier, chargement, aperçu cohérent (01/11/2026)
 
-« à moins de 50 m », clavier dans le toucher, premiers résultats 7,5 → 6,4 s, aperçu figé et cohérent avec 1 071 fiches, vidéos MP4. Version db5f44c24.
+« à moins de 50 m », clavier dans le toucher, premiers résultats 7,5 → 6,4 s (6,37–6,54 s), aperçu figé et cohérent avec 1 071 fiches, vidéos MP4. Version db5f44c24.
 
 - Interactif, filmé, photographié ; changements, mesures, limites : https://castillet66.github.io/autour-2026-11-01-finitions/index.html
 - Vidéo — Familles, le cône Fêtes, une sous-catégorie, Culture et ses masques : https://castillet66.github.io/autour-2026-11-01-finitions/films/1-familles-et-fetes.mp4
