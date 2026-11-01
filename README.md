@@ -13,7 +13,7 @@ Dépôt réservé aux aperçus et aux captures de Pulse : rien ici n'est le code
 
 ## Autour de moi — flou rectifié, recherche depuis l'aide, préchauffage qui attend la carte (01/11/2026)
 
-Fonds flous choisis rétablis (lumière de l'Agenda, fiche depuis la carte), recherche dans la feuille d'aide avec le focus au toucher, moteur de carte 10,4–11,9 → 8,8–9,8 s au téléphone ralenti. Aperçu interactif sur les mêmes données figées (02 h 01). Version 92ecfb21a.
+Fonds flous choisis rétablis (lumière de l'Agenda, fiche depuis la carte), recherche dans la feuille d'aide avec le focus au toucher, moteur de carte 10,4–11,9 → 8,8–9,8 s au téléphone ralenti. Aperçu interactif sur les mêmes données figées (02 h 01). Version fc4198706 (corrige la feuille de recherche qui se refermait sous latence dans 92ecfb21a).
 
 - Interactif, filmé, photographié ; changements, mesures, limites : https://castillet66.github.io/autour-2026-11-01-d1444/index.html
 - Vidéo — Position refusée → l'aide → recherche dans la même feuille → Elne : https://castillet66.github.io/autour-2026-11-01-d1444/films/7-aide-recherche.mp4

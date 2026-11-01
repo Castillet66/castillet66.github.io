@@ -1,0 +1,1 @@
+import{m as i,s as n}from"./moment-ciel-493CYqC3.js";const o={filter:"none",transition:"filter 0.6s ease"},r={filter:"saturate(0.82) brightness(0.68)",transition:"filter 0.6s ease"},T=r;function E(s,e){if(e===null)return!1;const t=e.getTime();return i(n(s,t),t)==="nuit"}export{r as S,E as a,o as b,T as c};
