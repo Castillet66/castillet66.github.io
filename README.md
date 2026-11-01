@@ -11,6 +11,49 @@ Dépôt réservé aux aperçus et aux captures de Pulse : rien ici n'est le code
 - Recettes — le comparateur rempli, en démonstration (prix fictifs) : https://weighted-meanwhile-endless-delete.trycloudflare.com/recettes/comparer/demonstration?scenario=incomplet
 - Recettes — le comparateur en démonstration, version statique (prix fictifs, sans tunnel) : https://castillet66.github.io/recettes/comparer/demonstration/?scenario=incomplet
 
+## Autour de moi — distances, clavier, chargement, aperçu cohérent (01/11/2026)
+
+« à moins de 50 m », clavier dans le toucher, premiers résultats 7,5 → 6,4 s, aperçu figé et cohérent avec 1 071 fiches, vidéos MP4. Version db5f44c24.
+
+- Interactif, filmé, photographié ; changements, mesures, limites : https://castillet66.github.io/autour-2026-11-01-finitions/index.html
+- Vidéo — Familles, le cône Fêtes, une sous-catégorie, Culture et ses masques : https://castillet66.github.io/autour-2026-11-01-finitions/films/1-familles-et-fetes.mp4
+- Vidéo — Liste ouverte → fiche → fiche détaillée → retour : la liste revient au même endroit : https://castillet66.github.io/autour-2026-11-01-finitions/films/2-fiche-et-retour.mp4
+- Vidéo — La carte s'éloigne : « près de … · distances depuis ta position » : https://castillet66.github.io/autour-2026-11-01-finitions/films/3-deplacement-et-distances.mp4
+- Vidéo — Elne : la Cathédrale et le Cloître (4 m), chacun se touche au zoom maximal : https://castillet66.github.io/autour-2026-11-01-finitions/films/4-reperes-empiles.mp4
+- Vidéo — Argelès, cinéma et spectacle au même point : « 2 repères au même endroit » : https://castillet66.github.io/autour-2026-11-01-finitions/films/4b-meme-point.mp4
+- Vidéo — Peu de résultats : « Date et filtres » replié, puis déplié : https://castillet66.github.io/autour-2026-11-01-finitions/films/5-reglages-repliables.mp4
+- Vidéo — La recherche dans le toucher, puis « à moins de 50 m » depuis la cathédrale : https://castillet66.github.io/autour-2026-11-01-finitions/films/6-recherche-et-distances.mp4
+- PNG — Planche — Familles, le cône Fêtes, une sous-catégorie, Culture et ses masques : https://castillet66.github.io/autour-2026-11-01-finitions/films/1-familles-et-fetes.jpg
+- PNG — Planche — Liste ouverte → fiche → fiche détaillée → retour : la liste revient au même endroit : https://castillet66.github.io/autour-2026-11-01-finitions/films/2-fiche-et-retour.jpg
+- PNG — Planche — La carte s'éloigne : « près de … · distances depuis ta position » : https://castillet66.github.io/autour-2026-11-01-finitions/films/3-deplacement-et-distances.jpg
+- PNG — Planche — Elne : la Cathédrale et le Cloître (4 m), chacun se touche au zoom maximal : https://castillet66.github.io/autour-2026-11-01-finitions/films/4-reperes-empiles.jpg
+- PNG — Planche — Argelès, cinéma et spectacle au même point : « 2 repères au même endroit » : https://castillet66.github.io/autour-2026-11-01-finitions/films/4b-meme-point.jpg
+- PNG — Planche — Peu de résultats : « Date et filtres » replié, puis déplié : https://castillet66.github.io/autour-2026-11-01-finitions/films/5-reglages-repliables.jpg
+- PNG — Planche — La recherche dans le toucher, puis « à moins de 50 m » depuis la cathédrale : https://castillet66.github.io/autour-2026-11-01-finitions/films/6-recherche-et-distances.jpg
+- PNG — Chromium : la recherche, le champ focalisé dans le toucher : https://castillet66.github.io/autour-2026-11-01-finitions/captures/chromium-recherche-focus.png
+- PNG — WebKit : la même chose : https://castillet66.github.io/autour-2026-11-01-finitions/captures/webkit-recherche-focus.png
+- PNG — WebKit : « Elne » tapé, les propositions : https://castillet66.github.io/autour-2026-11-01-finitions/captures/webkit-recherche-elne.png
+- PNG — WebKit : « à moins de 50 m » depuis la cathédrale : https://castillet66.github.io/autour-2026-11-01-finitions/captures/webkit-distance-moins-de-50.png
+- PNG — Aperçu statique : la cathédrale, fiche détaillée cohérente avec la fiche courte : https://castillet66.github.io/autour-2026-11-01-finitions/captures/apercu-webkit-fiche.png
+- PNG — Aperçu sans WebGL : la liste reste utilisable : https://castillet66.github.io/autour-2026-11-01-finitions/captures/apercu-sans-webgl.png
+- PNG — Aperçu : une fiche non enregistrée, expliquée, avec retour à la carte : https://castillet66.github.io/autour-2026-11-01-finitions/captures/apercu-fiche-absente.png
+- PNG — Chromium — 320 × 568 : https://castillet66.github.io/autour-2026-11-01-finitions/captures/chromium-tel-petit.png
+- PNG — Chromium — 390 × 844 : https://castillet66.github.io/autour-2026-11-01-finitions/captures/chromium-tel-moyen.png
+- PNG — Chromium — téléphone couché 844 × 390 : https://castillet66.github.io/autour-2026-11-01-finitions/captures/chromium-tel-paysage.png
+- PNG — Chromium — tablette 744 × 1133 : https://castillet66.github.io/autour-2026-11-01-finitions/captures/chromium-tablette-compacte.png
+- PNG — Chromium — tablette 1366 × 1024 : https://castillet66.github.io/autour-2026-11-01-finitions/captures/chromium-tablette-large-paysage.png
+- PNG — Chromium — ordinateur 1440 × 900 : https://castillet66.github.io/autour-2026-11-01-finitions/captures/chromium-ordinateur.png
+- PNG — Chromium — app installée simulée, encoche : https://castillet66.github.io/autour-2026-11-01-finitions/captures/chromium-pwa-encoche.png
+- PNG — Chromium — texte à 130 % : https://castillet66.github.io/autour-2026-11-01-finitions/captures/chromium-zoom130.png
+- PNG — WebKit — 320 × 568 : https://castillet66.github.io/autour-2026-11-01-finitions/captures/webkit-tel-petit.png
+- PNG — WebKit — 390 × 844 : https://castillet66.github.io/autour-2026-11-01-finitions/captures/webkit-tel-moyen.png
+- PNG — WebKit — téléphone couché 844 × 390 : https://castillet66.github.io/autour-2026-11-01-finitions/captures/webkit-tel-paysage.png
+- PNG — WebKit — tablette 744 × 1133 : https://castillet66.github.io/autour-2026-11-01-finitions/captures/webkit-tablette-compacte.png
+- PNG — WebKit — tablette 1366 × 1024 : https://castillet66.github.io/autour-2026-11-01-finitions/captures/webkit-tablette-large-paysage.png
+- PNG — WebKit — ordinateur 1440 × 900 : https://castillet66.github.io/autour-2026-11-01-finitions/captures/webkit-ordinateur.png
+- PNG — WebKit — app installée simulée, encoche : https://castillet66.github.io/autour-2026-11-01-finitions/captures/webkit-pwa-encoche.png
+- PNG — WebKit — texte à 130 % : https://castillet66.github.io/autour-2026-11-01-finitions/captures/webkit-zoom130.png
+
 ## Autour de moi — Fêtes, situations iPhone, revue autonome (31/10/2026)
 
 Le cône Fêtes, les situations iPhone reproduites puis corrigées, un aperçu interactif statique, six vidéos. Version 242e271d5.

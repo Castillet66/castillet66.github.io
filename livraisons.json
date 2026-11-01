@@ -774,5 +774,167 @@
     "L'Agenda en hérite : une fête sans affiche, le cône (horloge au 28/11)"
    ]
   ]
+ },
+ {
+  "dossier": "autour-2026-11-01-finitions",
+  "date": "01/11/2026",
+  "titre": "Autour de moi — distances, clavier, chargement, aperçu cohérent",
+  "note": "« à moins de 50 m », clavier dans le toucher, premiers résultats 7,5 → 6,4 s, aperçu figé et cohérent avec 1 071 fiches, vidéos MP4. Version db5f44c24.",
+  "pages": [
+   [
+    "index.html",
+    "Interactif, filmé, photographié ; changements, mesures, limites"
+   ],
+   [
+    "films/1-familles-et-fetes.mp4",
+    "Vidéo — Familles, le cône Fêtes, une sous-catégorie, Culture et ses masques"
+   ],
+   [
+    "films/2-fiche-et-retour.mp4",
+    "Vidéo — Liste ouverte → fiche → fiche détaillée → retour : la liste revient au même endroit"
+   ],
+   [
+    "films/3-deplacement-et-distances.mp4",
+    "Vidéo — La carte s'éloigne : « près de … · distances depuis ta position »"
+   ],
+   [
+    "films/4-reperes-empiles.mp4",
+    "Vidéo — Elne : la Cathédrale et le Cloître (4 m), chacun se touche au zoom maximal"
+   ],
+   [
+    "films/4b-meme-point.mp4",
+    "Vidéo — Argelès, cinéma et spectacle au même point : « 2 repères au même endroit »"
+   ],
+   [
+    "films/5-reglages-repliables.mp4",
+    "Vidéo — Peu de résultats : « Date et filtres » replié, puis déplié"
+   ],
+   [
+    "films/6-recherche-et-distances.mp4",
+    "Vidéo — La recherche dans le toucher, puis « à moins de 50 m » depuis la cathédrale"
+   ]
+  ],
+  "captures": [
+   [
+    "films/1-familles-et-fetes.jpg",
+    "Planche — Familles, le cône Fêtes, une sous-catégorie, Culture et ses masques"
+   ],
+   [
+    "films/2-fiche-et-retour.jpg",
+    "Planche — Liste ouverte → fiche → fiche détaillée → retour : la liste revient au même endroit"
+   ],
+   [
+    "films/3-deplacement-et-distances.jpg",
+    "Planche — La carte s'éloigne : « près de … · distances depuis ta position »"
+   ],
+   [
+    "films/4-reperes-empiles.jpg",
+    "Planche — Elne : la Cathédrale et le Cloître (4 m), chacun se touche au zoom maximal"
+   ],
+   [
+    "films/4b-meme-point.jpg",
+    "Planche — Argelès, cinéma et spectacle au même point : « 2 repères au même endroit »"
+   ],
+   [
+    "films/5-reglages-repliables.jpg",
+    "Planche — Peu de résultats : « Date et filtres » replié, puis déplié"
+   ],
+   [
+    "films/6-recherche-et-distances.jpg",
+    "Planche — La recherche dans le toucher, puis « à moins de 50 m » depuis la cathédrale"
+   ],
+   [
+    "captures/chromium-recherche-focus.png",
+    "Chromium : la recherche, le champ focalisé dans le toucher"
+   ],
+   [
+    "captures/webkit-recherche-focus.png",
+    "WebKit : la même chose"
+   ],
+   [
+    "captures/webkit-recherche-elne.png",
+    "WebKit : « Elne » tapé, les propositions"
+   ],
+   [
+    "captures/webkit-distance-moins-de-50.png",
+    "WebKit : « à moins de 50 m » depuis la cathédrale"
+   ],
+   [
+    "captures/apercu-webkit-fiche.png",
+    "Aperçu statique : la cathédrale, fiche détaillée cohérente avec la fiche courte"
+   ],
+   [
+    "captures/apercu-sans-webgl.png",
+    "Aperçu sans WebGL : la liste reste utilisable"
+   ],
+   [
+    "captures/apercu-fiche-absente.png",
+    "Aperçu : une fiche non enregistrée, expliquée, avec retour à la carte"
+   ],
+   [
+    "captures/chromium-tel-petit.png",
+    "Chromium — 320 × 568"
+   ],
+   [
+    "captures/chromium-tel-moyen.png",
+    "Chromium — 390 × 844"
+   ],
+   [
+    "captures/chromium-tel-paysage.png",
+    "Chromium — téléphone couché 844 × 390"
+   ],
+   [
+    "captures/chromium-tablette-compacte.png",
+    "Chromium — tablette 744 × 1133"
+   ],
+   [
+    "captures/chromium-tablette-large-paysage.png",
+    "Chromium — tablette 1366 × 1024"
+   ],
+   [
+    "captures/chromium-ordinateur.png",
+    "Chromium — ordinateur 1440 × 900"
+   ],
+   [
+    "captures/chromium-pwa-encoche.png",
+    "Chromium — app installée simulée, encoche"
+   ],
+   [
+    "captures/chromium-zoom130.png",
+    "Chromium — texte à 130 %"
+   ],
+   [
+    "captures/webkit-tel-petit.png",
+    "WebKit — 320 × 568"
+   ],
+   [
+    "captures/webkit-tel-moyen.png",
+    "WebKit — 390 × 844"
+   ],
+   [
+    "captures/webkit-tel-paysage.png",
+    "WebKit — téléphone couché 844 × 390"
+   ],
+   [
+    "captures/webkit-tablette-compacte.png",
+    "WebKit — tablette 744 × 1133"
+   ],
+   [
+    "captures/webkit-tablette-large-paysage.png",
+    "WebKit — tablette 1366 × 1024"
+   ],
+   [
+    "captures/webkit-ordinateur.png",
+    "WebKit — ordinateur 1440 × 900"
+   ],
+   [
+    "captures/webkit-pwa-encoche.png",
+    "WebKit — app installée simulée, encoche"
+   ],
+   [
+    "captures/webkit-zoom130.png",
+    "WebKit — texte à 130 %"
+   ]
+  ]
  }
 ]

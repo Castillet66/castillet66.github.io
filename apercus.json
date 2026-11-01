@@ -2,12 +2,12 @@
  {
   "titre": "Autour de moi — aperçu interactif statique, sans le Mac (GitHub Pages)",
   "url": "https://castillet66.github.io/autour/",
-  "note": "Instantané du commit 242e271d5 : l'application elle-même, données figées au 31/10, 58 fiches enregistrées ; les autres répondent par une erreur. Pour une revue sans tunnel."
+  "note": "Instantané du commit db5f44c24, données figées le 1er novembre 2026 à 02 h 01, 1 071 fiches enregistrées ; une fiche absente est expliquée. Demande JavaScript ; sans WebGL, la liste remplace la carte."
  },
  {
   "titre": "Autour de moi — un écran de carte, sans flou (branche chantier/autour-de-moi-finitions)",
   "url": "https://doll-ballet-pets-defines.trycloudflare.com/autour",
-  "note": "Build du commit 242e271d5 (D-1442) ; lectures de production, aucune écriture. Fêtes, repères superposés, liste rendue au retour d'une fiche."
+  "note": "Build du commit db5f44c24 (D-1443) ; lectures de production, aucune écriture. Pour l'iPhone, inaccessible à ChatGPT."
  },
  {
   "titre": "Agenda — la carte et le programme (branche chantier/agenda-carte)",
