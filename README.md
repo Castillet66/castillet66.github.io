@@ -11,9 +11,20 @@ Dépôt réservé aux aperçus et aux captures de Pulse : rien ici n'est le code
 - Recettes — le comparateur rempli, en démonstration (prix fictifs) : https://weighted-meanwhile-endless-delete.trycloudflare.com/recettes/comparer/demonstration?scenario=incomplet
 - Recettes — le comparateur en démonstration, version statique (prix fictifs, sans tunnel) : https://castillet66.github.io/recettes/comparer/demonstration/?scenario=incomplet
 
+## Recettes — le fond flouté des fiches rétabli (01/11/2026)
+
+Rectification : le fond flouté derrière les images est voulu et rétabli à l'identique (fiche recette, fiche d'événement ; même effet que la production). Seules les bandes floues de raccord sont visées. Version a52418902.
+
+- La restauration : https://castillet66.github.io/recettes-2026-11-01-restauration/index.html
+- PNG — Fiche recette, fond flouté rétabli : https://castillet66.github.io/recettes-2026-11-01-restauration/c/recette-restauree-apercu.jpg
+- PNG — Fiche recette, production : https://castillet66.github.io/recettes-2026-11-01-restauration/c/recette-production.jpg
+- PNG — Le changement annulé (aplat) : https://castillet66.github.io/recettes-2026-11-01-restauration/c/recette-aplat-annule.jpg
+- PNG — Fiche d'événement, rétablie : https://castillet66.github.io/recettes-2026-11-01-restauration/c/evenement-restaure-apercu.jpg
+- PNG — Fiche d'événement, production : https://castillet66.github.io/recettes-2026-11-01-restauration/c/evenement-production.jpg
+
 ## Recettes — photos terminées, fiches sans flou, parcours vérifié (01/11/2026)
 
-Avant/après du curry (remplacé) et du bar (recadré) dans leurs cadres réels ; fiches d'événement et de recette sans flou (avant en production, après sur l'aperçu) ; parcours recette → Ma semaine → Courses → placard → comparaison, états vide/chargement/échec, petit téléphone, paysage, tablette ; démonstrateur en paysage. Version 6b76ac309.
+Avant/après du curry (photo réelle sous licence libre) et du bar (recadré) dans leurs cadres réels ; parcours recette → Ma semaine → Courses → placard → comparaison, états vide/chargement/échec, petit téléphone, paysage, tablette ; démonstrateur en paysage. La section des fiches est rectifiée : le fond flouté est rétabli (voir la restauration). Version 6b76ac309.
 
 - Le lot du 1er novembre : https://castillet66.github.io/recettes-2026-11-01/index.html
 - PNG — apres bar gingembre piment bureau : https://castillet66.github.io/recettes-2026-11-01/c/apres-bar-gingembre-piment-bureau.jpg
@@ -28,10 +39,6 @@ Avant/après du curry (remplacé) et du bar (recadré) dans leurs cadres réels 
 - PNG — avant curry haricots rouges bureau : https://castillet66.github.io/recettes-2026-11-01/c/avant-curry-haricots-rouges-bureau.jpg
 - PNG — avant curry haricots rouges telephone : https://castillet66.github.io/recettes-2026-11-01/c/avant-curry-haricots-rouges-telephone.jpg
 - PNG — avant curry haricots rouges vignette : https://castillet66.github.io/recettes-2026-11-01/c/avant-curry-haricots-rouges-vignette.jpg
-- PNG — flou apres apercu evenement : https://castillet66.github.io/recettes-2026-11-01/c/flou-apres-apercu-evenement.jpg
-- PNG — flou apres apercu recette : https://castillet66.github.io/recettes-2026-11-01/c/flou-apres-apercu-recette.jpg
-- PNG — flou avant production evenement : https://castillet66.github.io/recettes-2026-11-01/c/flou-avant-production-evenement.jpg
-- PNG — flou avant production recette : https://castillet66.github.io/recettes-2026-11-01/c/flou-avant-production-recette.jpg
 - PNG — latkes yaourt pleine definition : https://castillet66.github.io/recettes-2026-11-01/c/latkes-yaourt-pleine-definition.jpg
 - PNG — parcours 01 fiche portions courses : https://castillet66.github.io/recettes-2026-11-01/c/parcours-01-fiche-portions-courses.jpg
 - PNG — parcours 02 ma semaine : https://castillet66.github.io/recettes-2026-11-01/c/parcours-02-ma-semaine.jpg

@@ -941,7 +941,7 @@
   "dossier": "recettes-2026-11-01",
   "date": "01/11/2026",
   "titre": "Recettes — photos terminées, fiches sans flou, parcours vérifié",
-  "note": "Avant/après du curry (remplacé) et du bar (recadré) dans leurs cadres réels ; fiches d'événement et de recette sans flou (avant en production, après sur l'aperçu) ; parcours recette → Ma semaine → Courses → placard → comparaison, états vide/chargement/échec, petit téléphone, paysage, tablette ; démonstrateur en paysage. Version 6b76ac309.",
+  "note": "Avant/après du curry (photo réelle sous licence libre) et du bar (recadré) dans leurs cadres réels ; parcours recette → Ma semaine → Courses → placard → comparaison, états vide/chargement/échec, petit téléphone, paysage, tablette ; démonstrateur en paysage. La section des fiches est rectifiée : le fond flouté est rétabli (voir la restauration). Version 6b76ac309.",
   "pages": [
    [
     "index.html",
@@ -996,22 +996,6 @@
    [
     "c/avant-curry-haricots-rouges-vignette.jpg",
     "avant curry haricots rouges vignette"
-   ],
-   [
-    "c/flou-apres-apercu-evenement.jpg",
-    "flou apres apercu evenement"
-   ],
-   [
-    "c/flou-apres-apercu-recette.jpg",
-    "flou apres apercu recette"
-   ],
-   [
-    "c/flou-avant-production-evenement.jpg",
-    "flou avant production evenement"
-   ],
-   [
-    "c/flou-avant-production-recette.jpg",
-    "flou avant production recette"
    ],
    [
     "c/latkes-yaourt-pleine-definition.jpg",
@@ -1084,6 +1068,40 @@
    [
     "c/parcours-10-etat-vide.jpg",
     "parcours 10 etat vide"
+   ]
+  ]
+ },
+ {
+  "dossier": "recettes-2026-11-01-restauration",
+  "date": "01/11/2026",
+  "titre": "Recettes — le fond flouté des fiches rétabli",
+  "note": "Rectification : le fond flouté derrière les images est voulu et rétabli à l'identique (fiche recette, fiche d'événement ; même effet que la production). Seules les bandes floues de raccord sont visées. Version a52418902.",
+  "pages": [
+   [
+    "index.html",
+    "La restauration"
+   ]
+  ],
+  "captures": [
+   [
+    "c/recette-restauree-apercu.jpg",
+    "Fiche recette, fond flouté rétabli"
+   ],
+   [
+    "c/recette-production.jpg",
+    "Fiche recette, production"
+   ],
+   [
+    "c/recette-aplat-annule.jpg",
+    "Le changement annulé (aplat)"
+   ],
+   [
+    "c/evenement-restaure-apercu.jpg",
+    "Fiche d'événement, rétablie"
+   ],
+   [
+    "c/evenement-production.jpg",
+    "Fiche d'événement, production"
    ]
   ]
  }

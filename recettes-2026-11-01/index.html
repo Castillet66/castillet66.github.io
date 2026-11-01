@@ -7,7 +7,7 @@ p,li{color:#cfd0d4}a{color:#f4f6f8}.date{color:#8d8f96;font-size:14px}.alerte{bo
 .rang{display:flex;gap:12px;flex-wrap:wrap;align-items:flex-start}.rang figure{margin:0}.rang img{display:block;border-radius:10px;background:#1b1b1e}figcaption{font-size:13px;color:#8d8f96;margin-top:4px;max-width:420px}
 .av{border-left:3px solid #666;padding-left:10px}.ap{border-left:3px solid #fff;padding-left:10px}code{color:#9fa1a8;font-size:13px}
 </style></head><body><main><h1>Recettes — photos terminées, fiches sans flou, parcours vérifié</h1>
-<p class="date">1er novembre 2026 · version <code>6b76ac309</code> de la branche Recettes · statut : aperçu (rien sur <code>main</code>, rien en production) · captures WebKit (moteur de Safari), iPhone émulé — pas un iPhone réel.</p>
+<p class="date">1er novembre 2026 · version <code>6b76ac309</code> (fiches rétablies depuis, voir la restauration) de la branche Recettes · statut : aperçu (rien sur <code>main</code>, rien en production) · captures WebKit (moteur de Safari), iPhone émulé — pas un iPhone réel.</p>
 <p class="alerte"><strong>Nature des données.</strong> Les recettes, les photos et les fiches d'événement sont <strong>réelles</strong> (catalogue de la branche ; agenda lu en production). Les prix de l'écran « Comparer » sont <strong>réels</strong> : aucun prix actuel n'est relevé, l'écran le dit. Les magasins A, B, C et leurs prix du démonstrateur sont <strong>fictifs</strong>. Les captures « avant » des fiches viennent de la <strong>production</strong> d'aujourd'hui.</p>
 
 <h2>1. Les photos</h2>
@@ -25,14 +25,8 @@ p,li{color:#cfd0d4}a{color:#f4f6f8}.date{color:#8d8f96;font-size:14px}.alerte{bo
 <p>La crème et le fromage râpé sont facultatifs dans la recette : la description de la photo le dit désormais.</p>
 <p>Les sept autres photos sont inchangées : <a href="../recettes-2026-10-31-photos/">les onze dans leurs cadres, au 31/10</a>.</p>
 
-<h2>2. Les fiches, sans flou</h2>
-<p>Le fond flouté des fiches (événements, lieux, recettes) est remplacé par un aplat sombre : l'image finit sur un bord franc, la page se pose dessus, les textes restent lisibles.</p>
-<div class="rang">
-<figure><a href="c/flou-avant-production-evenement.jpg"><img src="c/flou-avant-production-evenement.jpg" width="230" alt="" loading="lazy"></a><figcaption>Avant — fiche d&#x27;événement, production (fond flouté)</figcaption></figure>
-<figure><a href="c/flou-apres-apercu-evenement.jpg"><img src="c/flou-apres-apercu-evenement.jpg" width="230" alt="" loading="lazy"></a><figcaption>Après — la même fiche, aperçu (aplat)</figcaption></figure>
-<figure><a href="c/flou-avant-production-recette.jpg"><img src="c/flou-avant-production-recette.jpg" width="230" alt="" loading="lazy"></a><figcaption>Avant — fiche recette, production (fond flouté)</figcaption></figure>
-<figure><a href="c/flou-apres-apercu-recette.jpg"><img src="c/flou-apres-apercu-recette.jpg" width="230" alt="" loading="lazy"></a><figcaption>Après — fiche recette, aperçu (aplat ; la recette du jour diffère)</figcaption></figure>
-</div>
+<h2>2. Les fiches — rectification</h2>
+<p class="alerte"><strong>Changement annulé.</strong> Une première version de ce lot avait remplacé le fond flouté des fiches par un aplat sombre, sur une mauvaise lecture de la consigne. Ce fond flouté derrière les images est voulu : il est <strong>rétabli à l'identique</strong>. Seules les lignes et bandes floues de raccord ou de transition étaient visées. Détail et captures : <a href="../recettes-2026-11-01-restauration/">la restauration</a>.</p>
 
 <h2>3. Le parcours, de la recette à la comparaison</h2>
 <div class="rang">
@@ -72,7 +66,7 @@ p,li{color:#cfd0d4}a{color:#f4f6f8}.date{color:#8d8f96;font-size:14px}.alerte{bo
 
 <h2>Les contrôles</h2>
 <ul>
-<li>Types, lint des fichiers touchés, build et suite complète de tests verts ; une garde automatique refuse désormais tout flou dans les fiches (vérifiée : le flou remis, elle échoue).</li>
+<li>Types, lint des fichiers touchés, build et suite complète de tests verts.</li>
 <li>Parcours rejoué dans WebKit et dans Chromium : aucun débordement à 320, en paysage ni sur tablette ; en paysage, rien ne recouvre les montants, la croix de la feuille ni les boutons de remplacement ; aucune erreur de page.</li>
 </ul>
 </main></body></html>

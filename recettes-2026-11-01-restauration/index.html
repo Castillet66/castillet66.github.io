@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="fr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="robots" content="noindex, nofollow">
+<title>Recettes — le fond flouté des fiches rétabli (01/11/2026)</title>
+<style>
+body{margin:0;background:#0f0f10;color:#e9e9ec;font:16px/1.55 -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif}
+main{max-width:1000px;margin:0 auto;padding:28px 20px 60px}h1{font-size:28px;line-height:1.15;margin:0 0 6px}h2{font-size:21px;margin:36px 0 8px}
+p,li{color:#cfd0d4}a{color:#f4f6f8}.date{color:#8d8f96;font-size:14px}.alerte{border-left:3px solid #e9e9ec;padding:2px 0 2px 14px}
+.rang{display:flex;gap:12px;flex-wrap:wrap;align-items:flex-start}.rang figure{margin:0}.rang img{display:block;border-radius:10px;background:#1b1b1e}figcaption{font-size:13px;color:#8d8f96;margin-top:4px;max-width:260px}code{color:#9fa1a8;font-size:13px}
+</style></head><body><main>
+<h1>Recettes — le fond flouté des fiches rétabli</h1>
+<p class="date">1er novembre 2026 · version <code>a52418902</code> de la branche Recettes · statut : aperçu (rien sur <code>main</code>, rien en production) · captures WebKit (moteur de Safari), iPhone émulé — pas un iPhone réel · données <strong>réelles</strong> (fiches de la branche, agenda lu en production).</p>
+<p class="alerte"><strong>Rectification.</strong> Une version précédente avait remplacé le fond flouté des fiches par un aplat sombre, sur une mauvaise lecture de la consigne (« aucun flou partout »). Ce fond est voulu : il est rétabli. Seules les lignes et bandes floues de raccord ou de transition sont visées.</p>
+
+<h2>Ce qui est rétabli, exactement</h2>
+<ul>
+<li>Le fond flouté des couleurs de l'image, derrière elle, dans la scène des fiches : fiche d'événement, fiche de lieu (même composant) et fiche recette de l'accueil.</li>
+<li>Le voile sombre posé sur ce flou (jamais sur l'image), qui en tempère la couleur.</li>
+<li>Les 14 px de flou visibles entre l'image et la page, et le flou dans les coins arrondis de la page — la « scène en relief ».</li>
+<li>Les raccords restent nets : l'image finit sur un bord franc, rien n'est posé à sa jonction.</li>
+<li>Les fichiers concernés sont revenus à l'identique de leur état d'avant le changement ; la règle générale est retirée des documents de la branche et de la mémoire de travail.</li>
+</ul>
+
+<h2>La fiche recette</h2>
+<div class="rang">
+<figure><a href="c/recette-restauree-apercu.jpg"><img src="c/recette-restauree-apercu.jpg" width="250" alt="" loading="lazy"></a><figcaption>Rétablie — aperçu : les couleurs de la photo, floutées, autour et sous l'image</figcaption></figure>
+<figure><a href="c/recette-production.jpg"><img src="c/recette-production.jpg" width="250" alt="" loading="lazy"></a><figcaption>Production (jamais modifiée) — le même effet (la recette du jour diffère)</figcaption></figure>
+<figure><a href="c/recette-aplat-annule.jpg"><img src="c/recette-aplat-annule.jpg" width="250" alt="" loading="lazy"></a><figcaption>Le changement annulé, pour mémoire : un aplat noir à la place du flou</figcaption></figure>
+</div>
+
+<h2>La fiche d'événement</h2>
+<div class="rang">
+<figure><a href="c/evenement-restaure-apercu.jpg"><img src="c/evenement-restaure-apercu.jpg" width="250" alt="" loading="lazy"></a><figcaption>Rétablie — aperçu</figcaption></figure>
+<figure><a href="c/evenement-production.jpg"><img src="c/evenement-production.jpg" width="250" alt="" loading="lazy"></a><figcaption>Production — identique</figcaption></figure>
+</div>
+
+<h2>Les contrôles</h2>
+<ul>
+<li>Dans le navigateur, sur l'aperçu : la fiche d'événement et la fiche recette portent de nouveau le même flou que la production (même filtre, mesuré).</li>
+<li>Tests de tous les composants qui emploient la scène (événement, lieu, détail de lieu, recette de l'accueil) : verts.</li>
+<li>Restent inchangés : le nouveau curry, le recadrage du bar, les corrections du comparateur, le paysage, l'absence d'invitation à installer sur le démonstrateur.</li>
+</ul>
+<p><a href="../recettes-2026-11-01/">Le lot du 1er novembre</a> · <a href="../recettes/comparer/demonstration/?scenario=incomplet">Le démonstrateur (prix fictifs)</a></p>
+</main></body></html>
