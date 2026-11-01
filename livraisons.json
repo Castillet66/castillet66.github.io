@@ -1158,5 +1158,55 @@
     "Pulse Intelligence, données FICTIVES"
    ]
   ]
+ },
+ {
+  "dossier": "vues-2026-11-01-finition",
+  "date": "01/11/2026",
+  "titre": "Autour, Agenda, Découvrir — sélection sobre, cône réutilisé, affiche filigranée écartée",
+  "note": "En production : déploiement 30ab104a-36c0-454b-aa4f-c4e360f16c01, main 27674fbf0 (D-1446). Captures de la production, données réelles, 01/11 entre 13 h 31 et 14 h 15 UTC ; « avant » = production 97ddfe84.",
+  "pages": [
+   [
+    "index.html",
+    "Ce qui a changé, captures de la production, limites"
+   ]
+  ],
+  "captures": [
+   [
+    "captures/avant-agenda-halo.png",
+    "Avant : halo derrière la famille choisie"
+   ],
+   [
+    "captures/apres-agenda-telephone-webkit.png",
+    "Après : pastille pleine, aucun halo, Halloween au cône"
+   ],
+   [
+    "captures/apres-agenda-focus-clavier.png",
+    "Après : focus clavier visible"
+   ],
+   [
+    "captures/apres-agenda-paysage.png",
+    "Après : paysage"
+   ],
+   [
+    "captures/apres-agenda-tablette-webkit.png",
+    "Après : tablette"
+   ],
+   [
+    "captures/apres-autour-telephone-webkit.png",
+    "Autour : la même grammaire"
+   ],
+   [
+    "captures/apres-fiche-rifle-illustration.jpg",
+    "Fiche du rifle : illustration de secours"
+   ],
+   [
+    "captures/apres-ligne-rifle-cone.png",
+    "Ligne du rifle : le cône"
+   ],
+   [
+    "captures/decouvrir-inchange.jpg",
+    "Découvrir : inchangé"
+   ]
+  ]
  }
 ]

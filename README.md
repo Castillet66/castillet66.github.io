@@ -11,6 +11,21 @@ Dépôt réservé aux aperçus et aux captures de Pulse : rien ici n'est le code
 - Recettes — le comparateur rempli, en démonstration (prix fictifs) : https://weighted-meanwhile-endless-delete.trycloudflare.com/recettes/comparer/demonstration?scenario=incomplet
 - Recettes — le comparateur en démonstration, version statique (prix fictifs, sans tunnel) : https://castillet66.github.io/recettes/comparer/demonstration/?scenario=incomplet
 
+## Autour, Agenda, Découvrir — sélection sobre, cône réutilisé, affiche filigranée écartée (01/11/2026)
+
+En production : déploiement 30ab104a-36c0-454b-aa4f-c4e360f16c01, main 27674fbf0 (D-1446). Captures de la production, données réelles, 01/11 entre 13 h 31 et 14 h 15 UTC ; « avant » = production 97ddfe84.
+
+- Ce qui a changé, captures de la production, limites : https://castillet66.github.io/vues-2026-11-01-finition/index.html
+- PNG — Avant : halo derrière la famille choisie : https://castillet66.github.io/vues-2026-11-01-finition/captures/avant-agenda-halo.png
+- PNG — Après : pastille pleine, aucun halo, Halloween au cône : https://castillet66.github.io/vues-2026-11-01-finition/captures/apres-agenda-telephone-webkit.png
+- PNG — Après : focus clavier visible : https://castillet66.github.io/vues-2026-11-01-finition/captures/apres-agenda-focus-clavier.png
+- PNG — Après : paysage : https://castillet66.github.io/vues-2026-11-01-finition/captures/apres-agenda-paysage.png
+- PNG — Après : tablette : https://castillet66.github.io/vues-2026-11-01-finition/captures/apres-agenda-tablette-webkit.png
+- PNG — Autour : la même grammaire : https://castillet66.github.io/vues-2026-11-01-finition/captures/apres-autour-telephone-webkit.png
+- PNG — Fiche du rifle : illustration de secours : https://castillet66.github.io/vues-2026-11-01-finition/captures/apres-fiche-rifle-illustration.jpg
+- PNG — Ligne du rifle : le cône : https://castillet66.github.io/vues-2026-11-01-finition/captures/apres-ligne-rifle-cone.png
+- PNG — Découvrir : inchangé : https://castillet66.github.io/vues-2026-11-01-finition/captures/decouvrir-inchange.jpg
+
 ## Autour de moi — flou rectifié, recherche depuis l'aide, préchauffage qui attend la carte (01/11/2026)
 
 Fonds flous choisis rétablis (lumière de l'Agenda, fiche depuis la carte), recherche dans la feuille d'aide avec le focus au toucher, moteur de carte 10,4–11,9 → 8,8–9,8 s au téléphone ralenti. Aperçu interactif sur les mêmes données figées (02 h 01). Version fc4198706 (corrige la feuille de recherche qui se refermait sous latence dans 92ecfb21a).
