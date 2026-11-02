@@ -1,0 +1,1 @@
+import{S as n,G as r,r as o}from"./index-BchrrO2c.js";import{A as c,a as i,i as l}from"./apercu.query-lP003697.js";function f(a){const u=a?.seulementSiChaud??!1,s=n().getQueryData(c),{data:t}=r({...i(),enabled:!u||s!==void 0}),e=t??s??null;return{index:o.useMemo(()=>l(e),[e]),pret:e!==null,maj:e?.maj??null}}export{f as u};

@@ -1408,5 +1408,59 @@
     "L'arrivée sans carte"
    ]
   ]
+ },
+ {
+  "dossier": "accueil-2026-11-02-lumiere-lot2",
+  "date": "02/11/2026",
+  "titre": "Accueil — la lumière suit la photo, lot 2",
+  "note": "Aperçu sur la branche chantier/accueil-lumiere, commit 22d88be02, rien en production. Page réelle figée : /accueil-lumiere/, données réelles du 02/11 à 15 h 05 (heure de Paris).",
+  "pages": [
+   [
+    "index.html",
+    "Ce qui change, liens, limites"
+   ]
+  ],
+  "captures": [
+   [
+    "captures/ambiance-bleu.png",
+    "Photo aux tons bleus : lumière bleue"
+   ],
+   [
+    "captures/ambiance-bleu-defile-40.png",
+    "Photo aux tons bleus : lumière bleue, 40 pt de défilement"
+   ],
+   [
+    "captures/ambiance-brun-rose.png",
+    "Photo aux tons chauds : lumière brun rosé"
+   ],
+   [
+    "captures/ambiance-brun-rose-defile-40.png",
+    "Photo aux tons chauds : lumière brun rosé, 40 pt de défilement"
+   ],
+   [
+    "captures/ambiance-emeraude.png",
+    "Photo aux tons verts : lumière émeraude"
+   ],
+   [
+    "captures/ambiance-petrole.png",
+    "Photo peu colorée : pétrole de repli"
+   ],
+   [
+    "captures/ambiance-photo-claire.png",
+    "Photo très claire : même luminosité de fond"
+   ],
+   [
+    "captures/bleu-390.png",
+    "390 pt, jusqu'à « Sortir aujourd'hui »"
+   ],
+   [
+    "captures/bleu-320.png",
+    "320 pt, jusqu'à « Sortir aujourd'hui »"
+   ],
+   [
+    "captures/navigateur-390.png",
+    "Mise en page navigateur émulée, 390 pt"
+   ]
+  ]
  }
 ]

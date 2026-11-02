@@ -4,13 +4,29 @@ Dépôt réservé aux aperçus et aux captures de Pulse : rien ici n'est le code
 
 ## Aperçus en direct (servis par le Mac, lecture seule)
 
-- Accueil — la lumière du hero, lot 1 (aperçu statique, installable sur iPhone) : https://castillet66.github.io/accueil-lumiere/
+- Accueil — la lumière suit la photo, lot 2 (aperçu statique, installable sur iPhone) : https://castillet66.github.io/accueil-lumiere/
 - Autour de moi — aperçu interactif statique, sans le Mac (GitHub Pages) : https://castillet66.github.io/autour/
 - Autour de moi — un écran de carte, sans flou (branche chantier/autour-de-moi-finitions) : https://doll-ballet-pets-defines.trycloudflare.com/autour
 - Agenda — la carte et le programme (branche chantier/agenda-carte) : https://doll-ballet-pets-defines.trycloudflare.com/agenda
 - Recettes — comparer son panier (Courses → « Comparer mon panier ») : https://weighted-meanwhile-endless-delete.trycloudflare.com/recettes/courses
 - Recettes — le comparateur rempli, en démonstration (prix fictifs) : https://weighted-meanwhile-endless-delete.trycloudflare.com/recettes/comparer/demonstration?scenario=incomplet
 - Recettes — le comparateur en démonstration, version statique (prix fictifs, sans tunnel) : https://castillet66.github.io/recettes/comparer/demonstration/?scenario=incomplet
+
+## Accueil — la lumière suit la photo, lot 2 (02/11/2026)
+
+Aperçu sur la branche chantier/accueil-lumiere, commit 22d88be02, rien en production. Page réelle figée : /accueil-lumiere/, données réelles du 02/11 à 15 h 05 (heure de Paris).
+
+- Ce qui change, liens, limites : https://castillet66.github.io/accueil-2026-11-02-lumiere-lot2/index.html
+- PNG — Photo aux tons bleus : lumière bleue : https://castillet66.github.io/accueil-2026-11-02-lumiere-lot2/captures/ambiance-bleu.png
+- PNG — Photo aux tons bleus : lumière bleue, 40 pt de défilement : https://castillet66.github.io/accueil-2026-11-02-lumiere-lot2/captures/ambiance-bleu-defile-40.png
+- PNG — Photo aux tons chauds : lumière brun rosé : https://castillet66.github.io/accueil-2026-11-02-lumiere-lot2/captures/ambiance-brun-rose.png
+- PNG — Photo aux tons chauds : lumière brun rosé, 40 pt de défilement : https://castillet66.github.io/accueil-2026-11-02-lumiere-lot2/captures/ambiance-brun-rose-defile-40.png
+- PNG — Photo aux tons verts : lumière émeraude : https://castillet66.github.io/accueil-2026-11-02-lumiere-lot2/captures/ambiance-emeraude.png
+- PNG — Photo peu colorée : pétrole de repli : https://castillet66.github.io/accueil-2026-11-02-lumiere-lot2/captures/ambiance-petrole.png
+- PNG — Photo très claire : même luminosité de fond : https://castillet66.github.io/accueil-2026-11-02-lumiere-lot2/captures/ambiance-photo-claire.png
+- PNG — 390 pt, jusqu'à « Sortir aujourd'hui » : https://castillet66.github.io/accueil-2026-11-02-lumiere-lot2/captures/bleu-390.png
+- PNG — 320 pt, jusqu'à « Sortir aujourd'hui » : https://castillet66.github.io/accueil-2026-11-02-lumiere-lot2/captures/bleu-320.png
+- PNG — Mise en page navigateur émulée, 390 pt : https://castillet66.github.io/accueil-2026-11-02-lumiere-lot2/captures/navigateur-390.png
 
 ## Autour de moi — classement, « Avec enfants », modèle économique : à arbitrer (prototype) (02/11/2026)
 
