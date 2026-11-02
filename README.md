@@ -11,6 +11,21 @@ Dépôt réservé aux aperçus et aux captures de Pulse : rien ici n'est le code
 - Recettes — le comparateur rempli, en démonstration (prix fictifs) : https://weighted-meanwhile-endless-delete.trycloudflare.com/recettes/comparer/demonstration?scenario=incomplet
 - Recettes — le comparateur en démonstration, version statique (prix fictifs, sans tunnel) : https://castillet66.github.io/recettes/comparer/demonstration/?scenario=incomplet
 
+## Autour de moi — les frictions du retour iPhone (prototype) (02/11/2026)
+
+PROTOTYPE, non publié dans l'application (D-1448) — branche chantier/autour-ux, 4f1847742. Prototype interactif : /autour/ (données réelles figées au 02/11 à 10 h 46, heure de Paris). Aucune donnée simulée.
+
+- Ce qui change, mesures avant / après, limites : https://castillet66.github.io/autour-2026-11-02-finitions-iphone/index.html
+- PNG — Le carrousel à 320 px, avant / après : https://castillet66.github.io/autour-2026-11-02-finitions-iphone/captures/carrousel-rangee-320.png
+- PNG — La fin du carrousel, avant / après : https://castillet66.github.io/autour-2026-11-02-finitions-iphone/captures/carrousel-fin-320.png
+- PNG — En exploration : le retour et « Revenir à … » : https://castillet66.github.io/autour-2026-11-02-finitions-iphone/captures/exploration-retour.png
+- PNG — La fiche courte, toute ouvrante : https://castillet66.github.io/autour-2026-11-02-finitions-iphone/captures/fiche-courte.png
+- PNG — L'ouverture d'une fiche à 0,6 s, avant / après : https://castillet66.github.io/autour-2026-11-02-finitions-iphone/captures/ouverture-fiche.png
+- PNG — Les amas et leur anneau : https://castillet66.github.io/autour-2026-11-02-finitions-iphone/captures/amas-anneau.png
+- PNG — Sans carte : Avec enfants à Saint-Cyprien : https://castillet66.github.io/autour-2026-11-02-finitions-iphone/captures/sans-carte-enfants-saint-cyprien.png
+- PNG — Tablette : le panneau au-dessus de la barre : https://castillet66.github.io/autour-2026-11-02-finitions-iphone/captures/tablette.png
+- PNG — Paysage : le panneau défilé : https://castillet66.github.io/autour-2026-11-02-finitions-iphone/captures/paysage.png
+
 ## Autour de moi — conception : où, quand, quelle envie (prototype) (01/11/2026)
 
 PROTOTYPE, non publié dans l'application (D-1447) — branche chantier/autour-ux, 994b1ca3b. Prototype interactif : /autour/ (données réelles figées au 01/11 à 20 h 40, heure de Paris). Aucune donnée simulée.

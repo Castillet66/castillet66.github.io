@@ -1270,5 +1270,55 @@
     "Tablette : défaut préexistant de la barre basse"
    ]
   ]
+ },
+ {
+  "dossier": "autour-2026-11-02-finitions-iphone",
+  "date": "02/11/2026",
+  "titre": "Autour de moi — les frictions du retour iPhone (prototype)",
+  "note": "PROTOTYPE, non publié dans l'application (D-1448) — branche chantier/autour-ux, 4f1847742. Prototype interactif : /autour/ (données réelles figées au 02/11 à 10 h 46, heure de Paris). Aucune donnée simulée.",
+  "pages": [
+   [
+    "index.html",
+    "Ce qui change, mesures avant / après, limites"
+   ]
+  ],
+  "captures": [
+   [
+    "captures/carrousel-rangee-320.png",
+    "Le carrousel à 320 px, avant / après"
+   ],
+   [
+    "captures/carrousel-fin-320.png",
+    "La fin du carrousel, avant / après"
+   ],
+   [
+    "captures/exploration-retour.png",
+    "En exploration : le retour et « Revenir à … »"
+   ],
+   [
+    "captures/fiche-courte.png",
+    "La fiche courte, toute ouvrante"
+   ],
+   [
+    "captures/ouverture-fiche.png",
+    "L'ouverture d'une fiche à 0,6 s, avant / après"
+   ],
+   [
+    "captures/amas-anneau.png",
+    "Les amas et leur anneau"
+   ],
+   [
+    "captures/sans-carte-enfants-saint-cyprien.png",
+    "Sans carte : Avec enfants à Saint-Cyprien"
+   ],
+   [
+    "captures/tablette.png",
+    "Tablette : le panneau au-dessus de la barre"
+   ],
+   [
+    "captures/paysage.png",
+    "Paysage : le panneau défilé"
+   ]
+  ]
  }
 ]

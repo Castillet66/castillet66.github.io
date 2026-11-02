@@ -1,0 +1,80 @@
+<!doctype html><html lang="fr"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1"><meta name="robots" content="noindex, nofollow">
+<title>Autour de moi — les frictions du retour iPhone (D-1448)</title>
+<style>:root{color-scheme:dark}body{margin:0;background:#111;color:#f4f2ee;font:16px/1.55 -apple-system,system-ui,sans-serif}
+main{max-width:860px;margin:0 auto;padding:26px 18px 64px}h1{font-size:25px;line-height:1.25;margin:0 0 8px}h2{font-size:19px;margin:30px 0 8px}
+p,li{color:#d2cec7;font-size:15px}ul{padding-left:22px}li{margin:4px 0}a{color:#7fd8d0}code{background:#232326;border-radius:5px;padding:1px 5px;font-size:13px}
+.t{overflow-x:auto}table{border-collapse:collapse;font-size:13.5px;margin:8px 0;min-width:540px}
+th,td{border-bottom:1px solid #2a2a2e;padding:7px 8px;text-align:left;vertical-align:top;color:#d2cec7}th{color:#f4f2ee;background:#1b1b1e}
+.essai{display:block;background:#173a37;border-radius:14px;padding:14px 16px;margin:14px 0 4px;color:#e9fffb;text-decoration:none;font-weight:600}
+.essai small{display:block;font-weight:400;color:#b5d9d4;margin-top:4px}.n{color:#8f8c86;font-size:13.5px}
+figure{margin:14px 0}figure img{width:100%;border-radius:12px;display:block}figcaption{font-size:13.5px;color:#a9a59e;margin-top:6px}</style></head><body><main>
+<p class="n">Livraison du 2 novembre 2026 · branche <code>chantier/autour-ux</code> · commit <code>4f1847742</code> · <strong>prototype, rien n'est publié dans l'application</strong> (production : déploiement <code>03ff50a0</code>, sans changement d'Autour).</p>
+<h1>Autour de moi — les frictions du retour iPhone (D-1448)</h1>
+<p>Le principe du dressing : beaucoup de choses, bien rangées, des tiroirs qu'on comprend avant de les ouvrir — et des repères qui ne bougent pas. Ce lot part du prototype D-1447 et lève les frictions que les captures de la production D-1446 montraient encore.</p>
+<a class="essai" href="/autour/">Essayer le prototype → castillet66.github.io/autour/
+<small>La vraie application construite depuis <code>4f1847742</code>. Données réelles de production, figées le lundi 2 novembre à 10 h 46 (heure de Paris) ; l'index est composé avec le code de la branche (la règle « avec enfants » corrigée y joue). Sans WebGL (navigateur de ChatGPT), la carte cède la place à la liste. Aucune donnée simulée.</small></a>
+
+<h2>1. Le carrousel des précisions</h2>
+<p>La flèche GPS couvrait la fin de la rangée : à 320 px, <strong>64 px sur 320</strong> (20 %) n'étaient pas au carrousel — un doigt qui commençait là touchait la flèche, et la rangée ne défilait pas (mesuré au doigt : 0 px de défilement en production, 372 px sur le prototype). La rangée prend maintenant toute la largeur ; ses capsules font 40 px de haut, 13,5 px de texte, et sa fin de défilement laisse la dernière entière. Vérifié capsule par capsule — 9 familles, 52 capsules, entièrement visibles, touchées en leur centre et sélectionnées, sous WebKit et Chromium, à 320 et 390 px : aucun défaut.</p>
+<figure><img src="captures/carrousel-rangee-320.png" alt="Avant / après de la rangée à 320 px"><figcaption>La rangée à 320 px : avant, la flèche couvre sa fin ; après, toute la largeur.</figcaption></figure>
+<figure><img src="captures/carrousel-fin-320.png" alt="Avant / après de la fin du carrousel"><figcaption>« Yoga et détente » en fin de défilement : avant, contre la flèche ; après, libre.</figcaption></figure>
+
+<h2>2. Un accès géographique, un retour visible</h2>
+<ul>
+<li><strong>« Où »</strong> est le seul accès au choix d'une commune ou de sa position ; un chevron dit qu'on y choisit. La flèche, qui ouvrait la même feuille, disparaît.</li>
+<li><strong>« Revenir à … »</strong> (« Revenir à Collioure », « Revenir à ma position ») n'apparaît que lorsque la carte s'est éloignée de l'endroit choisi, en bas à droite, avec la légende « ? ». Il recadre au rayon de l'arrivée.</li>
+<li><strong>Un « ‹ » Retour</strong>, en haut à gauche, au téléphone : l'écran de carte masquait l'en-tête et son retour. Il reste au même endroit en exploration. Sur tablette, c'est celui de l'en-tête (pas de doublon).</li>
+<li>La puce « Où » montre la commune seule (« Perpignan », « Collioure ») : les formes longues se coupaient de 320 à 430 px. Le défaut se lit dans « Sans distance », le périmètre dans « rayon de N km ».</li>
+</ul>
+<figure><img src="captures/exploration-retour.png" alt="Exploration avant / après"><figcaption>En exploration : avant, aucun retour ; après, « ‹ » et « Envies » en haut, « Revenir à Collioure » et « ? » en bas.</figcaption></figure>
+
+<h2>3. Sortir de la carte sans lutter contre ses gestes</h2>
+<p>Le glissement depuis le bord est un geste du système : WebKit le fait passer avant la page. Mais un geste parti tout près du bord, sans être un vrai glissement de bord, déplaçait la carte. Une bande de 20 px au bord gauche n'est plus à la carte (au doigt seulement). Aucune imitation du geste, aucun mode à deux doigts. Mesuré au doigt (Chromium, événements tactiles), le repère « Elne » servant de témoin :</p>
+<div class="t"><table><thead><tr><th>Geste</th><th>Production D-1446</th><th>Prototype</th></tr></thead><tbody>
+<tr><td>Déplacement au centre</td><td>la carte suit (120 px)</td><td>la carte suit (120 px)</td></tr>
+<tr><td>Glissement depuis le bord (6 px)</td><td><strong>la carte bouge de 194 px</strong></td><td><strong>0 px</strong> : rendu au système</td></tr>
+<tr><td>Contre-épreuve, à 30 px du bord</td><td>190 px</td><td>190 px (la bande reste étroite)</td></tr>
+<tr><td>Défilement des capsules</td><td>0 px (le doigt sur la flèche)</td><td>372 px, carte immobile</td></tr>
+<tr><td>Feuille tirée vers le haut</td><td>fermée → intermédiaire</td><td>fermée → intermédiaire, carte immobile</td></tr>
+</tbody></table></div>
+
+<h2>4. Toute la fiche courte ouvre la fiche</h2>
+<p>Le titre est désormais le bouton, et son calque couvre la photo, le titre et les informations : toucher n'importe où ouvre la fiche détaillée. La croix reste à part, au-dessus ; un tiré vers le bas referme sans rien ouvrir, un petit tiré qui revient n'ouvre rien. Au clavier, Tab arrive sur le titre et Entrée ouvre. L'invitation « Voir le lieu › » remplace le grand bouton. Vérifié sous WebKit et Chromium (photo, texte, croix, clavier) et par un test qui échoue si la garde du tiré est retirée.</p>
+<figure><img src="captures/fiche-courte.png" alt="La nouvelle fiche courte" style="max-width:390px"><figcaption>La fiche courte : la même présentation, une invitation plus légère.</figcaption></figure>
+
+<h2>5. L'ouverture de la fiche, mesurée</h2>
+<p>« Sand Spa » (Saint-Cyprien), téléphone ralenti (1,6 Mb/s, processeur ×4). La photo n'est pas lourde (32 Ko en 1 440 px) : c'étaient les données du serveur (0,4 à 3,2 s) qui la retenaient derrière elles. Désormais la fiche s'ouvre sur la photo de l'index quand ses proportions sont connues (une vignette déjà vue — rien n'est téléchargé pour cela), et les données du lieu choisi partent dès sa fiche courte — une fois, un seul lieu, jamais toute la zone.</p>
+<div class="t"><table><thead><tr><th>Mesure</th><th>Avant (production)</th><th>Après (prototype)</th></tr></thead><tbody>
+<tr><td>Feuille à l'écran</td><td>0,13 – 0,21 s</td><td>0,13 – 0,37 s</td></tr>
+<tr><td>Photo affichée</td><td><strong>2,3 – 3,3 s</strong></td><td><strong>0,6 – 0,76 s</strong></td></tr>
+<tr><td>Fiche complète, après 1,2 s sur la fiche courte</td><td>1,3 – 2,4 s</td><td>0,18 – 0,9 s</td></tr>
+<tr><td>Fiche complète, toucher immédiat</td><td>—</td><td>0,4 – 1,6 s (une fois 3,0 s : serveur froid)</td></tr>
+<tr><td>La photo bouge-t-elle à l'arrivée des données ?</td><td>—</td><td>non (3 px au plus, même fichier)</td></tr>
+</tbody></table></div>
+<figure><img src="captures/ouverture-fiche.png" alt="Ouverture avant / après à 0,6 s"><figcaption>0,6 s après le toucher : avant, un squelette ; après, la fiche entière.</figcaption></figure>
+
+<h2>6. Les amas disent leur composition</h2>
+<p>La feuille de l'amas (D-1447) reste le détail exact. En plus, chaque cercle chiffré porte un anneau mince aux couleurs de ses envies, chacune pour sa part : on voit avant de toucher si un groupe est surtout culturel ou balnéaire. Pas un repère de plus ; quelques dizaines d'images, une par composition arrondie. La légende « ? » l'explique.</p>
+<figure><img src="captures/amas-anneau.png" alt="Amas avant / après"><figcaption>Avant, combien ; après, combien et quoi.</figcaption></figure>
+
+<h2>7. Les défauts relevés sur le prototype</h2>
+<ul>
+<li><strong>« Avec enfants » et le casino.</strong> Cause trouvée dans la règle : la fiche du « Casino Joa de Saint-Cyprien » porte le label Famille Plus et « adapté aux familles » — propagés par la station labellisée —, tandis que sa propre description dit « 60 machines à sous, les jeux de tables et un bar ». Corrigé dans le mécanisme : ce qu'une fiche dit d'elle-même (jeux d'argent, « interdit aux moins de… », « réservé aux adultes ») l'emporte sur un label de partenariat ; jamais le seul mot « casino », qui nomme aussi deux cinémas. Sur les données actuelles, un seul lieu change (105 → 104). Vérifié dans l'index composé et dans l'aperçu : plus de casino sous « Avec enfants » à Elne, Saint-Cyprien et Argelès.</li>
+<li><strong>Sans carte.</strong> La barre basse reste ; la liste s'arrête sous les envies (« Avec enfants » se touche sans baisser la liste) ; « Rien de tel par ici » au lieu de « zone affichée » ; plus de « Voir sur la carte ».</li>
+<li><strong>Tablette et paysage.</strong> Le panneau s'arrête au-dessus de la barre basse : aucune ligne de liste dessous (avant : une ou deux). Couché, le panneau ouvert défile d'un bloc pour atteindre ses lignes.</li>
+</ul>
+<figure><img src="captures/sans-carte-enfants-saint-cyprien.png" alt="Sans carte, Avec enfants à Saint-Cyprien" style="max-width:390px"><figcaption>L'aperçu sans WebGL : « Avec enfants » à Saint-Cyprien, la barre basse présente, aucun casino.</figcaption></figure>
+<figure><img src="captures/tablette.png" alt="Tablette"><figcaption>Tablette 1024 × 1366 : le panneau s'arrête au-dessus de la barre.</figcaption></figure>
+<figure><img src="captures/paysage.png" alt="Paysage"><figcaption>Téléphone couché 844 × 390 : le panneau ouvert, défilé jusqu'aux lignes, au-dessus de la barre.</figcaption></figure>
+
+<h2>Limites</h2>
+<ul>
+<li>Aucun essai sur un vrai iPhone. Le glissement de bord natif d'iOS ne se reproduit pas au banc : sa priorité sur la page est lue dans WebKit (inférée) ; le banc prouve seulement que la carte ne prend plus un geste parti du bord.</li>
+<li>L'aperçu est figé un lundi à 10 h 46 ; la carte n'y paraît pas sans WebGL.</li>
+<li>En production, la correction « avec enfants » ne jouera qu'au premier passage du cron qui portera le nouveau code (la copie conservée dure jusqu'à 75 min).</li>
+<li>Couché, le panneau reste petit (≈ 175 px) : deux lignes à la fois.</li>
+<li>Les images de Supabase sont servies en <code>private, no-cache</code> : revalidées à chaque visite (relevé, hors de ce lot).</li>
+<li>L'objet « Avec enfants » reste provisoire.</li>
+</ul>
+</main></body></html>

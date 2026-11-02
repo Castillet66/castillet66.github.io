@@ -1,0 +1,1 @@
+import{h as s,j as e,C as a}from"./index-BmbF0NF4.js";import{L as t}from"./lecture-echouee-BpMspH9I.js";function i(){const r=s();return e.jsx(a,{children:e.jsx(t,{className:"mt-6",titre:"Les classements n’ont pas pu s’afficher",message:"La page n’a pas pu être chargée. Vérifie la connexion, puis réessaie.",onRelire:()=>{r.invalidate()}})})}export{i as errorComponent};
