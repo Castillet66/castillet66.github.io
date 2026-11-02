@@ -4,12 +4,28 @@ Dépôt réservé aux aperçus et aux captures de Pulse : rien ici n'est le code
 
 ## Aperçus en direct (servis par le Mac, lecture seule)
 
+- Accueil — la lumière du hero, lot 1 (aperçu statique, installable sur iPhone) : https://castillet66.github.io/accueil-lumiere/
 - Autour de moi — aperçu interactif statique, sans le Mac (GitHub Pages) : https://castillet66.github.io/autour/
 - Autour de moi — un écran de carte, sans flou (branche chantier/autour-de-moi-finitions) : https://doll-ballet-pets-defines.trycloudflare.com/autour
 - Agenda — la carte et le programme (branche chantier/agenda-carte) : https://doll-ballet-pets-defines.trycloudflare.com/agenda
 - Recettes — comparer son panier (Courses → « Comparer mon panier ») : https://weighted-meanwhile-endless-delete.trycloudflare.com/recettes/courses
 - Recettes — le comparateur rempli, en démonstration (prix fictifs) : https://weighted-meanwhile-endless-delete.trycloudflare.com/recettes/comparer/demonstration?scenario=incomplet
 - Recettes — le comparateur en démonstration, version statique (prix fictifs, sans tunnel) : https://castillet66.github.io/recettes/comparer/demonstration/?scenario=incomplet
+
+## Accueil — la lumière du hero, lot 1 (02/11/2026)
+
+Aperçu sur la branche chantier/accueil-lumiere, commit c18dc73f8, rien en production. Page réelle figée : /accueil-lumiere/, données réelles du 02/11 à 13 h 40 (heure de Paris).
+
+- Ce qui change, liens, limites : https://castillet66.github.io/accueil-2026-11-02-lumiere/index.html
+- PNG — App installée émulée, 440 pt, haut de page : https://castillet66.github.io/accueil-2026-11-02-lumiere/captures/app-440-haut.png
+- PNG — Le verre après 40 pt de défilement : https://castillet66.github.io/accueil-2026-11-02-lumiere/captures/app-440-defile-40.png
+- PNG — Le verre après 300 pt de défilement : https://castillet66.github.io/accueil-2026-11-02-lumiere/captures/app-440-defile-300.png
+- PNG — Photo claire sous l'en-tête, 40 pt : https://castillet66.github.io/accueil-2026-11-02-lumiere/captures/photo-claire-40.png
+- PNG — Photo claire sous l'en-tête, 300 pt : https://castillet66.github.io/accueil-2026-11-02-lumiere/captures/photo-claire-300.png
+- PNG — App installée émulée, 390 pt, jusqu'à « Sortir aujourd'hui » : https://castillet66.github.io/accueil-2026-11-02-lumiere/captures/app-390.png
+- PNG — App installée émulée, 320 pt, jusqu'à « Sortir aujourd'hui » : https://castillet66.github.io/accueil-2026-11-02-lumiere/captures/app-320.png
+- PNG — Mise en page navigateur émulée, 390 pt : https://castillet66.github.io/accueil-2026-11-02-lumiere/captures/navigateur-390.png
+- PNG — Les anneaux, avant et après : WebKit, haut de page, contraste étiré à 22 niveaux : https://castillet66.github.io/accueil-2026-11-02-lumiere/captures/anneaux-avant-apres.png
 
 ## Autour de moi — les frictions du retour iPhone (prototype) (02/11/2026)
 

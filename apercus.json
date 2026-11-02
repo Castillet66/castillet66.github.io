@@ -1,5 +1,10 @@
 [
  {
+  "titre": "Accueil — la lumière du hero, lot 1 (aperçu statique, installable sur iPhone)",
+  "url": "https://castillet66.github.io/accueil-lumiere/",
+  "note": "Branche chantier/accueil-lumiere, commit c18dc73f8. Données réelles figées le 2 novembre 2026 à 13 h 40 ; seul l'accueil est servi. ?lumiere=34 ou 42 pour comparer, ?photo=claire pour une photo claire."
+ },
+ {
   "titre": "Autour de moi — aperçu interactif statique, sans le Mac (GitHub Pages)",
   "url": "https://castillet66.github.io/autour/",
   "note": "Instantané du commit db5f44c24, données figées le 1er novembre 2026 à 02 h 01, 1 071 fiches enregistrées ; une fiche absente est expliquée. Demande JavaScript ; sans WebGL, la liste remplace la carte."
