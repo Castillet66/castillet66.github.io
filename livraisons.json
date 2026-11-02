@@ -1370,5 +1370,43 @@
     "Les anneaux, avant et après : WebKit, haut de page, contraste étiré à 22 niveaux"
    ]
   ]
+ },
+ {
+  "dossier": "autour-2026-11-02-classement",
+  "date": "02/11/2026",
+  "titre": "Autour de moi — classement, « Avec enfants », modèle économique : à arbitrer (prototype)",
+  "note": "PROPOSITION, rien n'est intégré (D-1449, D-1480) — branche chantier/autour-ux, a089edc5a. Prototype : /autour/ (données réelles figées au 02/11 à 14 h 49, heure de Paris). Le classement proposé n'y est pas. Aucune donnée simulée.",
+  "pages": [
+   [
+    "index.html",
+    "Corrections, audit, classement proposé, cas, modèle économique, décisions attendues"
+   ]
+  ],
+  "captures": [
+   [
+    "captures/al-trayou-avant-apres.png",
+    "Al Trayou, avant / après"
+   ],
+   [
+    "captures/amas-objets.png",
+    "Les groupes : anneau seul, puis objets"
+   ],
+   [
+    "captures/rangee-groupes.png",
+    "Une rangée de groupe"
+   ],
+   [
+    "captures/rail-ballons.png",
+    "« Avec enfants » : les deux ballons"
+   ],
+   [
+    "captures/recherche-sans-carte.png",
+    "La recherche sans carte"
+   ],
+   [
+    "captures/sans-carte-arrivee.png",
+    "L'arrivée sans carte"
+   ]
+  ]
  }
 ]

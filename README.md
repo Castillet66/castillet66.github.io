@@ -12,6 +12,18 @@ Dépôt réservé aux aperçus et aux captures de Pulse : rien ici n'est le code
 - Recettes — le comparateur rempli, en démonstration (prix fictifs) : https://weighted-meanwhile-endless-delete.trycloudflare.com/recettes/comparer/demonstration?scenario=incomplet
 - Recettes — le comparateur en démonstration, version statique (prix fictifs, sans tunnel) : https://castillet66.github.io/recettes/comparer/demonstration/?scenario=incomplet
 
+## Autour de moi — classement, « Avec enfants », modèle économique : à arbitrer (prototype) (02/11/2026)
+
+PROPOSITION, rien n'est intégré (D-1449, D-1480) — branche chantier/autour-ux, a089edc5a. Prototype : /autour/ (données réelles figées au 02/11 à 14 h 49, heure de Paris). Le classement proposé n'y est pas. Aucune donnée simulée.
+
+- Corrections, audit, classement proposé, cas, modèle économique, décisions attendues : https://castillet66.github.io/autour-2026-11-02-classement/index.html
+- PNG — Al Trayou, avant / après : https://castillet66.github.io/autour-2026-11-02-classement/captures/al-trayou-avant-apres.png
+- PNG — Les groupes : anneau seul, puis objets : https://castillet66.github.io/autour-2026-11-02-classement/captures/amas-objets.png
+- PNG — Une rangée de groupe : https://castillet66.github.io/autour-2026-11-02-classement/captures/rangee-groupes.png
+- PNG — « Avec enfants » : les deux ballons : https://castillet66.github.io/autour-2026-11-02-classement/captures/rail-ballons.png
+- PNG — La recherche sans carte : https://castillet66.github.io/autour-2026-11-02-classement/captures/recherche-sans-carte.png
+- PNG — L'arrivée sans carte : https://castillet66.github.io/autour-2026-11-02-classement/captures/sans-carte-arrivee.png
+
 ## Accueil — la lumière du hero, lot 1 (02/11/2026)
 
 Aperçu sur la branche chantier/accueil-lumiere, commit c18dc73f8, rien en production. Page réelle figée : /accueil-lumiere/, données réelles du 02/11 à 13 h 40 (heure de Paris).
