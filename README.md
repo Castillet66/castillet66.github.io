@@ -34,7 +34,7 @@ PROPOSITION, rien n'est intégré (D-1449, D-1480) — branche chantier/autour-u
 
 - Corrections, audit, classement proposé, cas, modèle économique, décisions attendues : https://castillet66.github.io/autour-2026-11-02-classement/index.html
 - PNG — Al Trayou, avant / après : https://castillet66.github.io/autour-2026-11-02-classement/captures/al-trayou-avant-apres.png
-- PNG — Les groupes : anneau seul, puis objets : https://castillet66.github.io/autour-2026-11-02-classement/captures/amas-objets.png
+- PNG — Les groupes et leurs objets, capture de la production (WebKit, 390 px) : https://castillet66.github.io/autour-2026-11-02-classement/captures/amas-objets.png
 - PNG — Une rangée de groupe : https://castillet66.github.io/autour-2026-11-02-classement/captures/rangee-groupes.png
 - PNG — « Avec enfants » : les deux ballons : https://castillet66.github.io/autour-2026-11-02-classement/captures/rail-ballons.png
 - PNG — La recherche sans carte : https://castillet66.github.io/autour-2026-11-02-classement/captures/recherche-sans-carte.png
