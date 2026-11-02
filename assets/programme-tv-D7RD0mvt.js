@@ -1,0 +1,1 @@
+import{h as a,j as e,U as s}from"./index-b0Jtm9ke.js";import{L as o}from"./lecture-echouee-Bp9JOQGC.js";function n(){const r=a();return e.jsx(s,{children:e.jsx(o,{className:"mt-6",titre:"Le programme TV n’a pas pu s’afficher",message:"La grille n’a pas pu être chargée. Vérifie la connexion, puis réessaie.",onRelire:()=>{r.invalidate()}})})}export{n as errorComponent};

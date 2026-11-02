@@ -12,6 +12,20 @@ Dépôt réservé aux aperçus et aux captures de Pulse : rien ici n'est le code
 - Recettes — le comparateur rempli, en démonstration (prix fictifs) : https://weighted-meanwhile-endless-delete.trycloudflare.com/recettes/comparer/demonstration?scenario=incomplet
 - Recettes — le comparateur en démonstration, version statique (prix fictifs, sans tunnel) : https://castillet66.github.io/recettes/comparer/demonstration/?scenario=incomplet
 
+## Autour de moi — premier lot et classement publiés (02/11/2026)
+
+EN PRODUCTION (D-1481, D-1482, D-1483) — déploiement 49361351, commit 2f5094dc0, vérifié sur perpignanpulse.com à 18 h 36 ; banc sur l'index réel du 02/11 ; essais de mises en avant non branchés.
+
+- Ce qui est publié, ce qu'on peut tester, limites : https://castillet66.github.io/autour-2026-11-02-publie/index.html
+- Le rapport du banc : chaque rang et ses contributions : https://castillet66.github.io/autour-2026-11-02-publie/banc.html
+- PNG — Production : La sélection, Perpignan : https://castillet66.github.io/autour-2026-11-02-publie/captures/selection.png
+- PNG — Production : Avec enfants, Argelès-sur-Mer : https://castillet66.github.io/autour-2026-11-02-publie/captures/avec-enfants.png
+- PNG — Production : les groupes, 390 px : https://castillet66.github.io/autour-2026-11-02-publie/captures/groupes.png
+- PNG — Production : les groupes, 320 px : https://castillet66.github.io/autour-2026-11-02-publie/captures/groupes-320.png
+- PNG — Essai non branché : signes sur la carte, 390 px : https://castillet66.github.io/autour-2026-11-02-publie/captures/signes-carte.png
+- PNG — Essai non branché : signes sur la carte, 320 px : https://castillet66.github.io/autour-2026-11-02-publie/captures/signes-carte-320.png
+- PNG — Essai non branché : « Sponsorisé » dans la liste : https://castillet66.github.io/autour-2026-11-02-publie/captures/sponsorise-liste.png
+
 ## Accueil — la lumière suit la photo, lot 2 (02/11/2026)
 
 Aperçu sur la branche chantier/accueil-lumiere, commit 22d88be02, rien en production. Page réelle figée : /accueil-lumiere/, données réelles du 02/11 à 15 h 05 (heure de Paris).

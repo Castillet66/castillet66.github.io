@@ -1462,5 +1462,51 @@
     "Mise en page navigateur émulée, 390 pt"
    ]
   ]
+ },
+ {
+  "dossier": "autour-2026-11-02-publie",
+  "date": "02/11/2026",
+  "titre": "Autour de moi — premier lot et classement publiés",
+  "note": "EN PRODUCTION (D-1481, D-1482, D-1483) — déploiement 49361351, commit 2f5094dc0, vérifié sur perpignanpulse.com à 18 h 36 ; banc sur l'index réel du 02/11 ; essais de mises en avant non branchés.",
+  "pages": [
+   [
+    "index.html",
+    "Ce qui est publié, ce qu'on peut tester, limites"
+   ],
+   [
+    "banc.html",
+    "Le rapport du banc : chaque rang et ses contributions"
+   ]
+  ],
+  "captures": [
+   [
+    "captures/selection.png",
+    "Production : La sélection, Perpignan"
+   ],
+   [
+    "captures/avec-enfants.png",
+    "Production : Avec enfants, Argelès-sur-Mer"
+   ],
+   [
+    "captures/groupes.png",
+    "Production : les groupes, 390 px"
+   ],
+   [
+    "captures/groupes-320.png",
+    "Production : les groupes, 320 px"
+   ],
+   [
+    "captures/signes-carte.png",
+    "Essai non branché : signes sur la carte, 390 px"
+   ],
+   [
+    "captures/signes-carte-320.png",
+    "Essai non branché : signes sur la carte, 320 px"
+   ],
+   [
+    "captures/sponsorise-liste.png",
+    "Essai non branché : « Sponsorisé » dans la liste"
+   ]
+  ]
  }
 ]

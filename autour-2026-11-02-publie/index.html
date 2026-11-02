@@ -1,0 +1,47 @@
+<!doctype html><html lang="fr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="robots" content="noindex, nofollow"><title>Autour de moi — premier lot et classement publiés</title><style>:root{color-scheme:dark}body{margin:0;background:#111;color:#f4f2ee;font:16px/1.55 -apple-system,system-ui,sans-serif}
+main{max-width:880px;margin:0 auto;padding:26px 18px 64px}h1{font-size:25px;line-height:1.25;margin:0 0 8px}h2{font-size:19px;margin:30px 0 8px}
+p,li{color:#d2cec7;font-size:15px}ul,ol{padding-left:22px}li{margin:4px 0}a{color:#7fd8d0}code{background:#222;padding:1px 5px;border-radius:5px;font-size:13px}
+.g{display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:14px}.g a{display:block;color:#d2cec7;text-decoration:none;font-size:13px}.g img{width:100%;border-radius:10px;display:block;margin-bottom:6px}
+table{border-collapse:collapse;width:100%;font-size:12.5px}td,th{border-bottom:1px solid #2c2c2c;padding:4px 6px;text-align:left;color:#d2cec7}th{color:#f4f2ee}</style></head><body><main><h1>Autour de moi — premier lot et classement publiés</h1>
+<p><strong>En production sur perpignanpulse.com.</strong> Déploiement <code>49361351</code>, commit <code>2f5094dc0</code>. Données réelles et vivantes. Vérifié sur la vraie production le 2 novembre 2026 à 18 h 36 (heure de Paris), dans WebKit et Chromium, avec l'index du cron de 18 h 13. Aucun essai sur vrai iPhone.</p>
+
+<h2>À tester sur la production</h2>
+<ul>
+<li><a href="https://perpignanpulse.com/autour?lieu=perpignan">Perpignan</a> : « La sélection », le prix sur chaque ligne, puis les groupes sur la carte. Toucher un objet ouvre le même groupe que son cercle, et le nombre est celui de la feuille.</li>
+<li><a href="https://perpignanpulse.com/autour?lieu=argeles-sur-mer">Argelès-sur-Mer</a> puis « Avec enfants » : « Pensé pour eux » s'il y en a dans la zone affichée, « Accueil familial signalé », puis « Fermé sur cette période ».</li>
+<li><a href="https://perpignanpulse.com/autour?lieu=saint-cyprien">Saint-Cyprien</a> puis « Avec enfants » : les deux niveaux, sans casino.</li>
+<li>Sans carte : <a href="https://castillet66.github.io/autour/">l'aperçu statique</a>, le même code (<code>2f5094dc0</code>), données réelles figées au 2 novembre à 17 h 36 (heure de Paris).</li>
+</ul>
+
+<h2>Ce qui change pour l'utilisateur</h2>
+<ul>
+<li><strong>Des sorties accessibles d'abord.</strong> À adéquation comparable, le gratuit ou l'abordable passe devant le coûteux. Les offres chères restent listées, avec leur prix.</li>
+<li><strong>Ce qui est fermé sur la période</strong> n'entre jamais dans « La sélection » et se regroupe en bas, sous son titre.</li>
+<li><strong>Un lieu qui ferme dans l'heure</strong> ne se propose plus en tête, ni une séance commencée depuis plus de 3 h sans fin connue. Les deux restent listés.</li>
+<li><strong>« Avec enfants »</strong> sépare ce qui est pensé pour eux de l'accueil familial signalé. Don du sang, photographe Conte, jeux d'argent, grilles de tarifs ne comptent plus comme preuves.</li>
+<li><strong>Les groupes</strong> : l'objet s'ouvre au toucher, le nombre est celui de la feuille, le repère de destination ne le recouvre plus.</li>
+</ul>
+
+<h2>Le banc : ce que disent les mesures</h2>
+<p><a href="banc.html">Le rapport complet</a> donne chaque rang et ses contributions, sur l'index réel du 2 novembre, 11 zones, 4 moments, 4 périodes. Aucune assertion ne garantit la place d'un établissement.</p>
+<ul>
+<li>Sur 1 320 places de sélection, le gratuit et ce qui coûte 15 € au plus prennent 63 % des places, pour 14 % de l'offre disponible. Plus de 40 € : 4 %.</li>
+<li>Le tarif est inconnu pour 62 % de l'offre, et ces fiches prennent 19 % des places. C'est un manque de données : aucune plage, aucun sentier, aucun site naturel n'a de gratuité confirmée par une source. Recherche faite aussi dans OpenStreetMap : 0 étiquette <code>fee</code> sur 89 plages, 112 randonnées et 17 réserves.</li>
+<li>Aucune sous-catégorie ne dépasse 9 % des sélections. Patrimoine 18 %, marchés 15 %.</li>
+<li>Sans aucune image dans l'index, les sélections restent les mêmes à 94 % en moyenne.</li>
+</ul>
+
+<h2>Les mises en avant : préparées, pas ouvertes</h2>
+<p>La conception commune est écrite : le classement naturel facilite les choix, une mise en avant propose une visibilité supplémentaire identifiable. Le contrat existe dans le code, sans être branché. Les captures ci-dessous sont des essais injectés dans un banc, rien de cela n'est en ligne. <strong>Contour crème retenu pour la suite.</strong> L'étoile est écartée : elle recouvre les noms voisins et se lit comme une note.</p>
+
+<h2>Captures</h2>
+<div class="g"><a href="captures/selection.png"><img src="captures/selection.png" alt="Production : « La sélection » à Perpignan, avec des prix accessibles en tête (WebKit, 390 px)" loading="lazy"><span>Production : « La sélection » à Perpignan, avec des prix accessibles en tête (WebKit, 390 px)</span></a><a href="captures/avec-enfants.png"><img src="captures/avec-enfants.png" alt="Production : « Avec enfants » à Argelès-sur-Mer, puis « Fermé sur cette période » (WebKit, 390 px)" loading="lazy"><span>Production : « Avec enfants » à Argelès-sur-Mer, puis « Fermé sur cette période » (WebKit, 390 px)</span></a><a href="captures/groupes.png"><img src="captures/groupes.png" alt="Production : les groupes, leur nombre, leurs objets, le repère au-dessus (WebKit, 390 px, capture remplaçant l&#x27;image vide)" loading="lazy"><span>Production : les groupes, leur nombre, leurs objets, le repère au-dessus (WebKit, 390 px, capture remplaçant l&#x27;image vide)</span></a><a href="captures/groupes-320.png"><img src="captures/groupes-320.png" alt="Production : les groupes à 320 px (WebKit, Canet-en-Roussillon)" loading="lazy"><span>Production : les groupes à 320 px (WebKit, Canet-en-Roussillon)</span></a><a href="captures/signes-carte.png"><img src="captures/signes-carte.png" alt="Essai non branché : les signes d&#x27;une future mise en avant sur la carte, 390 px (Chromium)" loading="lazy"><span>Essai non branché : les signes d&#x27;une future mise en avant sur la carte, 390 px (Chromium)</span></a><a href="captures/signes-carte-320.png"><img src="captures/signes-carte-320.png" alt="Essai non branché : les mêmes signes, 320 px (WebKit)" loading="lazy"><span>Essai non branché : les mêmes signes, 320 px (WebKit)</span></a><a href="captures/sponsorise-liste.png"><img src="captures/sponsorise-liste.png" alt="Essai non branché : le mot « Sponsorisé » injecté dans une ligne de la liste (WebKit)" loading="lazy"><span>Essai non branché : le mot « Sponsorisé » injecté dans une ligne de la liste (WebKit)</span></a></div>
+
+<h2>Limites</h2>
+<ul>
+<li>Aucun essai sur vrai iPhone, ni pour le lot 1 ni pour le classement.</li>
+<li>Le banc ne porte que sur un seul jour de données.</li>
+<li>« Avec enfants » reste modeste : 27 lieux et 37 sorties au premier niveau dans tout le département.</li>
+<li><strong>À arbitrer : la page de confidentialité est inexacte.</strong> Elle annonce « ni mesure d'audience » et un seul cookie ; l'hébergeur mesure l'audience et quatre cookies sont déposés (AU-33).</li>
+</ul>
+</main></body></html>
