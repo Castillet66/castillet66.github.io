@@ -11,6 +11,24 @@ Dépôt réservé aux aperçus et aux captures de Pulse : rien ici n'est le code
 - Recettes — le comparateur rempli, en démonstration (prix fictifs) : https://weighted-meanwhile-endless-delete.trycloudflare.com/recettes/comparer/demonstration?scenario=incomplet
 - Recettes — le comparateur en démonstration, version statique (prix fictifs, sans tunnel) : https://castillet66.github.io/recettes/comparer/demonstration/?scenario=incomplet
 
+## Autour de moi — conception : où, quand, quelle envie (prototype) (01/11/2026)
+
+PROTOTYPE, non publié dans l'application (D-1447) — branche chantier/autour-ux, 994b1ca3b. Prototype interactif : /autour/ (données réelles figées au 01/11 à 20 h 40, heure de Paris). Aucune donnée simulée.
+
+- Diagnostic, recommandation, correspondances, classement, parcours, limites : https://castillet66.github.io/autour-2026-11-01-conception/index.html
+- PNG — A · sans géolocalisation, « Où » → Collioure : https://castillet66.github.io/autour-2026-11-01-conception/captures/a-collioure-webkit.png
+- PNG — B · « Avec enfants » et la couverture dite : https://castillet66.github.io/autour-2026-11-01-conception/captures/b-enfants-webkit.png
+- PNG — C · « Ce soir », peu d'offre : un peu plus loin : https://castillet66.github.io/autour-2026-11-01-conception/captures/c-ce-soir-webkit.png
+- PNG — D · « canyoning » : l'activité d'abord : https://castillet66.github.io/autour-2026-11-01-conception/captures/d-recherche-canyoning-webkit.png
+- PNG — D · filtre Canyoning : les plus proches : https://castillet66.github.io/autour-2026-11-01-conception/captures/d-plus-proches-chromium.png
+- PNG — D · « ski » : https://castillet66.github.io/autour-2026-11-01-conception/captures/d-recherche-ski-webkit.png
+- PNG — E · un amas expliqué : https://castillet66.github.io/autour-2026-11-01-conception/captures/e-amas-chromium.png
+- PNG — F · ouverte : barre basse retirée : https://castillet66.github.io/autour-2026-11-01-conception/captures/f-ouverte-webkit.png
+- PNG — F · refermée : barre rendue : https://castillet66.github.io/autour-2026-11-01-conception/captures/f-refermee-webkit.png
+- PNG — La feuille « Quand ? » : https://castillet66.github.io/autour-2026-11-01-conception/captures/quand-apercu-webkit.png
+- PNG — 320 × 568 : puce « Où » courte : https://castillet66.github.io/autour-2026-11-01-conception/captures/petit-320-collioure-webkit.png
+- PNG — Tablette : défaut préexistant de la barre basse : https://castillet66.github.io/autour-2026-11-01-conception/captures/tablette-1024-chromium.png
+
 ## Autour, Agenda, Découvrir — sélection sobre, cône réutilisé, affiche filigranée écartée (01/11/2026)
 
 En production : déploiement 30ab104a-36c0-454b-aa4f-c4e360f16c01, main 27674fbf0 (D-1446). Captures de la production, données réelles, 01/11 entre 13 h 31 et 14 h 15 UTC ; « avant » = production 97ddfe84.

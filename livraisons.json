@@ -1208,5 +1208,67 @@
     "Découvrir : inchangé"
    ]
   ]
+ },
+ {
+  "dossier": "autour-2026-11-01-conception",
+  "date": "01/11/2026",
+  "titre": "Autour de moi — conception : où, quand, quelle envie (prototype)",
+  "note": "PROTOTYPE, non publié dans l'application (D-1447) — branche chantier/autour-ux, 994b1ca3b. Prototype interactif : /autour/ (données réelles figées au 01/11 à 20 h 40, heure de Paris). Aucune donnée simulée.",
+  "pages": [
+   [
+    "index.html",
+    "Diagnostic, recommandation, correspondances, classement, parcours, limites"
+   ]
+  ],
+  "captures": [
+   [
+    "captures/a-collioure-webkit.png",
+    "A · sans géolocalisation, « Où » → Collioure"
+   ],
+   [
+    "captures/b-enfants-webkit.png",
+    "B · « Avec enfants » et la couverture dite"
+   ],
+   [
+    "captures/c-ce-soir-webkit.png",
+    "C · « Ce soir », peu d'offre : un peu plus loin"
+   ],
+   [
+    "captures/d-recherche-canyoning-webkit.png",
+    "D · « canyoning » : l'activité d'abord"
+   ],
+   [
+    "captures/d-plus-proches-chromium.png",
+    "D · filtre Canyoning : les plus proches"
+   ],
+   [
+    "captures/d-recherche-ski-webkit.png",
+    "D · « ski »"
+   ],
+   [
+    "captures/e-amas-chromium.png",
+    "E · un amas expliqué"
+   ],
+   [
+    "captures/f-ouverte-webkit.png",
+    "F · ouverte : barre basse retirée"
+   ],
+   [
+    "captures/f-refermee-webkit.png",
+    "F · refermée : barre rendue"
+   ],
+   [
+    "captures/quand-apercu-webkit.png",
+    "La feuille « Quand ? »"
+   ],
+   [
+    "captures/petit-320-collioure-webkit.png",
+    "320 × 568 : puce « Où » courte"
+   ],
+   [
+    "captures/tablette-1024-chromium.png",
+    "Tablette : défaut préexistant de la barre basse"
+   ]
+  ]
  }
 ]
