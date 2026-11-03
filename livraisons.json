@@ -1808,5 +1808,31 @@
         "Le nom le plus long, à 320 px."
       ]
     ]
+  },
+  {
+    "dossier": "hero-finition-2026-11-03",
+    "date": "03/11/2026",
+    "titre": "Hero de l'accueil : avant et après",
+    "note": "Vraie production, déploiement 29393985 (code 7d12250b4), captures WebKit ; noms longs en données de test. iPhone réel non vérifié.",
+    "pages": [
+      [
+        "index.html",
+        "Avant et après, de 320 à 1 440 px"
+      ]
+    ],
+    "captures": [
+      [
+        "captures/2-petit-apres.png",
+        "320 px, noms longs : le prix reste visible."
+      ],
+      [
+        "captures/1-iphone-apres.png",
+        "390 px, données réelles."
+      ],
+      [
+        "captures/6-bureau-apres.png",
+        "1 440 px."
+      ]
+    ]
   }
 ]

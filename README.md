@@ -12,6 +12,15 @@ Dépôt réservé aux aperçus et aux captures de Pulse : rien ici n'est le code
 - Recettes — le comparateur rempli, en démonstration (prix fictifs) : https://weighted-meanwhile-endless-delete.trycloudflare.com/recettes/comparer/demonstration?scenario=incomplet
 - Recettes — le comparateur en démonstration, version statique (prix fictifs, sans tunnel) : https://castillet66.github.io/recettes/comparer/demonstration/?scenario=incomplet
 
+## Hero de l'accueil : avant et après (03/11/2026)
+
+Vraie production, déploiement 29393985 (code 7d12250b4), captures WebKit ; noms longs en données de test. iPhone réel non vérifié.
+
+- Avant et après, de 320 à 1 440 px : https://castillet66.github.io/hero-finition-2026-11-03/index.html
+- PNG — 320 px, noms longs : le prix reste visible. : https://castillet66.github.io/hero-finition-2026-11-03/captures/2-petit-apres.png
+- PNG — 390 px, données réelles. : https://castillet66.github.io/hero-finition-2026-11-03/captures/1-iphone-apres.png
+- PNG — 1 440 px. : https://castillet66.github.io/hero-finition-2026-11-03/captures/6-bureau-apres.png
+
 ## Les magasins suivent le lieu choisi (03/11/2026)
 
 Vraie production, déploiement f4117f50 (code 694166433), WebKit en 390 × 844, magasins réels, position simulée, aucun prix. iPhone réel non vérifié.

@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Hero de l'accueil : avant et après</title>
+<style>
+  :root { color-scheme: dark; }
+  body { margin: 0; background: #0e0e10; color: #e8e8ea; font: 16px/1.5 -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+  main { max-width: 1100px; margin: 0 auto; padding: 24px 16px 64px; }
+  h1 { font-size: 26px; line-height: 1.2; margin: 0 0 8px; }
+  h2 { font-size: 19px; margin: 40px 0 4px; }
+  p { margin: 0 0 12px; color: #b9b9bf; }
+  .note { font-size: 14px; }
+  .paire { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px; align-items: start; }
+  .une { grid-template-columns: minmax(0, 1fr); }
+  .serie { display: grid; grid-template-columns: repeat(auto-fill, minmax(160px, 1fr)); gap: 12px; align-items: start; }
+  figure { margin: 0; }
+  figcaption { font-size: 13px; font-weight: 600; margin-bottom: 6px; color: #e8e8ea; }
+  figcaption.avant { color: #ff8a80; }
+  figcaption.apres { color: #7be0b0; }
+  img { display: block; width: 100%; height: auto; border-radius: 10px; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Hero de l'accueil : avant et après</h1>
+  <p>« Avant » est la production relevée avant la correction, « après » la vraie production, déploiement 29393985 (code 7d12250b4). Captures WebKit, moteur de Safari, sans iPhone réel.</p>
+  <p class="note">Les titres, prix et noms des captures « noms longs » sont des données de test, écrites pour éprouver la mise en page : ils ne sont pas publiés. Les autres captures montrent les données du moment, ce qui explique que le Flash et la météo changent entre avant et après.</p>
+
+  <h2>Téléphone, 390 px</h2>
+  <p>« Perpignan » n'est plus coupé, et le nom de la station s'aligne sur son logo.</p>
+  <div class="paire">
+    <figure><figcaption class="avant">Avant</figcaption><img src="captures/1-iphone-avant.png" alt="Hero à 390 px avant la correction"></figure>
+    <figure><figcaption class="apres">Après</figcaption><img src="captures/1-iphone-apres.png" alt="Hero à 390 px après la correction"></figure>
+  </div>
+
+  <h2>Petit téléphone, 320 px, noms longs (AC-22)</h2>
+  <p>Avant, le prix disparaissait et le nom de la commune était coupé. Après, tout est lisible : la carte grandit.</p>
+  <div class="paire">
+    <figure><figcaption class="avant">Avant</figcaption><img src="captures/2-petit-avant.png" alt="Hero à 320 px avec des noms longs, avant"></figure>
+    <figure><figcaption class="apres">Après</figcaption><img src="captures/2-petit-apres.png" alt="Hero à 320 px avec des noms longs, après"></figure>
+  </div>
+
+  <h2>Position activée, 390 px</h2>
+  <p>Le nom du lieu dans la carte Météo.</p>
+  <div class="paire">
+    <figure><figcaption class="avant">Avant</figcaption><img src="captures/3-lieu-avant.png" alt="Carte Météo avec un lieu, avant"></figure>
+    <figure><figcaption class="apres">Après</figcaption><img src="captures/3-lieu-apres.png" alt="Carte Météo avec un lieu, après"></figure>
+  </div>
+
+  <h2>Texte agrandi à 150 %, 390 px</h2>
+  <div class="paire">
+    <figure><figcaption class="avant">Avant</figcaption><img src="captures/4-texte-avant.png" alt="Hero avec le texte agrandi, avant"></figure>
+    <figure><figcaption class="apres">Après</figcaption><img src="captures/4-texte-apres.png" alt="Hero avec le texte agrandi, après"></figure>
+  </div>
+
+  <h2>Tablette, 768 px, noms longs</h2>
+  <div class="paire une">
+    <figure><figcaption class="avant">Avant</figcaption><img src="captures/5-tablette-avant.png" alt="Hero à 768 px, avant"></figure>
+    <figure><figcaption class="apres">Après</figcaption><img src="captures/5-tablette-apres.png" alt="Hero à 768 px, après"></figure>
+  </div>
+
+  <h2>Ordinateur, 1 440 px</h2>
+  <div class="paire une">
+    <figure><figcaption class="avant">Avant</figcaption><img src="captures/6-bureau-avant.png" alt="Hero à 1 440 px, avant"></figure>
+    <figure><figcaption class="apres">Après</figcaption><img src="captures/6-bureau-apres.png" alt="Hero à 1 440 px, après"></figure>
+  </div>
+
+  <h2>Le logo et le nom sur le même axe, 390 px</h2>
+  <p>Vraies images de production, avec un nom d'enseigne de test. Le centre du logo et celui du nom coïncident au dixième de pixel pour Carrefour, E.Leclerc, BP et TotalEnergies. Le logo d'Intermarché porte lui-même le nom.</p>
+  <div class="serie">
+    <figure><figcaption>Carrefour</figcaption><img src="captures/8-carrefour.png" alt="Tuile Carburant, Carrefour"></figure>
+    <figure><figcaption>E.Leclerc</figcaption><img src="captures/8-leclerc.png" alt="Tuile Carburant, E.Leclerc"></figure>
+    <figure><figcaption>BP</figcaption><img src="captures/8-bp.png" alt="Tuile Carburant, BP"></figure>
+    <figure><figcaption>TotalEnergies</figcaption><img src="captures/8-total.png" alt="Tuile Carburant, TotalEnergies"></figure>
+    <figure><figcaption>Intermarché</figcaption><img src="captures/8-intermarche.png" alt="Tuile Carburant, Intermarché"></figure>
+  </div>
+
+  <h2>Les états sans données, 390 px (après)</h2>
+  <div class="serie">
+    <figure><figcaption>Chargement</figcaption><img src="captures/7-attente.png" alt="Hero en cours de chargement"></figure>
+    <figure><figcaption>Hors ligne</figcaption><img src="captures/7-horsligne.png" alt="Hero hors ligne"></figure>
+    <figure><figcaption>Aucune donnée</figcaption><img src="captures/7-vide.png" alt="Hero sans donnée"></figure>
+    <figure><figcaption>Source en panne</figcaption><img src="captures/7-panne.png" alt="Hero avec une source en panne"></figure>
+    <figure><figcaption>Véhicule électrique</figcaption><img src="captures/7-electrique.png" alt="Hero avec un véhicule électrique"></figure>
+  </div>
+</main>
+</body>
+</html>
