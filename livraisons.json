@@ -1600,5 +1600,43 @@
         "L'accueil, panneau fermé"
       ]
     ]
+  },
+  {
+    "dossier": "rubriques-proportions-2026-11-03",
+    "date": "03/11/2026",
+    "titre": "Le panneau Rubriques, avant et après",
+    "note": "Vraie production, avant ef25634a et après 9f44403a (code b6990ee2b), en Chromium à rendu GPU émulé, données réelles du site. iPhone réel non vérifié.",
+    "pages": [
+      [
+        "index.html",
+        "Les captures comparables, légendées (à ouvrir sur téléphone)"
+      ]
+    ],
+    "captures": [
+      [
+        "captures/1-avant-apres-440.png",
+        "Grand iPhone, 440 px. De gauche à droite : avant en haut, après en haut, avant en bas, après en bas. Paires routières, Cuisine, boîtes repas réduites, USAP élargi ; Cinéma et Dragons inchangés."
+      ],
+      [
+        "captures/2-avant-apres-390.png",
+        "iPhone courant, 390 px, dans le même ordre : avant en haut, après en haut, avant en bas, après en bas."
+      ],
+      [
+        "captures/3-avant-apres-360.png",
+        "Petit téléphone, 360 px, dans le même ordre. Le panneau est plus long, et le défilement atteint USAP et Dragons Catalans."
+      ],
+      [
+        "captures/4-tablette.png",
+        "Tablette, 768 px : après seulement. Sport se rejoint en défilant de 108 px."
+      ],
+      [
+        "captures/5-texte-agrandi-haut.png",
+        "Texte agrandi, simulé par une page à 262 px, équivalent d'un zoom à 150 % sur un iPhone de 390 px : haut du panneau, après seulement."
+      ],
+      [
+        "captures/6-texte-agrandi-bas.png",
+        "Le même, défilé jusqu'aux dernières destinations."
+      ]
+    ]
   }
 ]

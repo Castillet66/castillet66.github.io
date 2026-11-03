@@ -12,6 +12,18 @@ Dépôt réservé aux aperçus et aux captures de Pulse : rien ici n'est le code
 - Recettes — le comparateur rempli, en démonstration (prix fictifs) : https://weighted-meanwhile-endless-delete.trycloudflare.com/recettes/comparer/demonstration?scenario=incomplet
 - Recettes — le comparateur en démonstration, version statique (prix fictifs, sans tunnel) : https://castillet66.github.io/recettes/comparer/demonstration/?scenario=incomplet
 
+## Le panneau Rubriques, avant et après (03/11/2026)
+
+Vraie production, avant ef25634a et après 9f44403a (code b6990ee2b), en Chromium à rendu GPU émulé, données réelles du site. iPhone réel non vérifié.
+
+- Les captures comparables, légendées (à ouvrir sur téléphone) : https://castillet66.github.io/rubriques-proportions-2026-11-03/index.html
+- PNG — Grand iPhone, 440 px. De gauche à droite : avant en haut, après en haut, avant en bas, après en bas. Paires routières, Cuisine, boîtes repas réduites, USAP élargi ; Cinéma et Dragons inchangés. : https://castillet66.github.io/rubriques-proportions-2026-11-03/captures/1-avant-apres-440.png
+- PNG — iPhone courant, 390 px, dans le même ordre : avant en haut, après en haut, avant en bas, après en bas. : https://castillet66.github.io/rubriques-proportions-2026-11-03/captures/2-avant-apres-390.png
+- PNG — Petit téléphone, 360 px, dans le même ordre. Le panneau est plus long, et le défilement atteint USAP et Dragons Catalans. : https://castillet66.github.io/rubriques-proportions-2026-11-03/captures/3-avant-apres-360.png
+- PNG — Tablette, 768 px : après seulement. Sport se rejoint en défilant de 108 px. : https://castillet66.github.io/rubriques-proportions-2026-11-03/captures/4-tablette.png
+- PNG — Texte agrandi, simulé par une page à 262 px, équivalent d'un zoom à 150 % sur un iPhone de 390 px : haut du panneau, après seulement. : https://castillet66.github.io/rubriques-proportions-2026-11-03/captures/5-texte-agrandi-haut.png
+- PNG — Le même, défilé jusqu'aux dernières destinations. : https://castillet66.github.io/rubriques-proportions-2026-11-03/captures/6-texte-agrandi-bas.png
+
 ## Le panneau Rubriques, version livrée (03/11/2026)
 
 Captures de la vraie production (déploiement ba4eb02e, code 345f424b5), en Chromium à rendu GPU émulé, données réelles du site. iPhone réel non vérifié.
