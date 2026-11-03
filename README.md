@@ -12,6 +12,20 @@ Dépôt réservé aux aperçus et aux captures de Pulse : rien ici n'est le code
 - Recettes — le comparateur rempli, en démonstration (prix fictifs) : https://weighted-meanwhile-endless-delete.trycloudflare.com/recettes/comparer/demonstration?scenario=incomplet
 - Recettes — le comparateur en démonstration, version statique (prix fictifs, sans tunnel) : https://castillet66.github.io/recettes/comparer/demonstration/?scenario=incomplet
 
+## Agenda hybride — à valider (non publié) (03/11/2026)
+
+Aperçu, production inchangée. Branche chantier/agenda-hybride-2, 7d946ce92. Application : /agenda/, données réelles figées au 03/11 à 14 h 28.
+
+- Ouvrir l'aperçu, ce qu'il faut essayer, limites : https://castillet66.github.io/agenda-2026-11-03-hybride/index.html
+- PNG — À l'arrivée, 390 × 844 : les jours, la carte, une carte de rendez-vous, son repère en avant : https://castillet66.github.io/agenda-2026-11-03-hybride/captures/1-arrivee.png
+- PNG — Un autre jour : la carte, les cartes et le compte changent ensemble : https://castillet66.github.io/agenda-2026-11-03-hybride/captures/2-demain.png
+- PNG — « Avec les enfants » : les ballons sur la carte, le rythme des jours suit le filtre : https://castillet66.github.io/agenda-2026-11-03-hybride/captures/3-avec-les-enfants.png
+- PNG — Le week-end : https://castillet66.github.io/agenda-2026-11-03-hybride/captures/4-week-end.png
+- PNG — La feuille tirée : à faire avec les enfants, puis le programme par moment, sous le fil des jours : https://castillet66.github.io/agenda-2026-11-03-hybride/captures/5-le-programme.png
+- PNG — Un geste sur la carte : elle prend l'écran, le fil des jours reste : https://castillet66.github.io/agenda-2026-11-03-hybride/captures/6-exploration.png
+- PNG — Tablette, 820 × 1180 : https://castillet66.github.io/agenda-2026-11-03-hybride/captures/7-tablette.png
+- PNG — Bureau, 1440 × 900 : https://castillet66.github.io/agenda-2026-11-03-hybride/captures/8-bureau.png
+
 ## Les objets du panneau, sans poteau (03/11/2026)
 
 Vraie production, avant 9f44403a et après b0505891 (code de3c8c741), en Chromium à rendu GPU émulé, données réelles du site. iPhone réel non vérifié.

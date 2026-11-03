@@ -1,1680 +1,1726 @@
 [
-  {
-    "dossier": "recettes-2026-10-29",
-    "date": "29/10/2026",
-    "titre": "Recettes — écran proposé (maquette)",
-    "note": "Maquette de l'écran du 29/10, pour en juger la composition ; durées visées, non vérifiées.",
-    "pages": [
-      [
-        "ecran.html",
-        "Écran proposé (à ouvrir sur téléphone)"
-      ]
-    ],
-    "captures": [
-      [
-        "captures/ecran-iphone.png",
-        "Premier écran, iPhone"
-      ],
-      [
-        "captures/ecran-iphone-complet.png",
-        "Écran entier"
-      ]
-    ]
-  },
-  {
-    "dossier": "autour-2026-10-31",
-    "date": "31/10/2026",
-    "titre": "Autour de moi — la carte d'abord",
-    "note": "Lieux et événements sur une carte, huit envies, localisation fiable ; aperçu interactif sur iPhone à part (tunnel).",
-    "pages": [
-      [
-        "index.html",
-        "Ce qui est construit, mesures, limites"
-      ],
-      [
-        "diagnostic.html",
-        "Le diagnostic du 30/10 (avant la refonte)"
-      ]
-    ],
-    "captures": [
-      [
-        "captures/objets-familles.png",
-        "Les huit objets des familles"
-      ],
-      [
-        "planche-iphone.jpg",
-        "Les dix écrans iPhone sur une planche"
-      ],
-      [
-        "captures/iphone-arrivee.png",
-        "Arrivée, iPhone"
-      ],
-      [
-        "captures/iphone-fiche-lieu.png",
-        "Fiche courte d'un lieu"
-      ],
-      [
-        "captures/iphone-groupe-evenements.png",
-        "Plusieurs dates au même endroit"
-      ],
-      [
-        "captures/iphone-les-angles.png",
-        "Destination : Les Angles"
-      ],
-      [
-        "captures/iphone-les-angles-liste.png",
-        "La liste synchronisée"
-      ],
-      [
-        "captures/iphone-filtres.png",
-        "Les filtres"
-      ],
-      [
-        "captures/iphone-bien-etre.png",
-        "Une famille et ses sous-catégories"
-      ],
-      [
-        "captures/iphone-refus-aide.png",
-        "Localisation refusée"
-      ],
-      [
-        "captures/iphone-position-approximative.png",
-        "Position approximative"
-      ],
-      [
-        "captures/iphone-delai-depasse.png",
-        "Délai dépassé"
-      ],
-      [
-        "captures/tablette.png",
-        "Tablette"
-      ],
-      [
-        "captures/bureau.png",
-        "Ordinateur"
-      ]
-    ]
-  },
-  {
-    "dossier": "recettes-2026-10-31",
-    "date": "31/10/2026",
-    "titre": "Recettes — visuels et repas complets",
-    "note": "Onze nouvelles photos de plats relues contre leur fiche (à valider à l'œil avant production), treize repas complétés, Protéiné et allergènes par composition.",
-    "pages": [
-      [
-        "index.html",
-        "Ce qui change, les captures, les limites"
-      ]
-    ],
-    "captures": [
-      [
-        "captures/iphone-accueil-cuisine.png",
-        "Accueil — Cuisine, choix Protéiné"
-      ],
-      [
-        "captures/iphone-page-recettes.png",
-        "Page Recettes — besoins illustrés"
-      ],
-      [
-        "captures/iphone-fiche-penne.png",
-        "Fiche — penne all'arrabbiata, végane"
-      ],
-      [
-        "captures/iphone-fiche-curry-poulet.png",
-        "Fiche — curry de poulet et son riz"
-      ],
-      [
-        "captures/iphone-fiche-stroganoff.png",
-        "Fiche — Bœuf Stroganoff et tagliatelles"
-      ],
-      [
-        "captures/iphone-fiche-pancakes.png",
-        "Fiche — pancakes, framboises et myrtilles"
-      ],
-      [
-        "captures/iphone-pancakes-ingredients.png",
-        "Pancakes — myrtille, sirop d'érable"
-      ],
-      [
-        "captures/iphone-preparation-debut.png",
-        "Préparation — étapes numérotées"
-      ],
-      [
-        "captures/iphone-preparation-fin.png",
-        "Préparation — la fin"
-      ],
-      [
-        "captures/iphone-nutrition-allergenes.png",
-        "Nutrition et allergènes"
-      ],
-      [
-        "captures/iphone-ma-semaine.png",
-        "Ma semaine"
-      ],
-      [
-        "captures/iphone-ma-semaine-repas.png",
-        "Ma semaine — les repas"
-      ],
-      [
-        "captures/iphone-courses.png",
-        "Courses"
-      ],
-      [
-        "captures/iphone-courses-rayons.png",
-        "Courses — rayons"
-      ],
-      [
-        "captures/iphone-magasins.png",
-        "Magasins à proximité"
-      ],
-      [
-        "captures/planche-photos-plats.jpg",
-        "Les onze nouvelles photos de plats"
-      ],
-      [
-        "captures/planche-objets.png",
-        "Objets : oignon nouveau, minuteur, myrtille, sirop d'érable"
-      ],
-      [
-        "captures/verif-lentille-corail.png",
-        "Vérification — lentille corail"
-      ],
-      [
-        "captures/verif-recette-retiree.png",
-        "Vérification — recette retirée consultable"
-      ],
-      [
-        "captures/verif-bandeau-titre.png",
-        "Vérification — titre du bandeau"
-      ]
-    ]
-  },
-  {
-    "dossier": "autour-2026-10-31-finition",
-    "date": "31/10/2026",
-    "titre": "Autour de moi — la finition",
-    "note": "Carte dégagée, filtres simplifiés, groupes d'événements complets, positions approchées dites ; avant / après. Aperçu interactif à la même adresse.",
-    "pages": [
-      [
-        "index.html",
-        "Ce qui a changé, contenus contrôlés, limites"
-      ]
-    ],
-    "captures": [
-      [
-        "planche-iphone.jpg",
-        "Avant / après et les nouveaux parcours, huit écrans iPhone"
-      ],
-      [
-        "captures/avant-arrivee.png",
-        "Avant : arrivée"
-      ],
-      [
-        "captures/iphone-arrivee.png",
-        "Après : arrivée"
-      ],
-      [
-        "captures/avant-les-angles-groupe.png",
-        "Avant : Les Angles, 2,1 km"
-      ],
-      [
-        "captures/iphone-les-angles-rue.png",
-        "Après : rue sans numéro"
-      ],
-      [
-        "captures/iphone-les-angles-feuille.png",
-        "Voir les 3 événements"
-      ],
-      [
-        "captures/iphone-saint-cyprien-commune.png",
-        "22 événements situés à la commune"
-      ],
-      [
-        "captures/iphone-saint-cyprien-feuille.png",
-        "Les 22 événements"
-      ],
-      [
-        "captures/iphone-360-groupe.png",
-        "Petit écran, 360 px"
-      ],
-      [
-        "captures/iphone-fiche-lieu.png",
-        "Fiche d'un lieu"
-      ],
-      [
-        "captures/iphone-filtres.png",
-        "Filtres simplifiés"
-      ],
-      [
-        "captures/iphone-filtres-actifs-explorer.png",
-        "Filtres actifs et Explorer cette zone"
-      ],
-      [
-        "captures/iphone-webkit-evenements.png",
-        "Événements, WebKit"
-      ],
-      [
-        "captures/objets-avant-apres.png",
-        "Détourages avant / après"
-      ],
-      [
-        "captures/bureau.png",
-        "Ordinateur"
-      ]
-    ]
-  },
-  {
-    "dossier": "agenda-2026-10-31",
-    "date": "31/10/2026",
-    "titre": "Agenda — la carte et le programme",
-    "note": "Refonte : carte des rendez-vous dès le premier écran, programme par jour et par moment, lignes courtes ; 1 690 Ko au lieu de 4 278 en 4G. Aperçu interactif sur iPhone.",
-    "pages": [
-      [
-        "index.html",
-        "Ce que fait la page, mesures, vérifications, limites"
-      ]
-    ],
-    "captures": [
-      [
-        "planche-iphone.jpg",
-        "Avant / après et les principaux écrans iPhone"
-      ],
-      [
-        "captures/avant-arrivee.png",
-        "Avant : l'Agenda en production"
-      ],
-      [
-        "captures/iphone-arrivee.png",
-        "Après : l'arrivée"
-      ],
-      [
-        "captures/iphone-programme.png",
-        "Le programme du jour"
-      ],
-      [
-        "captures/iphone-fiche-courte.png",
-        "Une séance sur la carte"
-      ],
-      [
-        "captures/iphone-carte-en-grand.png",
-        "La carte en grand"
-      ],
-      [
-        "captures/iphone-demain.png",
-        "Demain"
-      ],
-      [
-        "captures/iphone-week-end.png",
-        "Ce week-end"
-      ],
-      [
-        "captures/iphone-date.png",
-        "Une date"
-      ],
-      [
-        "captures/iphone-groupe-fiche.png",
-        "Lieu connu à la commune"
-      ],
-      [
-        "captures/iphone-groupe.png",
-        "Voir les 2 événements"
-      ],
-      [
-        "captures/iphone-en-continu.png",
-        "Expositions en continu"
-      ],
-      [
-        "captures/iphone-filtres.png",
-        "Les filtres"
-      ],
-      [
-        "captures/iphone-filtres-actifs.png",
-        "Depuis Prades, 20 km"
-      ],
-      [
-        "captures/iphone-360-webkit.png",
-        "360 px, WebKit"
-      ],
-      [
-        "captures/tablette.png",
-        "Tablette"
-      ],
-      [
-        "captures/bureau.png",
-        "Ordinateur"
-      ]
-    ]
-  },
-  {
-    "dossier": "autour-2026-10-31-recomposition",
-    "date": "31/10/2026",
-    "titre": "Autour de moi — la carte d'abord, recomposée",
-    "note": "Les familles sous l'en-tête, une flèche GPS, les résultats dans une feuille basse, un mode exploration ; carte plus claire et plus chaude. L'Agenda est inchangé. Aperçu interactif sur iPhone.",
-    "pages": [
-      [
-        "index.html",
-        "Ce qui a changé, vérifications, limites"
-      ]
-    ],
-    "captures": [
-      [
-        "planche-iphone.jpg",
-        "Avant / après et les principaux écrans iPhone"
-      ],
-      [
-        "captures/avant-arrivee.png",
-        "Avant : l'arrivée"
-      ],
-      [
-        "captures/iphone-arrivee.png",
-        "Après : l'arrivée"
-      ],
-      [
-        "captures/iphone-feuille-intermediaire.png",
-        "La feuille, à mi-hauteur"
-      ],
-      [
-        "captures/iphone-feuille-ouverte.png",
-        "Ouverte : la date et les filtres"
-      ],
-      [
-        "captures/iphone-fiche.png",
-        "Un repère touché, une fiche"
-      ],
-      [
-        "captures/iphone-patrimoine.png",
-        "Patrimoine et ses précisions"
-      ],
-      [
-        "captures/iphone-fetes.png",
-        "Fêtes, depuis Canet"
-      ],
-      [
-        "captures/iphone-fetes-halloween.png",
-        "Fêtes · Halloween"
-      ],
-      [
-        "captures/iphone-exploration.png",
-        "En exploration"
-      ],
-      [
-        "captures/iphone-localisation.png",
-        "La flèche GPS : d'où regarder"
-      ],
-      [
-        "captures/iphone-360-webkit.png",
-        "360 px, moteur WebKit"
-      ],
-      [
-        "captures/iphone-430.png",
-        "430 px"
-      ],
-      [
-        "captures/tablette.png",
-        "Tablette"
-      ],
-      [
-        "captures/bureau.png",
-        "Ordinateur"
-      ]
-    ]
-  },
-  {
-    "dossier": "recettes-2026-10-31-panier",
-    "date": "31/10/2026",
-    "titre": "Recettes — comparer son panier, enseignes, crédits et sources",
-    "note": "Comparateur relié à Courses : un seul magasin a des prix publiés dans le 66 (E.Leclerc Perpignan Sud, 2025), donc 8 articles sur 38 comparés et aucun « moins cher » ; logos officiels ; fiches sans mention de provenance.",
-    "pages": [
-      [
-        "index.html",
-        "Ce qui change, le panier témoin, les sources, les limites"
-      ]
-    ],
-    "captures": [
-      [
-        "captures/iphone-courses-comparer.png",
-        "Courses — Comparer mon panier"
-      ],
-      [
-        "captures/iphone-comparer.png",
-        "Le comparateur, une carte par magasin"
-      ],
-      [
-        "captures/iphone-comparer-feuille.png",
-        "Le détail : en caisse, utilisé, itinéraire, drive"
-      ],
-      [
-        "captures/iphone-comparer-remplacer.png",
-        "Remplacer un produit"
-      ],
-      [
-        "captures/iphone-comparer-manquants.png",
-        "Les articles sans prix"
-      ],
-      [
-        "captures/iphone-magasins-logos.png",
-        "Magasins à proximité, logos et mots-symboles"
-      ],
-      [
-        "captures/iphone-fiche-nutrition.png",
-        "Fiche, nutrition sans mention de méthode"
-      ],
-      [
-        "captures/iphone-credits-sources.png",
-        "Crédits et sources"
-      ],
-      [
-        "captures/iphone-credits-prix.png",
-        "Crédits et sources : nutrition, magasins, prix"
-      ],
-      [
-        "captures/webkit-320-comparer.png",
-        "WebKit 320 px, le comparateur"
-      ],
-      [
-        "captures/webkit-430-feuille.png",
-        "WebKit 430 px, le détail"
-      ]
-    ]
-  },
-  {
-    "dossier": "autour-2026-10-31-ecran-carte",
-    "date": "31/10/2026",
-    "titre": "Autour de moi — un écran de carte, sans flou",
-    "note": "La carte prend l'écran (plus de grand en-tête au téléphone), aucun flou, flèche GPS en haut à droite, résultats qui suivent la carte ; données d'Elne vérifiées. Aperçu interactif sur iPhone.",
-    "pages": [
-      [
-        "index.html",
-        "Ce qui a changé, Elne, vérifications, limites"
-      ]
-    ],
-    "captures": [
-      [
-        "planche-iphone.jpg",
-        "Avant / après et les principaux écrans iPhone"
-      ],
-      [
-        "captures/avant-version-essayee.png",
-        "Avant : la version essayée"
-      ],
-      [
-        "captures/iphone-elne-arrivee.png",
-        "Après : Elne, à l'arrivée"
-      ],
-      [
-        "captures/iphone-elne-feuille.png",
-        "La feuille, à mi-hauteur"
-      ],
-      [
-        "captures/iphone-elne-liste.png",
-        "La liste ouverte"
-      ],
-      [
-        "captures/iphone-elne-dia-de-los-muertos.png",
-        "Un repère, sa fiche"
-      ],
-      [
-        "captures/iphone-fiche-sans-flou.png",
-        "La fiche détaillée, sans flou"
-      ],
-      [
-        "captures/iphone-fetes-halloween.png",
-        "Fêtes · Halloween"
-      ],
-      [
-        "captures/iphone-exploration.png",
-        "En exploration : « Envies »"
-      ],
-      [
-        "captures/iphone-localisation.png",
-        "La flèche GPS"
-      ],
-      [
-        "captures/iphone-320x568.png",
-        "320 × 568"
-      ],
-      [
-        "captures/iphone-360x640.png",
-        "360 × 640"
-      ],
-      [
-        "captures/iphone-webkit-390.png",
-        "390 px, WebKit"
-      ],
-      [
-        "captures/tablette.png",
-        "Tablette"
-      ],
-      [
-        "captures/bureau.png",
-        "Ordinateur"
-      ]
-    ]
-  },
-  {
-    "dossier": "recettes-2026-10-31-prix",
-    "date": "31/10/2026",
-    "titre": "Recettes — les prix des courses : actualisation et comparaison équitable",
-    "note": "Aucun prix actuel affiché : aucune source gratuite autorisée ; une source payante attend ta décision. L'actualisation quotidienne tourne, la comparaison à produits équivalents est prête, les titres respirent.",
-    "pages": [
-      [
-        "index.html",
-        "Où en est la connexion, ce qui est terminé, le scénario, les contrôles"
-      ]
-    ],
-    "captures": [
-      [
-        "captures/iphone-courses-titre.png",
-        "Courses, le titre dégagé"
-      ],
-      [
-        "captures/iphone-courses-comparer.png",
-        "Courses, Comparer mon panier"
-      ],
-      [
-        "captures/iphone-ma-semaine-titre.png",
-        "Ma semaine, le titre dégagé"
-      ],
-      [
-        "captures/iphone-comparer-sans-prix.png",
-        "Comparer : placard, pas encore de prix actuels"
-      ],
-      [
-        "captures/iphone-comparer-pas-encore.png",
-        "Comparer : enseignes pas encore comparées"
-      ]
-    ]
-  },
-  {
-    "dossier": "recettes-2026-10-31-demonstrateur",
-    "date": "31/10/2026",
-    "titre": "Recettes — le comparateur rempli, en démonstration (prix fictifs)",
-    "note": "Magasin A/B/C et prix inventés, bandeau permanent ; panier complet, périmètre commun, produit absent, rupture, remplacement accepté puis annulé, frais inconnus, consultation en échec, prix anciens. Vidéo de 50 s. Ce n'est pas la preuve sur prix réels. Version 5669b89d2.",
-    "pages": [
-      [
-        "index.html",
-        "La démonstration : vidéo, captures, liens en direct"
-      ]
-    ],
-    "captures": [
-      [
-        "captures/01-panier-complet-haut.png",
-        "panier complet haut"
-      ],
-      [
-        "captures/02-panier-complet-cartes.png",
-        "panier complet cartes"
-      ],
-      [
-        "captures/03-placard-sel-confirme.png",
-        "placard sel confirme"
-      ],
-      [
-        "captures/04-releves-incomplets-cartes.png",
-        "releves incomplets cartes"
-      ],
-      [
-        "captures/05-releves-incomplets-frais-inconnus-echec.png",
-        "releves incomplets frais inconnus echec"
-      ],
-      [
-        "captures/06-feuille-magasin-B.png",
-        "feuille magasin B"
-      ],
-      [
-        "captures/07-feuille-B-absent-ancien-remplacement.png",
-        "feuille B absent ancien remplacement"
-      ],
-      [
-        "captures/08-feuille-B-remplacement-accepte.png",
-        "feuille B remplacement accepte"
-      ],
-      [
-        "captures/09-feuille-B-remplacement-annule.png",
-        "feuille B remplacement annule"
-      ],
-      [
-        "captures/10-feuille-C-rupture.png",
-        "feuille C rupture"
-      ],
-      [
-        "captures/11-prix-anciens.png",
-        "prix anciens"
-      ],
-      [
-        "captures/12-pied-de-page-allege.png",
-        "pied de page allege"
-      ],
-      [
-        "captures/13-courses-pied-de-page-allege.png",
-        "courses pied de page allege"
-      ],
-      [
-        "captures/14-tablette-portrait.png",
-        "tablette portrait"
-      ],
-      [
-        "captures/15-tablette-paysage.png",
-        "tablette paysage"
-      ],
-      [
-        "captures/16-telephone-paysage.png",
-        "telephone paysage"
-      ]
-    ]
-  },
-  {
-    "dossier": "recettes-2026-10-31-photos",
-    "date": "31/10/2026",
-    "titre": "Recettes — les onze nouvelles photos, dans leurs vrais cadres",
-    "note": "Téléphone, vignette et bureau pour chaque photo, avec les ingrédients de la fiche et la relecture : une réserve nette (curry de haricots rouges), trois légères. Version 5669b89d2.",
-    "pages": [
-      [
-        "index.html",
-        "Les onze photos, cadre par cadre"
-      ]
-    ],
-    "captures": [
-      [
-        "cadres/curry-haricots-rouges-telephone.jpg",
-        "Curry de haricots rouges — la réserve nette"
-      ],
-      [
-        "cadres/bar-gingembre-piment-telephone.jpg",
-        "Bar croustillant — le cadrage au téléphone"
-      ]
-    ]
-  },
-  {
-    "dossier": "autour-2026-10-31-fetes",
-    "date": "31/10/2026",
-    "titre": "Autour de moi — Fêtes, situations iPhone, revue autonome",
-    "note": "Le cône Fêtes, les situations iPhone reproduites puis corrigées, un aperçu interactif statique, six vidéos. Version 242e271d5.",
-    "pages": [
-      [
-        "index.html",
-        "Ce qui est interactif, filmé, photographié ; changements, mesures, limites"
-      ],
-      [
-        "films/1-familles-et-fetes.webm",
-        "Vidéo — Familles, le cône Fêtes, une sous-catégorie, Culture et ses masques"
-      ],
-      [
-        "films/2-fiche-et-retour.webm",
-        "Vidéo — Liste ouverte → fiche → fiche détaillée → retour : la liste revient au même endroit"
-      ],
-      [
-        "films/3-deplacement-et-distances.webm",
-        "Vidéo — La carte s'éloigne : « près de … · distances depuis ta position »"
-      ],
-      [
-        "films/4-reperes-empiles.webm",
-        "Vidéo — Elne, la Cathédrale et le Cloître à 4 m : chacun se touche au zoom maximal"
-      ],
-      [
-        "films/4b-meme-point.webm",
-        "Vidéo — Argelès, cinéma et spectacle au même point : « 2 repères au même endroit »"
-      ],
-      [
-        "films/5-reglages-repliables.webm",
-        "Vidéo — Peu de résultats : « Date et filtres » replié, puis déplié"
-      ]
-    ],
-    "captures": [
-      [
-        "films/1-familles-et-fetes.jpg",
-        "Planche — Familles, le cône Fêtes, une sous-catégorie, Culture et ses masques"
-      ],
-      [
-        "films/2-fiche-et-retour.jpg",
-        "Planche — Liste ouverte → fiche → fiche détaillée → retour : la liste revient au même endroit"
-      ],
-      [
-        "films/3-deplacement-et-distances.jpg",
-        "Planche — La carte s'éloigne : « près de … · distances depuis ta position »"
-      ],
-      [
-        "films/4-reperes-empiles.jpg",
-        "Planche — Elne, la Cathédrale et le Cloître à 4 m : chacun se touche au zoom maximal"
-      ],
-      [
-        "films/4b-meme-point.jpg",
-        "Planche — Argelès, cinéma et spectacle au même point : « 2 repères au même endroit »"
-      ],
-      [
-        "films/5-reglages-repliables.jpg",
-        "Planche — Peu de résultats : « Date et filtres » replié, puis déplié"
-      ],
-      [
-        "captures/rail-fetes.png",
-        "Le bandeau, le cône Fêtes au bout (430 px)"
-      ],
-      [
-        "captures/objet-fetes-30px.png",
-        "L'objet Fêtes à sa taille d'usage (30 px)"
-      ],
-      [
-        "captures/gps-sous-le-compteur.png",
-        "Elne : le point GPS sous l'amas, le compteur lisible"
-      ],
-      [
-        "captures/piscine-et-multisport.png",
-        "« Piscine et multisport » (complexe sportif d'Elne)"
-      ],
-      [
-        "captures/tropique-du-papillon.png",
-        "« Le Tropique du Papillon », sa photo"
-      ],
-      [
-        "captures/elne-arrivee-430.png",
-        "Elne, à l'arrivée (430 × 932)"
-      ],
-      [
-        "captures/agenda-fete-sans-affiche.png",
-        "L'Agenda en hérite : une fête sans affiche, le cône (horloge au 28/11)"
-      ]
-    ]
-  },
-  {
-    "dossier": "autour-2026-11-01-finitions",
-    "date": "01/11/2026",
-    "titre": "Autour de moi — distances, clavier, chargement, aperçu cohérent",
-    "note": "« à moins de 50 m », clavier dans le toucher, premiers résultats 7,5 → 6,4 s (6,37–6,54 s), aperçu figé et cohérent avec 1 071 fiches, vidéos MP4. Version db5f44c24.",
-    "pages": [
-      [
-        "index.html",
-        "Interactif, filmé, photographié ; changements, mesures, limites"
-      ],
-      [
-        "films/1-familles-et-fetes.mp4",
-        "Vidéo — Familles, le cône Fêtes, une sous-catégorie, Culture et ses masques"
-      ],
-      [
-        "films/2-fiche-et-retour.mp4",
-        "Vidéo — Liste ouverte → fiche → fiche détaillée → retour : la liste revient au même endroit"
-      ],
-      [
-        "films/3-deplacement-et-distances.mp4",
-        "Vidéo — La carte s'éloigne : « près de … · distances depuis ta position »"
-      ],
-      [
-        "films/4-reperes-empiles.mp4",
-        "Vidéo — Elne : la Cathédrale et le Cloître (4 m), chacun se touche au zoom maximal"
-      ],
-      [
-        "films/4b-meme-point.mp4",
-        "Vidéo — Argelès, cinéma et spectacle au même point : « 2 repères au même endroit »"
-      ],
-      [
-        "films/5-reglages-repliables.mp4",
-        "Vidéo — Peu de résultats : « Date et filtres » replié, puis déplié"
-      ],
-      [
-        "films/6-recherche-et-distances.mp4",
-        "Vidéo — La recherche dans le toucher, puis « à moins de 50 m » depuis la cathédrale"
-      ]
-    ],
-    "captures": [
-      [
-        "films/1-familles-et-fetes.jpg",
-        "Planche — Familles, le cône Fêtes, une sous-catégorie, Culture et ses masques"
-      ],
-      [
-        "films/2-fiche-et-retour.jpg",
-        "Planche — Liste ouverte → fiche → fiche détaillée → retour : la liste revient au même endroit"
-      ],
-      [
-        "films/3-deplacement-et-distances.jpg",
-        "Planche — La carte s'éloigne : « près de … · distances depuis ta position »"
-      ],
-      [
-        "films/4-reperes-empiles.jpg",
-        "Planche — Elne : la Cathédrale et le Cloître (4 m), chacun se touche au zoom maximal"
-      ],
-      [
-        "films/4b-meme-point.jpg",
-        "Planche — Argelès, cinéma et spectacle au même point : « 2 repères au même endroit »"
-      ],
-      [
-        "films/5-reglages-repliables.jpg",
-        "Planche — Peu de résultats : « Date et filtres » replié, puis déplié"
-      ],
-      [
-        "films/6-recherche-et-distances.jpg",
-        "Planche — La recherche dans le toucher, puis « à moins de 50 m » depuis la cathédrale"
-      ],
-      [
-        "captures/chromium-recherche-focus.png",
-        "Chromium : la recherche, le champ focalisé dans le toucher"
-      ],
-      [
-        "captures/webkit-recherche-focus.png",
-        "WebKit : la même chose"
-      ],
-      [
-        "captures/webkit-recherche-elne.png",
-        "WebKit : « Elne » tapé, les propositions"
-      ],
-      [
-        "captures/webkit-distance-moins-de-50.png",
-        "WebKit : « à moins de 50 m » depuis la cathédrale"
-      ],
-      [
-        "captures/apercu-webkit-fiche.png",
-        "Aperçu statique : la cathédrale, fiche détaillée cohérente avec la fiche courte"
-      ],
-      [
-        "captures/apercu-sans-webgl.png",
-        "Aperçu sans WebGL : la liste reste utilisable"
-      ],
-      [
-        "captures/apercu-fiche-absente.png",
-        "Aperçu : une fiche non enregistrée, expliquée, avec retour à la carte"
-      ],
-      [
-        "captures/chromium-tel-petit.png",
-        "Chromium — 320 × 568"
-      ],
-      [
-        "captures/chromium-tel-moyen.png",
-        "Chromium — 390 × 844"
-      ],
-      [
-        "captures/chromium-tel-paysage.png",
-        "Chromium — téléphone couché 844 × 390"
-      ],
-      [
-        "captures/chromium-tablette-compacte.png",
-        "Chromium — tablette 744 × 1133"
-      ],
-      [
-        "captures/chromium-tablette-large-paysage.png",
-        "Chromium — tablette 1366 × 1024"
-      ],
-      [
-        "captures/chromium-ordinateur.png",
-        "Chromium — ordinateur 1440 × 900"
-      ],
-      [
-        "captures/chromium-pwa-encoche.png",
-        "Chromium — app installée simulée, encoche"
-      ],
-      [
-        "captures/chromium-zoom130.png",
-        "Chromium — texte à 130 %"
-      ],
-      [
-        "captures/webkit-tel-petit.png",
-        "WebKit — 320 × 568"
-      ],
-      [
-        "captures/webkit-tel-moyen.png",
-        "WebKit — 390 × 844"
-      ],
-      [
-        "captures/webkit-tel-paysage.png",
-        "WebKit — téléphone couché 844 × 390"
-      ],
-      [
-        "captures/webkit-tablette-compacte.png",
-        "WebKit — tablette 744 × 1133"
-      ],
-      [
-        "captures/webkit-tablette-large-paysage.png",
-        "WebKit — tablette 1366 × 1024"
-      ],
-      [
-        "captures/webkit-ordinateur.png",
-        "WebKit — ordinateur 1440 × 900"
-      ],
-      [
-        "captures/webkit-pwa-encoche.png",
-        "WebKit — app installée simulée, encoche"
-      ],
-      [
-        "captures/webkit-zoom130.png",
-        "WebKit — texte à 130 %"
-      ]
-    ]
-  },
-  {
-    "dossier": "recettes-2026-11-01",
-    "date": "01/11/2026",
-    "titre": "Recettes — photos terminées, fiches sans flou, parcours vérifié",
-    "note": "Avant/après du curry (photo réelle sous licence libre) et du bar (recadré) dans leurs cadres réels ; parcours recette → Ma semaine → Courses → placard → comparaison, états vide/chargement/échec, petit téléphone, paysage, tablette ; démonstrateur en paysage. La section des fiches est rectifiée : le fond flouté est rétabli (voir la restauration). Version 6b76ac309.",
-    "pages": [
-      [
-        "index.html",
-        "Le lot du 1er novembre"
-      ]
-    ],
-    "captures": [
-      [
-        "c/apres-bar-gingembre-piment-bureau.jpg",
-        "apres bar gingembre piment bureau"
-      ],
-      [
-        "c/apres-bar-gingembre-piment-telephone.jpg",
-        "apres bar gingembre piment telephone"
-      ],
-      [
-        "c/apres-bar-gingembre-piment-vignette.jpg",
-        "apres bar gingembre piment vignette"
-      ],
-      [
-        "c/apres-curry-haricots-rouges-bureau.jpg",
-        "apres curry haricots rouges bureau"
-      ],
-      [
-        "c/apres-curry-haricots-rouges-telephone.jpg",
-        "apres curry haricots rouges telephone"
-      ],
-      [
-        "c/apres-curry-haricots-rouges-vignette.jpg",
-        "apres curry haricots rouges vignette"
-      ],
-      [
-        "c/avant-bar-gingembre-piment-bureau.jpg",
-        "avant bar gingembre piment bureau"
-      ],
-      [
-        "c/avant-bar-gingembre-piment-telephone.jpg",
-        "avant bar gingembre piment telephone"
-      ],
-      [
-        "c/avant-bar-gingembre-piment-vignette.jpg",
-        "avant bar gingembre piment vignette"
-      ],
-      [
-        "c/avant-curry-haricots-rouges-bureau.jpg",
-        "avant curry haricots rouges bureau"
-      ],
-      [
-        "c/avant-curry-haricots-rouges-telephone.jpg",
-        "avant curry haricots rouges telephone"
-      ],
-      [
-        "c/avant-curry-haricots-rouges-vignette.jpg",
-        "avant curry haricots rouges vignette"
-      ],
-      [
-        "c/latkes-yaourt-pleine-definition.jpg",
-        "latkes yaourt pleine definition"
-      ],
-      [
-        "c/parcours-01-fiche-portions-courses.jpg",
-        "parcours 01 fiche portions courses"
-      ],
-      [
-        "c/parcours-02-ma-semaine.jpg",
-        "parcours 02 ma semaine"
-      ],
-      [
-        "c/parcours-03-courses-regroupees.jpg",
-        "parcours 03 courses regroupees"
-      ],
-      [
-        "c/parcours-04-comparer-placard-confirme.jpg",
-        "parcours 04 comparer placard confirme"
-      ],
-      [
-        "c/parcours-05-comparer-320x568.jpg",
-        "parcours 05 comparer 320x568"
-      ],
-      [
-        "c/parcours-05-comparer-768x1024.jpg",
-        "parcours 05 comparer 768x1024"
-      ],
-      [
-        "c/parcours-05-comparer-844x390.jpg",
-        "parcours 05 comparer 844x390"
-      ],
-      [
-        "c/parcours-05-courses-320x568.jpg",
-        "parcours 05 courses 320x568"
-      ],
-      [
-        "c/parcours-05-courses-768x1024.jpg",
-        "parcours 05 courses 768x1024"
-      ],
-      [
-        "c/parcours-05-courses-844x390.jpg",
-        "parcours 05 courses 844x390"
-      ],
-      [
-        "c/parcours-06-demo-paysage-cartes.jpg",
-        "parcours 06 demo paysage cartes"
-      ],
-      [
-        "c/parcours-07-demo-paysage-feuille.jpg",
-        "parcours 07 demo paysage feuille"
-      ],
-      [
-        "c/parcours-08-demo-paysage-remplacement.jpg",
-        "parcours 08 demo paysage remplacement"
-      ],
-      [
-        "c/parcours-09-demo-bureau-pied.jpg",
-        "parcours 09 demo bureau pied"
-      ],
-      [
-        "c/parcours-10-etat-chargement.jpg",
-        "parcours 10 etat chargement"
-      ],
-      [
-        "c/parcours-10-etat-echec.jpg",
-        "parcours 10 etat echec"
-      ],
-      [
-        "c/parcours-10-etat-vide.jpg",
-        "parcours 10 etat vide"
-      ]
-    ]
-  },
-  {
-    "dossier": "recettes-2026-11-01-restauration",
-    "date": "01/11/2026",
-    "titre": "Recettes — le fond flouté des fiches rétabli",
-    "note": "Rectification : le fond flouté derrière les images est voulu et rétabli à l'identique (fiche recette, fiche d'événement ; même effet que la production). Seules les bandes floues de raccord sont visées. Version a52418902.",
-    "pages": [
-      [
-        "index.html",
-        "La restauration"
-      ]
-    ],
-    "captures": [
-      [
-        "c/recette-restauree-apercu.jpg",
-        "Fiche recette, fond flouté rétabli"
-      ],
-      [
-        "c/recette-production.jpg",
-        "Fiche recette, production"
-      ],
-      [
-        "c/recette-aplat-annule.jpg",
-        "Le changement annulé (aplat)"
-      ],
-      [
-        "c/evenement-restaure-apercu.jpg",
-        "Fiche d'événement, rétablie"
-      ],
-      [
-        "c/evenement-production.jpg",
-        "Fiche d'événement, production"
-      ]
-    ]
-  },
-  {
-    "dossier": "autour-2026-11-01-d1444",
-    "date": "01/11/2026",
-    "titre": "Autour de moi — flou rectifié, recherche depuis l'aide, préchauffage qui attend la carte",
-    "note": "Fonds flous choisis rétablis (lumière de l'Agenda, fiche depuis la carte), recherche dans la feuille d'aide avec le focus au toucher, moteur de carte 10,4–11,9 → 8,8–9,8 s au téléphone ralenti. Aperçu interactif sur les mêmes données figées (02 h 01). Version fc4198706 (corrige la feuille de recherche qui se refermait sous latence dans 92ecfb21a).",
-    "pages": [
-      [
-        "index.html",
-        "Interactif, filmé, photographié ; changements, mesures, limites"
-      ],
-      [
-        "films/7-aide-recherche.mp4",
-        "Vidéo — Position refusée → l'aide → recherche dans la même feuille → Elne"
-      ]
-    ],
-    "captures": [
-      [
-        "films/7-aide-recherche.jpg",
-        "Planche de la vidéo"
-      ],
-      [
-        "captures/chromium-aide-recherche-focus.jpg",
-        "L'aide : recherche dans la même feuille, champ focalisé"
-      ],
-      [
-        "captures/chromium-aide-apres-choix.jpg",
-        "Elne choisie : distances depuis Elne"
-      ],
-      [
-        "captures/agenda-puce-avant.png",
-        "Agenda — avant : sans lumière"
-      ],
-      [
-        "captures/agenda-puce-apres.png",
-        "Agenda — après : la lumière rétablie"
-      ],
-      [
-        "captures/fiche-depuis-la-carte-avant.jpg",
-        "Fiche depuis la carte — avant"
-      ],
-      [
-        "captures/fiche-depuis-la-carte-apres.jpg",
-        "Fiche depuis la carte — après : fond flouté"
-      ],
-      [
-        "captures/pharmacies-fixture-moins-de-50-m.jpg",
-        "Pharmacies, données FICTIVES"
-      ],
-      [
-        "captures/pulse-intelligence-fixture-moins-de-50-m.jpg",
-        "Pulse Intelligence, données FICTIVES"
-      ]
-    ]
-  },
-  {
-    "dossier": "vues-2026-11-01-finition",
-    "date": "01/11/2026",
-    "titre": "Autour, Agenda, Découvrir — sélection sobre, cône réutilisé, affiche filigranée écartée",
-    "note": "En production : déploiement 30ab104a-36c0-454b-aa4f-c4e360f16c01, main 27674fbf0 (D-1446). Captures de la production, données réelles, 01/11 entre 13 h 31 et 14 h 15 UTC ; « avant » = production 97ddfe84.",
-    "pages": [
-      [
-        "index.html",
-        "Ce qui a changé, captures de la production, limites"
-      ]
-    ],
-    "captures": [
-      [
-        "captures/avant-agenda-halo.png",
-        "Avant : halo derrière la famille choisie"
-      ],
-      [
-        "captures/apres-agenda-telephone-webkit.png",
-        "Après : pastille pleine, aucun halo, Halloween au cône"
-      ],
-      [
-        "captures/apres-agenda-focus-clavier.png",
-        "Après : focus clavier visible"
-      ],
-      [
-        "captures/apres-agenda-paysage.png",
-        "Après : paysage"
-      ],
-      [
-        "captures/apres-agenda-tablette-webkit.png",
-        "Après : tablette"
-      ],
-      [
-        "captures/apres-autour-telephone-webkit.png",
-        "Autour : la même grammaire"
-      ],
-      [
-        "captures/apres-fiche-rifle-illustration.jpg",
-        "Fiche du rifle : illustration de secours"
-      ],
-      [
-        "captures/apres-ligne-rifle-cone.png",
-        "Ligne du rifle : le cône"
-      ],
-      [
-        "captures/decouvrir-inchange.jpg",
-        "Découvrir : inchangé"
-      ]
-    ]
-  },
-  {
-    "dossier": "autour-2026-11-01-conception",
-    "date": "01/11/2026",
-    "titre": "Autour de moi — conception : où, quand, quelle envie (prototype)",
-    "note": "PROTOTYPE, non publié dans l'application (D-1447) — branche chantier/autour-ux, 994b1ca3b. Prototype interactif : /autour/ (données réelles figées au 01/11 à 20 h 40, heure de Paris). Aucune donnée simulée.",
-    "pages": [
-      [
-        "index.html",
-        "Diagnostic, recommandation, correspondances, classement, parcours, limites"
-      ]
-    ],
-    "captures": [
-      [
-        "captures/a-collioure-webkit.png",
-        "A · sans géolocalisation, « Où » → Collioure"
-      ],
-      [
-        "captures/b-enfants-webkit.png",
-        "B · « Avec enfants » et la couverture dite"
-      ],
-      [
-        "captures/c-ce-soir-webkit.png",
-        "C · « Ce soir », peu d'offre : un peu plus loin"
-      ],
-      [
-        "captures/d-recherche-canyoning-webkit.png",
-        "D · « canyoning » : l'activité d'abord"
-      ],
-      [
-        "captures/d-plus-proches-chromium.png",
-        "D · filtre Canyoning : les plus proches"
-      ],
-      [
-        "captures/d-recherche-ski-webkit.png",
-        "D · « ski »"
-      ],
-      [
-        "captures/e-amas-chromium.png",
-        "E · un amas expliqué"
-      ],
-      [
-        "captures/f-ouverte-webkit.png",
-        "F · ouverte : barre basse retirée"
-      ],
-      [
-        "captures/f-refermee-webkit.png",
-        "F · refermée : barre rendue"
-      ],
-      [
-        "captures/quand-apercu-webkit.png",
-        "La feuille « Quand ? »"
-      ],
-      [
-        "captures/petit-320-collioure-webkit.png",
-        "320 × 568 : puce « Où » courte"
-      ],
-      [
-        "captures/tablette-1024-chromium.png",
-        "Tablette : défaut préexistant de la barre basse"
-      ]
-    ]
-  },
-  {
-    "dossier": "autour-2026-11-02-finitions-iphone",
-    "date": "02/11/2026",
-    "titre": "Autour de moi — les frictions du retour iPhone (prototype)",
-    "note": "PROTOTYPE, non publié dans l'application (D-1448) — branche chantier/autour-ux, 4f1847742. Prototype interactif : /autour/ (données réelles figées au 02/11 à 10 h 46, heure de Paris). Aucune donnée simulée.",
-    "pages": [
-      [
-        "index.html",
-        "Ce qui change, mesures avant / après, limites"
-      ]
-    ],
-    "captures": [
-      [
-        "captures/carrousel-rangee-320.png",
-        "Le carrousel à 320 px, avant / après"
-      ],
-      [
-        "captures/carrousel-fin-320.png",
-        "La fin du carrousel, avant / après"
-      ],
-      [
-        "captures/exploration-retour.png",
-        "En exploration : le retour et « Revenir à … »"
-      ],
-      [
-        "captures/fiche-courte.png",
-        "La fiche courte, toute ouvrante"
-      ],
-      [
-        "captures/ouverture-fiche.png",
-        "L'ouverture d'une fiche à 0,6 s, avant / après"
-      ],
-      [
-        "captures/amas-anneau.png",
-        "Les amas et leur anneau"
-      ],
-      [
-        "captures/sans-carte-enfants-saint-cyprien.png",
-        "Sans carte : Avec enfants à Saint-Cyprien"
-      ],
-      [
-        "captures/tablette.png",
-        "Tablette : le panneau au-dessus de la barre"
-      ],
-      [
-        "captures/paysage.png",
-        "Paysage : le panneau défilé"
-      ]
-    ]
-  },
-  {
-    "dossier": "accueil-2026-11-02-lumiere",
-    "date": "02/11/2026",
-    "titre": "Accueil — la lumière du hero, lot 1",
-    "note": "Aperçu sur la branche chantier/accueil-lumiere, commit c18dc73f8, rien en production. Page réelle figée : /accueil-lumiere/, données réelles du 02/11 à 13 h 40 (heure de Paris).",
-    "pages": [
-      [
-        "index.html",
-        "Ce qui change, liens, limites"
-      ]
-    ],
-    "captures": [
-      [
-        "captures/app-440-haut.png",
-        "App installée émulée, 440 pt, haut de page"
-      ],
-      [
-        "captures/app-440-defile-40.png",
-        "Le verre après 40 pt de défilement"
-      ],
-      [
-        "captures/app-440-defile-300.png",
-        "Le verre après 300 pt de défilement"
-      ],
-      [
-        "captures/photo-claire-40.png",
-        "Photo claire sous l'en-tête, 40 pt"
-      ],
-      [
-        "captures/photo-claire-300.png",
-        "Photo claire sous l'en-tête, 300 pt"
-      ],
-      [
-        "captures/app-390.png",
-        "App installée émulée, 390 pt, jusqu'à « Sortir aujourd'hui »"
-      ],
-      [
-        "captures/app-320.png",
-        "App installée émulée, 320 pt, jusqu'à « Sortir aujourd'hui »"
-      ],
-      [
-        "captures/navigateur-390.png",
-        "Mise en page navigateur émulée, 390 pt"
-      ],
-      [
-        "captures/anneaux-avant-apres.png",
-        "Les anneaux, avant et après : WebKit, haut de page, contraste étiré à 22 niveaux"
-      ]
-    ]
-  },
-  {
-    "dossier": "autour-2026-11-02-classement",
-    "date": "02/11/2026",
-    "titre": "Autour de moi — classement, « Avec enfants », modèle économique : à arbitrer (prototype)",
-    "note": "PROPOSITION, rien n'est intégré (D-1449, D-1480) — branche chantier/autour-ux, a089edc5a. Prototype : /autour/ (données réelles figées au 02/11 à 14 h 49, heure de Paris). Le classement proposé n'y est pas. Aucune donnée simulée.",
-    "pages": [
-      [
-        "index.html",
-        "Corrections, audit, classement proposé, cas, modèle économique, décisions attendues"
-      ]
-    ],
-    "captures": [
-      [
-        "captures/al-trayou-avant-apres.png",
-        "Al Trayou, avant / après"
-      ],
-      [
-        "captures/amas-objets.png",
-        "Les groupes et leurs objets, capture de la production (WebKit, 390 px)"
-      ],
-      [
-        "captures/rangee-groupes.png",
-        "Une rangée de groupe"
-      ],
-      [
-        "captures/rail-ballons.png",
-        "« Avec enfants » : les deux ballons"
-      ],
-      [
-        "captures/recherche-sans-carte.png",
-        "La recherche sans carte"
-      ],
-      [
-        "captures/sans-carte-arrivee.png",
-        "L'arrivée sans carte"
-      ]
-    ]
-  },
-  {
-    "dossier": "accueil-2026-11-02-lumiere-lot2",
-    "date": "02/11/2026",
-    "titre": "Accueil — la lumière suit la photo, lot 2",
-    "note": "Aperçu sur la branche chantier/accueil-lumiere, commit 22d88be02, rien en production. Page réelle figée : /accueil-lumiere/, données réelles du 02/11 à 15 h 05 (heure de Paris).",
-    "pages": [
-      [
-        "index.html",
-        "Ce qui change, liens, limites"
-      ]
-    ],
-    "captures": [
-      [
-        "captures/ambiance-bleu.png",
-        "Photo aux tons bleus : lumière bleue"
-      ],
-      [
-        "captures/ambiance-bleu-defile-40.png",
-        "Photo aux tons bleus : lumière bleue, 40 pt de défilement"
-      ],
-      [
-        "captures/ambiance-brun-rose.png",
-        "Photo aux tons chauds : lumière brun rosé"
-      ],
-      [
-        "captures/ambiance-brun-rose-defile-40.png",
-        "Photo aux tons chauds : lumière brun rosé, 40 pt de défilement"
-      ],
-      [
-        "captures/ambiance-emeraude.png",
-        "Photo aux tons verts : lumière émeraude"
-      ],
-      [
-        "captures/ambiance-petrole.png",
-        "Photo peu colorée : pétrole de repli"
-      ],
-      [
-        "captures/ambiance-photo-claire.png",
-        "Photo très claire : même luminosité de fond"
-      ],
-      [
-        "captures/bleu-390.png",
-        "390 pt, jusqu'à « Sortir aujourd'hui »"
-      ],
-      [
-        "captures/bleu-320.png",
-        "320 pt, jusqu'à « Sortir aujourd'hui »"
-      ],
-      [
-        "captures/navigateur-390.png",
-        "Mise en page navigateur émulée, 390 pt"
-      ]
-    ]
-  },
-  {
-    "dossier": "autour-2026-11-02-publie",
-    "date": "02/11/2026",
-    "titre": "Autour de moi — premier lot et classement publiés",
-    "note": "EN PRODUCTION (D-1481, D-1482, D-1483) — déploiement 49361351, commit 2f5094dc0, vérifié sur perpignanpulse.com à 18 h 36 ; banc sur l'index réel du 02/11 ; essais de mises en avant non branchés.",
-    "pages": [
-      [
-        "index.html",
-        "Ce qui est publié, ce qu'on peut tester, limites"
-      ],
-      [
-        "banc.html",
-        "Le rapport du banc : chaque rang et ses contributions"
-      ]
-    ],
-    "captures": [
-      [
-        "captures/selection.png",
-        "Production : La sélection, Perpignan"
-      ],
-      [
-        "captures/avec-enfants.png",
-        "Production : Avec enfants, Argelès-sur-Mer"
-      ],
-      [
-        "captures/groupes.png",
-        "Production : les groupes, 390 px"
-      ],
-      [
-        "captures/groupes-320.png",
-        "Production : les groupes, 320 px"
-      ],
-      [
-        "captures/signes-carte.png",
-        "Essai non branché : signes sur la carte, 390 px"
-      ],
-      [
-        "captures/signes-carte-320.png",
-        "Essai non branché : signes sur la carte, 320 px"
-      ],
-      [
-        "captures/sponsorise-liste.png",
-        "Essai non branché : « Sponsorisé » dans la liste"
-      ]
-    ]
-  },
-  {
-    "dossier": "recettes-2026-11-03-parcours",
-    "date": "03/11/2026",
-    "titre": "Recettes, Mes repas, Courses — le parcours en production",
-    "note": "Captures mobiles de la vraie production (déploiement e877bba5, code a0ee0b540), avec la nature de chaque donnée : catalogue réel, gestes de test, aucun prix. iPhone réel non vérifié.",
-    "pages": [
-      [
-        "index.html",
-        "Le parcours et ses 36 contrôles (à ouvrir sur téléphone)"
-      ]
-    ],
-    "captures": [
-      [
-        "captures/01-fiche.png",
-        "La fiche d'une recette"
-      ],
-      [
-        "captures/02-courses.png",
-        "Courses"
-      ],
-      [
-        "captures/03-cu29-coche-gardee.png",
-        "CU-29 : la recette passe dans Mes repas"
-      ],
-      [
-        "captures/04-semaine.png",
-        "Mes repas"
-      ],
-      [
-        "captures/05-cu29-quantite.png",
-        "CU-29 : il en faut plus"
-      ],
-      [
-        "captures/06-chez-toi.png",
-        "Le placard et « Je l'ai déjà »"
-      ],
-      [
-        "captures/07-reglages-repas.png",
-        "Les réglages d'un repas"
-      ],
-      [
-        "captures/08-guide.png",
-        "Cuisiner"
-      ],
-      [
-        "captures/09-courses-fin.png",
-        "Après tous les gestes et un rechargement"
-      ],
-      [
-        "captures/10-comparateur.png",
-        "Le comparateur"
-      ]
-    ]
-  },
-  {
-    "dossier": "rubriques-2026-11-03",
-    "date": "03/11/2026",
-    "titre": "Le panneau Rubriques, version livrée",
-    "note": "Captures de la vraie production (déploiement ba4eb02e, code 345f424b5), en Chromium à rendu GPU émulé, données réelles du site. iPhone réel non vérifié.",
-    "pages": [
-      [
-        "index.html",
-        "Les captures légendées (à ouvrir sur téléphone)"
-      ]
-    ],
-    "captures": [
-      [
-        "captures/2-panneau-sur-accueil.png",
-        "Le panneau sur l'accueil"
-      ],
-      [
-        "captures/4-panneau-sur-courses.png",
-        "Sur la page Courses"
-      ],
-      [
-        "captures/6-panneau-sur-recharge.png",
-        "Sur le service Recharge"
-      ],
-      [
-        "captures/5-recharge.png",
-        "Le service ouvert par sa tuile"
-      ],
-      [
-        "captures/7-panneau-390.png",
-        "À 390 px"
-      ],
-      [
-        "captures/1-accueil.png",
-        "L'accueil, panneau fermé"
-      ]
-    ]
-  },
-  {
-    "dossier": "rubriques-proportions-2026-11-03",
-    "date": "03/11/2026",
-    "titre": "Le panneau Rubriques, avant et après",
-    "note": "Vraie production, avant ef25634a et après 9f44403a (code b6990ee2b), en Chromium à rendu GPU émulé, données réelles du site. iPhone réel non vérifié.",
-    "pages": [
-      [
-        "index.html",
-        "Les captures comparables, légendées (à ouvrir sur téléphone)"
-      ]
-    ],
-    "captures": [
-      [
-        "captures/1-avant-apres-440.png",
-        "Grand iPhone, 440 px. De gauche à droite : avant en haut, après en haut, avant en bas, après en bas. Paires routières, Cuisine, boîtes repas réduites, USAP élargi ; Cinéma et Dragons inchangés."
-      ],
-      [
-        "captures/2-avant-apres-390.png",
-        "iPhone courant, 390 px, dans le même ordre : avant en haut, après en haut, avant en bas, après en bas."
-      ],
-      [
-        "captures/3-avant-apres-360.png",
-        "Petit téléphone, 360 px, dans le même ordre. Le panneau est plus long, et le défilement atteint USAP et Dragons Catalans."
-      ],
-      [
-        "captures/4-tablette.png",
-        "Tablette, 768 px : après seulement. Sport se rejoint en défilant de 108 px."
-      ],
-      [
-        "captures/5-texte-agrandi-haut.png",
-        "Texte agrandi, simulé par une page à 262 px, équivalent d'un zoom à 150 % sur un iPhone de 390 px : haut du panneau, après seulement."
-      ],
-      [
-        "captures/6-texte-agrandi-bas.png",
-        "Le même, défilé jusqu'aux dernières destinations."
-      ]
-    ]
-  },
-  {
-    "dossier": "rubriques-objets-2026-11-03",
-    "date": "03/11/2026",
-    "titre": "Les objets du panneau, sans poteau",
-    "note": "Vraie production, avant 9f44403a et après b0505891 (code de3c8c741), en Chromium à rendu GPU émulé, données réelles du site. iPhone réel non vérifié.",
-    "pages": [
-      [
-        "index.html",
-        "Les captures avant/après, légendées (à ouvrir sur téléphone)"
-      ]
-    ],
-    "captures": [
-      [
-        "captures/1-objets-avant-apres.png",
-        "Les six objets retouchés : avant en haut, après en bas. De gauche à droite : Webcams, Stationnement, Trafic, Recharge, Carburant, Recettes."
-      ],
-      [
-        "captures/2-sport-avant-apres.png",
-        "La rangée Sport à 440 px : avant en haut, après en bas. Dragons Catalans passe de 127 à 137 px, l'USAP reste à 112."
-      ],
-      [
-        "captures/3-avant-apres-440.png",
-        "Le panneau à 440 px. De gauche à droite : avant en haut, après en haut, avant en bas, après en bas."
-      ],
-      [
-        "captures/4-avant-apres-390.png",
-        "Le panneau à 390 px, dans le même ordre."
-      ],
-      [
-        "captures/5-avant-apres-360.png",
-        "Le panneau à 360 px, dans le même ordre."
-      ],
-      [
-        "captures/6-tablette.png",
-        "Tablette, 768 px : après seulement."
-      ]
-    ]
-  }
+ {
+  "dossier": "recettes-2026-10-29",
+  "date": "29/10/2026",
+  "titre": "Recettes — écran proposé (maquette)",
+  "note": "Maquette de l'écran du 29/10, pour en juger la composition ; durées visées, non vérifiées.",
+  "pages": [
+   [
+    "ecran.html",
+    "Écran proposé (à ouvrir sur téléphone)"
+   ]
+  ],
+  "captures": [
+   [
+    "captures/ecran-iphone.png",
+    "Premier écran, iPhone"
+   ],
+   [
+    "captures/ecran-iphone-complet.png",
+    "Écran entier"
+   ]
+  ]
+ },
+ {
+  "dossier": "autour-2026-10-31",
+  "date": "31/10/2026",
+  "titre": "Autour de moi — la carte d'abord",
+  "note": "Lieux et événements sur une carte, huit envies, localisation fiable ; aperçu interactif sur iPhone à part (tunnel).",
+  "pages": [
+   [
+    "index.html",
+    "Ce qui est construit, mesures, limites"
+   ],
+   [
+    "diagnostic.html",
+    "Le diagnostic du 30/10 (avant la refonte)"
+   ]
+  ],
+  "captures": [
+   [
+    "captures/objets-familles.png",
+    "Les huit objets des familles"
+   ],
+   [
+    "planche-iphone.jpg",
+    "Les dix écrans iPhone sur une planche"
+   ],
+   [
+    "captures/iphone-arrivee.png",
+    "Arrivée, iPhone"
+   ],
+   [
+    "captures/iphone-fiche-lieu.png",
+    "Fiche courte d'un lieu"
+   ],
+   [
+    "captures/iphone-groupe-evenements.png",
+    "Plusieurs dates au même endroit"
+   ],
+   [
+    "captures/iphone-les-angles.png",
+    "Destination : Les Angles"
+   ],
+   [
+    "captures/iphone-les-angles-liste.png",
+    "La liste synchronisée"
+   ],
+   [
+    "captures/iphone-filtres.png",
+    "Les filtres"
+   ],
+   [
+    "captures/iphone-bien-etre.png",
+    "Une famille et ses sous-catégories"
+   ],
+   [
+    "captures/iphone-refus-aide.png",
+    "Localisation refusée"
+   ],
+   [
+    "captures/iphone-position-approximative.png",
+    "Position approximative"
+   ],
+   [
+    "captures/iphone-delai-depasse.png",
+    "Délai dépassé"
+   ],
+   [
+    "captures/tablette.png",
+    "Tablette"
+   ],
+   [
+    "captures/bureau.png",
+    "Ordinateur"
+   ]
+  ]
+ },
+ {
+  "dossier": "recettes-2026-10-31",
+  "date": "31/10/2026",
+  "titre": "Recettes — visuels et repas complets",
+  "note": "Onze nouvelles photos de plats relues contre leur fiche (à valider à l'œil avant production), treize repas complétés, Protéiné et allergènes par composition.",
+  "pages": [
+   [
+    "index.html",
+    "Ce qui change, les captures, les limites"
+   ]
+  ],
+  "captures": [
+   [
+    "captures/iphone-accueil-cuisine.png",
+    "Accueil — Cuisine, choix Protéiné"
+   ],
+   [
+    "captures/iphone-page-recettes.png",
+    "Page Recettes — besoins illustrés"
+   ],
+   [
+    "captures/iphone-fiche-penne.png",
+    "Fiche — penne all'arrabbiata, végane"
+   ],
+   [
+    "captures/iphone-fiche-curry-poulet.png",
+    "Fiche — curry de poulet et son riz"
+   ],
+   [
+    "captures/iphone-fiche-stroganoff.png",
+    "Fiche — Bœuf Stroganoff et tagliatelles"
+   ],
+   [
+    "captures/iphone-fiche-pancakes.png",
+    "Fiche — pancakes, framboises et myrtilles"
+   ],
+   [
+    "captures/iphone-pancakes-ingredients.png",
+    "Pancakes — myrtille, sirop d'érable"
+   ],
+   [
+    "captures/iphone-preparation-debut.png",
+    "Préparation — étapes numérotées"
+   ],
+   [
+    "captures/iphone-preparation-fin.png",
+    "Préparation — la fin"
+   ],
+   [
+    "captures/iphone-nutrition-allergenes.png",
+    "Nutrition et allergènes"
+   ],
+   [
+    "captures/iphone-ma-semaine.png",
+    "Ma semaine"
+   ],
+   [
+    "captures/iphone-ma-semaine-repas.png",
+    "Ma semaine — les repas"
+   ],
+   [
+    "captures/iphone-courses.png",
+    "Courses"
+   ],
+   [
+    "captures/iphone-courses-rayons.png",
+    "Courses — rayons"
+   ],
+   [
+    "captures/iphone-magasins.png",
+    "Magasins à proximité"
+   ],
+   [
+    "captures/planche-photos-plats.jpg",
+    "Les onze nouvelles photos de plats"
+   ],
+   [
+    "captures/planche-objets.png",
+    "Objets : oignon nouveau, minuteur, myrtille, sirop d'érable"
+   ],
+   [
+    "captures/verif-lentille-corail.png",
+    "Vérification — lentille corail"
+   ],
+   [
+    "captures/verif-recette-retiree.png",
+    "Vérification — recette retirée consultable"
+   ],
+   [
+    "captures/verif-bandeau-titre.png",
+    "Vérification — titre du bandeau"
+   ]
+  ]
+ },
+ {
+  "dossier": "autour-2026-10-31-finition",
+  "date": "31/10/2026",
+  "titre": "Autour de moi — la finition",
+  "note": "Carte dégagée, filtres simplifiés, groupes d'événements complets, positions approchées dites ; avant / après. Aperçu interactif à la même adresse.",
+  "pages": [
+   [
+    "index.html",
+    "Ce qui a changé, contenus contrôlés, limites"
+   ]
+  ],
+  "captures": [
+   [
+    "planche-iphone.jpg",
+    "Avant / après et les nouveaux parcours, huit écrans iPhone"
+   ],
+   [
+    "captures/avant-arrivee.png",
+    "Avant : arrivée"
+   ],
+   [
+    "captures/iphone-arrivee.png",
+    "Après : arrivée"
+   ],
+   [
+    "captures/avant-les-angles-groupe.png",
+    "Avant : Les Angles, 2,1 km"
+   ],
+   [
+    "captures/iphone-les-angles-rue.png",
+    "Après : rue sans numéro"
+   ],
+   [
+    "captures/iphone-les-angles-feuille.png",
+    "Voir les 3 événements"
+   ],
+   [
+    "captures/iphone-saint-cyprien-commune.png",
+    "22 événements situés à la commune"
+   ],
+   [
+    "captures/iphone-saint-cyprien-feuille.png",
+    "Les 22 événements"
+   ],
+   [
+    "captures/iphone-360-groupe.png",
+    "Petit écran, 360 px"
+   ],
+   [
+    "captures/iphone-fiche-lieu.png",
+    "Fiche d'un lieu"
+   ],
+   [
+    "captures/iphone-filtres.png",
+    "Filtres simplifiés"
+   ],
+   [
+    "captures/iphone-filtres-actifs-explorer.png",
+    "Filtres actifs et Explorer cette zone"
+   ],
+   [
+    "captures/iphone-webkit-evenements.png",
+    "Événements, WebKit"
+   ],
+   [
+    "captures/objets-avant-apres.png",
+    "Détourages avant / après"
+   ],
+   [
+    "captures/bureau.png",
+    "Ordinateur"
+   ]
+  ]
+ },
+ {
+  "dossier": "agenda-2026-10-31",
+  "date": "31/10/2026",
+  "titre": "Agenda — la carte et le programme",
+  "note": "Refonte : carte des rendez-vous dès le premier écran, programme par jour et par moment, lignes courtes ; 1 690 Ko au lieu de 4 278 en 4G. Aperçu interactif sur iPhone.",
+  "pages": [
+   [
+    "index.html",
+    "Ce que fait la page, mesures, vérifications, limites"
+   ]
+  ],
+  "captures": [
+   [
+    "planche-iphone.jpg",
+    "Avant / après et les principaux écrans iPhone"
+   ],
+   [
+    "captures/avant-arrivee.png",
+    "Avant : l'Agenda en production"
+   ],
+   [
+    "captures/iphone-arrivee.png",
+    "Après : l'arrivée"
+   ],
+   [
+    "captures/iphone-programme.png",
+    "Le programme du jour"
+   ],
+   [
+    "captures/iphone-fiche-courte.png",
+    "Une séance sur la carte"
+   ],
+   [
+    "captures/iphone-carte-en-grand.png",
+    "La carte en grand"
+   ],
+   [
+    "captures/iphone-demain.png",
+    "Demain"
+   ],
+   [
+    "captures/iphone-week-end.png",
+    "Ce week-end"
+   ],
+   [
+    "captures/iphone-date.png",
+    "Une date"
+   ],
+   [
+    "captures/iphone-groupe-fiche.png",
+    "Lieu connu à la commune"
+   ],
+   [
+    "captures/iphone-groupe.png",
+    "Voir les 2 événements"
+   ],
+   [
+    "captures/iphone-en-continu.png",
+    "Expositions en continu"
+   ],
+   [
+    "captures/iphone-filtres.png",
+    "Les filtres"
+   ],
+   [
+    "captures/iphone-filtres-actifs.png",
+    "Depuis Prades, 20 km"
+   ],
+   [
+    "captures/iphone-360-webkit.png",
+    "360 px, WebKit"
+   ],
+   [
+    "captures/tablette.png",
+    "Tablette"
+   ],
+   [
+    "captures/bureau.png",
+    "Ordinateur"
+   ]
+  ]
+ },
+ {
+  "dossier": "autour-2026-10-31-recomposition",
+  "date": "31/10/2026",
+  "titre": "Autour de moi — la carte d'abord, recomposée",
+  "note": "Les familles sous l'en-tête, une flèche GPS, les résultats dans une feuille basse, un mode exploration ; carte plus claire et plus chaude. L'Agenda est inchangé. Aperçu interactif sur iPhone.",
+  "pages": [
+   [
+    "index.html",
+    "Ce qui a changé, vérifications, limites"
+   ]
+  ],
+  "captures": [
+   [
+    "planche-iphone.jpg",
+    "Avant / après et les principaux écrans iPhone"
+   ],
+   [
+    "captures/avant-arrivee.png",
+    "Avant : l'arrivée"
+   ],
+   [
+    "captures/iphone-arrivee.png",
+    "Après : l'arrivée"
+   ],
+   [
+    "captures/iphone-feuille-intermediaire.png",
+    "La feuille, à mi-hauteur"
+   ],
+   [
+    "captures/iphone-feuille-ouverte.png",
+    "Ouverte : la date et les filtres"
+   ],
+   [
+    "captures/iphone-fiche.png",
+    "Un repère touché, une fiche"
+   ],
+   [
+    "captures/iphone-patrimoine.png",
+    "Patrimoine et ses précisions"
+   ],
+   [
+    "captures/iphone-fetes.png",
+    "Fêtes, depuis Canet"
+   ],
+   [
+    "captures/iphone-fetes-halloween.png",
+    "Fêtes · Halloween"
+   ],
+   [
+    "captures/iphone-exploration.png",
+    "En exploration"
+   ],
+   [
+    "captures/iphone-localisation.png",
+    "La flèche GPS : d'où regarder"
+   ],
+   [
+    "captures/iphone-360-webkit.png",
+    "360 px, moteur WebKit"
+   ],
+   [
+    "captures/iphone-430.png",
+    "430 px"
+   ],
+   [
+    "captures/tablette.png",
+    "Tablette"
+   ],
+   [
+    "captures/bureau.png",
+    "Ordinateur"
+   ]
+  ]
+ },
+ {
+  "dossier": "recettes-2026-10-31-panier",
+  "date": "31/10/2026",
+  "titre": "Recettes — comparer son panier, enseignes, crédits et sources",
+  "note": "Comparateur relié à Courses : un seul magasin a des prix publiés dans le 66 (E.Leclerc Perpignan Sud, 2025), donc 8 articles sur 38 comparés et aucun « moins cher » ; logos officiels ; fiches sans mention de provenance.",
+  "pages": [
+   [
+    "index.html",
+    "Ce qui change, le panier témoin, les sources, les limites"
+   ]
+  ],
+  "captures": [
+   [
+    "captures/iphone-courses-comparer.png",
+    "Courses — Comparer mon panier"
+   ],
+   [
+    "captures/iphone-comparer.png",
+    "Le comparateur, une carte par magasin"
+   ],
+   [
+    "captures/iphone-comparer-feuille.png",
+    "Le détail : en caisse, utilisé, itinéraire, drive"
+   ],
+   [
+    "captures/iphone-comparer-remplacer.png",
+    "Remplacer un produit"
+   ],
+   [
+    "captures/iphone-comparer-manquants.png",
+    "Les articles sans prix"
+   ],
+   [
+    "captures/iphone-magasins-logos.png",
+    "Magasins à proximité, logos et mots-symboles"
+   ],
+   [
+    "captures/iphone-fiche-nutrition.png",
+    "Fiche, nutrition sans mention de méthode"
+   ],
+   [
+    "captures/iphone-credits-sources.png",
+    "Crédits et sources"
+   ],
+   [
+    "captures/iphone-credits-prix.png",
+    "Crédits et sources : nutrition, magasins, prix"
+   ],
+   [
+    "captures/webkit-320-comparer.png",
+    "WebKit 320 px, le comparateur"
+   ],
+   [
+    "captures/webkit-430-feuille.png",
+    "WebKit 430 px, le détail"
+   ]
+  ]
+ },
+ {
+  "dossier": "autour-2026-10-31-ecran-carte",
+  "date": "31/10/2026",
+  "titre": "Autour de moi — un écran de carte, sans flou",
+  "note": "La carte prend l'écran (plus de grand en-tête au téléphone), aucun flou, flèche GPS en haut à droite, résultats qui suivent la carte ; données d'Elne vérifiées. Aperçu interactif sur iPhone.",
+  "pages": [
+   [
+    "index.html",
+    "Ce qui a changé, Elne, vérifications, limites"
+   ]
+  ],
+  "captures": [
+   [
+    "planche-iphone.jpg",
+    "Avant / après et les principaux écrans iPhone"
+   ],
+   [
+    "captures/avant-version-essayee.png",
+    "Avant : la version essayée"
+   ],
+   [
+    "captures/iphone-elne-arrivee.png",
+    "Après : Elne, à l'arrivée"
+   ],
+   [
+    "captures/iphone-elne-feuille.png",
+    "La feuille, à mi-hauteur"
+   ],
+   [
+    "captures/iphone-elne-liste.png",
+    "La liste ouverte"
+   ],
+   [
+    "captures/iphone-elne-dia-de-los-muertos.png",
+    "Un repère, sa fiche"
+   ],
+   [
+    "captures/iphone-fiche-sans-flou.png",
+    "La fiche détaillée, sans flou"
+   ],
+   [
+    "captures/iphone-fetes-halloween.png",
+    "Fêtes · Halloween"
+   ],
+   [
+    "captures/iphone-exploration.png",
+    "En exploration : « Envies »"
+   ],
+   [
+    "captures/iphone-localisation.png",
+    "La flèche GPS"
+   ],
+   [
+    "captures/iphone-320x568.png",
+    "320 × 568"
+   ],
+   [
+    "captures/iphone-360x640.png",
+    "360 × 640"
+   ],
+   [
+    "captures/iphone-webkit-390.png",
+    "390 px, WebKit"
+   ],
+   [
+    "captures/tablette.png",
+    "Tablette"
+   ],
+   [
+    "captures/bureau.png",
+    "Ordinateur"
+   ]
+  ]
+ },
+ {
+  "dossier": "recettes-2026-10-31-prix",
+  "date": "31/10/2026",
+  "titre": "Recettes — les prix des courses : actualisation et comparaison équitable",
+  "note": "Aucun prix actuel affiché : aucune source gratuite autorisée ; une source payante attend ta décision. L'actualisation quotidienne tourne, la comparaison à produits équivalents est prête, les titres respirent.",
+  "pages": [
+   [
+    "index.html",
+    "Où en est la connexion, ce qui est terminé, le scénario, les contrôles"
+   ]
+  ],
+  "captures": [
+   [
+    "captures/iphone-courses-titre.png",
+    "Courses, le titre dégagé"
+   ],
+   [
+    "captures/iphone-courses-comparer.png",
+    "Courses, Comparer mon panier"
+   ],
+   [
+    "captures/iphone-ma-semaine-titre.png",
+    "Ma semaine, le titre dégagé"
+   ],
+   [
+    "captures/iphone-comparer-sans-prix.png",
+    "Comparer : placard, pas encore de prix actuels"
+   ],
+   [
+    "captures/iphone-comparer-pas-encore.png",
+    "Comparer : enseignes pas encore comparées"
+   ]
+  ]
+ },
+ {
+  "dossier": "recettes-2026-10-31-demonstrateur",
+  "date": "31/10/2026",
+  "titre": "Recettes — le comparateur rempli, en démonstration (prix fictifs)",
+  "note": "Magasin A/B/C et prix inventés, bandeau permanent ; panier complet, périmètre commun, produit absent, rupture, remplacement accepté puis annulé, frais inconnus, consultation en échec, prix anciens. Vidéo de 50 s. Ce n'est pas la preuve sur prix réels. Version 5669b89d2.",
+  "pages": [
+   [
+    "index.html",
+    "La démonstration : vidéo, captures, liens en direct"
+   ]
+  ],
+  "captures": [
+   [
+    "captures/01-panier-complet-haut.png",
+    "panier complet haut"
+   ],
+   [
+    "captures/02-panier-complet-cartes.png",
+    "panier complet cartes"
+   ],
+   [
+    "captures/03-placard-sel-confirme.png",
+    "placard sel confirme"
+   ],
+   [
+    "captures/04-releves-incomplets-cartes.png",
+    "releves incomplets cartes"
+   ],
+   [
+    "captures/05-releves-incomplets-frais-inconnus-echec.png",
+    "releves incomplets frais inconnus echec"
+   ],
+   [
+    "captures/06-feuille-magasin-B.png",
+    "feuille magasin B"
+   ],
+   [
+    "captures/07-feuille-B-absent-ancien-remplacement.png",
+    "feuille B absent ancien remplacement"
+   ],
+   [
+    "captures/08-feuille-B-remplacement-accepte.png",
+    "feuille B remplacement accepte"
+   ],
+   [
+    "captures/09-feuille-B-remplacement-annule.png",
+    "feuille B remplacement annule"
+   ],
+   [
+    "captures/10-feuille-C-rupture.png",
+    "feuille C rupture"
+   ],
+   [
+    "captures/11-prix-anciens.png",
+    "prix anciens"
+   ],
+   [
+    "captures/12-pied-de-page-allege.png",
+    "pied de page allege"
+   ],
+   [
+    "captures/13-courses-pied-de-page-allege.png",
+    "courses pied de page allege"
+   ],
+   [
+    "captures/14-tablette-portrait.png",
+    "tablette portrait"
+   ],
+   [
+    "captures/15-tablette-paysage.png",
+    "tablette paysage"
+   ],
+   [
+    "captures/16-telephone-paysage.png",
+    "telephone paysage"
+   ]
+  ]
+ },
+ {
+  "dossier": "recettes-2026-10-31-photos",
+  "date": "31/10/2026",
+  "titre": "Recettes — les onze nouvelles photos, dans leurs vrais cadres",
+  "note": "Téléphone, vignette et bureau pour chaque photo, avec les ingrédients de la fiche et la relecture : une réserve nette (curry de haricots rouges), trois légères. Version 5669b89d2.",
+  "pages": [
+   [
+    "index.html",
+    "Les onze photos, cadre par cadre"
+   ]
+  ],
+  "captures": [
+   [
+    "cadres/curry-haricots-rouges-telephone.jpg",
+    "Curry de haricots rouges — la réserve nette"
+   ],
+   [
+    "cadres/bar-gingembre-piment-telephone.jpg",
+    "Bar croustillant — le cadrage au téléphone"
+   ]
+  ]
+ },
+ {
+  "dossier": "autour-2026-10-31-fetes",
+  "date": "31/10/2026",
+  "titre": "Autour de moi — Fêtes, situations iPhone, revue autonome",
+  "note": "Le cône Fêtes, les situations iPhone reproduites puis corrigées, un aperçu interactif statique, six vidéos. Version 242e271d5.",
+  "pages": [
+   [
+    "index.html",
+    "Ce qui est interactif, filmé, photographié ; changements, mesures, limites"
+   ],
+   [
+    "films/1-familles-et-fetes.webm",
+    "Vidéo — Familles, le cône Fêtes, une sous-catégorie, Culture et ses masques"
+   ],
+   [
+    "films/2-fiche-et-retour.webm",
+    "Vidéo — Liste ouverte → fiche → fiche détaillée → retour : la liste revient au même endroit"
+   ],
+   [
+    "films/3-deplacement-et-distances.webm",
+    "Vidéo — La carte s'éloigne : « près de … · distances depuis ta position »"
+   ],
+   [
+    "films/4-reperes-empiles.webm",
+    "Vidéo — Elne, la Cathédrale et le Cloître à 4 m : chacun se touche au zoom maximal"
+   ],
+   [
+    "films/4b-meme-point.webm",
+    "Vidéo — Argelès, cinéma et spectacle au même point : « 2 repères au même endroit »"
+   ],
+   [
+    "films/5-reglages-repliables.webm",
+    "Vidéo — Peu de résultats : « Date et filtres » replié, puis déplié"
+   ]
+  ],
+  "captures": [
+   [
+    "films/1-familles-et-fetes.jpg",
+    "Planche — Familles, le cône Fêtes, une sous-catégorie, Culture et ses masques"
+   ],
+   [
+    "films/2-fiche-et-retour.jpg",
+    "Planche — Liste ouverte → fiche → fiche détaillée → retour : la liste revient au même endroit"
+   ],
+   [
+    "films/3-deplacement-et-distances.jpg",
+    "Planche — La carte s'éloigne : « près de … · distances depuis ta position »"
+   ],
+   [
+    "films/4-reperes-empiles.jpg",
+    "Planche — Elne, la Cathédrale et le Cloître à 4 m : chacun se touche au zoom maximal"
+   ],
+   [
+    "films/4b-meme-point.jpg",
+    "Planche — Argelès, cinéma et spectacle au même point : « 2 repères au même endroit »"
+   ],
+   [
+    "films/5-reglages-repliables.jpg",
+    "Planche — Peu de résultats : « Date et filtres » replié, puis déplié"
+   ],
+   [
+    "captures/rail-fetes.png",
+    "Le bandeau, le cône Fêtes au bout (430 px)"
+   ],
+   [
+    "captures/objet-fetes-30px.png",
+    "L'objet Fêtes à sa taille d'usage (30 px)"
+   ],
+   [
+    "captures/gps-sous-le-compteur.png",
+    "Elne : le point GPS sous l'amas, le compteur lisible"
+   ],
+   [
+    "captures/piscine-et-multisport.png",
+    "« Piscine et multisport » (complexe sportif d'Elne)"
+   ],
+   [
+    "captures/tropique-du-papillon.png",
+    "« Le Tropique du Papillon », sa photo"
+   ],
+   [
+    "captures/elne-arrivee-430.png",
+    "Elne, à l'arrivée (430 × 932)"
+   ],
+   [
+    "captures/agenda-fete-sans-affiche.png",
+    "L'Agenda en hérite : une fête sans affiche, le cône (horloge au 28/11)"
+   ]
+  ]
+ },
+ {
+  "dossier": "autour-2026-11-01-finitions",
+  "date": "01/11/2026",
+  "titre": "Autour de moi — distances, clavier, chargement, aperçu cohérent",
+  "note": "« à moins de 50 m », clavier dans le toucher, premiers résultats 7,5 → 6,4 s (6,37–6,54 s), aperçu figé et cohérent avec 1 071 fiches, vidéos MP4. Version db5f44c24.",
+  "pages": [
+   [
+    "index.html",
+    "Interactif, filmé, photographié ; changements, mesures, limites"
+   ],
+   [
+    "films/1-familles-et-fetes.mp4",
+    "Vidéo — Familles, le cône Fêtes, une sous-catégorie, Culture et ses masques"
+   ],
+   [
+    "films/2-fiche-et-retour.mp4",
+    "Vidéo — Liste ouverte → fiche → fiche détaillée → retour : la liste revient au même endroit"
+   ],
+   [
+    "films/3-deplacement-et-distances.mp4",
+    "Vidéo — La carte s'éloigne : « près de … · distances depuis ta position »"
+   ],
+   [
+    "films/4-reperes-empiles.mp4",
+    "Vidéo — Elne : la Cathédrale et le Cloître (4 m), chacun se touche au zoom maximal"
+   ],
+   [
+    "films/4b-meme-point.mp4",
+    "Vidéo — Argelès, cinéma et spectacle au même point : « 2 repères au même endroit »"
+   ],
+   [
+    "films/5-reglages-repliables.mp4",
+    "Vidéo — Peu de résultats : « Date et filtres » replié, puis déplié"
+   ],
+   [
+    "films/6-recherche-et-distances.mp4",
+    "Vidéo — La recherche dans le toucher, puis « à moins de 50 m » depuis la cathédrale"
+   ]
+  ],
+  "captures": [
+   [
+    "films/1-familles-et-fetes.jpg",
+    "Planche — Familles, le cône Fêtes, une sous-catégorie, Culture et ses masques"
+   ],
+   [
+    "films/2-fiche-et-retour.jpg",
+    "Planche — Liste ouverte → fiche → fiche détaillée → retour : la liste revient au même endroit"
+   ],
+   [
+    "films/3-deplacement-et-distances.jpg",
+    "Planche — La carte s'éloigne : « près de … · distances depuis ta position »"
+   ],
+   [
+    "films/4-reperes-empiles.jpg",
+    "Planche — Elne : la Cathédrale et le Cloître (4 m), chacun se touche au zoom maximal"
+   ],
+   [
+    "films/4b-meme-point.jpg",
+    "Planche — Argelès, cinéma et spectacle au même point : « 2 repères au même endroit »"
+   ],
+   [
+    "films/5-reglages-repliables.jpg",
+    "Planche — Peu de résultats : « Date et filtres » replié, puis déplié"
+   ],
+   [
+    "films/6-recherche-et-distances.jpg",
+    "Planche — La recherche dans le toucher, puis « à moins de 50 m » depuis la cathédrale"
+   ],
+   [
+    "captures/chromium-recherche-focus.png",
+    "Chromium : la recherche, le champ focalisé dans le toucher"
+   ],
+   [
+    "captures/webkit-recherche-focus.png",
+    "WebKit : la même chose"
+   ],
+   [
+    "captures/webkit-recherche-elne.png",
+    "WebKit : « Elne » tapé, les propositions"
+   ],
+   [
+    "captures/webkit-distance-moins-de-50.png",
+    "WebKit : « à moins de 50 m » depuis la cathédrale"
+   ],
+   [
+    "captures/apercu-webkit-fiche.png",
+    "Aperçu statique : la cathédrale, fiche détaillée cohérente avec la fiche courte"
+   ],
+   [
+    "captures/apercu-sans-webgl.png",
+    "Aperçu sans WebGL : la liste reste utilisable"
+   ],
+   [
+    "captures/apercu-fiche-absente.png",
+    "Aperçu : une fiche non enregistrée, expliquée, avec retour à la carte"
+   ],
+   [
+    "captures/chromium-tel-petit.png",
+    "Chromium — 320 × 568"
+   ],
+   [
+    "captures/chromium-tel-moyen.png",
+    "Chromium — 390 × 844"
+   ],
+   [
+    "captures/chromium-tel-paysage.png",
+    "Chromium — téléphone couché 844 × 390"
+   ],
+   [
+    "captures/chromium-tablette-compacte.png",
+    "Chromium — tablette 744 × 1133"
+   ],
+   [
+    "captures/chromium-tablette-large-paysage.png",
+    "Chromium — tablette 1366 × 1024"
+   ],
+   [
+    "captures/chromium-ordinateur.png",
+    "Chromium — ordinateur 1440 × 900"
+   ],
+   [
+    "captures/chromium-pwa-encoche.png",
+    "Chromium — app installée simulée, encoche"
+   ],
+   [
+    "captures/chromium-zoom130.png",
+    "Chromium — texte à 130 %"
+   ],
+   [
+    "captures/webkit-tel-petit.png",
+    "WebKit — 320 × 568"
+   ],
+   [
+    "captures/webkit-tel-moyen.png",
+    "WebKit — 390 × 844"
+   ],
+   [
+    "captures/webkit-tel-paysage.png",
+    "WebKit — téléphone couché 844 × 390"
+   ],
+   [
+    "captures/webkit-tablette-compacte.png",
+    "WebKit — tablette 744 × 1133"
+   ],
+   [
+    "captures/webkit-tablette-large-paysage.png",
+    "WebKit — tablette 1366 × 1024"
+   ],
+   [
+    "captures/webkit-ordinateur.png",
+    "WebKit — ordinateur 1440 × 900"
+   ],
+   [
+    "captures/webkit-pwa-encoche.png",
+    "WebKit — app installée simulée, encoche"
+   ],
+   [
+    "captures/webkit-zoom130.png",
+    "WebKit — texte à 130 %"
+   ]
+  ]
+ },
+ {
+  "dossier": "recettes-2026-11-01",
+  "date": "01/11/2026",
+  "titre": "Recettes — photos terminées, fiches sans flou, parcours vérifié",
+  "note": "Avant/après du curry (photo réelle sous licence libre) et du bar (recadré) dans leurs cadres réels ; parcours recette → Ma semaine → Courses → placard → comparaison, états vide/chargement/échec, petit téléphone, paysage, tablette ; démonstrateur en paysage. La section des fiches est rectifiée : le fond flouté est rétabli (voir la restauration). Version 6b76ac309.",
+  "pages": [
+   [
+    "index.html",
+    "Le lot du 1er novembre"
+   ]
+  ],
+  "captures": [
+   [
+    "c/apres-bar-gingembre-piment-bureau.jpg",
+    "apres bar gingembre piment bureau"
+   ],
+   [
+    "c/apres-bar-gingembre-piment-telephone.jpg",
+    "apres bar gingembre piment telephone"
+   ],
+   [
+    "c/apres-bar-gingembre-piment-vignette.jpg",
+    "apres bar gingembre piment vignette"
+   ],
+   [
+    "c/apres-curry-haricots-rouges-bureau.jpg",
+    "apres curry haricots rouges bureau"
+   ],
+   [
+    "c/apres-curry-haricots-rouges-telephone.jpg",
+    "apres curry haricots rouges telephone"
+   ],
+   [
+    "c/apres-curry-haricots-rouges-vignette.jpg",
+    "apres curry haricots rouges vignette"
+   ],
+   [
+    "c/avant-bar-gingembre-piment-bureau.jpg",
+    "avant bar gingembre piment bureau"
+   ],
+   [
+    "c/avant-bar-gingembre-piment-telephone.jpg",
+    "avant bar gingembre piment telephone"
+   ],
+   [
+    "c/avant-bar-gingembre-piment-vignette.jpg",
+    "avant bar gingembre piment vignette"
+   ],
+   [
+    "c/avant-curry-haricots-rouges-bureau.jpg",
+    "avant curry haricots rouges bureau"
+   ],
+   [
+    "c/avant-curry-haricots-rouges-telephone.jpg",
+    "avant curry haricots rouges telephone"
+   ],
+   [
+    "c/avant-curry-haricots-rouges-vignette.jpg",
+    "avant curry haricots rouges vignette"
+   ],
+   [
+    "c/latkes-yaourt-pleine-definition.jpg",
+    "latkes yaourt pleine definition"
+   ],
+   [
+    "c/parcours-01-fiche-portions-courses.jpg",
+    "parcours 01 fiche portions courses"
+   ],
+   [
+    "c/parcours-02-ma-semaine.jpg",
+    "parcours 02 ma semaine"
+   ],
+   [
+    "c/parcours-03-courses-regroupees.jpg",
+    "parcours 03 courses regroupees"
+   ],
+   [
+    "c/parcours-04-comparer-placard-confirme.jpg",
+    "parcours 04 comparer placard confirme"
+   ],
+   [
+    "c/parcours-05-comparer-320x568.jpg",
+    "parcours 05 comparer 320x568"
+   ],
+   [
+    "c/parcours-05-comparer-768x1024.jpg",
+    "parcours 05 comparer 768x1024"
+   ],
+   [
+    "c/parcours-05-comparer-844x390.jpg",
+    "parcours 05 comparer 844x390"
+   ],
+   [
+    "c/parcours-05-courses-320x568.jpg",
+    "parcours 05 courses 320x568"
+   ],
+   [
+    "c/parcours-05-courses-768x1024.jpg",
+    "parcours 05 courses 768x1024"
+   ],
+   [
+    "c/parcours-05-courses-844x390.jpg",
+    "parcours 05 courses 844x390"
+   ],
+   [
+    "c/parcours-06-demo-paysage-cartes.jpg",
+    "parcours 06 demo paysage cartes"
+   ],
+   [
+    "c/parcours-07-demo-paysage-feuille.jpg",
+    "parcours 07 demo paysage feuille"
+   ],
+   [
+    "c/parcours-08-demo-paysage-remplacement.jpg",
+    "parcours 08 demo paysage remplacement"
+   ],
+   [
+    "c/parcours-09-demo-bureau-pied.jpg",
+    "parcours 09 demo bureau pied"
+   ],
+   [
+    "c/parcours-10-etat-chargement.jpg",
+    "parcours 10 etat chargement"
+   ],
+   [
+    "c/parcours-10-etat-echec.jpg",
+    "parcours 10 etat echec"
+   ],
+   [
+    "c/parcours-10-etat-vide.jpg",
+    "parcours 10 etat vide"
+   ]
+  ]
+ },
+ {
+  "dossier": "recettes-2026-11-01-restauration",
+  "date": "01/11/2026",
+  "titre": "Recettes — le fond flouté des fiches rétabli",
+  "note": "Rectification : le fond flouté derrière les images est voulu et rétabli à l'identique (fiche recette, fiche d'événement ; même effet que la production). Seules les bandes floues de raccord sont visées. Version a52418902.",
+  "pages": [
+   [
+    "index.html",
+    "La restauration"
+   ]
+  ],
+  "captures": [
+   [
+    "c/recette-restauree-apercu.jpg",
+    "Fiche recette, fond flouté rétabli"
+   ],
+   [
+    "c/recette-production.jpg",
+    "Fiche recette, production"
+   ],
+   [
+    "c/recette-aplat-annule.jpg",
+    "Le changement annulé (aplat)"
+   ],
+   [
+    "c/evenement-restaure-apercu.jpg",
+    "Fiche d'événement, rétablie"
+   ],
+   [
+    "c/evenement-production.jpg",
+    "Fiche d'événement, production"
+   ]
+  ]
+ },
+ {
+  "dossier": "autour-2026-11-01-d1444",
+  "date": "01/11/2026",
+  "titre": "Autour de moi — flou rectifié, recherche depuis l'aide, préchauffage qui attend la carte",
+  "note": "Fonds flous choisis rétablis (lumière de l'Agenda, fiche depuis la carte), recherche dans la feuille d'aide avec le focus au toucher, moteur de carte 10,4–11,9 → 8,8–9,8 s au téléphone ralenti. Aperçu interactif sur les mêmes données figées (02 h 01). Version fc4198706 (corrige la feuille de recherche qui se refermait sous latence dans 92ecfb21a).",
+  "pages": [
+   [
+    "index.html",
+    "Interactif, filmé, photographié ; changements, mesures, limites"
+   ],
+   [
+    "films/7-aide-recherche.mp4",
+    "Vidéo — Position refusée → l'aide → recherche dans la même feuille → Elne"
+   ]
+  ],
+  "captures": [
+   [
+    "films/7-aide-recherche.jpg",
+    "Planche de la vidéo"
+   ],
+   [
+    "captures/chromium-aide-recherche-focus.jpg",
+    "L'aide : recherche dans la même feuille, champ focalisé"
+   ],
+   [
+    "captures/chromium-aide-apres-choix.jpg",
+    "Elne choisie : distances depuis Elne"
+   ],
+   [
+    "captures/agenda-puce-avant.png",
+    "Agenda — avant : sans lumière"
+   ],
+   [
+    "captures/agenda-puce-apres.png",
+    "Agenda — après : la lumière rétablie"
+   ],
+   [
+    "captures/fiche-depuis-la-carte-avant.jpg",
+    "Fiche depuis la carte — avant"
+   ],
+   [
+    "captures/fiche-depuis-la-carte-apres.jpg",
+    "Fiche depuis la carte — après : fond flouté"
+   ],
+   [
+    "captures/pharmacies-fixture-moins-de-50-m.jpg",
+    "Pharmacies, données FICTIVES"
+   ],
+   [
+    "captures/pulse-intelligence-fixture-moins-de-50-m.jpg",
+    "Pulse Intelligence, données FICTIVES"
+   ]
+  ]
+ },
+ {
+  "dossier": "vues-2026-11-01-finition",
+  "date": "01/11/2026",
+  "titre": "Autour, Agenda, Découvrir — sélection sobre, cône réutilisé, affiche filigranée écartée",
+  "note": "En production : déploiement 30ab104a-36c0-454b-aa4f-c4e360f16c01, main 27674fbf0 (D-1446). Captures de la production, données réelles, 01/11 entre 13 h 31 et 14 h 15 UTC ; « avant » = production 97ddfe84.",
+  "pages": [
+   [
+    "index.html",
+    "Ce qui a changé, captures de la production, limites"
+   ]
+  ],
+  "captures": [
+   [
+    "captures/avant-agenda-halo.png",
+    "Avant : halo derrière la famille choisie"
+   ],
+   [
+    "captures/apres-agenda-telephone-webkit.png",
+    "Après : pastille pleine, aucun halo, Halloween au cône"
+   ],
+   [
+    "captures/apres-agenda-focus-clavier.png",
+    "Après : focus clavier visible"
+   ],
+   [
+    "captures/apres-agenda-paysage.png",
+    "Après : paysage"
+   ],
+   [
+    "captures/apres-agenda-tablette-webkit.png",
+    "Après : tablette"
+   ],
+   [
+    "captures/apres-autour-telephone-webkit.png",
+    "Autour : la même grammaire"
+   ],
+   [
+    "captures/apres-fiche-rifle-illustration.jpg",
+    "Fiche du rifle : illustration de secours"
+   ],
+   [
+    "captures/apres-ligne-rifle-cone.png",
+    "Ligne du rifle : le cône"
+   ],
+   [
+    "captures/decouvrir-inchange.jpg",
+    "Découvrir : inchangé"
+   ]
+  ]
+ },
+ {
+  "dossier": "autour-2026-11-01-conception",
+  "date": "01/11/2026",
+  "titre": "Autour de moi — conception : où, quand, quelle envie (prototype)",
+  "note": "PROTOTYPE, non publié dans l'application (D-1447) — branche chantier/autour-ux, 994b1ca3b. Prototype interactif : /autour/ (données réelles figées au 01/11 à 20 h 40, heure de Paris). Aucune donnée simulée.",
+  "pages": [
+   [
+    "index.html",
+    "Diagnostic, recommandation, correspondances, classement, parcours, limites"
+   ]
+  ],
+  "captures": [
+   [
+    "captures/a-collioure-webkit.png",
+    "A · sans géolocalisation, « Où » → Collioure"
+   ],
+   [
+    "captures/b-enfants-webkit.png",
+    "B · « Avec enfants » et la couverture dite"
+   ],
+   [
+    "captures/c-ce-soir-webkit.png",
+    "C · « Ce soir », peu d'offre : un peu plus loin"
+   ],
+   [
+    "captures/d-recherche-canyoning-webkit.png",
+    "D · « canyoning » : l'activité d'abord"
+   ],
+   [
+    "captures/d-plus-proches-chromium.png",
+    "D · filtre Canyoning : les plus proches"
+   ],
+   [
+    "captures/d-recherche-ski-webkit.png",
+    "D · « ski »"
+   ],
+   [
+    "captures/e-amas-chromium.png",
+    "E · un amas expliqué"
+   ],
+   [
+    "captures/f-ouverte-webkit.png",
+    "F · ouverte : barre basse retirée"
+   ],
+   [
+    "captures/f-refermee-webkit.png",
+    "F · refermée : barre rendue"
+   ],
+   [
+    "captures/quand-apercu-webkit.png",
+    "La feuille « Quand ? »"
+   ],
+   [
+    "captures/petit-320-collioure-webkit.png",
+    "320 × 568 : puce « Où » courte"
+   ],
+   [
+    "captures/tablette-1024-chromium.png",
+    "Tablette : défaut préexistant de la barre basse"
+   ]
+  ]
+ },
+ {
+  "dossier": "autour-2026-11-02-finitions-iphone",
+  "date": "02/11/2026",
+  "titre": "Autour de moi — les frictions du retour iPhone (prototype)",
+  "note": "PROTOTYPE, non publié dans l'application (D-1448) — branche chantier/autour-ux, 4f1847742. Prototype interactif : /autour/ (données réelles figées au 02/11 à 10 h 46, heure de Paris). Aucune donnée simulée.",
+  "pages": [
+   [
+    "index.html",
+    "Ce qui change, mesures avant / après, limites"
+   ]
+  ],
+  "captures": [
+   [
+    "captures/carrousel-rangee-320.png",
+    "Le carrousel à 320 px, avant / après"
+   ],
+   [
+    "captures/carrousel-fin-320.png",
+    "La fin du carrousel, avant / après"
+   ],
+   [
+    "captures/exploration-retour.png",
+    "En exploration : le retour et « Revenir à … »"
+   ],
+   [
+    "captures/fiche-courte.png",
+    "La fiche courte, toute ouvrante"
+   ],
+   [
+    "captures/ouverture-fiche.png",
+    "L'ouverture d'une fiche à 0,6 s, avant / après"
+   ],
+   [
+    "captures/amas-anneau.png",
+    "Les amas et leur anneau"
+   ],
+   [
+    "captures/sans-carte-enfants-saint-cyprien.png",
+    "Sans carte : Avec enfants à Saint-Cyprien"
+   ],
+   [
+    "captures/tablette.png",
+    "Tablette : le panneau au-dessus de la barre"
+   ],
+   [
+    "captures/paysage.png",
+    "Paysage : le panneau défilé"
+   ]
+  ]
+ },
+ {
+  "dossier": "accueil-2026-11-02-lumiere",
+  "date": "02/11/2026",
+  "titre": "Accueil — la lumière du hero, lot 1",
+  "note": "Aperçu sur la branche chantier/accueil-lumiere, commit c18dc73f8, rien en production. Page réelle figée : /accueil-lumiere/, données réelles du 02/11 à 13 h 40 (heure de Paris).",
+  "pages": [
+   [
+    "index.html",
+    "Ce qui change, liens, limites"
+   ]
+  ],
+  "captures": [
+   [
+    "captures/app-440-haut.png",
+    "App installée émulée, 440 pt, haut de page"
+   ],
+   [
+    "captures/app-440-defile-40.png",
+    "Le verre après 40 pt de défilement"
+   ],
+   [
+    "captures/app-440-defile-300.png",
+    "Le verre après 300 pt de défilement"
+   ],
+   [
+    "captures/photo-claire-40.png",
+    "Photo claire sous l'en-tête, 40 pt"
+   ],
+   [
+    "captures/photo-claire-300.png",
+    "Photo claire sous l'en-tête, 300 pt"
+   ],
+   [
+    "captures/app-390.png",
+    "App installée émulée, 390 pt, jusqu'à « Sortir aujourd'hui »"
+   ],
+   [
+    "captures/app-320.png",
+    "App installée émulée, 320 pt, jusqu'à « Sortir aujourd'hui »"
+   ],
+   [
+    "captures/navigateur-390.png",
+    "Mise en page navigateur émulée, 390 pt"
+   ],
+   [
+    "captures/anneaux-avant-apres.png",
+    "Les anneaux, avant et après : WebKit, haut de page, contraste étiré à 22 niveaux"
+   ]
+  ]
+ },
+ {
+  "dossier": "autour-2026-11-02-classement",
+  "date": "02/11/2026",
+  "titre": "Autour de moi — classement, « Avec enfants », modèle économique : à arbitrer (prototype)",
+  "note": "PROPOSITION, rien n'est intégré (D-1449, D-1480) — branche chantier/autour-ux, a089edc5a. Prototype : /autour/ (données réelles figées au 02/11 à 14 h 49, heure de Paris). Le classement proposé n'y est pas. Aucune donnée simulée.",
+  "pages": [
+   [
+    "index.html",
+    "Corrections, audit, classement proposé, cas, modèle économique, décisions attendues"
+   ]
+  ],
+  "captures": [
+   [
+    "captures/al-trayou-avant-apres.png",
+    "Al Trayou, avant / après"
+   ],
+   [
+    "captures/amas-objets.png",
+    "Les groupes et leurs objets, capture de la production (WebKit, 390 px)"
+   ],
+   [
+    "captures/rangee-groupes.png",
+    "Une rangée de groupe"
+   ],
+   [
+    "captures/rail-ballons.png",
+    "« Avec enfants » : les deux ballons"
+   ],
+   [
+    "captures/recherche-sans-carte.png",
+    "La recherche sans carte"
+   ],
+   [
+    "captures/sans-carte-arrivee.png",
+    "L'arrivée sans carte"
+   ]
+  ]
+ },
+ {
+  "dossier": "accueil-2026-11-02-lumiere-lot2",
+  "date": "02/11/2026",
+  "titre": "Accueil — la lumière suit la photo, lot 2",
+  "note": "Aperçu sur la branche chantier/accueil-lumiere, commit 22d88be02, rien en production. Page réelle figée : /accueil-lumiere/, données réelles du 02/11 à 15 h 05 (heure de Paris).",
+  "pages": [
+   [
+    "index.html",
+    "Ce qui change, liens, limites"
+   ]
+  ],
+  "captures": [
+   [
+    "captures/ambiance-bleu.png",
+    "Photo aux tons bleus : lumière bleue"
+   ],
+   [
+    "captures/ambiance-bleu-defile-40.png",
+    "Photo aux tons bleus : lumière bleue, 40 pt de défilement"
+   ],
+   [
+    "captures/ambiance-brun-rose.png",
+    "Photo aux tons chauds : lumière brun rosé"
+   ],
+   [
+    "captures/ambiance-brun-rose-defile-40.png",
+    "Photo aux tons chauds : lumière brun rosé, 40 pt de défilement"
+   ],
+   [
+    "captures/ambiance-emeraude.png",
+    "Photo aux tons verts : lumière émeraude"
+   ],
+   [
+    "captures/ambiance-petrole.png",
+    "Photo peu colorée : pétrole de repli"
+   ],
+   [
+    "captures/ambiance-photo-claire.png",
+    "Photo très claire : même luminosité de fond"
+   ],
+   [
+    "captures/bleu-390.png",
+    "390 pt, jusqu'à « Sortir aujourd'hui »"
+   ],
+   [
+    "captures/bleu-320.png",
+    "320 pt, jusqu'à « Sortir aujourd'hui »"
+   ],
+   [
+    "captures/navigateur-390.png",
+    "Mise en page navigateur émulée, 390 pt"
+   ]
+  ]
+ },
+ {
+  "dossier": "autour-2026-11-02-publie",
+  "date": "02/11/2026",
+  "titre": "Autour de moi — premier lot et classement publiés",
+  "note": "EN PRODUCTION (D-1481, D-1482, D-1483) — déploiement 49361351, commit 2f5094dc0, vérifié sur perpignanpulse.com à 18 h 36 ; banc sur l'index réel du 02/11 ; essais de mises en avant non branchés.",
+  "pages": [
+   [
+    "index.html",
+    "Ce qui est publié, ce qu'on peut tester, limites"
+   ],
+   [
+    "banc.html",
+    "Le rapport du banc : chaque rang et ses contributions"
+   ]
+  ],
+  "captures": [
+   [
+    "captures/selection.png",
+    "Production : La sélection, Perpignan"
+   ],
+   [
+    "captures/avec-enfants.png",
+    "Production : Avec enfants, Argelès-sur-Mer"
+   ],
+   [
+    "captures/groupes.png",
+    "Production : les groupes, 390 px"
+   ],
+   [
+    "captures/groupes-320.png",
+    "Production : les groupes, 320 px"
+   ],
+   [
+    "captures/signes-carte.png",
+    "Essai non branché : signes sur la carte, 390 px"
+   ],
+   [
+    "captures/signes-carte-320.png",
+    "Essai non branché : signes sur la carte, 320 px"
+   ],
+   [
+    "captures/sponsorise-liste.png",
+    "Essai non branché : « Sponsorisé » dans la liste"
+   ]
+  ]
+ },
+ {
+  "dossier": "recettes-2026-11-03-parcours",
+  "date": "03/11/2026",
+  "titre": "Recettes, Mes repas, Courses — le parcours en production",
+  "note": "Captures mobiles de la vraie production (déploiement e877bba5, code a0ee0b540), avec la nature de chaque donnée : catalogue réel, gestes de test, aucun prix. iPhone réel non vérifié.",
+  "pages": [
+   [
+    "index.html",
+    "Le parcours et ses 36 contrôles (à ouvrir sur téléphone)"
+   ]
+  ],
+  "captures": [
+   [
+    "captures/01-fiche.png",
+    "La fiche d'une recette"
+   ],
+   [
+    "captures/02-courses.png",
+    "Courses"
+   ],
+   [
+    "captures/03-cu29-coche-gardee.png",
+    "CU-29 : la recette passe dans Mes repas"
+   ],
+   [
+    "captures/04-semaine.png",
+    "Mes repas"
+   ],
+   [
+    "captures/05-cu29-quantite.png",
+    "CU-29 : il en faut plus"
+   ],
+   [
+    "captures/06-chez-toi.png",
+    "Le placard et « Je l'ai déjà »"
+   ],
+   [
+    "captures/07-reglages-repas.png",
+    "Les réglages d'un repas"
+   ],
+   [
+    "captures/08-guide.png",
+    "Cuisiner"
+   ],
+   [
+    "captures/09-courses-fin.png",
+    "Après tous les gestes et un rechargement"
+   ],
+   [
+    "captures/10-comparateur.png",
+    "Le comparateur"
+   ]
+  ]
+ },
+ {
+  "dossier": "rubriques-2026-11-03",
+  "date": "03/11/2026",
+  "titre": "Le panneau Rubriques, version livrée",
+  "note": "Captures de la vraie production (déploiement ba4eb02e, code 345f424b5), en Chromium à rendu GPU émulé, données réelles du site. iPhone réel non vérifié.",
+  "pages": [
+   [
+    "index.html",
+    "Les captures légendées (à ouvrir sur téléphone)"
+   ]
+  ],
+  "captures": [
+   [
+    "captures/2-panneau-sur-accueil.png",
+    "Le panneau sur l'accueil"
+   ],
+   [
+    "captures/4-panneau-sur-courses.png",
+    "Sur la page Courses"
+   ],
+   [
+    "captures/6-panneau-sur-recharge.png",
+    "Sur le service Recharge"
+   ],
+   [
+    "captures/5-recharge.png",
+    "Le service ouvert par sa tuile"
+   ],
+   [
+    "captures/7-panneau-390.png",
+    "À 390 px"
+   ],
+   [
+    "captures/1-accueil.png",
+    "L'accueil, panneau fermé"
+   ]
+  ]
+ },
+ {
+  "dossier": "rubriques-proportions-2026-11-03",
+  "date": "03/11/2026",
+  "titre": "Le panneau Rubriques, avant et après",
+  "note": "Vraie production, avant ef25634a et après 9f44403a (code b6990ee2b), en Chromium à rendu GPU émulé, données réelles du site. iPhone réel non vérifié.",
+  "pages": [
+   [
+    "index.html",
+    "Les captures comparables, légendées (à ouvrir sur téléphone)"
+   ]
+  ],
+  "captures": [
+   [
+    "captures/1-avant-apres-440.png",
+    "Grand iPhone, 440 px. De gauche à droite : avant en haut, après en haut, avant en bas, après en bas. Paires routières, Cuisine, boîtes repas réduites, USAP élargi ; Cinéma et Dragons inchangés."
+   ],
+   [
+    "captures/2-avant-apres-390.png",
+    "iPhone courant, 390 px, dans le même ordre : avant en haut, après en haut, avant en bas, après en bas."
+   ],
+   [
+    "captures/3-avant-apres-360.png",
+    "Petit téléphone, 360 px, dans le même ordre. Le panneau est plus long, et le défilement atteint USAP et Dragons Catalans."
+   ],
+   [
+    "captures/4-tablette.png",
+    "Tablette, 768 px : après seulement. Sport se rejoint en défilant de 108 px."
+   ],
+   [
+    "captures/5-texte-agrandi-haut.png",
+    "Texte agrandi, simulé par une page à 262 px, équivalent d'un zoom à 150 % sur un iPhone de 390 px : haut du panneau, après seulement."
+   ],
+   [
+    "captures/6-texte-agrandi-bas.png",
+    "Le même, défilé jusqu'aux dernières destinations."
+   ]
+  ]
+ },
+ {
+  "dossier": "rubriques-objets-2026-11-03",
+  "date": "03/11/2026",
+  "titre": "Les objets du panneau, sans poteau",
+  "note": "Vraie production, avant 9f44403a et après b0505891 (code de3c8c741), en Chromium à rendu GPU émulé, données réelles du site. iPhone réel non vérifié.",
+  "pages": [
+   [
+    "index.html",
+    "Les captures avant/après, légendées (à ouvrir sur téléphone)"
+   ]
+  ],
+  "captures": [
+   [
+    "captures/1-objets-avant-apres.png",
+    "Les six objets retouchés : avant en haut, après en bas. De gauche à droite : Webcams, Stationnement, Trafic, Recharge, Carburant, Recettes."
+   ],
+   [
+    "captures/2-sport-avant-apres.png",
+    "La rangée Sport à 440 px : avant en haut, après en bas. Dragons Catalans passe de 127 à 137 px, l'USAP reste à 112."
+   ],
+   [
+    "captures/3-avant-apres-440.png",
+    "Le panneau à 440 px. De gauche à droite : avant en haut, après en haut, avant en bas, après en bas."
+   ],
+   [
+    "captures/4-avant-apres-390.png",
+    "Le panneau à 390 px, dans le même ordre."
+   ],
+   [
+    "captures/5-avant-apres-360.png",
+    "Le panneau à 360 px, dans le même ordre."
+   ],
+   [
+    "captures/6-tablette.png",
+    "Tablette, 768 px : après seulement."
+   ]
+  ]
+ },
+ {
+  "dossier": "agenda-2026-11-03-hybride",
+  "date": "03/11/2026",
+  "titre": "Agenda hybride — à valider (non publié)",
+  "note": "Aperçu, production inchangée. Branche chantier/agenda-hybride-2, 7d946ce92. Application : /agenda/, données réelles figées au 03/11 à 14 h 28.",
+  "pages": [
+   [
+    "index.html",
+    "Ouvrir l'aperçu, ce qu'il faut essayer, limites"
+   ]
+  ],
+  "captures": [
+   [
+    "captures/1-arrivee.png",
+    "À l'arrivée, 390 × 844 : les jours, la carte, une carte de rendez-vous, son repère en avant"
+   ],
+   [
+    "captures/2-demain.png",
+    "Un autre jour : la carte, les cartes et le compte changent ensemble"
+   ],
+   [
+    "captures/3-avec-les-enfants.png",
+    "« Avec les enfants » : les ballons sur la carte, le rythme des jours suit le filtre"
+   ],
+   [
+    "captures/4-week-end.png",
+    "Le week-end"
+   ],
+   [
+    "captures/5-le-programme.png",
+    "La feuille tirée : à faire avec les enfants, puis le programme par moment, sous le fil des jours"
+   ],
+   [
+    "captures/6-exploration.png",
+    "Un geste sur la carte : elle prend l'écran, le fil des jours reste"
+   ],
+   [
+    "captures/7-tablette.png",
+    "Tablette, 820 × 1180"
+   ],
+   [
+    "captures/8-bureau.png",
+    "Bureau, 1440 × 900"
+   ]
+  ]
+ }
 ]
