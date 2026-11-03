@@ -12,6 +12,18 @@ Dépôt réservé aux aperçus et aux captures de Pulse : rien ici n'est le code
 - Recettes — le comparateur rempli, en démonstration (prix fictifs) : https://weighted-meanwhile-endless-delete.trycloudflare.com/recettes/comparer/demonstration?scenario=incomplet
 - Recettes — le comparateur en démonstration, version statique (prix fictifs, sans tunnel) : https://castillet66.github.io/recettes/comparer/demonstration/?scenario=incomplet
 
+## Le panneau Rubriques, version livrée (03/11/2026)
+
+Captures de la vraie production (déploiement ba4eb02e, code 345f424b5), en Chromium à rendu GPU émulé, données réelles du site. iPhone réel non vérifié.
+
+- Les captures légendées (à ouvrir sur téléphone) : https://castillet66.github.io/rubriques-2026-11-03/index.html
+- PNG — Le panneau sur l'accueil : https://castillet66.github.io/rubriques-2026-11-03/captures/2-panneau-sur-accueil.png
+- PNG — Sur la page Courses : https://castillet66.github.io/rubriques-2026-11-03/captures/4-panneau-sur-courses.png
+- PNG — Sur le service Recharge : https://castillet66.github.io/rubriques-2026-11-03/captures/6-panneau-sur-recharge.png
+- PNG — Le service ouvert par sa tuile : https://castillet66.github.io/rubriques-2026-11-03/captures/5-recharge.png
+- PNG — À 390 px : https://castillet66.github.io/rubriques-2026-11-03/captures/7-panneau-390.png
+- PNG — L'accueil, panneau fermé : https://castillet66.github.io/rubriques-2026-11-03/captures/1-accueil.png
+
 ## Recettes, Mes repas, Courses — le parcours en production (03/11/2026)
 
 Captures mobiles de la vraie production (déploiement e877bba5, code a0ee0b540), avec la nature de chaque donnée : catalogue réel, gestes de test, aucun prix. iPhone réel non vérifié.
