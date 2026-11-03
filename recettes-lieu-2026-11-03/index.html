@@ -1,0 +1,35 @@
+<!doctype html><html lang="fr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex"><title>Les magasins suivent le lieu choisi</title>
+<style>body{margin:0;background:#111;color:#eee;font:16px/1.5 -apple-system,system-ui,sans-serif}main{max-width:1100px;margin:auto;padding:24px 16px 64px}h1{font-size:28px;line-height:1.15;margin:0 0 8px}h2{font-size:20px;margin:36px 0 10px}p,li{color:#ccc}.g{display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:20px;margin-top:16px}figure{margin:0}img{width:100%;border-radius:18px;display:block;background:#222}figcaption{font-size:14px;color:#bbb;margin-top:8px}strong{color:#fff}a{color:#7fd7cf}pre{white-space:pre-wrap;font-size:13px;color:#bbb;background:#1b1b1b;padding:14px;border-radius:12px}</style></head><body><main>
+<h1>Les magasins suivent le lieu choisi</h1>
+<p>Vraie production, <strong>déploiement f4117f50, code 694166433</strong>, le 3 novembre 2026, moteur WebKit en 390 × 844, et Chromium pour le nom long à 320 px. Magasins réels (OpenStreetMap). <strong>Position simulée</strong> par le banc. Aucun prix. iPhone réel non vérifié.</p>
+<p>À refaire soi-même : <a href="https://perpignanpulse.com/recettes/courses">la liste de courses</a>, tout en bas, après avoir choisi un lieu dans la capsule.</p>
+<div class="g">
+<figure><img src="captures/1-sans-lieu.png" alt="Sans lieu choisi, la liste autour de Perpignan" loading="lazy"><figcaption><strong>Sans lieu</strong><br>Autour de Perpignan, depuis sa mairie.</figcaption></figure>
+<figure><img src="captures/2-ceret.png" alt="Céret choisie, la liste autour de Céret" loading="lazy"><figcaption><strong>Céret choisie</strong><br>La liste se range, le capteur n'est pas touché.</figcaption></figure>
+<figure><img src="captures/3-autour-de-moi.png" alt="Autour de moi, avec le retour vers Céret" loading="lazy"><figcaption><strong>« Autour de moi »</strong><br>Pour la visite, avec son retour. Le lieu gardé ne bouge pas.</figcaption></figure>
+<figure><img src="captures/4-prades-regardee.png" alt="Prades regardée, la liste autour de Prades" loading="lazy"><figcaption><strong>Prades regardée</strong><br>Rien n'est écrit.</figcaption></figure>
+<figure><img src="captures/5-refus.png" alt="Position refusée, la liste reste sur Céret" loading="lazy"><figcaption><strong>Position refusée</strong><br>La liste reste sur Céret, et l'écran le dit.</figcaption></figure>
+<figure><img src="captures/6-nom-long-320.png" alt="Le nom le plus long à 320 pixels" loading="lazy"><figcaption><strong>Le nom le plus long, à 320 px</strong><br>Rien ne déborde.</figcaption></figure>
+</div>
+<h2>Les 21 contrôles du banc, en production, sous Chromium et WebKit</h2><pre>✓ sans lieu, l'édition : Autour de Perpignan
+✓ sans lieu et sans permission, le capteur ne part pas
+✓ le lieu gardé dans la capsule range la liste : Autour de Céret
+✓ le lieu est écrit par la capsule
+✓ rechargé : toujours Céret, sans toucher au capteur
+✓ « Autour de moi » range depuis le capteur
+✓ le capteur n'est lu qu'une fois
+✓ le lieu gardé n'a pas bougé
+✓ la capsule dit encore Céret
+✓ le retour ramène la même liste
+✓ regarder une autre commune range la liste
+✓ regarder n'écrit rien
+✓ un refus laisse Céret et le dit
+✓ le lieu gardé n'a pas bougé après le refus
+✓ loin du territoire, la liste reste sur Céret
+✓ loin du territoire, plus de bouton
+✓ capteur muet : bouton touchable, un seul appel
+✓ capteur muet : la liste reste sur Céret
+✓ Perpignan choisie et sans lieu : la même liste
+✓ le nom le plus long tient à 320 px
+✓ aucune erreur de page ni d'hydratation</pre>
+</main></body></html>

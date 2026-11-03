@@ -1770,5 +1770,43 @@
         "Gros plan, agrandi deux fois : la pompe à côté du prix."
       ]
     ]
+  },
+  {
+    "dossier": "recettes-lieu-2026-11-03",
+    "date": "03/11/2026",
+    "titre": "Les magasins suivent le lieu choisi",
+    "note": "Vraie production, déploiement f4117f50 (code 694166433), WebKit en 390 × 844, magasins réels, position simulée, aucun prix. iPhone réel non vérifié.",
+    "pages": [
+      [
+        "index.html",
+        "La page de preuves, avec les 21 contrôles"
+      ]
+    ],
+    "captures": [
+      [
+        "captures/1-sans-lieu.png",
+        "Sans lieu : autour de Perpignan, depuis sa mairie."
+      ],
+      [
+        "captures/2-ceret.png",
+        "Céret choisie : la liste se range, le capteur n'est pas touché."
+      ],
+      [
+        "captures/3-autour-de-moi.png",
+        "« Autour de moi », avec son retour vers Céret."
+      ],
+      [
+        "captures/4-prades-regardee.png",
+        "Prades regardée : rien n'est écrit."
+      ],
+      [
+        "captures/5-refus.png",
+        "Position refusée : la liste reste sur Céret, et l'écran le dit."
+      ],
+      [
+        "captures/6-nom-long-320.png",
+        "Le nom le plus long, à 320 px."
+      ]
+    ]
   }
 ]

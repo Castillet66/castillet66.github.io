@@ -12,6 +12,18 @@ Dépôt réservé aux aperçus et aux captures de Pulse : rien ici n'est le code
 - Recettes — le comparateur rempli, en démonstration (prix fictifs) : https://weighted-meanwhile-endless-delete.trycloudflare.com/recettes/comparer/demonstration?scenario=incomplet
 - Recettes — le comparateur en démonstration, version statique (prix fictifs, sans tunnel) : https://castillet66.github.io/recettes/comparer/demonstration/?scenario=incomplet
 
+## Les magasins suivent le lieu choisi (03/11/2026)
+
+Vraie production, déploiement f4117f50 (code 694166433), WebKit en 390 × 844, magasins réels, position simulée, aucun prix. iPhone réel non vérifié.
+
+- La page de preuves, avec les 21 contrôles : https://castillet66.github.io/recettes-lieu-2026-11-03/index.html
+- PNG — Sans lieu : autour de Perpignan, depuis sa mairie. : https://castillet66.github.io/recettes-lieu-2026-11-03/captures/1-sans-lieu.png
+- PNG — Céret choisie : la liste se range, le capteur n'est pas touché. : https://castillet66.github.io/recettes-lieu-2026-11-03/captures/2-ceret.png
+- PNG — « Autour de moi », avec son retour vers Céret. : https://castillet66.github.io/recettes-lieu-2026-11-03/captures/3-autour-de-moi.png
+- PNG — Prades regardée : rien n'est écrit. : https://castillet66.github.io/recettes-lieu-2026-11-03/captures/4-prades-regardee.png
+- PNG — Position refusée : la liste reste sur Céret, et l'écran le dit. : https://castillet66.github.io/recettes-lieu-2026-11-03/captures/5-refus.png
+- PNG — Le nom le plus long, à 320 px. : https://castillet66.github.io/recettes-lieu-2026-11-03/captures/6-nom-long-320.png
+
 ## La pompe du widget Carburant (03/11/2026)
 
 Vraie production, déploiement 7c5d4f91 (code 07bedc0d8), WebKit en émulation iPhone, données réelles du site. iPhone réel non vérifié.
