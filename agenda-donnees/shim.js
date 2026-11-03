@@ -7,7 +7,7 @@
    serveur au moment de la capture) se contredisaient — « ouvre à 9 h 30 » d'un côté,
    « ouvre demain à 9 h 30 » de l'autre. L'écran le dit : « Aperçu figé au … ». */
 (function () {
-  var D = Date, base = D.parse("2026-11-03T13:29:08.000Z");
+  var D = Date, base = D.parse("2026-11-03T14:42:24.000Z");
   if (!isFinite(base)) return;
   var p0 = performance.now();
   function maintenant() { return base + (performance.now() - p0); }

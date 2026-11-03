@@ -22,7 +22,7 @@ Les deux objets retouchés, Horoscope et Ciel : avant b0505891, après 6e2e74d3 
 
 ## Agenda hybride — à valider (non publié) (03/11/2026)
 
-Aperçu, production inchangée. Branche chantier/agenda-hybride-2, 7d946ce92. Application : /agenda/, données réelles figées au 03/11 à 14 h 28.
+Aperçu, production inchangée. Version 8b12a4bb3. Application : /agenda/, données réelles figées au 03/11 à 15 h 42.
 
 - Ouvrir l'aperçu, ce qu'il faut essayer, limites : https://castillet66.github.io/agenda-2026-11-03-hybride/index.html
 - PNG — À l'arrivée, 390 × 844 : les jours, la carte, une carte de rendez-vous, son repère en avant : https://castillet66.github.io/agenda-2026-11-03-hybride/captures/1-arrivee.png

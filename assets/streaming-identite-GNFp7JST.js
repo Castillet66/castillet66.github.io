@@ -1,0 +1,1 @@
+import{cP as t,ay as i}from"./index-CrqtHXxn.js";function r(e){return`${e.provider}:${e.kind}:${e.tmdb_id??e.title}`}function s(e){return`/streaming?titre=${encodeURIComponent(r(e))}`}const o=t({queryKey:["streaming","picks"],queryFn:()=>i(),staleTime:3600*1e3});export{r as i,s as r,o as s};
