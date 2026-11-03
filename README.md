@@ -12,6 +12,14 @@ Dépôt réservé aux aperçus et aux captures de Pulse : rien ici n'est le code
 - Recettes — le comparateur rempli, en démonstration (prix fictifs) : https://weighted-meanwhile-endless-delete.trycloudflare.com/recettes/comparer/demonstration?scenario=incomplet
 - Recettes — le comparateur en démonstration, version statique (prix fictifs, sans tunnel) : https://castillet66.github.io/recettes/comparer/demonstration/?scenario=incomplet
 
+## Le dernier polish du panneau Rubriques (03/11/2026)
+
+Les deux objets retouchés, Horoscope et Ciel : avant b0505891, après 6e2e74d3 (code 483242dfc). Chromium à rendu GPU émulé. iPhone réel non vérifié.
+
+- Avant/après des éléments retouchés (à ouvrir sur téléphone) : https://castillet66.github.io/rubriques-polish-2026-11-03/index.html
+- PNG — Les deux seuls objets retouchés, en grand : avant en haut, après en bas. Horoscope à gauche, Ciel à droite. : https://castillet66.github.io/rubriques-polish-2026-11-03/captures/1-horoscope-ciel-avant-apres.png
+- PNG — La rangée dans le panneau, à la taille d'un grand iPhone (440 px) : avant en haut, après en bas. Thème natal n'a pas changé. : https://castillet66.github.io/rubriques-polish-2026-11-03/captures/2-rangee-avant-apres.png
+
 ## Agenda hybride — à valider (non publié) (03/11/2026)
 
 Aperçu, production inchangée. Branche chantier/agenda-hybride-2, 7d946ce92. Application : /agenda/, données réelles figées au 03/11 à 14 h 28.
