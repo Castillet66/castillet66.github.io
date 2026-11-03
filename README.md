@@ -12,6 +12,15 @@ Dépôt réservé aux aperçus et aux captures de Pulse : rien ici n'est le code
 - Recettes — le comparateur rempli, en démonstration (prix fictifs) : https://weighted-meanwhile-endless-delete.trycloudflare.com/recettes/comparer/demonstration?scenario=incomplet
 - Recettes — le comparateur en démonstration, version statique (prix fictifs, sans tunnel) : https://castillet66.github.io/recettes/comparer/demonstration/?scenario=incomplet
 
+## La pompe du widget Carburant (03/11/2026)
+
+Vraie production, déploiement 7c5d4f91 (code 07bedc0d8), WebKit en émulation iPhone, données réelles du site. iPhone réel non vérifié.
+
+- Le widget final (à ouvrir sur téléphone) : https://castillet66.github.io/widget-carburant-2026-11-03/index.html
+- PNG — Le widget sur un grand iPhone (440 px). : https://castillet66.github.io/widget-carburant-2026-11-03/captures/1-grand-iphone-440.png
+- PNG — Le widget sur un iPhone courant (390 px). : https://castillet66.github.io/widget-carburant-2026-11-03/captures/2-iphone-390.png
+- PNG — Gros plan, agrandi deux fois : la pompe à côté du prix. : https://castillet66.github.io/widget-carburant-2026-11-03/captures/3-gros-plan.png
+
 ## Le dernier polish du panneau Rubriques (03/11/2026)
 
 Les deux objets retouchés, Horoscope et Ciel : avant b0505891, après 6e2e74d3 (code 483242dfc). Chromium à rendu GPU émulé. iPhone réel non vérifié.
