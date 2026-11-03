@@ -12,6 +12,18 @@ Dépôt réservé aux aperçus et aux captures de Pulse : rien ici n'est le code
 - Recettes — le comparateur rempli, en démonstration (prix fictifs) : https://weighted-meanwhile-endless-delete.trycloudflare.com/recettes/comparer/demonstration?scenario=incomplet
 - Recettes — le comparateur en démonstration, version statique (prix fictifs, sans tunnel) : https://castillet66.github.io/recettes/comparer/demonstration/?scenario=incomplet
 
+## Les objets du panneau, sans poteau (03/11/2026)
+
+Vraie production, avant 9f44403a et après b0505891 (code de3c8c741), en Chromium à rendu GPU émulé, données réelles du site. iPhone réel non vérifié.
+
+- Les captures avant/après, légendées (à ouvrir sur téléphone) : https://castillet66.github.io/rubriques-objets-2026-11-03/index.html
+- PNG — Les six objets retouchés : avant en haut, après en bas. De gauche à droite : Webcams, Stationnement, Trafic, Recharge, Carburant, Recettes. : https://castillet66.github.io/rubriques-objets-2026-11-03/captures/1-objets-avant-apres.png
+- PNG — La rangée Sport à 440 px : avant en haut, après en bas. Dragons Catalans passe de 127 à 137 px, l'USAP reste à 112. : https://castillet66.github.io/rubriques-objets-2026-11-03/captures/2-sport-avant-apres.png
+- PNG — Le panneau à 440 px. De gauche à droite : avant en haut, après en haut, avant en bas, après en bas. : https://castillet66.github.io/rubriques-objets-2026-11-03/captures/3-avant-apres-440.png
+- PNG — Le panneau à 390 px, dans le même ordre. : https://castillet66.github.io/rubriques-objets-2026-11-03/captures/4-avant-apres-390.png
+- PNG — Le panneau à 360 px, dans le même ordre. : https://castillet66.github.io/rubriques-objets-2026-11-03/captures/5-avant-apres-360.png
+- PNG — Tablette, 768 px : après seulement. : https://castillet66.github.io/rubriques-objets-2026-11-03/captures/6-tablette.png
+
 ## Le panneau Rubriques, avant et après (03/11/2026)
 
 Vraie production, avant ef25634a et après 9f44403a (code b6990ee2b), en Chromium à rendu GPU émulé, données réelles du site. iPhone réel non vérifié.
