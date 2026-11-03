@@ -1,0 +1,51 @@
+<!doctype html><html lang="fr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex"><title>Recettes, Mes repas, Courses — le parcours en production</title>
+<style>body{margin:0;background:#111;color:#eee;font:16px/1.5 -apple-system,system-ui,sans-serif}main{max-width:1100px;margin:auto;padding:24px 16px 64px}h1{font-size:28px;line-height:1.15;margin:0 0 8px}h2{font-size:20px;margin:36px 0 10px}p,li{color:#ccc}.g{display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:20px;margin-top:16px}figure{margin:0}img{width:100%;border-radius:18px;display:block;background:#222}figcaption{font-size:14px;color:#bbb;margin-top:8px}strong{color:#fff}table{border-collapse:collapse;width:100%;font-size:14.5px}td,th{border-bottom:1px solid #333;padding:8px 6px;text-align:left;vertical-align:top}a{color:#7fd7cf}pre{white-space:pre-wrap;font-size:13px;color:#bbb;background:#1b1b1b;padding:14px;border-radius:12px}</style></head><body><main>
+<h1>Recettes, Mes repas, Courses : le parcours en production</h1>
+<p>Captures de la vraie production, <strong>déploiement e877bba5, code a0ee0b540</strong>, le 3 novembre 2026, en 390 × 844, moteur WebKit de Playwright. Le même parcours passe aussi sous Chromium. Il n'a pas été fait sur un iPhone réel.</p>
+<p>À refaire soi-même : <a href="https://perpignanpulse.com/recettes/spaghetti-carbonara">la carbonara</a>, <a href="https://perpignanpulse.com/recettes/semaine">Mes repas</a>, <a href="https://perpignanpulse.com/recettes/courses">Courses</a>, <a href="https://perpignanpulse.com/recettes/comparer">le comparateur</a>.</p>
+<h2>Ce qui est réel, figé ou fictif</h2>
+<table><tr><th>Élément</th><th>Nature</th></tr>
+<tr><td>Recettes, quantités, photos, précisions</td><td><strong>Réel</strong> : le catalogue publié (58 recettes).</td></tr>
+<tr><td>Liste, repas, coches, placard</td><td><strong>Gestes de test</strong>, joués par le banc dans un navigateur neuf, gardés sur l'appareil. Rien n'est écrit sur le serveur.</td></tr>
+<tr><td>Prix</td><td><strong>Aucun</strong>. La source n'est pas activée : ni clé, ni seau, ni tâche, ni abonnement. La route des prix répond 404.</td></tr>
+<tr><td>Valeurs nutritionnelles</td><td><strong>Estimation</strong> depuis la table Ciqual, inchangée sur la carbonara (623 kcal, identique avant et après).</td></tr>
+</table>
+<h2>Le parcours</h2><div class="g"><figure><img src="captures/01-fiche.png" alt="La fiche d&#x27;une recette" loading="lazy"><figcaption><strong>La fiche d&#x27;une recette</strong><br>Portions réglées sur place, deux boutons : « Ajouter aux courses » répond dès le premier toucher, « Ajouter à Mes repas » est le nouveau nom.</figcaption></figure><figure><img src="captures/02-courses.png" alt="Courses" loading="lazy"><figcaption><strong>Courses</strong><br>Quantités à la portion, précision de la recette (pancetta), et la mention « il en faut 2 ¼ » conservée.</figcaption></figure><figure><img src="captures/03-cu29-coche-gardee.png" alt="CU-29 : la recette passe dans Mes repas" loading="lazy"><figcaption><strong>CU-29 : la recette passe dans Mes repas</strong><br>Lardon et œufs déjà cochés restent cochés, sans avis : il en faut moins (75 g → 50 g). Le « Dans le panier » garde ces lignes.</figcaption></figure><figure><img src="captures/04-semaine.png" alt="Mes repas" loading="lazy"><figcaption><strong>Mes repas</strong><br>Le nouveau titre, le prochain repas, le lien vers Courses.</figcaption></figure><figure><img src="captures/05-cu29-quantite.png" alt="CU-29 : il en faut plus" loading="lazy"><figcaption><strong>CU-29 : il en faut plus</strong><br>Deux personnes de plus : la ligne revient, et « Quantité mise à jour » le dit.</figcaption></figure><figure><img src="captures/06-chez-toi.png" alt="Le placard et « Je l&#x27;ai déjà »" loading="lazy"><figcaption><strong>Le placard et « Je l&#x27;ai déjà »</strong><br>Le frais vaut pour cette liste, l&#x27;épicerie pour les suivantes. Un toucher remet la ligne.</figcaption></figure><figure><img src="captures/07-reglages-repas.png" alt="Les réglages d&#x27;un repas" loading="lazy"><figcaption><strong>Les réglages d&#x27;un repas</strong><br>Nombre de repas, jour facultatif, « C&#x27;est fait », remplacer, retirer avec « Annuler ».</figcaption></figure><figure><img src="captures/08-guide.png" alt="Cuisiner" loading="lazy"><figcaption><strong>Cuisiner</strong><br>Le guide reprend à son étape après un rechargement, et « Terminer » marque le repas fait.</figcaption></figure><figure><img src="captures/09-courses-fin.png" alt="Après tous les gestes et un rechargement" loading="lazy"><figcaption><strong>Après tous les gestes et un rechargement</strong><br>Le stockage est identique octet pour octet avant et après le rechargement.</figcaption></figure><figure><img src="captures/10-comparateur.png" alt="Le comparateur" loading="lazy"><figcaption><strong>Le comparateur</strong><br>Aucun prix : la source n&#x27;est pas active. L&#x27;écran le dit, et le placard reste utilisable.</figcaption></figure></div>
+<h2>Les 36 contrôles du banc, en production</h2><pre>✓ fiche à 5 portions : la liste en garde 5
+✓ changer de portions met à jour, sans doublon
+✓ le message dit « Courses mises à jour pour 3 portions »
+✓ lardon à 3 portions, précision gardée : Lardon75 gpancetta
+✓ la mention « il en faut 2 ¼ » reste sur les œufs
+✓ rechargement : la coche reste
+✓ l&#x27;ail des deux recettes tient en une ligne
+✓ la ligne dit de quelles recettes elle vient
+✓ CU-29 : besoin en baisse, la coche reste, sans avis (Lardon50 gpancetta)
+✓ CU-29 : besoin en hausse, la ligne revient et le dit (Lardon100 gpancettaQuantité mise à jour)
+✓ recochée, la ligne tient à la nouvelle quantité
+✓ « Je l&#x27;ai déjà » sur l&#x27;épicerie : au placard
+✓ rechargement : le placard tient
+✓ « Je l&#x27;ai déjà » sur le frais : pour cette liste
+✓ « Retirer » : la ligne quitte la liste
+✓ « Remettre » : elle revient
+✓ un article saisi entre dans son rayon
+✓ le même article deux fois se refuse, et se dit
+✓ « Annuler » rétablit les cochés sortis
+✓ une recette quitte la liste
+✓ « Annuler » la rétablit
+✓ « Une idée de plus » ajoute un repas
+✓ « un repas de plus » : 2 repas
+✓ remplacé par tortilla-patatas
+✓ retiré de la semaine
+✓ « Annuler » rétablit le repas
+✓ rechargement : la cuisine reprend à l&#x27;étape 3
+✓ « Terminer » marque le repas fait
+✓ nouvelle semaine : le plan se referme
+✓ « Annuler » rend le plan à l&#x27;identique
+✓ liste vidée, après confirmation
+✓ « Annuler » rend la liste
+✓ rechargement : rien n&#x27;a bougé sur le disque
+✓ le comparateur dit qu&#x27;il n&#x27;a pas encore de prix
+✓ aucun prix à l&#x27;écran : la source n&#x27;est pas active
+✓ aucune erreur de page ni d&#x27;hydratation (0)
+36 contrôles verts, 0 rouges</pre>
+</main></body></html>

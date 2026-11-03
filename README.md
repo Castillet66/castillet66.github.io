@@ -12,6 +12,22 @@ Dépôt réservé aux aperçus et aux captures de Pulse : rien ici n'est le code
 - Recettes — le comparateur rempli, en démonstration (prix fictifs) : https://weighted-meanwhile-endless-delete.trycloudflare.com/recettes/comparer/demonstration?scenario=incomplet
 - Recettes — le comparateur en démonstration, version statique (prix fictifs, sans tunnel) : https://castillet66.github.io/recettes/comparer/demonstration/?scenario=incomplet
 
+## Recettes, Mes repas, Courses — le parcours en production (03/11/2026)
+
+Captures mobiles de la vraie production (déploiement e877bba5, code a0ee0b540), avec la nature de chaque donnée : catalogue réel, gestes de test, aucun prix. iPhone réel non vérifié.
+
+- Le parcours et ses 36 contrôles (à ouvrir sur téléphone) : https://castillet66.github.io/recettes-2026-11-03-parcours/index.html
+- PNG — La fiche d'une recette : https://castillet66.github.io/recettes-2026-11-03-parcours/captures/01-fiche.png
+- PNG — Courses : https://castillet66.github.io/recettes-2026-11-03-parcours/captures/02-courses.png
+- PNG — CU-29 : la recette passe dans Mes repas : https://castillet66.github.io/recettes-2026-11-03-parcours/captures/03-cu29-coche-gardee.png
+- PNG — Mes repas : https://castillet66.github.io/recettes-2026-11-03-parcours/captures/04-semaine.png
+- PNG — CU-29 : il en faut plus : https://castillet66.github.io/recettes-2026-11-03-parcours/captures/05-cu29-quantite.png
+- PNG — Le placard et « Je l'ai déjà » : https://castillet66.github.io/recettes-2026-11-03-parcours/captures/06-chez-toi.png
+- PNG — Les réglages d'un repas : https://castillet66.github.io/recettes-2026-11-03-parcours/captures/07-reglages-repas.png
+- PNG — Cuisiner : https://castillet66.github.io/recettes-2026-11-03-parcours/captures/08-guide.png
+- PNG — Après tous les gestes et un rechargement : https://castillet66.github.io/recettes-2026-11-03-parcours/captures/09-courses-fin.png
+- PNG — Le comparateur : https://castillet66.github.io/recettes-2026-11-03-parcours/captures/10-comparateur.png
+
 ## Autour de moi — premier lot et classement publiés (02/11/2026)
 
 EN PRODUCTION (D-1481, D-1482, D-1483) — déploiement 49361351, commit 2f5094dc0, vérifié sur perpignanpulse.com à 18 h 36 ; banc sur l'index réel du 02/11 ; essais de mises en avant non branchés.

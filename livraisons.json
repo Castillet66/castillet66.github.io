@@ -1508,5 +1508,59 @@
     "Essai non branché : « Sponsorisé » dans la liste"
    ]
   ]
+ },
+ {
+  "dossier": "recettes-2026-11-03-parcours",
+  "date": "03/11/2026",
+  "titre": "Recettes, Mes repas, Courses — le parcours en production",
+  "note": "Captures mobiles de la vraie production (déploiement e877bba5, code a0ee0b540), avec la nature de chaque donnée : catalogue réel, gestes de test, aucun prix. iPhone réel non vérifié.",
+  "pages": [
+   [
+    "index.html",
+    "Le parcours et ses 36 contrôles (à ouvrir sur téléphone)"
+   ]
+  ],
+  "captures": [
+   [
+    "captures/01-fiche.png",
+    "La fiche d'une recette"
+   ],
+   [
+    "captures/02-courses.png",
+    "Courses"
+   ],
+   [
+    "captures/03-cu29-coche-gardee.png",
+    "CU-29 : la recette passe dans Mes repas"
+   ],
+   [
+    "captures/04-semaine.png",
+    "Mes repas"
+   ],
+   [
+    "captures/05-cu29-quantite.png",
+    "CU-29 : il en faut plus"
+   ],
+   [
+    "captures/06-chez-toi.png",
+    "Le placard et « Je l'ai déjà »"
+   ],
+   [
+    "captures/07-reglages-repas.png",
+    "Les réglages d'un repas"
+   ],
+   [
+    "captures/08-guide.png",
+    "Cuisiner"
+   ],
+   [
+    "captures/09-courses-fin.png",
+    "Après tous les gestes et un rechargement"
+   ],
+   [
+    "captures/10-comparateur.png",
+    "Le comparateur"
+   ]
+  ]
  }
 ]
