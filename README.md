@@ -12,6 +12,15 @@ Dépôt réservé aux aperçus et aux captures de Pulse : rien ici n'est le code
 - Recettes — le comparateur rempli, en démonstration (prix fictifs) : https://weighted-meanwhile-endless-delete.trycloudflare.com/recettes/comparer/demonstration?scenario=incomplet
 - Recettes — le comparateur en démonstration, version statique (prix fictifs, sans tunnel) : https://castillet66.github.io/recettes/comparer/demonstration/?scenario=incomplet
 
+## Autour suit le lieu commun : lot 1 (04/11/2026)
+
+Aperçu statique du code 5bdbca844, données figées le 04/11 à 16 h 29. Captures Chromium, build local. iPhone réel non vérifié. Rien n'est publié.
+
+- Le lot 1 et le lien vers l'aperçu d'Autour : https://castillet66.github.io/autour-2026-11-04-lieu-commun/index.html
+- PNG — Téléphone : la feuille commune : https://castillet66.github.io/autour-2026-11-04-lieu-commun/captures/1-telephone.png
+- PNG — Tablette : le menu ancré à « Où » : https://castillet66.github.io/autour-2026-11-04-lieu-commun/captures/2-tablette.png
+- PNG — Grand écran : le même menu : https://castillet66.github.io/autour-2026-11-04-lieu-commun/captures/3-grand-ecran.png
+
 ## Sélecteur de lieu : la dernière finition (04/11/2026)
 
 Vraie production, déploiement 1ab90828 (code bfc77ca20), captures Chromium, GPS simulé. iPhone réel non vérifié.

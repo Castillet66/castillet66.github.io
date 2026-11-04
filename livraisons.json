@@ -1886,5 +1886,31 @@
         "Les deux pictogrammes."
       ]
     ]
+  },
+  {
+    "dossier": "autour-2026-11-04-lieu-commun",
+    "date": "04/11/2026",
+    "titre": "Autour suit le lieu commun : lot 1",
+    "note": "Aperçu statique du code 5bdbca844, données figées le 04/11 à 16 h 29. Captures Chromium, build local. iPhone réel non vérifié. Rien n'est publié.",
+    "pages": [
+      [
+        "index.html",
+        "Le lot 1 et le lien vers l'aperçu d'Autour"
+      ]
+    ],
+    "captures": [
+      [
+        "captures/1-telephone.png",
+        "Téléphone : la feuille commune"
+      ],
+      [
+        "captures/2-tablette.png",
+        "Tablette : le menu ancré à « Où »"
+      ],
+      [
+        "captures/3-grand-ecran.png",
+        "Grand écran : le même menu"
+      ]
+    ]
   }
 ]

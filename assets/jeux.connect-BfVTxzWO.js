@@ -1,0 +1,1 @@
+import{j as e}from"./index-Dbo5hPdy.js";import{M as o}from"./jeux.connect-DPI6lwL6.js";const n=({error:r})=>e.jsx(o,{titre:"Impossible de charger la grille du jour",children:e.jsx("p",{className:"font-mono text-xs text-white/40",children:r.message})});export{n as errorComponent};

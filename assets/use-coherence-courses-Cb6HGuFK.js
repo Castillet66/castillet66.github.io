@@ -1,0 +1,1 @@
+import{G as t,aS as a,aL as o}from"./index-Dbo5hPdy.js";function c(){const e=t(o),{refetch:r}=e;return{etat:e.data?"pret":e.isError||e.errorUpdateCount>0?"echec":"attente",reessayer:a.useCallback(()=>{r()},[r]),enCours:e.isFetching,echecs:e.errorUpdateCount}}export{c as u};
