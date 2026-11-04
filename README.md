@@ -12,6 +12,15 @@ Dépôt réservé aux aperçus et aux captures de Pulse : rien ici n'est le code
 - Recettes — le comparateur rempli, en démonstration (prix fictifs) : https://weighted-meanwhile-endless-delete.trycloudflare.com/recettes/comparer/demonstration?scenario=incomplet
 - Recettes — le comparateur en démonstration, version statique (prix fictifs, sans tunnel) : https://castillet66.github.io/recettes/comparer/demonstration/?scenario=incomplet
 
+## Le lieu commun, compréhensible partout (04/11/2026)
+
+Aperçu interactif du lot complet, code cd5b340bb, données figées le 04/11 au soir, rejouées sans serveur. Captures Chromium, GPS simulé. iPhone réel non vérifié. Rien n'est publié.
+
+- Le lot, et le lien pour l'essayer sur le téléphone : https://castillet66.github.io/lieu-commun-2026-11-04/index.html
+- PNG — Domicile et Travail, à vue : https://castillet66.github.io/lieu-commun-2026-11-04/captures/3-domicile-travail.png
+- PNG — La capsule fixe, sur Arles-sur-Tech : https://castillet66.github.io/lieu-commun-2026-11-04/captures/cinema-arles.png
+- PNG — La position en bleu, le lieu regardé en orange : https://castillet66.github.io/lieu-commun-2026-11-04/captures/9-bleu-et-orange.png
+
 ## Autour suit le lieu commun : lot 1 (04/11/2026)
 
 Aperçu statique du code 5bdbca844, données figées le 04/11 à 16 h 29. Captures Chromium, build local. iPhone réel non vérifié. Rien n'est publié.
