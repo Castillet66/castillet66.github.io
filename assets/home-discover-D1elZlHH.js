@@ -1,0 +1,1 @@
+import{hN as n}from"./index-B5h-w2Yb.js";const a={littoral:"Littoral",plaine:"Plaine",piemont:"Piémont",montagne:"Montagne",cerdagne:"Cerdagne",capcir:"Capcir"};function r(e){return e?a[e]:"Pyrénées-Orientales"}new Map(n.map(e=>[e.slug,e]));new Set(n.filter(e=>e.zone==="littoral").map(e=>e.slug));export{r as z};

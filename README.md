@@ -12,6 +12,20 @@ Dépôt réservé aux aperçus et aux captures de Pulse : rien ici n'est le code
 - Recettes — le comparateur rempli, en démonstration (prix fictifs) : https://weighted-meanwhile-endless-delete.trycloudflare.com/recettes/comparer/demonstration?scenario=incomplet
 - Recettes — le comparateur en démonstration, version statique (prix fictifs, sans tunnel) : https://castillet66.github.io/recettes/comparer/demonstration/?scenario=incomplet
 
+## Autour : le parcours et la feuille basse (04/11/2026)
+
+Aperçu interactif, version 55f1352c8, données réelles figées le 04/11 à 22 h 57. Captures Chromium. iPhone réel non vérifié. Rien n'est publié.
+
+- Ce qu'il faut essayer, et le lien vers l'aperçu : https://castillet66.github.io/autour-2026-11-04-parcours/index.html
+- PNG — Toucher un groupe : la liste, grandes images : https://castillet66.github.io/autour-2026-11-04-parcours/captures/1-liste.png
+- PNG — Toucher une activité : sa fiche, tout de suite : https://castillet66.github.io/autour-2026-11-04-parcours/captures/2-fiche.png
+- PNG — Tirer la fiche : la liste attend dessous : https://castillet66.github.io/autour-2026-11-04-parcours/captures/3-glissement.png
+- PNG — « Voir sur la carte » : la bulle situe le lieu : https://castillet66.github.io/autour-2026-11-04-parcours/captures/4-sur-la-carte.png
+- PNG — La feuille basse : le contenu d'abord : https://castillet66.github.io/autour-2026-11-04-parcours/captures/5-feuille.png
+- PNG — « Quand ? » : un repère, une date, un choix clair : https://castillet66.github.io/autour-2026-11-04-parcours/captures/6-quand.png
+- PNG — Le cadrage d'arrivée, et le nom de Perpignan : https://castillet66.github.io/autour-2026-11-04-parcours/captures/7-arrivee.png
+- PNG — 320 px, texte à 150 % : le lieu reste entier : https://castillet66.github.io/autour-2026-11-04-parcours/captures/8-petit-ecran.png
+
 ## Le lieu commun, compréhensible partout (04/11/2026)
 
 Aperçu interactif du lot complet, code cd5b340bb, données figées le 04/11 au soir, rejouées sans serveur. Captures Chromium, GPS simulé. iPhone réel non vérifié. Rien n'est publié.
