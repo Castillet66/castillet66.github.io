@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Sélecteur de lieu : avant et après</title>
+<style>
+  :root { color-scheme: dark; }
+  body { margin: 0; background: #0e0e10; color: #e8e8ea; font: 16px/1.5 -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+  main { max-width: 1100px; margin: 0 auto; padding: 24px 16px 64px; }
+  h1 { font-size: 26px; line-height: 1.2; margin: 0 0 8px; }
+  h2 { font-size: 19px; margin: 40px 0 4px; }
+  p { margin: 0 0 12px; color: #b9b9bf; }
+  .note { font-size: 14px; }
+  .paire { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px; align-items: start; }
+  .une { grid-template-columns: minmax(0, 1fr); }
+  .serie { display: grid; grid-template-columns: repeat(auto-fill, minmax(170px, 1fr)); gap: 12px; align-items: start; }
+  figure { margin: 0; }
+  figcaption { font-size: 13px; font-weight: 600; margin-bottom: 6px; color: #e8e8ea; }
+  figcaption.avant { color: #ff8a80; }
+  figcaption.apres { color: #7be0b0; }
+  img { display: block; width: 100%; height: auto; border-radius: 10px; }
+  .capsules img { max-width: 280px; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Sélecteur de lieu : avant et après</h1>
+  <p>« Avant » est la production relevée avant ce polish, « après » la vraie production, déploiement 883fda5f (code 106156c38). Captures Chromium, seul moteur du banc qui rend le vrai flou, position simulée, sans iPhone réel.</p>
+  <p class="note">Le Flash et la météo changent entre les captures : ce sont les données du moment.</p>
+
+  <h2>La feuille sur téléphone, 390 px</h2>
+  <p>Elle se pose sur le bas et couvre la barre, comme Rubriques. Plus de repère ni de punaise : la coche orange dit ce qu'on regarde, l'étoile les favoris, et « Ville par défaut » s'écrit.</p>
+  <div class="paire">
+    <figure><figcaption class="avant">Avant</figcaption><img src="captures/1-feuille-avant.png" alt="La feuille avant le polish"></figure>
+    <figure><figcaption class="apres">Après</figcaption><img src="captures/1-feuille-apres.png" alt="La feuille après le polish"></figure>
+  </div>
+
+  <h2>La capsule</h2>
+  <p>Le nom et un triangle plein. La flèche blanche seulement quand la position GPS est lue. Plus aucun point turquoise.</p>
+  <div class="paire capsules">
+    <figure><figcaption class="avant">Avant, ville par défaut</figcaption><img src="captures/5-capsule-avant-ville.png" alt="Capsule avant, ville par défaut"></figure>
+    <figure><figcaption class="apres">Après, ville par défaut</figcaption><img src="captures/5-capsule-apres-ville.png" alt="Capsule après, ville par défaut"></figure>
+    <figure><figcaption class="avant">Avant, ville regardée pour la visite</figcaption><img src="captures/5-capsule-avant-visite.png" alt="Capsule avant, visite"></figure>
+    <figure><figcaption class="apres">Après, ville regardée pour la visite</figcaption><img src="captures/5-capsule-apres-visite.png" alt="Capsule après, visite"></figure>
+    <figure></figure>
+    <figure><figcaption class="apres">Après, position GPS active</figcaption><img src="captures/5-capsule-apres-gps.png" alt="Capsule après, GPS"></figure>
+  </div>
+
+  <h2>Le panneau sur ordinateur, 1 440 px</h2>
+  <div class="paire une">
+    <figure><figcaption class="avant">Avant</figcaption><img src="captures/2-menu-avant.png" alt="Le menu avant le polish"></figure>
+    <figure><figcaption class="apres">Après</figcaption><img src="captures/2-menu-apres.png" alt="Le menu après le polish"></figure>
+  </div>
+
+  <h2>Les états, 390 px et 320 px</h2>
+  <div class="serie">
+    <figure><figcaption>Premier usage</figcaption><img src="captures/4-zero.png" alt="Sans rien de choisi"></figure>
+    <figure><figcaption>Position GPS active</figcaption><img src="captures/4-gps.png" alt="Position GPS active"></figure>
+    <figure><figcaption>Choisir la ville par défaut</figcaption><img src="captures/4-defaut.png" alt="La ligne dépliée"></figure>
+    <figure><figcaption>Recherche, feuille étendue</figcaption><img src="captures/4-recherche.png" alt="La recherche"></figure>
+    <figure><figcaption>Position refusée</figcaption><img src="captures/4-refus.png" alt="Position refusée"></figure>
+    <figure><figcaption>Petit téléphone, 320 px</figcaption><img src="captures/4-petit.png" alt="À 320 px"></figure>
+    <figure><figcaption>Rubriques, pour comparer le verre</figcaption><img src="captures/3-rubriques.png" alt="Le panneau Rubriques"></figure>
+  </div>
+</main>
+</body>
+</html>

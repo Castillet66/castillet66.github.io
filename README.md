@@ -12,6 +12,15 @@ Dépôt réservé aux aperçus et aux captures de Pulse : rien ici n'est le code
 - Recettes — le comparateur rempli, en démonstration (prix fictifs) : https://weighted-meanwhile-endless-delete.trycloudflare.com/recettes/comparer/demonstration?scenario=incomplet
 - Recettes — le comparateur en démonstration, version statique (prix fictifs, sans tunnel) : https://castillet66.github.io/recettes/comparer/demonstration/?scenario=incomplet
 
+## Sélecteur de lieu : avant et après (04/11/2026)
+
+Vraie production, déploiement 883fda5f (code 106156c38), captures Chromium, position simulée. iPhone réel non vérifié.
+
+- Avant et après, téléphone et ordinateur : https://castillet66.github.io/selecteur-polish-2026-11-04/index.html
+- PNG — La feuille à 390 px. : https://castillet66.github.io/selecteur-polish-2026-11-04/captures/1-feuille-apres.png
+- PNG — Choisir la ville par défaut. : https://castillet66.github.io/selecteur-polish-2026-11-04/captures/4-defaut.png
+- PNG — Le panneau à 1 440 px. : https://castillet66.github.io/selecteur-polish-2026-11-04/captures/2-menu-apres.png
+
 ## Hero de l'accueil : avant et après (03/11/2026)
 
 Vraie production, déploiement 29393985 (code 7d12250b4), captures WebKit ; noms longs en données de test. iPhone réel non vérifié.

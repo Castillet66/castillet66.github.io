@@ -1834,5 +1834,31 @@
         "1 440 px."
       ]
     ]
+  },
+  {
+    "dossier": "selecteur-polish-2026-11-04",
+    "date": "04/11/2026",
+    "titre": "Sélecteur de lieu : avant et après",
+    "note": "Vraie production, déploiement 883fda5f (code 106156c38), captures Chromium, position simulée. iPhone réel non vérifié.",
+    "pages": [
+      [
+        "index.html",
+        "Avant et après, téléphone et ordinateur"
+      ]
+    ],
+    "captures": [
+      [
+        "captures/1-feuille-apres.png",
+        "La feuille à 390 px."
+      ],
+      [
+        "captures/4-defaut.png",
+        "Choisir la ville par défaut."
+      ],
+      [
+        "captures/2-menu-apres.png",
+        "Le panneau à 1 440 px."
+      ]
+    ]
   }
 ]
