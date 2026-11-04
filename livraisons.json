@@ -1860,5 +1860,31 @@
         "Le panneau à 1 440 px."
       ]
     ]
+  },
+  {
+    "dossier": "selecteur-finition-2026-11-04",
+    "date": "04/11/2026",
+    "titre": "Sélecteur de lieu : la dernière finition",
+    "note": "Vraie production, déploiement 1ab90828 (code bfc77ca20), captures Chromium, GPS simulé. iPhone réel non vérifié.",
+    "pages": [
+      [
+        "index.html",
+        "Hauteur, Domicile et Travail, GPS sans doublon"
+      ]
+    ],
+    "captures": [
+      [
+        "captures/1-apres.png",
+        "La feuille à 390 px."
+      ],
+      [
+        "captures/3-etiquettes.png",
+        "Les étiquettes dépliées."
+      ],
+      [
+        "captures/0-glyphes.png",
+        "Les deux pictogrammes."
+      ]
+    ]
   }
 ]

@@ -12,6 +12,15 @@ Dépôt réservé aux aperçus et aux captures de Pulse : rien ici n'est le code
 - Recettes — le comparateur rempli, en démonstration (prix fictifs) : https://weighted-meanwhile-endless-delete.trycloudflare.com/recettes/comparer/demonstration?scenario=incomplet
 - Recettes — le comparateur en démonstration, version statique (prix fictifs, sans tunnel) : https://castillet66.github.io/recettes/comparer/demonstration/?scenario=incomplet
 
+## Sélecteur de lieu : la dernière finition (04/11/2026)
+
+Vraie production, déploiement 1ab90828 (code bfc77ca20), captures Chromium, GPS simulé. iPhone réel non vérifié.
+
+- Hauteur, Domicile et Travail, GPS sans doublon : https://castillet66.github.io/selecteur-finition-2026-11-04/index.html
+- PNG — La feuille à 390 px. : https://castillet66.github.io/selecteur-finition-2026-11-04/captures/1-apres.png
+- PNG — Les étiquettes dépliées. : https://castillet66.github.io/selecteur-finition-2026-11-04/captures/3-etiquettes.png
+- PNG — Les deux pictogrammes. : https://castillet66.github.io/selecteur-finition-2026-11-04/captures/0-glyphes.png
+
 ## Sélecteur de lieu : avant et après (04/11/2026)
 
 Vraie production, déploiement 883fda5f (code 106156c38), captures Chromium, position simulée. iPhone réel non vérifié.

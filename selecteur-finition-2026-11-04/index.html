@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Sélecteur de lieu : la dernière finition</title>
+<style>
+  :root { color-scheme: dark; }
+  body { margin: 0; background: #0e0e10; color: #e8e8ea; font: 16px/1.5 -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+  main { max-width: 1100px; margin: 0 auto; padding: 24px 16px 64px; }
+  h1 { font-size: 26px; line-height: 1.2; margin: 0 0 8px; }
+  h2 { font-size: 19px; margin: 40px 0 4px; }
+  p { margin: 0 0 12px; color: #b9b9bf; }
+  .paire { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px; align-items: start; }
+  .une { grid-template-columns: minmax(0, 1fr); }
+  .serie { display: grid; grid-template-columns: repeat(auto-fill, minmax(170px, 1fr)); gap: 12px; align-items: start; }
+  figure { margin: 0; }
+  figcaption { font-size: 13px; font-weight: 600; margin-bottom: 6px; color: #e8e8ea; }
+  figcaption.avant { color: #ff8a80; }
+  figcaption.apres { color: #7be0b0; }
+  img { display: block; width: 100%; height: auto; border-radius: 10px; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Sélecteur de lieu : la dernière finition</h1>
+  <p>Vraie production, déploiement 1ab90828 (code bfc77ca20). Captures Chromium, seul moteur du banc qui rend le vrai flou. GPS simulé, et clavier simulé sur la capture qui le dit. Sans iPhone réel.</p>
+
+  <h2>La feuille, 390 px</h2>
+  <p>La petite barre part, le contenu respire, Domicile et Travail suivent le nom, le défaut n'allume plus d'étoile.</p>
+  <div class="paire">
+    <figure><figcaption class="avant">Avant</figcaption><img src="captures/1-avant.png" alt="La feuille avant"></figure>
+    <figure><figcaption class="apres">Après</figcaption><img src="captures/1-apres.png" alt="La feuille après"></figure>
+  </div>
+
+  <h2>La hauteur, au format d'un grand iPhone, 440 px</h2>
+  <p>Toucher la recherche ne l'agrandit plus. Une longue recherche la fait monter, sous son plafond. Seul le clavier occupe toute la zone au-dessus de lui.</p>
+  <div class="serie">
+    <figure><figcaption>Au repos</figcaption><img src="captures/2-grand.png" alt="Au repos"></figure>
+    <figure><figcaption>Champ touché</figcaption><img src="captures/2-champ.png" alt="Champ touché"></figure>
+    <figure><figcaption>Recherche</figcaption><img src="captures/2-saisie.png" alt="Recherche"></figure>
+    <figure><figcaption>Clavier simulé, zone visible</figcaption><img src="captures/2-clavier.png" alt="Clavier simulé"></figure>
+  </div>
+
+  <h2>Domicile et Travail</h2>
+  <p>Deux dessins originaux, de la même famille, à côté de la maison d'Accueil pour comparer. L'étoile déplie les étiquettes sous la ligne.</p>
+  <div class="paire une"><figure><img src="captures/0-glyphes.png" alt="Les deux pictogrammes"></figure></div>
+  <div class="serie" style="margin-top:12px">
+    <figure><figcaption>Les étiquettes dépliées</figcaption><img src="captures/3-etiquettes.png" alt="Étiquettes dépliées"></figure>
+    <figure><figcaption>« Ville par défaut », dépliée</figcaption><img src="captures/3-defaut.png" alt="Ville par défaut dépliée"></figure>
+  </div>
+
+  <h2>GPS et favoris, sans doublon</h2>
+  <p>Thuir s'écrivait deux fois. La ligne de la position porte maintenant son étoile et ses repères.</p>
+  <div class="paire">
+    <figure><figcaption class="avant">Avant</figcaption><img src="captures/4-avant-gps.png" alt="Thuir deux fois"></figure>
+    <figure><figcaption class="apres">Après</figcaption><img src="captures/3-defaut.png" alt="Thuir une fois"></figure>
+  </div>
+
+  <h2>Les autres formats et états</h2>
+  <div class="serie">
+    <figure><figcaption>Premier usage</figcaption><img src="captures/5-zero.png" alt="Premier usage"></figure>
+    <figure><figcaption>GPS actif, regardé</figcaption><img src="captures/4-gps.png" alt="GPS actif"></figure>
+    <figure><figcaption>Position refusée</figcaption><img src="captures/5-refus.png" alt="Position refusée"></figure>
+    <figure><figcaption>Petit téléphone, 320 px</figcaption><img src="captures/5-petit.png" alt="320 px"></figure>
+  </div>
+  <div class="paire une" style="margin-top:12px"><figure><figcaption>Ordinateur, 1 440 px</figcaption><img src="captures/5-bureau.png" alt="Le panneau à 1 440 px"></figure></div>
+</main>
+</body>
+</html>
