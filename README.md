@@ -12,6 +12,15 @@ Dépôt réservé aux aperçus et aux captures de Pulse : rien ici n'est le code
 - Recettes — le comparateur rempli, en démonstration (prix fictifs) : https://weighted-meanwhile-endless-delete.trycloudflare.com/recettes/comparer/demonstration?scenario=incomplet
 - Recettes — le comparateur en démonstration, version statique (prix fictifs, sans tunnel) : https://castillet66.github.io/recettes/comparer/demonstration/?scenario=incomplet
 
+## Aperçu commun : lieu partout, parcours et présentation d'Autour (05/11/2026)
+
+Aperçu interactif, version 2c9ec14f2, données figées le 05/11 à la mi-journée, rejouées sans serveur. Captures Chromium, GPS simulé. iPhone réel non vérifié. Rien n'est publié.
+
+- L'aperçu et sa version : https://castillet66.github.io/apercu-commun-2026-11-05/index.html
+- PNG — Domicile et Travail, à vue : https://castillet66.github.io/apercu-commun-2026-11-05/captures/3-domicile-travail.png
+- PNG — Le chevron au doigt : https://castillet66.github.io/apercu-commun-2026-11-05/captures/chevron.png
+- PNG — La position en bleu, le lieu regardé en orange : https://castillet66.github.io/apercu-commun-2026-11-05/captures/9-bleu-et-orange.png
+
 ## Autour : le parcours et la feuille basse (04/11/2026)
 
 Aperçu interactif, version 55f1352c8, données réelles figées le 04/11 à 22 h 57. Captures Chromium. iPhone réel non vérifié. Rien n'est publié.
