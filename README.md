@@ -12,6 +12,17 @@ Dépôt réservé aux aperçus et aux captures de Pulse : rien ici n'est le code
 - Recettes — le comparateur rempli, en démonstration (prix fictifs) : https://weighted-meanwhile-endless-delete.trycloudflare.com/recettes/comparer/demonstration?scenario=incomplet
 - Recettes — le comparateur en démonstration, version statique (prix fictifs, sans tunnel) : https://castillet66.github.io/recettes/comparer/demonstration/?scenario=incomplet
 
+## WERUP, lot 1 : logotype, W officiel, icônes orange, nom de l'application (06/11/2026)
+
+Production perpignanpulse.com, déploiement 745b936e, code 7c75f79c1 — captures 4 à 6 prises sur la production le 06/11 vers 14 h 40 UTC, données réelles du moment (Chromium, 390, 320 et 1920 px ; app installée simulée par ?pwa=1). Captures 1 à 3 : les fichiers livrés, rendus en local — icônes et favicons sous masques iPhone et Android, planche des tailles comparées, courriel d'inscription avec des données fictives. iPhone et Android réels non vérifiés.
+
+- PNG — Production — en-tête du site (390 px), puis de l'app installée (390 et 320 px) : https://castillet66.github.io/werup-identite-2026-11-06/captures/4-production-entete-mobile.png
+- PNG — Production — en-tête sur grand écran (1920 px) : https://castillet66.github.io/werup-identite-2026-11-06/captures/5-production-entete-1920.png
+- PNG — Production — pied de page et installation, porte « Tout Pulse », page Pro : https://castillet66.github.io/werup-identite-2026-11-06/captures/6-production-pied-porte-pro.png
+- PNG — Icône sous masque iPhone et Android, favicon 16 et 32 px agrandi : https://castillet66.github.io/werup-identite-2026-11-06/captures/1-icones-et-favicons.png
+- PNG — Planche : le W à 56, 60, 64 et 68 % — 64 % retenu : https://castillet66.github.io/werup-identite-2026-11-06/captures/2-planche-tailles-icone.png
+- PNG — Courriel d'inscription : logotype WERUP et signature (données fictives) : https://castillet66.github.io/werup-identite-2026-11-06/captures/3-courriel-inscription.png
+
 ## Aperçu commun : lieu partout, parcours et présentation d'Autour (05/11/2026)
 
 Aperçu interactif, version 2c9ec14f2, données figées le 05/11 à la mi-journée, rejouées sans serveur. Captures Chromium, GPS simulé. iPhone réel non vérifié. Rien n'est publié.
