@@ -2043,5 +2043,38 @@
     "Courriel d'inscription : logotype WERUP et signature (données fictives)"
    ]
   ]
+ },
+ {
+  "dossier": "werup-lot2-2026-11-06",
+  "date": "06/11/2026",
+  "titre": "WERUP, lot 2 : tous les noms, l'en-tête, une seule signature orange, le pied de page",
+  "note": "Production perpignanpulse.com, déploiement 66ea87d8, code d24564b1e — captures 1 à 5 prises sur la production le 06/11 vers 16 h 50 UTC, données réelles du moment (Chromium ; app installée simulée par ?pwa=1 ; texte agrandi simulé à 150 %). Capture 6 : les classes exactes des contrôles clairs, focalisées au clavier sur le serveur local (le programme du Cinéma n'a pas de données en local). iPhone et Android réels non vérifiés.",
+  "pages": [],
+  "captures": [
+   [
+    "captures/1-production-entete-mobile.png",
+    "Production — accueil (navigateur, app installée), Agenda, Mon WERUP, Rugby, Marchés à 320 px"
+   ],
+   [
+    "captures/2-production-entete-bureau.png",
+    "Production — bureau : logotype à l'accueil, titre ailleurs"
+   ],
+   [
+    "captures/3-production-pied-de-page.png",
+    "Production — pied de page sans devise ni signature, WERUP Live"
+   ],
+   [
+    "captures/4-production-focus-clavier.png",
+    "Production — focus clavier neutre (contour blanc)"
+   ],
+   [
+    "captures/5-production-texte-agrandi-320.png",
+    "Production — texte agrandi à 150 %, 320 px, app installée"
+   ],
+   [
+    "captures/6-focus-controles-clairs.png",
+    "Focus sur contrôles clairs : pastille, onglet blanc, capsule ivoire"
+   ]
+  ]
  }
 ]

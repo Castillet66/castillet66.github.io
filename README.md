@@ -12,6 +12,17 @@ Dépôt réservé aux aperçus et aux captures de Pulse : rien ici n'est le code
 - Recettes — le comparateur rempli, en démonstration (prix fictifs) : https://weighted-meanwhile-endless-delete.trycloudflare.com/recettes/comparer/demonstration?scenario=incomplet
 - Recettes — le comparateur en démonstration, version statique (prix fictifs, sans tunnel) : https://castillet66.github.io/recettes/comparer/demonstration/?scenario=incomplet
 
+## WERUP, lot 2 : tous les noms, l'en-tête, une seule signature orange, le pied de page (06/11/2026)
+
+Production perpignanpulse.com, déploiement 66ea87d8, code d24564b1e — captures 1 à 5 prises sur la production le 06/11 vers 16 h 50 UTC, données réelles du moment (Chromium ; app installée simulée par ?pwa=1 ; texte agrandi simulé à 150 %). Capture 6 : les classes exactes des contrôles clairs, focalisées au clavier sur le serveur local (le programme du Cinéma n'a pas de données en local). iPhone et Android réels non vérifiés.
+
+- PNG — Production — accueil (navigateur, app installée), Agenda, Mon WERUP, Rugby, Marchés à 320 px : https://castillet66.github.io/werup-lot2-2026-11-06/captures/1-production-entete-mobile.png
+- PNG — Production — bureau : logotype à l'accueil, titre ailleurs : https://castillet66.github.io/werup-lot2-2026-11-06/captures/2-production-entete-bureau.png
+- PNG — Production — pied de page sans devise ni signature, WERUP Live : https://castillet66.github.io/werup-lot2-2026-11-06/captures/3-production-pied-de-page.png
+- PNG — Production — focus clavier neutre (contour blanc) : https://castillet66.github.io/werup-lot2-2026-11-06/captures/4-production-focus-clavier.png
+- PNG — Production — texte agrandi à 150 %, 320 px, app installée : https://castillet66.github.io/werup-lot2-2026-11-06/captures/5-production-texte-agrandi-320.png
+- PNG — Focus sur contrôles clairs : pastille, onglet blanc, capsule ivoire : https://castillet66.github.io/werup-lot2-2026-11-06/captures/6-focus-controles-clairs.png
+
 ## WERUP, lot 1 : logotype, W officiel, icônes orange, nom de l'application (06/11/2026)
 
 Production perpignanpulse.com, déploiement 745b936e, code 7c75f79c1 — captures 4 à 6 prises sur la production le 06/11 vers 14 h 40 UTC, données réelles du moment (Chromium, 390, 320 et 1920 px ; app installée simulée par ?pwa=1). Captures 1 à 3 : les fichiers livrés, rendus en local — icônes et favicons sous masques iPhone et Android, planche des tailles comparées, courriel d'inscription avec des données fictives. iPhone et Android réels non vérifiés.
