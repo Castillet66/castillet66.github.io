@@ -2076,5 +2076,50 @@
     "Focus sur contrôles clairs : pastille, onglet blanc, capsule ivoire"
    ]
   ]
+ },
+ {
+  "dossier": "werup-lot3-2026-11-06",
+  "date": "06/11/2026",
+  "titre": "WERUP, lot 3 : bande-son retirée, jeton et signe d'Intelligence au W officiel, focus, partage, préparation de werup.app",
+  "note": "Production perpignanpulse.com, déploiement 4ea0e34d (bascule le 06/11 à 19 h 06 UTC), code e2173367d, docs 76c1fe4ad. Captures 1 à 4 : « avant » prises sur la production du lot 2 (66ea87d8) puis « après » sur 4ea0e34d, le 06/11 entre 18 h 58 et 19 h 10 UTC, Chromium, profil neuf, données réelles du moment (solde 0 : aucun compte). Captures 9 à 11 : serveur local — 9 et 10 sur une page de contrôle à fixtures (supprimée, jamais committée : écrans de fin de partie, feuille de résultat, feuille du solde, célébration du jackpot, qui demandent une partie gagnée ou un compte) ; 11 par injection des classes exactes. 12 : le carton de partage tel que servi. 14 : les illustrations d'installation, INCHANGÉES (aucun iPhone ni simulateur iOS sur la machine). iPhone et Android réels non vérifiés.",
+  "pages": [],
+  "captures": [
+   [
+    "captures/1-production-avant-apres-jeton.png",
+    "Production — avant (P corail) / après (W officiel) : compteur de Mon WERUP, machine du Jackpot, panneaux de Mot et Connect, puce de l'accueil"
+   ],
+   [
+    "captures/2-production-avant-apres-intelligence.png",
+    "Production — WERUP Intelligence : le P irisé devient le W officiel"
+   ],
+   [
+    "captures/3-production-avant-apres-pied-de-page.png",
+    "Production — pied de page : la bande-son est retirée"
+   ],
+   [
+    "captures/4-production-avant-apres-focus-bouton-blanc.png",
+    "Production — focus clavier sur un bouton blanc : anneau du navigateur (1 px bleu clair) / contour neutre décalé"
+   ],
+   [
+    "captures/9-local-jeton-tailles-reelles.png",
+    "Local — le jeton de 14 à 72 px, densité 3× puis 1× (zoom ×8 sur 14, 20, 26 px)"
+   ],
+   [
+    "captures/10-local-fins-de-partie-et-solde.png",
+    "Local, fixtures — fin de Mot (72 px), fin de Connect (34 px), feuille de résultat (38 px), feuille du solde (20 px), célébration du jackpot"
+   ],
+   [
+    "captures/11-local-voyants-des-chances.png",
+    "Local, injection — voyants des chances neutres (deux allumés, un éteint)"
+   ],
+   [
+    "captures/12-carton-de-partage-werup.png",
+    "Carton de partage : logotype horizontal officiel sur #111111, 1200 × 630"
+   ],
+   [
+    "captures/14-installation-illustrations-inchangees.png",
+    "Illustrations d'installation actuelles (PerpiPulse) — non refaites : limite matérielle"
+   ]
+  ]
  }
 ]

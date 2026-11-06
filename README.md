@@ -12,6 +12,20 @@ Dépôt réservé aux aperçus et aux captures de Pulse : rien ici n'est le code
 - Recettes — le comparateur rempli, en démonstration (prix fictifs) : https://weighted-meanwhile-endless-delete.trycloudflare.com/recettes/comparer/demonstration?scenario=incomplet
 - Recettes — le comparateur en démonstration, version statique (prix fictifs, sans tunnel) : https://castillet66.github.io/recettes/comparer/demonstration/?scenario=incomplet
 
+## WERUP, lot 3 : bande-son retirée, jeton et signe d'Intelligence au W officiel, focus, partage, préparation de werup.app (06/11/2026)
+
+Production perpignanpulse.com, déploiement 4ea0e34d (bascule le 06/11 à 19 h 06 UTC), code e2173367d, docs 76c1fe4ad. Captures 1 à 4 : « avant » prises sur la production du lot 2 (66ea87d8) puis « après » sur 4ea0e34d, le 06/11 entre 18 h 58 et 19 h 10 UTC, Chromium, profil neuf, données réelles du moment (solde 0 : aucun compte). Captures 9 à 11 : serveur local — 9 et 10 sur une page de contrôle à fixtures (supprimée, jamais committée : écrans de fin de partie, feuille de résultat, feuille du solde, célébration du jackpot, qui demandent une partie gagnée ou un compte) ; 11 par injection des classes exactes. 12 : le carton de partage tel que servi. 14 : les illustrations d'installation, INCHANGÉES (aucun iPhone ni simulateur iOS sur la machine). iPhone et Android réels non vérifiés.
+
+- PNG — Production — avant (P corail) / après (W officiel) : compteur de Mon WERUP, machine du Jackpot, panneaux de Mot et Connect, puce de l'accueil : https://castillet66.github.io/werup-lot3-2026-11-06/captures/1-production-avant-apres-jeton.png
+- PNG — Production — WERUP Intelligence : le P irisé devient le W officiel : https://castillet66.github.io/werup-lot3-2026-11-06/captures/2-production-avant-apres-intelligence.png
+- PNG — Production — pied de page : la bande-son est retirée : https://castillet66.github.io/werup-lot3-2026-11-06/captures/3-production-avant-apres-pied-de-page.png
+- PNG — Production — focus clavier sur un bouton blanc : anneau du navigateur (1 px bleu clair) / contour neutre décalé : https://castillet66.github.io/werup-lot3-2026-11-06/captures/4-production-avant-apres-focus-bouton-blanc.png
+- PNG — Local — le jeton de 14 à 72 px, densité 3× puis 1× (zoom ×8 sur 14, 20, 26 px) : https://castillet66.github.io/werup-lot3-2026-11-06/captures/9-local-jeton-tailles-reelles.png
+- PNG — Local, fixtures — fin de Mot (72 px), fin de Connect (34 px), feuille de résultat (38 px), feuille du solde (20 px), célébration du jackpot : https://castillet66.github.io/werup-lot3-2026-11-06/captures/10-local-fins-de-partie-et-solde.png
+- PNG — Local, injection — voyants des chances neutres (deux allumés, un éteint) : https://castillet66.github.io/werup-lot3-2026-11-06/captures/11-local-voyants-des-chances.png
+- PNG — Carton de partage : logotype horizontal officiel sur #111111, 1200 × 630 : https://castillet66.github.io/werup-lot3-2026-11-06/captures/12-carton-de-partage-werup.png
+- PNG — Illustrations d'installation actuelles (PerpiPulse) — non refaites : limite matérielle : https://castillet66.github.io/werup-lot3-2026-11-06/captures/14-installation-illustrations-inchangees.png
+
 ## WERUP, lot 2 : tous les noms, l'en-tête, une seule signature orange, le pied de page (06/11/2026)
 
 Production perpignanpulse.com, déploiement 66ea87d8, code d24564b1e — captures 1 à 5 prises sur la production le 06/11 vers 16 h 50 UTC, données réelles du moment (Chromium ; app installée simulée par ?pwa=1 ; texte agrandi simulé à 150 %). Capture 6 : les classes exactes des contrôles clairs, focalisées au clavier sur le serveur local (le programme du Cinéma n'a pas de données en local). iPhone et Android réels non vérifiés.
