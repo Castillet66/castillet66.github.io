@@ -12,6 +12,16 @@ Dépôt réservé aux aperçus et aux captures de Pulse : rien ici n'est le code
 - Recettes — le comparateur rempli, en démonstration (prix fictifs) : https://weighted-meanwhile-endless-delete.trycloudflare.com/recettes/comparer/demonstration?scenario=incomplet
 - Recettes — le comparateur en démonstration, version statique (prix fictifs, sans tunnel) : https://castillet66.github.io/recettes/comparer/demonstration/?scenario=incomplet
 
+## Barre de navigation de Werup — essai n° 4 : la collection de six avatars, en carré arrondi (07/11/2026)
+
+Deux liens à ouvrir : « Les six avatars » et « Dans la barre ». Essai isolé, ni intégré ni publié dans l'application. Galet et flâneur repris à l'identique de l'essai n° 3 (validés) ; corsaire retouché (fond bleu pétrole, barbe d'une seule couleur, corrigée au pixel) ; héros masqué, curieux et mélomane générés (nano-banana-pro) sur le modèle du flâneur. Captures : Chromium 153 émulé 440 × 956, ×2 et ×3, le 07/11/2026.
+
+- Les six avatars : https://castillet66.github.io/barre-werup-2026-11-07-essai4/collection.html
+- Dans la barre : https://castillet66.github.io/barre-werup-2026-11-07-essai4/barre.html
+- Le banc installable (iPhone : hauteur, retrait, pose basse) : https://castillet66.github.io/barre-werup-2026-11-07-essai4/index.html
+- PNG — Les six avatars (×2) : https://castillet66.github.io/barre-werup-2026-11-07-essai4/captures/les-six-avatars-x2.png
+- PNG — Dans la barre (×3) : https://castillet66.github.io/barre-werup-2026-11-07-essai4/captures/dans-la-barre-x3.png
+
 ## Barre de navigation de Werup — essai n° 3 : Galet, flâneur, corsaire ; rond ou carré arrondi (07/11/2026)
 
 Deux liens à ouvrir : « Avatars en grand » et « Rond ou carré arrondi ». Essai isolé, ni intégré ni publié dans l'application. Trois retouches générées (nano-banana-pro) à partir des images de l'essai n° 2. Fichiers d'avatar carrés, sans contour ; la forme et le contour actif sont ceux de l'interface. Matière « discrète » (arête et volume atténués), loupe ② « étoile rentrée ». Captures : Chromium 153 émulé 440 × 956, ×2 et ×3, le 07/11/2026.

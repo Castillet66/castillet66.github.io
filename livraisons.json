@@ -2231,5 +2231,35 @@
     "Rond ou carré arrondi, dans la barre (×3)"
    ]
   ]
+ },
+ {
+  "dossier": "barre-werup-2026-11-07-essai4",
+  "date": "07/11/2026",
+  "titre": "Barre de navigation de Werup — essai n° 4 : la collection de six avatars, en carré arrondi",
+  "note": "Deux liens à ouvrir : « Les six avatars » et « Dans la barre ». Essai isolé, ni intégré ni publié dans l'application. Galet et flâneur repris à l'identique de l'essai n° 3 (validés) ; corsaire retouché (fond bleu pétrole, barbe d'une seule couleur, corrigée au pixel) ; héros masqué, curieux et mélomane générés (nano-banana-pro) sur le modèle du flâneur. Captures : Chromium 153 émulé 440 × 956, ×2 et ×3, le 07/11/2026.",
+  "pages": [
+   [
+    "collection.html",
+    "Les six avatars"
+   ],
+   [
+    "barre.html",
+    "Dans la barre"
+   ],
+   [
+    "index.html",
+    "Le banc installable (iPhone : hauteur, retrait, pose basse)"
+   ]
+  ],
+  "captures": [
+   [
+    "captures/les-six-avatars-x2.png",
+    "Les six avatars (×2)"
+   ],
+   [
+    "captures/dans-la-barre-x3.png",
+    "Dans la barre (×3)"
+   ]
+  ]
  }
 ]
