@@ -12,6 +12,19 @@ Dépôt réservé aux aperçus et aux captures de Pulse : rien ici n'est le code
 - Recettes — le comparateur rempli, en démonstration (prix fictifs) : https://weighted-meanwhile-endless-delete.trycloudflare.com/recettes/comparer/demonstration?scenario=incomplet
 - Recettes — le comparateur en démonstration, version statique (prix fictifs, sans tunnel) : https://castillet66.github.io/recettes/comparer/demonstration/?scenario=incomplet
 
+## Barre de navigation de Werup — essais visuels isolés (BN-01) : symbole de Mon Werup, avatars D1 et D2, proportions, légendes, matière (07/11/2026)
+
+Essai isolé, ni intégré ni publié dans l'application. Le banc reproduit la barre servie (matière, arête, ombre, durées) et la règle de réduction de production à l'identique ; réglages en direct. À ajouter à l'écran d'accueil de l'iPhone (Safari → Partager → Sur l'écran d'accueil) pour juger la PWA réelle : zone sûre, pose 36/30/24, rétraction. Avatars : six images générées (nano-banana-pro), avatar d'accueil et symboles dessinés à la main. Captures : Chromium 153 émulé 393 × 852, ×2 et ×3 (pixels du fichier = pixels CSS × densité), le 07/11/2026 ; même géométrie mesurée dans WebKit. Le flou réel de Safari reste à voir sur iPhone.
+
+- Le banc (réglages en direct, installable sur l'écran d'accueil) : https://castillet66.github.io/barre-werup-2026-11-07/index.html
+- La planche à taille réelle : https://castillet66.github.io/barre-werup-2026-11-07/planche.html
+- PNG — Mon Werup dans la barre : les huit propositions, repos puis actif (×3) : https://castillet66.github.io/barre-werup-2026-11-07/captures/planche-symboles-x3.png
+- PNG — Les mêmes, rendu ×2 : https://castillet66.github.io/barre-werup-2026-11-07/captures/planche-symboles-x2.png
+- PNG — Pastille 24 ou 28 px, actif (×3) : https://castillet66.github.io/barre-werup-2026-11-07/captures/planche-tailles-x3.png
+- PNG — Les huit propositions en grand (×2) : https://castillet66.github.io/barre-werup-2026-11-07/captures/planche-grand-x2.png
+- PNG — 62 ou 66 px, légendes 10 ou 11 px, navigateur, PWA réduite, matière sur vert (×3) : https://castillet66.github.io/barre-werup-2026-11-07/captures/planche-proportions-x3.png
+- PNG — La réduction et le redéploiement : départ et arrivée (×3) : https://castillet66.github.io/barre-werup-2026-11-07/captures/retraction-depart-arrivee-x3.png
+
 ## WERUP, lot 3 : bande-son retirée, jeton et signe d'Intelligence au W officiel, focus, partage, préparation de werup.app (06/11/2026)
 
 Production perpignanpulse.com, déploiement 4ea0e34d (bascule le 06/11 à 19 h 06 UTC), code e2173367d, docs 76c1fe4ad. Captures 1 à 4 : « avant » prises sur la production du lot 2 (66ea87d8) puis « après » sur 4ea0e34d, le 06/11 entre 18 h 58 et 19 h 10 UTC, Chromium, profil neuf, données réelles du moment (solde 0 : aucun compte). Captures 9 à 11 : serveur local — 9 et 10 sur une page de contrôle à fixtures (supprimée, jamais committée : écrans de fin de partie, feuille de résultat, feuille du solde, célébration du jackpot, qui demandent une partie gagnée ou un compte) ; 11 par injection des classes exactes. 12 : le carton de partage tel que servi. 14 : les illustrations d'installation, INCHANGÉES (aucun iPhone ni simulateur iOS sur la machine). iPhone et Android réels non vérifiés.
