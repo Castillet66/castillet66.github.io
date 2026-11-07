@@ -2261,5 +2261,35 @@
     "Dans la barre (×3)"
    ]
   ]
+ },
+ {
+  "dossier": "barre-werup-2026-11-07-essai5",
+  "date": "07/11/2026",
+  "titre": "Barre de navigation de Werup — essai n° 5 : quatre nouveaux avatars (mélomane refait, lecteur, héroïne, héros chauve-souris)",
+  "note": "Deux liens à ouvrir : « Les quatre nouveaux » et « Dans la barre ». Essai isolé, ni intégré ni publié dans l'application. Les cinq dessins conservés (Galet, flâneur, corsaire, héros masqué, curieux) sont les fichiers de l'essai n° 4, identiques à l'octet. Les quatre nouveaux sont générés (nano-banana-pro) sur le modèle du corsaire ; le héros chauve-souris est une création originale, sans cagoule ni emblème. Captures : Chromium 153 émulé 440 × 956, ×2 et ×3, le 07/11/2026.",
+  "pages": [
+   [
+    "nouveaux.html",
+    "Les quatre nouveaux"
+   ],
+   [
+    "barre.html",
+    "Dans la barre"
+   ],
+   [
+    "index.html",
+    "Le banc installable, avec les neuf (iPhone : hauteur, retrait, pose basse)"
+   ]
+  ],
+  "captures": [
+   [
+    "captures/les-quatre-nouveaux-x2.png",
+    "Les quatre nouveaux et les neuf ensemble (×2)"
+   ],
+   [
+    "captures/dans-la-barre-x3.png",
+    "Dans la barre (×3)"
+   ]
+  ]
  }
 ]

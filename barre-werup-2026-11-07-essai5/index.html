@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="robots" content="noindex, nofollow">
+<title>Essai — barre de navigation de Werup</title>
+<meta name="theme-color" content="#000000">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="Essai barre">
+<link rel="manifest" href="manifest.json">
+<link rel="apple-touch-icon" href="icone-180.png">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap">
+<link rel="stylesheet" href="banc.css">
+</head>
+<body>
+<div class="mesure" id="mesure"></div>
+<button class="bouton-reglages" id="ouvrir" type="button">Réglages</button>
+<div class="tiroir" id="tiroir" data-ouvert="non">
+  <h1>Essai isolé — la barre de navigation de Werup</h1>
+  <p>Essai n° 5. Ce n'est pas l'application : une reproduction fidèle de la barre servie, avec les neuf avatars en carré arrondi. Ajoutée à l'écran d'accueil de l'iPhone, elle sert à confirmer la hauteur (gabarit A ou B), le retrait latéral et la pose basse. Rien n'est publié dans Werup. La réduction au défilement reprend la règle de production à l'identique. Pour juger la PWA pour de vrai, ajoutez cette page à l'écran d'accueil depuis Safari (Partager → Sur l'écran d'accueil) : elle s'ouvre alors en plein écran, avec la vraie zone sûre. <a href="nouveaux.html" style="color:#fff">Les quatre nouveaux →</a> · <a href="barre.html" style="color:#fff">Dans la barre →</a></p>
+  <div id="reglages"></div>
+  <button class="fermer" id="fermer" type="button">Fermer</button>
+</div>
+<main id="fonds"></main>
+<div class="ancre" data-chrome-bas>
+  <nav class="barre" id="barre" aria-label="Navigation principale (essai)">
+    <div class="rangee" id="rangee" role="list"></div>
+  </nav>
+</div>
+<script src="glyphes.js"></script>
+<script src="banc.js"></script>
+</body>
+</html>

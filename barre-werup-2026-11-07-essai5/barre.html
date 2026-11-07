@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="robots" content="noindex, nofollow">
+<title>Dans la barre — Werup, essai n° 5</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap">
+<style>
+  body { margin: 0; background: #0b0b0c; color: #fff; font-family: Inter, system-ui, sans-serif; -webkit-font-smoothing: antialiased; }
+  header { padding: calc(env(safe-area-inset-top, 0px) + 20px) 16px 2px; }
+  h1 { font: 600 22px/1.25 Inter, sans-serif; margin: 0 0 6px; }
+  h2 { font: 600 16px/1.3 Inter, sans-serif; margin: 24px 16px 2px; }
+  p { font: 400 13.5px/1.5 Inter, sans-serif; color: rgba(255,255,255,.72); margin: 0 0 6px; }
+  .etiquette { font: 600 12px/1.2 Inter, sans-serif; color: rgba(255,255,255,.62); padding: 9px 16px 4px; }
+  iframe { display: block; width: 100%; border: 0; }
+  a { color: #fff; }
+</style>
+</head>
+<body>
+<header>
+  <h1>Dans la barre</h1>
+  <p>Les quatre nouveaux dans la vraie barre, à taille réelle, en carré arrondi. Pour chacun : actif en 28 px (gabarit B, grand téléphone), puis au repos en 24 px (gabarit A). Contour blanc à l'état actif seulement. <a href="nouveaux.html">Les quatre nouveaux →</a></p>
+</header>
+<div id="liste"></div>
+<script>
+  const ifr = (q, h) => { const u = new URLSearchParams("planche=1&mode=pwa-grande&matiere=discrete&loupe=rentree&forme=carre"); new URLSearchParams(q).forEach((v, k) => u.set(k, v)); return `<iframe loading="lazy" style="height:${h}px" src="index.html?${u}" title="${q}"></iframe>`; };
+  [["melomane", "Le mélomane", "photo"], ["lunettes-vue", "Le lecteur", "noir"], ["heroine", "L’héroïne", "photo"], ["chauve-souris", "Le héros chauve-souris", "noir"]].forEach(([s, nom, fond]) =>
+    document.getElementById("liste").insertAdjacentHTML("beforeend", `<h2>${nom}</h2><div class="etiquette">Actif · 28 px</div>` + ifr(`s=${s}&gabarit=B&actif=4&fond=${fond}`, 98) + `<div class="etiquette">Au repos · 24 px</div>` + ifr(`s=${s}&gabarit=A&actif=0&fond=${fond}`, 92)));
+</script>
+</body>
+</html>
