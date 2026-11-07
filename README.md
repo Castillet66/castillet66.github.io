@@ -12,6 +12,16 @@ Dépôt réservé aux aperçus et aux captures de Pulse : rien ici n'est le code
 - Recettes — le comparateur rempli, en démonstration (prix fictifs) : https://weighted-meanwhile-endless-delete.trycloudflare.com/recettes/comparer/demonstration?scenario=incomplet
 - Recettes — le comparateur en démonstration, version statique (prix fictifs, sans tunnel) : https://castillet66.github.io/recettes/comparer/demonstration/?scenario=incomplet
 
+## Barre de navigation de Werup — essai n° 6 : héros chauve-souris, mélomane et lecteur retouchés ; avatar actif sans contour (07/11/2026)
+
+Deux liens à ouvrir : « Les trois retouches » et « Dans la barre ». Essai isolé, ni intégré ni publié dans l'application. Retouches ciblées (nano-banana-pro/edit) sur les originaux ; trait sous la lèvre du héros chauve-souris effacé et fond rendu uni à la main. Les six autres dessins sont les fichiers de l'essai n° 5, identiques à l'octet. Captures : Chromium 153 émulé 440 × 956, ×2 et ×3, le 07/11/2026.
+
+- Les trois retouches : https://castillet66.github.io/barre-werup-2026-11-07-essai6/retouches.html
+- Dans la barre : https://castillet66.github.io/barre-werup-2026-11-07-essai6/barre.html
+- Le banc installable, avec les neuf (iPhone : hauteur, retrait, pose basse) : https://castillet66.github.io/barre-werup-2026-11-07-essai6/index.html
+- PNG — Les trois retouches (×2) : https://castillet66.github.io/barre-werup-2026-11-07-essai6/captures/les-trois-retouches-x2.png
+- PNG — Dans la barre, 24 et 28 px, repos et actif (×3) : https://castillet66.github.io/barre-werup-2026-11-07-essai6/captures/dans-la-barre-x3.png
+
 ## Barre de navigation de Werup — essai n° 5 : quatre nouveaux avatars (mélomane refait, lecteur, héroïne, héros chauve-souris) (07/11/2026)
 
 Deux liens à ouvrir : « Les quatre nouveaux » et « Dans la barre ». Essai isolé, ni intégré ni publié dans l'application. Les cinq dessins conservés (Galet, flâneur, corsaire, héros masqué, curieux) sont les fichiers de l'essai n° 4, identiques à l'octet. Les quatre nouveaux sont générés (nano-banana-pro) sur le modèle du corsaire ; le héros chauve-souris est une création originale, sans cagoule ni emblème. Captures : Chromium 153 émulé 440 × 956, ×2 et ×3, le 07/11/2026.

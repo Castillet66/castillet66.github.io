@@ -2291,5 +2291,35 @@
     "Dans la barre (×3)"
    ]
   ]
+ },
+ {
+  "dossier": "barre-werup-2026-11-07-essai6",
+  "date": "07/11/2026",
+  "titre": "Barre de navigation de Werup — essai n° 6 : héros chauve-souris, mélomane et lecteur retouchés ; avatar actif sans contour",
+  "note": "Deux liens à ouvrir : « Les trois retouches » et « Dans la barre ». Essai isolé, ni intégré ni publié dans l'application. Retouches ciblées (nano-banana-pro/edit) sur les originaux ; trait sous la lèvre du héros chauve-souris effacé et fond rendu uni à la main. Les six autres dessins sont les fichiers de l'essai n° 5, identiques à l'octet. Captures : Chromium 153 émulé 440 × 956, ×2 et ×3, le 07/11/2026.",
+  "pages": [
+   [
+    "retouches.html",
+    "Les trois retouches"
+   ],
+   [
+    "barre.html",
+    "Dans la barre"
+   ],
+   [
+    "index.html",
+    "Le banc installable, avec les neuf (iPhone : hauteur, retrait, pose basse)"
+   ]
+  ],
+  "captures": [
+   [
+    "captures/les-trois-retouches-x2.png",
+    "Les trois retouches (×2)"
+   ],
+   [
+    "captures/dans-la-barre-x3.png",
+    "Dans la barre, 24 et 28 px, repos et actif (×3)"
+   ]
+  ]
  }
 ]

@@ -1,0 +1,233 @@
+/* ═══════════════════════════════════════════════════════════════════════════
+   BANC — LA BARRE DE NAVIGATION DE WERUP (essai isolé, BN-01, 07/11/2026)
+   Ce n'est pas l'application : une reproduction fidèle de la barre servie
+   (matière, arête, ombre, durées), avec les réglages à comparer.
+   ═══════════════════════════════════════════════════════════════════════════ */
+:root {
+  --h: 62px;            /* hauteur de la capsule, grand état */
+  --h-reduite: 52px;    /* hauteur de la capsule, état réduit */
+  --jeu: 6px;           /* espace pilule ↔ capsule, identique sur les quatre côtés */
+  --icone: 26px;
+  --avatar: 24px;
+  --etiq: 10px;         /* corps des légendes (× le réglage de texte) */
+  --etiq-lh: 1.05;
+  --gap: 3px;           /* icône ↔ légende */
+  --marge: 12px;        /* retrait latéral */
+  --max: 420px;         /* plafond de largeur */
+  --retrait-reduit: 12px; /* ce que perd chaque côté à la réduction (valeur servie) */
+  --pose: 10px;         /* distance capsule ↔ bas (navigateur : posée par le JS) */
+  --debord: 0px;        /* la pilule déborde la cellule de chaque côté */
+  --duree: 280ms;
+  --duree-pilule: 340ms;
+  --courbe: cubic-bezier(0.2, 0.8, 0.2, 1);
+  --courbe-pilule: cubic-bezier(0.32, 0.72, 0, 1);
+  --encre: #fff;
+  --encre-repos: rgba(255, 255, 255, 0.8);
+  --pilule: rgba(255, 255, 255, 0.2);
+  /* matière servie aujourd'hui (styles.css) */
+  --teinte-haute: color-mix(in oklab, #2c2c2c 70%, transparent);
+  --teinte-basse: color-mix(in oklab, #212121 78%, transparent);
+  --volume: radial-gradient(118% 92% at 50% -30%, rgba(255, 255, 255, 0.18), transparent 58%),
+    linear-gradient(180deg, transparent 52%, rgba(0, 0, 0, 0.16) 100%);
+  --arete: linear-gradient(177deg, rgba(255, 255, 255, 0.68) 0%, rgba(255, 255, 255, 0.22) 13%,
+      rgba(255, 255, 255, 0.07) 42%, rgba(255, 255, 255, 0.05) 72%, rgba(255, 255, 255, 0.15) 100%);
+  --ombre: 0 0 0 0.5px rgba(0, 0, 0, 0.22), 0 2px 12px rgba(0, 0, 0, 0.34);
+  --lueur: none;
+  --flou: blur(26px) saturate(175%);
+}
+/* la matière affinée (proposition) : un peu plus de transparence en haut, un rebond bas plus
+   présent, une lueur intérieure courte en haut et en bas (Instagram), une ombre en deux temps */
+:root[data-matiere="affinee"] {
+  /* la saturation contenue : à 175 %, la capsule devenait VERTE sur un fond vert vif (mesuré au banc) ;
+     Instagram y reste gris neutre (≈ #808485 relevé sur la capture) */
+  --flou: blur(28px) saturate(60%);
+  --teinte-haute: color-mix(in oklab, #2b2b2d 72%, transparent);
+  --teinte-basse: color-mix(in oklab, #1e1e20 82%, transparent);
+  --arete: linear-gradient(178deg, rgba(255, 255, 255, 0.72) 0%, rgba(255, 255, 255, 0.2) 12%,
+      rgba(255, 255, 255, 0.05) 40%, rgba(255, 255, 255, 0.05) 70%, rgba(255, 255, 255, 0.24) 100%);
+  --lueur: linear-gradient(180deg, rgba(255, 255, 255, 0.1) 0, rgba(255, 255, 255, 0) 8px,
+      rgba(255, 255, 255, 0) calc(100% - 8px), rgba(255, 255, 255, 0.06) 100%);
+  --ombre: 0 0 0 0.5px rgba(0, 0, 0, 0.28), 0 2px 8px rgba(0, 0, 0, 0.3), 0 10px 26px rgba(0, 0, 0, 0.2);
+}
+
+/* la matière discrète (essai 3) : l'arête et le volume atténués, plus proches d'Instagram ; pas de lueur
+   intérieure ; la saturation contenue de l'essai 2 est gardée (la capsule ne verdit pas sur un fond vert) */
+:root[data-matiere="discrete"] {
+  --flou: blur(28px) saturate(60%);
+  --teinte-haute: color-mix(in oklab, #29292b 74%, transparent);
+  --teinte-basse: color-mix(in oklab, #1d1d1f 82%, transparent);
+  --volume: radial-gradient(118% 92% at 50% -30%, rgba(255, 255, 255, 0.06), transparent 58%),
+    linear-gradient(180deg, transparent 55%, rgba(0, 0, 0, 0.1) 100%);
+  --arete: linear-gradient(178deg, rgba(255, 255, 255, 0.3) 0%, rgba(255, 255, 255, 0.09) 14%,
+      rgba(255, 255, 255, 0.04) 40%, rgba(255, 255, 255, 0.04) 72%, rgba(255, 255, 255, 0.1) 100%);
+  --lueur: none;
+  --ombre: 0 0 0 0.5px rgba(0, 0, 0, 0.28), 0 2px 10px rgba(0, 0, 0, 0.26);
+}
+
+* { box-sizing: border-box; }
+html { background: #000; -webkit-text-size-adjust: 100%; }
+body {
+  margin: 0;
+  font-family: "Inter", system-ui, -apple-system, sans-serif;
+  font-feature-settings: "ss01", "cv11";
+  color: #fff;
+  -webkit-font-smoothing: antialiased;
+  /* la réserve de bas de page : CONSTANTE, elle ne suit pas la réduction (comme en production) */
+  padding-bottom: calc(var(--h) + var(--pose));
+}
+
+/* ── les fonds d'essai ── */
+.fond { min-height: 135vh; position: relative; display: flex; align-items: flex-start; justify-content: center; }
+.fond > .nom { position: sticky; top: calc(env(safe-area-inset-top, 0px) + 64px); margin-top: 90px; font: 600 13px/1 Inter, sans-serif; letter-spacing: .04em; padding: 7px 12px; border-radius: 99px; background: rgba(0,0,0,.5); color: #fff; }
+.fond-noir { background: #000; }
+.fond-blanc { background: #fff; }
+.fond-blanc > .nom { background: rgba(0,0,0,.08); color: #111; }
+.fond-photo { background: #333 url("fonds/sorties-evenements-ambiance.webp") center / cover; }
+.fond-photo2 { background: #234 url("fonds/card-mer.webp") center / cover; }
+.fond-vert { background: #57be6f; }
+/* une ligne de texte courant, pour juger la barre sur du contenu qui défile */
+.texte-temoin { position: absolute; left: 20px; right: 20px; bottom: 40px; font: 400 15px/1.5 Inter, sans-serif; opacity: .9; }
+.fond-blanc .texte-temoin { color: #111; }
+
+/* ── l'ancre (comme `.bottom-surface`) ── */
+.ancre { position: fixed; left: 0; right: 0; bottom: 0; z-index: 50; pointer-events: none; }
+
+/* ── la capsule ── */
+.barre {
+  position: relative;
+  pointer-events: auto;
+  isolation: isolate;
+  margin: 0 auto var(--pose);
+  width: calc(100% - 2 * var(--marge) - 2 * var(--retrait, 0px));
+  max-width: calc(var(--max) - 2 * var(--retrait, 0px));
+  height: var(--h-eff);
+  --h-eff: var(--h);
+  border-radius: 9999px;
+  background: var(--volume), linear-gradient(180deg, var(--teinte-haute) 0%, var(--teinte-basse) 100%);
+  --f: var(--flou);
+  -webkit-backdrop-filter: var(--f);
+  backdrop-filter: var(--f);
+  box-shadow: var(--ombre);
+  transition: width var(--duree) var(--courbe), max-width var(--duree) var(--courbe), height var(--duree) var(--courbe);
+}
+.barre::after { /* l'arête d'un pixel qui suit la courbure */
+  content: ""; position: absolute; inset: 0; border-radius: inherit; padding: 1px; pointer-events: none; z-index: 3;
+  background: var(--arete);
+  -webkit-mask: linear-gradient(#000 0 0) content-box, linear-gradient(#000 0 0); -webkit-mask-composite: xor;
+  mask: linear-gradient(#000 0 0) content-box, linear-gradient(#000 0 0); mask-composite: exclude;
+}
+.barre::before { content: ""; position: absolute; inset: 0; border-radius: inherit; background: var(--lueur); pointer-events: none; z-index: 2; }
+.barre[data-compact="true"] { --retrait: var(--retrait-reduit); --h-eff: var(--h-reduite); }
+
+.rangee {
+  position: absolute; inset: 0;
+  display: grid; grid-template-columns: repeat(5, 1fr);
+  padding: var(--jeu) 0;
+  transition: opacity 220ms var(--courbe);
+}
+.barre[data-compact="true"] .rangee { opacity: 0.82; }
+
+/* la pilule : placée par le JS sur la cellule active, débord compris */
+.pilule {
+  position: absolute; top: var(--jeu); left: 0; bottom: var(--jeu); will-change: auto;
+  border-radius: 9999px; background: var(--pilule); pointer-events: none; z-index: 0;
+  transition: transform var(--duree-pilule) var(--courbe-pilule), width var(--duree-pilule) var(--courbe-pilule), opacity 160ms linear;
+}
+
+.cible {
+  position: relative; z-index: 1; display: block; height: 100%;
+  color: var(--encre); text-decoration: none; -webkit-tap-highlight-color: transparent; touch-action: manipulation;
+  cursor: pointer;
+}
+/* la cible tactile déborde la cellule peinte jusqu'au bord de la capsule (haut, bas, et extrémités) */
+.cible::after { content: ""; position: absolute; top: calc(-1 * var(--jeu)); bottom: calc(-1 * var(--jeu)); left: 0; right: 0; }
+/* le focus clavier, repris de la production (`.pulse-nav-cible:focus-visible`, `--focus` = blanc) */
+.cible:focus-visible { outline: 2px solid #fff; outline-offset: -3px; border-radius: 9999px; }
+/* les colonnes vont déjà jusqu'aux bords de la capsule : aucune bande morte aux extrémités */
+
+/* icône et légende : TRANSFORMATIONS seulement, pour que la réduction soit composée par le GPU */
+.glyphe {
+  position: absolute; left: var(--cx, 50%); top: 50%;
+  width: var(--icone); height: var(--icone);
+  transform: translate(-50%, calc(-50% - var(--monte)));
+  --monte: calc((var(--gap) + var(--lh-etiq)) / 2);
+  transition: transform var(--duree) var(--courbe);
+  display: grid; place-items: center;
+}
+.glyphe svg { width: 100%; height: 100%; display: block; overflow: visible; }
+.etiq {
+  position: absolute; left: var(--cx, 50%); top: 50%;
+  transform: translate(-50%, calc(var(--boite, var(--icone)) / 2 - var(--monte) + var(--gap)));
+  --monte: calc((var(--gap) + var(--lh-etiq)) / 2);
+  font-size: var(--etiq-eff); line-height: var(--etiq-lh); font-weight: 500; color: var(--encre-repos);
+  letter-spacing: var(--etiq-ls, 0.005em);
+  white-space: nowrap; text-align: center;
+  transition: opacity 160ms var(--courbe), transform var(--duree) var(--courbe), color 160ms;
+}
+.cible[aria-current="page"] .etiq { font-weight: 600; color: var(--encre); }
+.barre[data-legendes="non"] .glyphe, .barre[data-compact="true"] .glyphe { --monte: 0px; }
+.barre[data-legendes="non"] .etiq, .barre[data-compact="true"] .etiq { opacity: 0; transform: translate(-50%, calc(var(--icone) / 2 + 2px)); }
+.barre[data-legendes="non"] .etiq { transition: none; }
+/* « Mon Werup » sur deux lignes, dernier recours de l'adaptation (niveau 3) */
+.etiq .br { display: none; }
+.barre[data-adapte="3"] .etiq .br { display: block; }
+.barre[data-adapte="3"] .etiq { white-space: nowrap; }
+
+/* la pastille de Mon Werup */
+/* la forme est celle de l'INTERFACE : le fichier est un carré sans contour. Carré arrondi = 22 % du côté,
+   la proportion des icônes d'iOS. Au repos, aucun contour. */
+.pastille { position: relative; width: var(--avatar); height: var(--avatar); border-radius: var(--rayon-pastille, 50%); display: block; }
+.pastille img { width: 100%; height: 100%; border-radius: var(--rayon-pastille, 50%); display: block; }
+.barre[data-forme="carre"] { --rayon-pastille: 22%; }
+/* AUCUN CONTOUR autour de l'avatar, ni au repos ni actif (fondateur, 07/11) : la pilule et « Mon Werup » en blanc
+   semi-gras disent la sélection. */
+/* le point de nouveauté : blanc, découpé dans la matière */
+.point { position: absolute; width: 7px; height: 7px; border-radius: 50%; background: #fff; box-shadow: 0 0 0 2px #232325; top: -1px; right: -2px; display: none; }
+.barre[data-point="oui"] .point { display: block; }
+.glyphe .point { top: 1px; right: -1px; }
+
+/* mouvement réduit : pas de réduction (la ceinture ; le JS coupe aussi à la source) */
+@media (prefers-reduced-motion: reduce) {
+  :root { --duree: 0ms; --duree-pilule: 0ms; }
+}
+
+/* ── le tiroir des réglages ── */
+.bouton-reglages {
+  position: fixed; z-index: 60; top: calc(env(safe-area-inset-top, 0px) + 10px); right: 12px;
+  font: 600 14px/1 Inter, sans-serif; color: #fff; background: rgba(20,20,22,.78); border: 0;
+  padding: 11px 15px; border-radius: 99px; box-shadow: 0 0 0 .5px rgba(255,255,255,.25), 0 4px 14px rgba(0,0,0,.35);
+  -webkit-backdrop-filter: blur(14px); backdrop-filter: blur(14px);
+}
+.mesure {
+  position: fixed; z-index: 60; top: calc(env(safe-area-inset-top, 0px) + 12px); left: 12px; max-width: calc(100% - 150px);
+  font: 500 11px/1.35 Inter, sans-serif; color: #fff; background: rgba(20,20,22,.7); padding: 6px 9px; border-radius: 10px;
+}
+.tiroir {
+  position: fixed; z-index: 70; left: 0; right: 0; top: 0; max-height: 78vh; overflow-y: auto;
+  background: #141416; color: #fff; padding: calc(env(safe-area-inset-top, 0px) + 14px) 16px 18px;
+  box-shadow: 0 10px 40px rgba(0,0,0,.6); border-radius: 0 0 22px 22px;
+  transform: translateY(-105%); transition: transform 260ms var(--courbe);
+}
+.tiroir[data-ouvert="oui"] { transform: none; }
+.tiroir h1 { font: 600 17px/1.25 Inter, sans-serif; margin: 0 0 4px; }
+.tiroir p { font: 400 13px/1.45 Inter, sans-serif; color: rgba(255,255,255,.72); margin: 0 0 12px; }
+.reglage { margin: 12px 0; }
+.reglage > span { display: block; font: 600 12px/1 Inter, sans-serif; color: rgba(255,255,255,.6); margin-bottom: 7px; letter-spacing: .02em; }
+.choix { display: flex; flex-wrap: wrap; gap: 6px; }
+.choix button {
+  font: 500 13px/1 Inter, sans-serif; color: #fff; background: #26262a; border: 0; border-radius: 99px; padding: 9px 12px;
+}
+.choix button[aria-pressed="true"] { background: #fff; color: #111; font-weight: 600; }
+.fermer { font: 600 14px/1 Inter, sans-serif; background: #fff; color: #111; border: 0; border-radius: 99px; padding: 11px 18px; margin-top: 8px; }
+
+/* aucune transition au premier rendu : la barre arrive à sa forme, elle n'y glisse pas */
+html.sans-anim .barre, html.sans-anim .barre * { transition: none !important; }
+
+/* la vignette de planche : la vraie barre, sans les outils du banc */
+html.planche .mesure, html.planche .bouton-reglages, html.planche .tiroir, html.planche .texte-temoin, html.planche .fond > .nom { display: none; }
+html.planche .fond { min-height: 100vh; }
+html.planche body { padding-bottom: 0; }
+html.planche .fond-photo { background-position: center 70%; }
+
+/* dans une vignette de planche, la capsule se pose à 14 px du bas pour être vue entière */
+html.planche .barre { margin-bottom: 14px !important; }
