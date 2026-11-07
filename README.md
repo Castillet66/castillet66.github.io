@@ -12,6 +12,16 @@ Dépôt réservé aux aperçus et aux captures de Pulse : rien ici n'est le code
 - Recettes — le comparateur rempli, en démonstration (prix fictifs) : https://weighted-meanwhile-endless-delete.trycloudflare.com/recettes/comparer/demonstration?scenario=incomplet
 - Recettes — le comparateur en démonstration, version statique (prix fictifs, sans tunnel) : https://castillet66.github.io/recettes/comparer/demonstration/?scenario=incomplet
 
+## Barre de navigation de Werup — essai n° 3 : Galet, flâneur, corsaire ; rond ou carré arrondi (07/11/2026)
+
+Deux liens à ouvrir : « Avatars en grand » et « Rond ou carré arrondi ». Essai isolé, ni intégré ni publié dans l'application. Trois retouches générées (nano-banana-pro) à partir des images de l'essai n° 2. Fichiers d'avatar carrés, sans contour ; la forme et le contour actif sont ceux de l'interface. Matière « discrète » (arête et volume atténués), loupe ② « étoile rentrée ». Captures : Chromium 153 émulé 440 × 956, ×2 et ×3, le 07/11/2026.
+
+- Avatars en grand : https://castillet66.github.io/barre-werup-2026-11-07-essai3/avatars.html
+- Rond ou carré arrondi : https://castillet66.github.io/barre-werup-2026-11-07-essai3/forme.html
+- Le banc complet (facultatif, pour l'essai sur iPhone) : https://castillet66.github.io/barre-werup-2026-11-07-essai3/index.html
+- PNG — Avatars en grand (×2) : https://castillet66.github.io/barre-werup-2026-11-07-essai3/captures/avatars-en-grand-x2.png
+- PNG — Rond ou carré arrondi, dans la barre (×3) : https://castillet66.github.io/barre-werup-2026-11-07-essai3/captures/rond-ou-carre-arrondi-x3.png
+
 ## Barre de navigation de Werup — essai n° 2 : avatar d'accueil coloré, quatre tempéraments, loupe en trois variantes, gabarits A et B (07/11/2026)
 
 Essai isolé, ni intégré ni publié dans l'application. Banc installable sur l'écran d'accueil (icône grise « Essai barre »), planche à taille réelle. Avatars : dix images générées (nano-banana-pro), Galet vectoriel et loupes dessinés à la main. Captures : Chromium 153 émulé 440 × 956, ×2 et ×3, le 07/11/2026 ; mêmes cotes mesurées dans WebKit. Fond photo : visuel de sortie du produit actuel.
