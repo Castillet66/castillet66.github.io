@@ -2163,5 +2163,43 @@
     "La réduction et le redéploiement : départ et arrivée (×3)"
    ]
   ]
+ },
+ {
+  "dossier": "barre-werup-2026-11-07-essai2",
+  "date": "07/11/2026",
+  "titre": "Barre de navigation de Werup — essai n° 2 : avatar d'accueil coloré, quatre tempéraments, loupe en trois variantes, gabarits A et B",
+  "note": "Essai isolé, ni intégré ni publié dans l'application. Banc installable sur l'écran d'accueil (icône grise « Essai barre »), planche à taille réelle. Avatars : dix images générées (nano-banana-pro), Galet vectoriel et loupes dessinés à la main. Captures : Chromium 153 émulé 440 × 956, ×2 et ×3, le 07/11/2026 ; mêmes cotes mesurées dans WebKit. Fond photo : visuel de sortie du produit actuel.",
+  "pages": [
+   [
+    "index.html",
+    "Le banc (réglages en direct, installable)"
+   ],
+   [
+    "planche.html",
+    "La planche à taille réelle"
+   ]
+  ],
+  "captures": [
+   [
+    "captures/planche-accueil-x3.png",
+    "L'avatar d'accueil : Galet généré, Galet vectoriel, cœur (×3)"
+   ],
+   [
+    "captures/planche-temperaments-x3.png",
+    "Quatre tempéraments, gabarits A puis B (×3)"
+   ],
+   [
+    "captures/planche-grand-x2.png",
+    "Les figures en grand (×2)"
+   ],
+   [
+    "captures/planche-loupe-x3.png",
+    "La loupe : servie et trois variantes (×3)"
+   ],
+   [
+    "captures/planche-gabarits-x3.png",
+    "Gabarits A et B, barre entière (×3)"
+   ]
+  ]
  }
 ]

@@ -12,6 +12,18 @@ Dépôt réservé aux aperçus et aux captures de Pulse : rien ici n'est le code
 - Recettes — le comparateur rempli, en démonstration (prix fictifs) : https://weighted-meanwhile-endless-delete.trycloudflare.com/recettes/comparer/demonstration?scenario=incomplet
 - Recettes — le comparateur en démonstration, version statique (prix fictifs, sans tunnel) : https://castillet66.github.io/recettes/comparer/demonstration/?scenario=incomplet
 
+## Barre de navigation de Werup — essai n° 2 : avatar d'accueil coloré, quatre tempéraments, loupe en trois variantes, gabarits A et B (07/11/2026)
+
+Essai isolé, ni intégré ni publié dans l'application. Banc installable sur l'écran d'accueil (icône grise « Essai barre »), planche à taille réelle. Avatars : dix images générées (nano-banana-pro), Galet vectoriel et loupes dessinés à la main. Captures : Chromium 153 émulé 440 × 956, ×2 et ×3, le 07/11/2026 ; mêmes cotes mesurées dans WebKit. Fond photo : visuel de sortie du produit actuel.
+
+- Le banc (réglages en direct, installable) : https://castillet66.github.io/barre-werup-2026-11-07-essai2/index.html
+- La planche à taille réelle : https://castillet66.github.io/barre-werup-2026-11-07-essai2/planche.html
+- PNG — L'avatar d'accueil : Galet généré, Galet vectoriel, cœur (×3) : https://castillet66.github.io/barre-werup-2026-11-07-essai2/captures/planche-accueil-x3.png
+- PNG — Quatre tempéraments, gabarits A puis B (×3) : https://castillet66.github.io/barre-werup-2026-11-07-essai2/captures/planche-temperaments-x3.png
+- PNG — Les figures en grand (×2) : https://castillet66.github.io/barre-werup-2026-11-07-essai2/captures/planche-grand-x2.png
+- PNG — La loupe : servie et trois variantes (×3) : https://castillet66.github.io/barre-werup-2026-11-07-essai2/captures/planche-loupe-x3.png
+- PNG — Gabarits A et B, barre entière (×3) : https://castillet66.github.io/barre-werup-2026-11-07-essai2/captures/planche-gabarits-x3.png
+
 ## Barre de navigation de Werup — essais visuels isolés (BN-01) : symbole de Mon Werup, avatars D1 et D2, proportions, légendes, matière (07/11/2026)
 
 Essai isolé, ni intégré ni publié dans l'application. Le banc reproduit la barre servie (matière, arête, ombre, durées) et la règle de réduction de production à l'identique ; réglages en direct. À ajouter à l'écran d'accueil de l'iPhone (Safari → Partager → Sur l'écran d'accueil) pour juger la PWA réelle : zone sûre, pose 36/30/24, rétraction. Avatars : six images générées (nano-banana-pro), avatar d'accueil et symboles dessinés à la main. Captures : Chromium 153 émulé 393 × 852, ×2 et ×3 (pixels du fichier = pixels CSS × densité), le 07/11/2026 ; même géométrie mesurée dans WebKit. Le flou réel de Safari reste à voir sur iPhone.
