@@ -1,0 +1,1 @@
+import{j as e}from"./index-ghJ4vH6y.js";const n=()=>e.jsx("div",{className:"min-h-screen bg-ink-deep text-white grid place-items-center p-6",children:e.jsx("p",{className:"text-sm text-white/60",children:"Pack introuvable."})});export{n as notFoundComponent};

@@ -1,0 +1,1 @@
+import{r as n}from"./index-ghJ4vH6y.js";import{n as c}from"./vus-recents-DBPe8ozZ.js";function g(s,e){const t=e?.cible.genre,r=e?.cible.slug,o=e?.titre,i=e?.image;n.useEffect(()=>{!s||!t||!r||!o||c({cible:{genre:t,slug:r},titre:o,image:i})},[s,t,r,o,i])}export{g as u};
