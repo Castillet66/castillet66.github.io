@@ -1,0 +1,1 @@
+import{a6 as t,dO as a,bu as o}from"./index-BACGo7mw.js";function u(){const e=t(o),{refetch:r}=e;return{etat:e.data?"pret":e.isError||e.errorUpdateCount>0?"echec":"attente",reessayer:a.useCallback(()=>{r()},[r]),enCours:e.isFetching,echecs:e.errorUpdateCount}}export{u};

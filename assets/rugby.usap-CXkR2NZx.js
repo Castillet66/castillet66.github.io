@@ -1,0 +1,1 @@
+import{j as t}from"./index-BACGo7mw.js";const o=()=>t.jsx("div",{className:"mx-auto max-w-3xl px-5 py-24 text-center",children:t.jsx("p",{className:"text-sm text-muted-foreground",children:"Page introuvable."})});export{o as notFoundComponent};
