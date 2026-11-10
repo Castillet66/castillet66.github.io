@@ -46,7 +46,7 @@
 // `notificationclick` n'attend plus `client.navigate()` non plus (D-298). Le
 // comportement est le même : le `return` qui suit rendait l'attente inutile.
 
-const BUILD_ID = "1794301129971";
+const BUILD_ID = "1794301698130";
 
 /* La phase de la migration vers werup.app, recopiée de `src/lib/migration/domaines.ts`
    (un test les tient ensemble). */
