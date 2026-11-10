@@ -1,0 +1,259 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <meta name="robots" content="noindex" />
+    <meta name="theme-color" content="#111111" />
+    <title>Hors ligne — Werup</title>
+    <!--
+      ═══════════════════════════════════════════════════════════════════════
+      LE FILET HORS LIGNE — T-01
+      ═══════════════════════════════════════════════════════════════════════
+      Reproduit sur la production le 09/09/2026, service worker réellement
+      installé, réseau coupé par CDP, puis rechargement :
+
+          /                            → l'application, servie du cache
+          /agenda                      → le dinosaure de Chrome
+          /meteo                       → le dinosaure de Chrome
+          /mon-pulse                   → le dinosaure de Chrome
+          /agenda/<une fiche>          → le dinosaure de Chrome
+
+      Une route sur cinq survivait. Dans une PWA installée il n'y a pas de
+      barre d'adresse : les quatre autres sont une impasse dont on ne sort
+      qu'en tuant l'application.
+
+      ⚠ CETTE PAGE EST DÉLIBÉRÉMENT UN FICHIER STATIQUE, PAS UNE ROUTE.
+      Une route serait rendue par le SSR, donc dépendrait du serveur — c'est
+      exactement ce qui manque quand on en a besoin. Elle serait aussi soumise
+      à l'hydratation de TanStack Start, alors qu'elle est servie SOUS UNE
+      AUTRE URL que la sienne : le routeur y verrait un désaccord. Ici il n'y a
+      aucun script d'application, donc rien à hydrater, et rien qui puisse
+      dériver du reste du produit.
+
+      ⚠ ET ELLE NE DÉPEND D'AUCUNE RESSOURCE EXTERNE. Pas de feuille de style,
+      pas de police, pas d'image liée : tout est en ligne dans ce fichier. Une
+      page de secours qui a besoin du réseau pour s'afficher n'est pas une page
+      de secours. Les polices sont donc la pile système — celle qu'iOS a déjà.
+    -->
+    <style>
+      :root {
+        color-scheme: dark;
+      }
+      * {
+        box-sizing: border-box;
+      }
+      html,
+      body {
+        margin: 0;
+        height: 100%;
+      }
+      body {
+        background: #111111;
+        color: #ffffff;
+        font-family:
+          -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+        -webkit-font-smoothing: antialiased;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        /* L'encoche et la barre d'accueil : la page est servie plein écran
+           dans une PWA, personne d'autre ne réserve cette place. */
+        padding: max(env(safe-area-inset-top), 24px) 24px max(env(safe-area-inset-bottom), 24px);
+        text-align: center;
+      }
+      main {
+        max-width: 22rem;
+        width: 100%;
+      }
+      .marque {
+        display: block;
+        margin: 0 auto 28px;
+        width: 46px;
+        height: 46px;
+      }
+      h1 {
+        margin: 0;
+        font-size: clamp(1.5rem, 6.4vw, 1.85rem);
+        font-weight: 700;
+        letter-spacing: -0.03em;
+        line-height: 1.15;
+      }
+      p {
+        margin: 12px 0 0;
+        font-size: 15px;
+        line-height: 1.5;
+        color: rgba(255, 255, 255, 0.62);
+      }
+      .actions {
+        margin-top: 30px;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+      }
+      /* 48 px : au-dessus des 44 que le produit s'impose. On ne lésine pas sur
+         la cible du seul contrôle d'un écran qui sert de sortie de secours. */
+      a,
+      button {
+        appearance: none;
+        border: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        min-height: 48px;
+        padding: 0 20px;
+        border-radius: 999px;
+        font: inherit;
+        font-size: 15px;
+        font-weight: 600;
+        text-decoration: none;
+        cursor: pointer;
+      }
+      .principal {
+        background: #ffffff;
+        color: #111111;
+      }
+      .secondaire {
+        background: rgba(255, 255, 255, 0.09);
+        color: #ffffff;
+        box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.1);
+      }
+      a:active,
+      button:active {
+        transform: scale(0.985);
+      }
+      /* `a { display: flex }` l'emporterait sur l'attribut : le lien de reprise
+         resterait visible, vide, sans cuisine en cours. */
+      [hidden] {
+        display: none !important;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <!-- L'icône de l'application, W officiel blanc sur orange (D-1572) : même
+           tracé que src/assets/logo-w.svg, même cadrage que public/icon-192.png
+           (86 % du côté depuis D-1588, centre optique), coins à 22 % comme le masque d'iOS. -->
+      <svg class="marque" viewBox="27.914 -63.515 744.174 744.174" aria-hidden="true" focusable="false">
+        <rect x="27.914" y="-63.515" width="744.174" height="744.174" rx="163.718" fill="#ff5a00" />
+        <path fill="#fff" d="M244.706,354.042v-120.447h-127.048c-25.259,0-43.344,24.395-36.002,48.563l57.226,188.384c4.185,13.776,16.888,23.193,31.285,23.193h108.6c14.572,0,27.638-8.976,32.866-22.578l46.384-120.684,38.012,120.015c4.384,13.841,17.229,23.247,31.748,23.247h99.052c21.541,0,40.935-13.051,49.049-33.006l144.118-354.464h-144.165c-18.713,0-35.398,11.784-41.656,29.419l-62.466,176.042-1.02-141.223h-116.804c-18.6,0-35.408,11.091-42.724,28.193l-66.453,155.346Z" />
+      </svg>
+
+      <h1>Pas de connexion</h1>
+      <!-- ⚠ ON DIT CE QU'ON SAIT, ET RIEN D'AUTRE. On ne promet pas que la page
+           reviendra « dans un instant » : on ne connaît ni le réseau ni sa
+           durée. Ce qui est vrai, c'est que l'accueil, lui, est en mémoire. -->
+      <p>
+        Cette page a besoin du réseau pour s’afficher. L’accueil de Werup, lui, est déjà sur ton
+        téléphone.
+      </p>
+
+      <div class="actions">
+        <!-- Rempli par le script plus bas quand une cuisine est en cours (D-1316). -->
+        <a class="principal" id="reprendre-cuisine" href="/" hidden></a>
+        <!-- Ma liste et Ma semaine (D-1325) : elles vivent sur l'appareil, l'accueil
+             les ouvre hors ligne — c'est l'usage en magasin. Remplis plus bas. -->
+        <a class="secondaire" id="ouvrir-courses" href="/" hidden>Ma liste de courses</a>
+        <a class="secondaire" id="ouvrir-semaine" href="/" hidden>Mes repas</a>
+        <button class="principal" id="reessayer" type="button" onclick="location.reload()">
+          Réessayer
+        </button>
+        <!-- « / » est la seule URL précachée par le service worker : ce lien
+             fonctionne hors ligne, c'est la vraie sortie de l'impasse. -->
+        <a class="secondaire" href="/">Aller à l’accueil</a>
+      </div>
+    </main>
+    <!--
+      ⚠ LA REPRISE D'UNE CUISINE, SANS RÉSEAU (lot 2, D-1316).
+      Hors ligne, seule « / » redémarre ; une autre adresse restaurée par le
+      navigateur — la page d'une recette, typiquement — arrive ICI. Quelqu'un
+      qui cuisinait ne doit pas y rester bloqué : ce script lit la mémoire de
+      la cuisine (la même clé que `memoire-cuisine.ts`), écarte une cuisine
+      en sommeil (36 h sans geste ni minuteur, `SOMMEIL_MS` — comme le bandeau ;
+      elle n'est pas effacée pour autant, sa fiche la reprend), et propose de
+      la reprendre. Le lien pose `pulse:cuisine:reprendre` et mène à « / », où
+      l'hôte de la cuisine rouvre le guide sur l'instantané de la recette.
+      Aucun script d'application : rien à hydrater, rien qui dépende du réseau.
+    -->
+    <!--
+      ⚠ MA LISTE ET MA SEMAINE, SANS RÉSEAU (D-1325, refus pulse-qa R9). Leurs
+      pages `/recettes/courses` et `/recettes/semaine` sont celles qu'on garde sur
+      l'écran d'accueil du téléphone ; hors ligne, elles arrivent ICI. Le lien pose
+      `pulse:cuisine:ouvrir` et mène à « / », où l'hôte de la cuisine ouvre la
+      feuille — même contenu que la page, sur la même mémoire.
+    -->
+    <script>
+      (function () {
+        try {
+          var liste = JSON.parse(localStorage.getItem("pulse:cuisine:courses:v1") || "null");
+          var semaine = JSON.parse(localStorage.getItem("pulse:cuisine:semaine:v1") || "null");
+          var aUneListe =
+            liste && ((liste.recettes && liste.recettes.length) || (liste.libres && liste.libres.length));
+          var aUneSemaine = semaine && semaine.plan && semaine.plan.repas && semaine.plan.repas.length;
+          var ici = location.pathname;
+          [
+            ["ouvrir-courses", "courses", aUneListe || aUneSemaine, ici === "/recettes/courses"],
+            ["ouvrir-semaine", "semaine", aUneSemaine, ici === "/recettes/semaine"],
+          ].forEach(function (x) {
+            if (!x[2]) return;
+            var lien = document.getElementById(x[0]);
+            lien.hidden = false;
+            /* La page demandée passe devant : c'est elle qu'on venait chercher. */
+            if (x[3]) {
+              lien.className = "principal";
+              lien.parentNode.insertBefore(lien, lien.parentNode.firstChild);
+              /* Une seule action principale : « Réessayer » passe en second. */
+              document.getElementById("reessayer").className = "secondaire";
+            }
+            lien.addEventListener("click", function () {
+              try {
+                localStorage.setItem("pulse:cuisine:ouvrir", x[1]);
+              } catch (e) {}
+            });
+          });
+        } catch (e) {
+          /* mémoire illisible : la page reste la sortie de secours d'avant */
+        }
+      })();
+    </script>
+    <script>
+      (function () {
+        try {
+          var brut = JSON.parse(localStorage.getItem("pulse:cuisine:en-cours:v1") || "[]");
+          if (!Array.isArray(brut)) return;
+          var maintenant = Date.now();
+          var SOMMEIL_MS = 36 * 60 * 60 * 1000;
+          var vivantes = brut.filter(function (c) {
+            if (!c || c.v !== 1 || !c.recette || typeof c.recette.slug !== "string") return false;
+            if (typeof c.recette.titre !== "string" || !Array.isArray(c.recette.etapes)) return false;
+            if (typeof c.etape !== "number" || typeof c.majA !== "number") return false;
+            var derniere = c.majA;
+            (Array.isArray(c.minuteurs) ? c.minuteurs : []).forEach(function (m) {
+              if (m && typeof m.finA === "number" && m.finA > derniere) derniere = m.finA;
+            });
+            return maintenant - derniere <= SOMMEIL_MS;
+          });
+          if (!vivantes.length) return;
+          vivantes.sort(function (a, b) {
+            return b.majA - a.majA;
+          });
+          var c = vivantes[0];
+          var lien = document.getElementById("reprendre-cuisine");
+          lien.textContent = "Reprendre : " + c.recette.titre + ", étape " + (c.etape + 1);
+          lien.hidden = false;
+          lien.addEventListener("click", function () {
+            try {
+              localStorage.setItem("pulse:cuisine:reprendre", c.recette.slug);
+            } catch (e) {}
+          });
+          /* « Réessayer » passe en second : la cuisine d'abord. Par son id — l'ordre
+             des liens change quand Ma liste ou Ma semaine passe devant (D-1325). */
+          var reessayer = document.getElementById("reessayer");
+          if (reessayer) reessayer.className = "secondaire";
+        } catch (e) {
+          /* mémoire illisible : la page reste la sortie de secours d'avant */
+        }
+      })();
+    </script>
+  </body>
+</html>

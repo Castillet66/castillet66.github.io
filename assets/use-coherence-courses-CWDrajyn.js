@@ -1,0 +1,1 @@
+import{a1 as t,ba as a,a_ as o}from"./index-CDJRIDJ2.js";function c(){const e=t(o),{refetch:r}=e;return{etat:e.data?"pret":e.isError||e.errorUpdateCount>0?"echec":"attente",reessayer:a.useCallback(()=>{r()},[r]),enCours:e.isFetching,echecs:e.errorUpdateCount}}export{c as u};
