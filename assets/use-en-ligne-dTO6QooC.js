@@ -1,0 +1,1 @@
+import{r as n}from"./index-vvn7YuBb.js";function r(e){return window.addEventListener("online",e),window.addEventListener("offline",e),()=>{window.removeEventListener("online",e),window.removeEventListener("offline",e)}}function t(){return n.useSyncExternalStore(r,()=>navigator.onLine,()=>!0)}export{t as u};

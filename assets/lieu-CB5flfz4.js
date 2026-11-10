@@ -1,0 +1,1 @@
+import{b0 as o}from"./index-vvn7YuBb.js";function n(t,r=null){return r?`Autour ${o(r.nom)}`:t.etat==="commune"&&t.commune?`Autour ${o(t.commune.nomCourt)}`:t.etat==="position"||t.etat==="position-en-attente"?"Près de toi":`Autour ${o(t.libelle)}`}export{n as t};

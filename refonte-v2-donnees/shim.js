@@ -1,7 +1,7 @@
 /* Aperçu STATIQUE de la branche chantier/refonte-v2 (pas la production) : ce script remplace le serveur. Les
    fonctions serveur sont rejouées depuis des réponses enregistrées ; l'horloge est celle de la capture. */
 (function () {
-  var D = Date, base = D.parse("2026-11-09T17:53:20.518Z");
+  var D = Date, base = D.parse("2026-11-10T03:15:41.266Z");
   if (!isFinite(base)) return;
   var p0 = performance.now();
   function maintenant() { return base + (performance.now() - p0); }
@@ -43,7 +43,7 @@
   /* le bandeau : dire que c'est un aperçu */
   window.addEventListener("load", function () { setTimeout(function () {
     var b = document.createElement("div");
-    b.textContent = "Aperçu 3f7380cab · données figées, rien n'est publié";
+    b.textContent = "Aperçu 05eb5cdbf · données figées, rien n'est publié";
     b.setAttribute("aria-hidden", "true");
     b.style.cssText = "position:fixed;z-index:9;left:50%;transform:translateX(-50%);top:calc(env(safe-area-inset-top,0px) + 2px);padding:1px 8px;border-radius:999px;background:rgba(0,0,0,.55);color:rgba(255,255,255,.7);font:500 10px/15px -apple-system,system-ui,sans-serif;pointer-events:none;white-space:nowrap";
     document.body.append(b);

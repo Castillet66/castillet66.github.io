@@ -1,0 +1,1 @@
+import{af as t,d$ as a,bC as o}from"./index-vvn7YuBb.js";function c(){const e=t(o),{refetch:r}=e;return{etat:e.data?"pret":e.isError||e.errorUpdateCount>0?"echec":"attente",reessayer:a.useCallback(()=>{r()},[r]),enCours:e.isFetching,echecs:e.errorUpdateCount}}export{c as u};

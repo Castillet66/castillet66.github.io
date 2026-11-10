@@ -1,0 +1,1 @@
+import{j as s,h1 as a,h3 as t,h6 as o,h9 as l}from"./index-vvn7YuBb.js";const r=()=>s.jsx(a,{matchSlot:null,newsSlot:s.jsx(l,{}),fixturesSlot:s.jsx(o,{}),standingsSlot:s.jsx(t,{})});export{r as errorComponent};
