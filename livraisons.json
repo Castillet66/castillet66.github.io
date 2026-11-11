@@ -2321,5 +2321,86 @@
     "Dans la barre, 24 et 28 px, repos et actif (×3)"
    ]
   ]
+ },
+ {
+  "dossier": "jeux-premium-2026-11-11",
+  "date": "11/11/2026",
+  "titre": "Jeux premium — quatre univers, la page du Jackpot, L'Intrus de 8 à 90 ans",
+  "note": "EN PRODUCTION sur werup.app (déploiement 2ed76b37, code 78a440576). « Production » : captures de werup.app le 11/11 vers 4 h 45, Chromium émulé iPhone 390 × 844 ×2, nouveau visiteur, données réelles, aucune partie menée à son crédit (rien écrit en base). « Local » : serveur de développement de la branche, mêmes écrans en cours de partie ; les réponses du serveur (jetons crédités, tirage du Jackpot) y sont simulées, les montants sont donc fictifs.",
+  "pages": [],
+  "captures": [
+   [
+    "captures/prod-01-accueil-rail-jeux.png",
+    "Production — l'accueil, chapitre Jeux"
+   ],
+   [
+    "captures/prod-02-accueil-rail-jeux-defile.png",
+    "Production — le rail défilé jusqu'au Jackpot"
+   ],
+   [
+    "captures/prod-03-page-jeux.png",
+    "Production — la page Jeux"
+   ],
+   [
+    "captures/prod-04-mot-arrivee.png",
+    "Production — Werup Mot, première visite (démonstration)"
+   ],
+   [
+    "captures/prod-05-connect-arrivee.png",
+    "Production — Werup Connect, la grille du jour"
+   ],
+   [
+    "captures/prod-06-jackpot.png",
+    "Production — Werup Jackpot, sa page"
+   ],
+   [
+    "captures/prod-07-intrus-table.png",
+    "Production — L'Intrus, la table vide"
+   ],
+   [
+    "captures/prod-08-intrus-table-4-joueurs.png",
+    "Production — L'Intrus, quatre joueurs à table"
+   ],
+   [
+    "captures/prod-09-intrus-briefing.png",
+    "Production — L'Intrus, la présentation des règles"
+   ],
+   [
+    "captures/local-mot-victoire.png",
+    "Local — Mot, la victoire (pluie de tuiles)"
+   ],
+   [
+    "captures/local-mot-bilan-soleil-leve.png",
+    "Local — Mot, le soleil levé au bilan"
+   ],
+   [
+    "captures/local-connect-famille-soudee.png",
+    "Local — Connect, une famille soudée"
+   ],
+   [
+    "captures/local-intrus-carte-du-mot.png",
+    "Local — L'Intrus, la carte du mot (doigt en bas)"
+   ],
+   [
+    "captures/local-intrus-verdict-deguisement.png",
+    "Local — L'Intrus, le déguisement tombe au verdict"
+   ],
+   [
+    "captures/local-intrus-fin-de-manche.png",
+    "Local — L'Intrus, le vainqueur de la manche et la course aux points"
+   ],
+   [
+    "captures/local-intrus-bilan.png",
+    "Local — L'Intrus, le podium et le vainqueur expliqué"
+   ],
+   [
+    "captures/local-jackpot-petit-gain.png",
+    "Local — Jackpot, un petit gain (réponse serveur simulée)"
+   ],
+   [
+    "captures/local-jackpot-trois-w.png",
+    "Local — Jackpot, les trois W (réponse serveur simulée)"
+   ]
+  ]
  }
 ]

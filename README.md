@@ -12,6 +12,29 @@ Dépôt réservé aux aperçus et aux captures de Pulse : rien ici n'est le code
 - Recettes — le comparateur rempli, en démonstration (prix fictifs) : https://weighted-meanwhile-endless-delete.trycloudflare.com/recettes/comparer/demonstration?scenario=incomplet
 - Recettes — le comparateur en démonstration, version statique (prix fictifs, sans tunnel) : https://castillet66.github.io/recettes/comparer/demonstration/?scenario=incomplet
 
+## Jeux premium — quatre univers, la page du Jackpot, L'Intrus de 8 à 90 ans (11/11/2026)
+
+EN PRODUCTION sur werup.app (déploiement 2ed76b37, code 78a440576). « Production » : captures de werup.app le 11/11 vers 4 h 45, Chromium émulé iPhone 390 × 844 ×2, nouveau visiteur, données réelles, aucune partie menée à son crédit (rien écrit en base). « Local » : serveur de développement de la branche, mêmes écrans en cours de partie ; les réponses du serveur (jetons crédités, tirage du Jackpot) y sont simulées, les montants sont donc fictifs.
+
+- PNG — Production — l'accueil, chapitre Jeux : https://castillet66.github.io/jeux-premium-2026-11-11/captures/prod-01-accueil-rail-jeux.png
+- PNG — Production — le rail défilé jusqu'au Jackpot : https://castillet66.github.io/jeux-premium-2026-11-11/captures/prod-02-accueil-rail-jeux-defile.png
+- PNG — Production — la page Jeux : https://castillet66.github.io/jeux-premium-2026-11-11/captures/prod-03-page-jeux.png
+- PNG — Production — Werup Mot, première visite (démonstration) : https://castillet66.github.io/jeux-premium-2026-11-11/captures/prod-04-mot-arrivee.png
+- PNG — Production — Werup Connect, la grille du jour : https://castillet66.github.io/jeux-premium-2026-11-11/captures/prod-05-connect-arrivee.png
+- PNG — Production — Werup Jackpot, sa page : https://castillet66.github.io/jeux-premium-2026-11-11/captures/prod-06-jackpot.png
+- PNG — Production — L'Intrus, la table vide : https://castillet66.github.io/jeux-premium-2026-11-11/captures/prod-07-intrus-table.png
+- PNG — Production — L'Intrus, quatre joueurs à table : https://castillet66.github.io/jeux-premium-2026-11-11/captures/prod-08-intrus-table-4-joueurs.png
+- PNG — Production — L'Intrus, la présentation des règles : https://castillet66.github.io/jeux-premium-2026-11-11/captures/prod-09-intrus-briefing.png
+- PNG — Local — Mot, la victoire (pluie de tuiles) : https://castillet66.github.io/jeux-premium-2026-11-11/captures/local-mot-victoire.png
+- PNG — Local — Mot, le soleil levé au bilan : https://castillet66.github.io/jeux-premium-2026-11-11/captures/local-mot-bilan-soleil-leve.png
+- PNG — Local — Connect, une famille soudée : https://castillet66.github.io/jeux-premium-2026-11-11/captures/local-connect-famille-soudee.png
+- PNG — Local — L'Intrus, la carte du mot (doigt en bas) : https://castillet66.github.io/jeux-premium-2026-11-11/captures/local-intrus-carte-du-mot.png
+- PNG — Local — L'Intrus, le déguisement tombe au verdict : https://castillet66.github.io/jeux-premium-2026-11-11/captures/local-intrus-verdict-deguisement.png
+- PNG — Local — L'Intrus, le vainqueur de la manche et la course aux points : https://castillet66.github.io/jeux-premium-2026-11-11/captures/local-intrus-fin-de-manche.png
+- PNG — Local — L'Intrus, le podium et le vainqueur expliqué : https://castillet66.github.io/jeux-premium-2026-11-11/captures/local-intrus-bilan.png
+- PNG — Local — Jackpot, un petit gain (réponse serveur simulée) : https://castillet66.github.io/jeux-premium-2026-11-11/captures/local-jackpot-petit-gain.png
+- PNG — Local — Jackpot, les trois W (réponse serveur simulée) : https://castillet66.github.io/jeux-premium-2026-11-11/captures/local-jackpot-trois-w.png
+
 ## Barre de navigation de Werup — essai n° 6 : héros chauve-souris, mélomane et lecteur retouchés ; avatar actif sans contour (07/11/2026)
 
 Deux liens à ouvrir : « Les trois retouches » et « Dans la barre ». Essai isolé, ni intégré ni publié dans l'application. Retouches ciblées (nano-banana-pro/edit) sur les originaux ; trait sous la lèvre du héros chauve-souris effacé et fond rendu uni à la main. Les six autres dessins sont les fichiers de l'essai n° 5, identiques à l'octet. Captures : Chromium 153 émulé 440 × 956, ×2 et ×3, le 07/11/2026.
