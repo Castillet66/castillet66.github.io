@@ -12,6 +12,32 @@ Dépôt réservé aux aperçus et aux captures de Pulse : rien ici n'est le code
 - Recettes — le comparateur rempli, en démonstration (prix fictifs) : https://weighted-meanwhile-endless-delete.trycloudflare.com/recettes/comparer/demonstration?scenario=incomplet
 - Recettes — le comparateur en démonstration, version statique (prix fictifs, sans tunnel) : https://castillet66.github.io/recettes/comparer/demonstration/?scenario=incomplet
 
+## Qui suis-je ? — le cinquième jeu : la note sur le front (12/11/2026)
+
+EN PRODUCTION sur werup.app (déploiement bfc49e11, code 6e612afad). « Production » : captures de werup.app le 12/11 vers 0 h 30, Chromium émulé iPhone 390 × 844 ×2, capteurs simulés ; aucune partie menée jusqu'au bilan (rien n'est écrit en base). « Local » : serveur de développement de la branche ; le service des jetons n'y répond pas, d'où le message d'attente au bilan. « Atelier » : planches de travail (emblème, illustrations). Rien n'a été essayé sur un vrai téléphone.
+
+- PNG — Production — l'accueil : la tuile « Qui suis-je ? » dans le rail Jeux (En famille · 20 min, 10 jetons) : https://castillet66.github.io/qui-suis-je-2026-11-12/captures/prod-01-accueil-rail.png
+- PNG — Production — la page Jeux, cinq affiches : https://castillet66.github.io/qui-suis-je-2026-11-12/captures/prod-02-page-jeux.png
+- PNG — Production — la table, avant d'ajouter les joueurs : https://castillet66.github.io/qui-suis-je-2026-11-12/captures/prod-03-table-vide.png
+- PNG — Production — la table composée : un niveau par joueur (Petit, Famille, Expert) : https://castillet66.github.io/qui-suis-je-2026-11-12/captures/prod-04-table-composee.png
+- PNG — Production — la passation : qui devine, qui fait deviner, la tenue et le geste : https://castillet66.github.io/qui-suis-je-2026-11-12/captures/prod-05-passation.png
+- PNG — Production — la pose : la carte n'apparaît qu'une fois le téléphone en place : https://castillet66.github.io/qui-suis-je-2026-11-12/captures/prod-06-pose.png
+- PNG — Production — une carte Petit : l'image d'abord, pour un enfant qui ne lit pas : https://castillet66.github.io/qui-suis-je-2026-11-12/captures/prod-07-carte-petit-portrait.png
+- PNG — Production — tête en avant : « +1 Trouvé ! » : https://castillet66.github.io/qui-suis-je-2026-11-12/captures/prod-08-trouve.png
+- PNG — Production — une carte « Sans parler » : 2 points, pictogramme « chut » : https://castillet66.github.io/qui-suis-je-2026-11-12/captures/prod-09-carte-suivante.png
+- PNG — Local — la carte sur le front, en paysage : https://castillet66.github.io/qui-suis-je-2026-11-12/captures/local-10-carte-paysage.png
+- PNG — Local — un geste mal terminé se dit : « Redresse la tête » : https://castillet66.github.io/qui-suis-je-2026-11-12/captures/local-11-redresse-la-tete.png
+- PNG — Local — le récapitulatif d'un tour, et le classement de la partie : https://castillet66.github.io/qui-suis-je-2026-11-12/captures/local-12-recap.png
+- PNG — Local — une égalité parfaite : le jeton Werup tire au sort : https://castillet66.github.io/qui-suis-je-2026-11-12/captures/local-13-tirage-jeton.png
+- PNG — Local — le jeton s'arrête : https://castillet66.github.io/qui-suis-je-2026-11-12/captures/local-14-tirage-verdict.png
+- PNG — Local — le bilan : podium, égalité expliquée, jetons (service simulé absent en local) : https://castillet66.github.io/qui-suis-je-2026-11-12/captures/local-15-bilan-podium.png
+- PNG — Local — le classement, les titres de fin et « Revanche » : https://castillet66.github.io/qui-suis-je-2026-11-12/captures/local-16-bilan-classement.png
+- PNG — Local — l'aide : pendant le tour : https://castillet66.github.io/qui-suis-je-2026-11-12/captures/local-17-aide.png
+- PNG — Atelier — les cinq emblèmes : le bloc de notes rejoint lettres, maillons, lunettes et machine à sous : https://castillet66.github.io/qui-suis-je-2026-11-12/captures/atelier-18-cinq-emblemes.png
+- PNG — Atelier — les quatre pistes d'emblème soumises au jury : https://castillet66.github.io/qui-suis-je-2026-11-12/captures/atelier-19-pistes-emblemes.png
+- PNG — Atelier — des illustrations Petit sur la carte jaune : https://castillet66.github.io/qui-suis-je-2026-11-12/captures/atelier-20-illustrations-petit.png
+- PNG — Atelier — des illustrations Famille sur la carte jaune : https://castillet66.github.io/qui-suis-je-2026-11-12/captures/atelier-21-illustrations-famille.png
+
 ## Jeux premium — quatre univers, la page du Jackpot, L'Intrus de 8 à 90 ans (11/11/2026)
 
 EN PRODUCTION sur werup.app (déploiement 2ed76b37, code 78a440576). « Production » : captures de werup.app le 11/11 vers 4 h 45, Chromium émulé iPhone 390 × 844 ×2, nouveau visiteur, données réelles, aucune partie menée à son crédit (rien écrit en base). « Local » : serveur de développement de la branche, mêmes écrans en cours de partie ; les réponses du serveur (jetons crédités, tirage du Jackpot) y sont simulées, les montants sont donc fictifs.

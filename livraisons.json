@@ -2402,5 +2402,98 @@
     "Local — Jackpot, les trois W (réponse serveur simulée)"
    ]
   ]
+ },
+ {
+  "dossier": "qui-suis-je-2026-11-12",
+  "date": "12/11/2026",
+  "titre": "Qui suis-je ? — le cinquième jeu : la note sur le front",
+  "note": "EN PRODUCTION sur werup.app (déploiement bfc49e11, code 6e612afad). « Production » : captures de werup.app le 12/11 vers 0 h 30, Chromium émulé iPhone 390 × 844 ×2, capteurs simulés ; aucune partie menée jusqu'au bilan (rien n'est écrit en base). « Local » : serveur de développement de la branche ; le service des jetons n'y répond pas, d'où le message d'attente au bilan. « Atelier » : planches de travail (emblème, illustrations). Rien n'a été essayé sur un vrai téléphone.",
+  "pages": [],
+  "captures": [
+   [
+    "captures/prod-01-accueil-rail.png",
+    "Production — l'accueil : la tuile « Qui suis-je ? » dans le rail Jeux (En famille · 20 min, 10 jetons)"
+   ],
+   [
+    "captures/prod-02-page-jeux.png",
+    "Production — la page Jeux, cinq affiches"
+   ],
+   [
+    "captures/prod-03-table-vide.png",
+    "Production — la table, avant d'ajouter les joueurs"
+   ],
+   [
+    "captures/prod-04-table-composee.png",
+    "Production — la table composée : un niveau par joueur (Petit, Famille, Expert)"
+   ],
+   [
+    "captures/prod-05-passation.png",
+    "Production — la passation : qui devine, qui fait deviner, la tenue et le geste"
+   ],
+   [
+    "captures/prod-06-pose.png",
+    "Production — la pose : la carte n'apparaît qu'une fois le téléphone en place"
+   ],
+   [
+    "captures/prod-07-carte-petit-portrait.png",
+    "Production — une carte Petit : l'image d'abord, pour un enfant qui ne lit pas"
+   ],
+   [
+    "captures/prod-08-trouve.png",
+    "Production — tête en avant : « +1 Trouvé ! »"
+   ],
+   [
+    "captures/prod-09-carte-suivante.png",
+    "Production — une carte « Sans parler » : 2 points, pictogramme « chut »"
+   ],
+   [
+    "captures/local-10-carte-paysage.png",
+    "Local — la carte sur le front, en paysage"
+   ],
+   [
+    "captures/local-11-redresse-la-tete.png",
+    "Local — un geste mal terminé se dit : « Redresse la tête »"
+   ],
+   [
+    "captures/local-12-recap.png",
+    "Local — le récapitulatif d'un tour, et le classement de la partie"
+   ],
+   [
+    "captures/local-13-tirage-jeton.png",
+    "Local — une égalité parfaite : le jeton Werup tire au sort"
+   ],
+   [
+    "captures/local-14-tirage-verdict.png",
+    "Local — le jeton s'arrête"
+   ],
+   [
+    "captures/local-15-bilan-podium.png",
+    "Local — le bilan : podium, égalité expliquée, jetons (service simulé absent en local)"
+   ],
+   [
+    "captures/local-16-bilan-classement.png",
+    "Local — le classement, les titres de fin et « Revanche »"
+   ],
+   [
+    "captures/local-17-aide.png",
+    "Local — l'aide : pendant le tour"
+   ],
+   [
+    "captures/atelier-18-cinq-emblemes.png",
+    "Atelier — les cinq emblèmes : le bloc de notes rejoint lettres, maillons, lunettes et machine à sous"
+   ],
+   [
+    "captures/atelier-19-pistes-emblemes.png",
+    "Atelier — les quatre pistes d'emblème soumises au jury"
+   ],
+   [
+    "captures/atelier-20-illustrations-petit.png",
+    "Atelier — des illustrations Petit sur la carte jaune"
+   ],
+   [
+    "captures/atelier-21-illustrations-famille.png",
+    "Atelier — des illustrations Famille sur la carte jaune"
+   ]
+  ]
  }
 ]
