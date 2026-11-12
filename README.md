@@ -12,6 +12,44 @@ Dépôt réservé aux aperçus et aux captures de Pulse : rien ici n'est le code
 - Recettes — le comparateur rempli, en démonstration (prix fictifs) : https://weighted-meanwhile-endless-delete.trycloudflare.com/recettes/comparer/demonstration?scenario=incomplet
 - Recettes — le comparateur en démonstration, version statique (prix fictifs, sans tunnel) : https://castillet66.github.io/recettes/comparer/demonstration/?scenario=incomplet
 
+## Werup national — préversion raccordée : commune, météo, carburant, Flash, sorties (12/11/2026)
+
+Rien n'est publié sur werup.app. Commit 66676ff91 (branche chantier/national-lot1), construit et servi par le Worker réel en local ; parcours Chromium 390 × 844 ×2, commune choisie dans le sélecteur ; sources réelles (Open-Meteo gratuit faute d'abonnement, prix des carburants et OpenStreetMap, flux France 3) ; agenda sur l'index figé du 12/11, déposé dans la préversion seulement. Matrice relevée automatiquement dans la page. Rien essayé sur un vrai iPhone.
+
+- Préversion raccordée : preuve, matrice des communes, défauts restants, captures : https://castillet66.github.io/werup-national-preversion-2026-11-12/index.html
+- PNG — Annecy — météo : https://castillet66.github.io/werup-national-preversion-2026-11-12/annecy-1-meteo.png
+- PNG — Annecy — carburant : https://castillet66.github.io/werup-national-preversion-2026-11-12/annecy-2-carburant.png
+- PNG — Annecy — fiche de la station : https://castillet66.github.io/werup-national-preversion-2026-11-12/annecy-3-station.png
+- PNG — Annecy — itinéraire : https://castillet66.github.io/werup-national-preversion-2026-11-12/annecy-4-itineraire.png
+- PNG — Annecy — Flash : https://castillet66.github.io/werup-national-preversion-2026-11-12/annecy-5-flash.png
+- PNG — Annecy — articles du Flash : https://castillet66.github.io/werup-national-preversion-2026-11-12/annecy-6-flash-feuille.png
+- PNG — Annecy — Sortir autour : https://castillet66.github.io/werup-national-preversion-2026-11-12/annecy-7-agenda.png
+- PNG — Annecy — fiche d’une sortie : https://castillet66.github.io/werup-national-preversion-2026-11-12/annecy-8-sortie.png
+- PNG — Toulouse — météo : https://castillet66.github.io/werup-national-preversion-2026-11-12/toulouse-1-meteo.png
+- PNG — Toulouse — carburant : https://castillet66.github.io/werup-national-preversion-2026-11-12/toulouse-2-carburant.png
+- PNG — Toulouse — fiche de la station : https://castillet66.github.io/werup-national-preversion-2026-11-12/toulouse-3-station.png
+- PNG — Toulouse — itinéraire : https://castillet66.github.io/werup-national-preversion-2026-11-12/toulouse-4-itineraire.png
+- PNG — Toulouse — Flash : https://castillet66.github.io/werup-national-preversion-2026-11-12/toulouse-5-flash.png
+- PNG — Toulouse — articles du Flash : https://castillet66.github.io/werup-national-preversion-2026-11-12/toulouse-6-flash-feuille.png
+- PNG — Toulouse — Sortir autour : https://castillet66.github.io/werup-national-preversion-2026-11-12/toulouse-7-agenda.png
+- PNG — Toulouse — fiche d’une sortie : https://castillet66.github.io/werup-national-preversion-2026-11-12/toulouse-8-sortie.png
+- PNG — Montauban — météo : https://castillet66.github.io/werup-national-preversion-2026-11-12/montauban-1-meteo.png
+- PNG — Montauban — carburant : https://castillet66.github.io/werup-national-preversion-2026-11-12/montauban-2-carburant.png
+- PNG — Montauban — fiche de la station : https://castillet66.github.io/werup-national-preversion-2026-11-12/montauban-3-station.png
+- PNG — Montauban — itinéraire : https://castillet66.github.io/werup-national-preversion-2026-11-12/montauban-4-itineraire.png
+- PNG — Montauban — Flash : https://castillet66.github.io/werup-national-preversion-2026-11-12/montauban-5-flash.png
+- PNG — Montauban — articles du Flash : https://castillet66.github.io/werup-national-preversion-2026-11-12/montauban-6-flash-feuille.png
+- PNG — Montauban — Sortir autour : https://castillet66.github.io/werup-national-preversion-2026-11-12/montauban-7-agenda.png
+- PNG — Montauban — fiche d’une sortie : https://castillet66.github.io/werup-national-preversion-2026-11-12/montauban-8-sortie.png
+- PNG — Saint-Denis (La Réunion) — météo : https://castillet66.github.io/werup-national-preversion-2026-11-12/saint-denis-974-1-meteo.png
+- PNG — Saint-Denis (La Réunion) — carburant : https://castillet66.github.io/werup-national-preversion-2026-11-12/saint-denis-974-2-carburant.png
+- PNG — Saint-Denis (La Réunion) — Flash : https://castillet66.github.io/werup-national-preversion-2026-11-12/saint-denis-974-5-flash.png
+- PNG — Saint-Denis (La Réunion) — Sortir autour : https://castillet66.github.io/werup-national-preversion-2026-11-12/saint-denis-974-7-agenda.png
+- PNG — Saint-Denis (La Réunion) — fiche d’une sortie : https://castillet66.github.io/werup-national-preversion-2026-11-12/saint-denis-974-8-sortie.png
+- PNG — Elne (66, témoin) — météo : https://castillet66.github.io/werup-national-preversion-2026-11-12/elne-66-1-meteo.png
+- PNG — Elne (66, témoin) — carburant : https://castillet66.github.io/werup-national-preversion-2026-11-12/elne-66-2-carburant.png
+- PNG — Elne (66, témoin) — Flash : https://castillet66.github.io/werup-national-preversion-2026-11-12/elne-66-5-flash.png
+
 ## Qui suis-je ? v2 — refondu après l'essai sur iPhone (12/11/2026)
 
 EN PRODUCTION sur werup.app (déploiement efc08746, code 04c7dae4c). « Production » : captures de werup.app le 12/11 vers 11 h 45, Chromium émulé iPhone 390 × 844 ×2, capteurs SIMULÉS ; partie menée jusqu'au 2e tour, jamais jusqu'au bilan (la réclamation de jetons écrirait en base). « Local » : serveur de développement de la même version, partie à dix jouée par un agent (390 × 844, ×1) ; le service des jetons n'y répond pas. Rien n'a été essayé sur un vrai téléphone : la liste de contrôle est dans docs/JEUX.md §11.8.

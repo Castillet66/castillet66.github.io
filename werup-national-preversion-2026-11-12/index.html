@@ -1,0 +1,81 @@
+<!doctype html><html lang="fr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Werup national — préversion raccordée (12/11/2026)</title>
+<style>
+body{margin:0;background:#0d0e10;color:#eceef2;font:15px/1.5 -apple-system,system-ui,sans-serif}
+main{max-width:1100px;margin:0 auto;padding:24px 16px 64px}
+h1{font-size:24px;line-height:1.2;margin:0 0 8px} h2{font-size:18px;margin:32px 0 12px}
+.preuve{background:#1a1c20;border-radius:14px;padding:14px 16px;font-size:13.5px}
+.preuve code{background:#2a2d33;padding:1px 5px;border-radius:5px}
+.tableau{overflow-x:auto;margin-top:16px} table{border-collapse:collapse;font-size:12.5px;min-width:880px}
+th,td{text-align:left;vertical-align:top;padding:7px 8px;border-bottom:1px solid #26292f} thead th{color:#9aa0aa;font-weight:600}
+.non{color:#6b707a} ul{padding-left:18px} li{margin:4px 0}
+.grille{display:grid;grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:14px}
+figure{margin:0;background:#16181b;border-radius:12px;padding:8px} figure img{width:100%;height:auto;border-radius:8px;display:block}
+figcaption{font-size:12px;color:#9aa0aa;margin-top:6px}
+</style></head><body><main>
+<h1>Werup national — préversion raccordée</h1>
+<p>Choix de la commune, météo, carburant avec station nommée et itinéraire, Flash territorial illustré et agenda, sur les composants du 66. <strong>Rien de ceci n’est publié sur werup.app.</strong></p>
+<div class="preuve">
+<p><strong>Preuve.</strong> Code : commit <code>66676ff91</code>, branche <code>chantier/national-lot1</code> (sauvegardée, pas encore poussée sur <code>main</code>). Ce commit construit (<code>vite build</code>) et servi par le Worker réel en local (<code>wrangler dev</code>). Parcours mené par Chromium à 390 × 844 ×2, le 12/11/2026 à 11 h 40 UTC : la commune est <em>choisie dans le sélecteur de lieu</em>, comme un utilisateur.</p>
+<p><strong>Sources appelées pour de vrai :</strong> Open-Meteo, API gratuite d’évaluation, faute d’abonnement (<code>/api/public/weather/commune</code>) ; flux public des prix des carburants et OpenStreetMap (fonction serveur nationale) ; flux RSS France 3 du département (<code>/api/public/flash/territoire</code>) ; agenda : index départemental figé du 12/11 à 11 h UTC (OpenAgenda, DATAtourisme), déposé dans cette préversion seulement.</p>
+<p><strong>Contrôles de ce commit :</strong> tsc vert ; suite complète 16 354 tests verts ; eslint vert sur les fichiers touchés ; build vert. Aucune erreur de page pendant le parcours.</p>
+<p><strong>Corrigé pendant cette préversion</strong> (défauts vus sur l’écran réel) :
+<ul>
+<li>deux tables nationales entraient dans le paquet de chaque page ;</li>
+<li>la tuile carburant de La Réunion disait « Pyrénées-Orientales » ;</li>
+<li>à froid, le prix attendait les enseignes 12 s, et 1 Mo de stations partait vers le téléphone ;</li>
+<li>le Flash disait « à Toulouse » pour Saint-Gaudens et mettait Grenoble sous « Haute-Savoie » ;</li>
+<li>le carré daté de l’agenda passait sous le badge « Gratuit ».</li>
+</ul></p>
+<p><strong>Carburant à froid</strong> (caches vides, mesuré) : prix à 6,4 s, station dite « une station » ; relue chaude, 1,4 s et « Auchan ». Les captures ci-dessous sont prises caches chauds.</p>
+</div>
+<h2>Matrice des communes (relevée automatiquement dans la page)</h2>
+<div class="tableau"><table><thead><tr><th>Commune</th><th>Météo</th><th>Carburant</th><th>Logo</th><th>Itinéraire (apps)</th><th>Flash</th><th>Sorties</th><th>Filtre Gratuit</th></tr></thead><tbody>
+<tr><th>Annecy (74)</th>
+<td>Annecy 12° Pluie 8° · 12° Prévision Open-Meteo</td>
+<td>Plus bas prix déclaré près d’Annecy en SP95-E10 : 1,957 € le litre, Auchan à Epagny Metz-Tessy, déclaré aujourd’hui à 11 h 16</td>
+<td>auchan.png</td>
+<td>3</td>
+<td>Haute-Savoie : EN IMAGES. Des photographies époustouflantes du mont Blanc, prises par les  · photo</td>
+<td>12</td>
+<td>1 · toutes badgées</td></tr><tr><th>Toulouse (31)</th>
+<td>Toulouse 16° Pluie 13° · 17° Prévision Open-Meteo</td>
+<td>Plus bas prix déclaré près de Toulouse en SP95-E10 : 1,938 € le litre, Total Access à Toulouse, déclaré aujourd’hui à 9 h 37</td>
+<td>total-emblem.svg</td>
+<td>3</td>
+<td>à Toulouse : Menaces et adresse personnelle dévoilée : le maire de Toulouse, Jean-Luc Moud · photo</td>
+<td>12</td>
+<td>12 · toutes badgées</td></tr><tr><th>Montauban (82)</th>
+<td>Montauban 16° Pluie 12° · 16° Prévision Open-Meteo</td>
+<td>Plus bas prix déclaré près de Montauban en SP95-E10 : 1,946 € le litre, E.Leclerc à Montauban, déclaré aujourd’hui à 12 h 08, et 1 autre au même prix</td>
+<td>leclerc.svg</td>
+<td>3</td>
+<td>à Montauban : Montauban : quatre personnes transportées à l’hôpital après une suspicion d’ · photo</td>
+<td>12</td>
+<td>5 · toutes badgées</td></tr><tr><th>Saint-Denis (974, La Réunion)</th>
+<td>Saint-Denis 26° Bruine 20° · 29° Prévision Open-Meteo</td>
+<td>Aucun relevé publié</td>
+<td><span class="non">—</span></td>
+<td><span class="non">—</span></td>
+<td>flux non servi (outre-mer)</td>
+<td>12</td>
+<td>6 · toutes badgées</td></tr><tr><th>Elne (66, témoin)</th>
+<td><span class="non">—</span></td>
+<td>Plus bas prix déclaré près d’Elne en SP95-E10 : 1,959 € le litre, Carrefour Market à Laroque-des-Albères, déclaré le 09/11, et 1 autre au même prix</td>
+<td><span class="non">—</span></td>
+<td><span class="non">—</span></td>
+<td><span class="non">—</span></td>
+<td><span class="non">—</span></td>
+<td><span class="non">—</span></td></tr>
+</tbody></table></div>
+<p style="font-size:13px;color:#9aa0aa">Elne est le témoin du 66 : chaîne d’origine, aucun appel national relevé. Sa section Sortir ne se voit pas ici, car le Worker local n’a pas la clé de la base : le corpus d’événements du 66 n’arrive pas. C’est une limite de l’environnement, pas du code, qui est inchangé pour le 66.</p>
+<h2>Défauts restants</h2>
+<ul>
+<li>Météo : l’abonnement Open-Meteo n’est pas souscrit. La préversion lit l’API gratuite, qui n’autorise pas l’usage commercial (NA-07).</li>
+<li>Flash : le droit d’afficher les photos de France 3 hors d’un accord avec France Télévisions n’est pas établi. Même pratique que le Flash du 66 (D-1238), à confirmer avant toute publication. La portée se dit « Haute-Savoie », ou « à Annecy » seulement si le titre nomme la commune. L’outre-mer n’a pas de flux départemental, et la carte le dit.</li>
+<li>Carburant : à froid, le prix arrive vers 6 s et l’enseigne une relecture plus tard. La Réunion : le flux public ne publie aucune station.</li>
+<li>Sorties : l’index ne porte pas d’image (carrés datés). La qualité des annonces dépend de la source (une offre d’emploi publiée comme événement à Annecy). Les partitions ne sont pas publiées (NA-05) : en production, l’écran dirait « pas encore publié ».</li>
+<li>Rien n’a été essayé sur un vrai iPhone.</li>
+</ul>
+<section><h2>Annecy (74)</h2><div class="grille"><figure><img loading="lazy" src="annecy-1-meteo.png" alt="Annecy (74) — Météo"><figcaption>Météo</figcaption></figure><figure><img loading="lazy" src="annecy-2-carburant.png" alt="Annecy (74) — Carburant (tuile)"><figcaption>Carburant (tuile)</figcaption></figure><figure><img loading="lazy" src="annecy-3-station.png" alt="Annecy (74) — Fiche de la station"><figcaption>Fiche de la station</figcaption></figure><figure><img loading="lazy" src="annecy-4-itineraire.png" alt="Annecy (74) — Itinéraire : choix de l’application"><figcaption>Itinéraire : choix de l’application</figcaption></figure><figure><img loading="lazy" src="annecy-5-flash.png" alt="Annecy (74) — Flash (carte)"><figcaption>Flash (carte)</figcaption></figure><figure><img loading="lazy" src="annecy-6-flash-feuille.png" alt="Annecy (74) — Flash (feuille des articles)"><figcaption>Flash (feuille des articles)</figcaption></figure><figure><img loading="lazy" src="annecy-7-agenda.png" alt="Annecy (74) — Sortir autour (rail)"><figcaption>Sortir autour (rail)</figcaption></figure><figure><img loading="lazy" src="annecy-8-sortie.png" alt="Annecy (74) — Fiche d’une sortie"><figcaption>Fiche d’une sortie</figcaption></figure></div></section><section><h2>Toulouse (31)</h2><div class="grille"><figure><img loading="lazy" src="toulouse-1-meteo.png" alt="Toulouse (31) — Météo"><figcaption>Météo</figcaption></figure><figure><img loading="lazy" src="toulouse-2-carburant.png" alt="Toulouse (31) — Carburant (tuile)"><figcaption>Carburant (tuile)</figcaption></figure><figure><img loading="lazy" src="toulouse-3-station.png" alt="Toulouse (31) — Fiche de la station"><figcaption>Fiche de la station</figcaption></figure><figure><img loading="lazy" src="toulouse-4-itineraire.png" alt="Toulouse (31) — Itinéraire : choix de l’application"><figcaption>Itinéraire : choix de l’application</figcaption></figure><figure><img loading="lazy" src="toulouse-5-flash.png" alt="Toulouse (31) — Flash (carte)"><figcaption>Flash (carte)</figcaption></figure><figure><img loading="lazy" src="toulouse-6-flash-feuille.png" alt="Toulouse (31) — Flash (feuille des articles)"><figcaption>Flash (feuille des articles)</figcaption></figure><figure><img loading="lazy" src="toulouse-7-agenda.png" alt="Toulouse (31) — Sortir autour (rail)"><figcaption>Sortir autour (rail)</figcaption></figure><figure><img loading="lazy" src="toulouse-8-sortie.png" alt="Toulouse (31) — Fiche d’une sortie"><figcaption>Fiche d’une sortie</figcaption></figure></div></section><section><h2>Montauban (82)</h2><div class="grille"><figure><img loading="lazy" src="montauban-1-meteo.png" alt="Montauban (82) — Météo"><figcaption>Météo</figcaption></figure><figure><img loading="lazy" src="montauban-2-carburant.png" alt="Montauban (82) — Carburant (tuile)"><figcaption>Carburant (tuile)</figcaption></figure><figure><img loading="lazy" src="montauban-3-station.png" alt="Montauban (82) — Fiche de la station"><figcaption>Fiche de la station</figcaption></figure><figure><img loading="lazy" src="montauban-4-itineraire.png" alt="Montauban (82) — Itinéraire : choix de l’application"><figcaption>Itinéraire : choix de l’application</figcaption></figure><figure><img loading="lazy" src="montauban-5-flash.png" alt="Montauban (82) — Flash (carte)"><figcaption>Flash (carte)</figcaption></figure><figure><img loading="lazy" src="montauban-6-flash-feuille.png" alt="Montauban (82) — Flash (feuille des articles)"><figcaption>Flash (feuille des articles)</figcaption></figure><figure><img loading="lazy" src="montauban-7-agenda.png" alt="Montauban (82) — Sortir autour (rail)"><figcaption>Sortir autour (rail)</figcaption></figure><figure><img loading="lazy" src="montauban-8-sortie.png" alt="Montauban (82) — Fiche d’une sortie"><figcaption>Fiche d’une sortie</figcaption></figure></div></section><section><h2>Saint-Denis (974, La Réunion)</h2><div class="grille"><figure><img loading="lazy" src="saint-denis-974-1-meteo.png" alt="Saint-Denis (974, La Réunion) — Météo"><figcaption>Météo</figcaption></figure><figure><img loading="lazy" src="saint-denis-974-2-carburant.png" alt="Saint-Denis (974, La Réunion) — Carburant (tuile)"><figcaption>Carburant (tuile)</figcaption></figure><figure><img loading="lazy" src="saint-denis-974-5-flash.png" alt="Saint-Denis (974, La Réunion) — Flash (carte)"><figcaption>Flash (carte)</figcaption></figure><figure><img loading="lazy" src="saint-denis-974-7-agenda.png" alt="Saint-Denis (974, La Réunion) — Sortir autour (rail)"><figcaption>Sortir autour (rail)</figcaption></figure><figure><img loading="lazy" src="saint-denis-974-8-sortie.png" alt="Saint-Denis (974, La Réunion) — Fiche d’une sortie"><figcaption>Fiche d’une sortie</figcaption></figure></div></section><section><h2>Elne (66, témoin)</h2><div class="grille"><figure><img loading="lazy" src="elne-66-1-meteo.png" alt="Elne (66, témoin) — Météo"><figcaption>Météo</figcaption></figure><figure><img loading="lazy" src="elne-66-2-carburant.png" alt="Elne (66, témoin) — Carburant (tuile)"><figcaption>Carburant (tuile)</figcaption></figure><figure><img loading="lazy" src="elne-66-5-flash.png" alt="Elne (66, témoin) — Flash (carte)"><figcaption>Flash (carte)</figcaption></figure></div></section>
+</main></body></html>
