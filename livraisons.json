@@ -2821,5 +2821,70 @@
         "Production, iPad 1024 × 1366 — Une carte, à la taille de l'iPad"
       ]
     ]
+  },
+  {
+    "dossier": "qui-suis-je-v4-2026-11-12",
+    "date": "12/11/2026",
+    "titre": "Qui suis-je ? v4 — une navigation d'application : « Pause » au même endroit partout, l'écran sur le front ou dans les mains, tablettes et ordinateurs",
+    "note": "EN PRODUCTION sur werup.app (déploiement 79ecd433, code 4817a7a3b), captures du 12/11 vers 19 h 15, Chromium émulé. Partie menée jusqu'au récapitulatif du 1er tour, jamais jusqu'au bilan (rien écrit en base). Les « joueurs » sont des programmes, pas des personnes : rien n'a été essayé sur un vrai iPhone, iPad ou Android — la liste de contrôle est dans docs/JEUX.md §11.8.",
+    "pages": [],
+    "captures": [
+      [
+        "captures/tel-01-demo.png",
+        "Production, iPhone 390 × 844 — « Comment on joue » : le « ‹ » de l'application en haut à gauche ; « tourne l'écran vers les autres, sur son front ou dans ses mains »"
+      ],
+      [
+        "captures/tel-02-table.png",
+        "Production, iPhone 390 × 844 — La table : « ‹ » et « ? », les disques de l'application"
+      ],
+      [
+        "captures/tel-03-au-tour-de.png",
+        "Production, iPhone 390 × 844 — « Léa devine » : « ‖ Pause » en haut à gauche — le même objet, au même endroit, sur chaque écran de la partie"
+      ],
+      [
+        "captures/tel-04-preparation.png",
+        "Production, iPhone 390 × 844 — Les cinq secondes : « Léa, tourne l'écran vers les autres, sans le regarder ! » — « Pause » au même endroit (il remplace « Annuler »)"
+      ],
+      [
+        "captures/tel-05-carte.png",
+        "Production, iPhone 390 × 844 — La carte : « Pause » toujours au même endroit ; le jaune de la note colore aussi les barres du navigateur"
+      ],
+      [
+        "captures/tel-06-pause.png",
+        "Production, iPhone 390 × 844 — LA feuille Pause : Quitter la partie, Finir ce tour, et « Reprendre » en bas, sous le pouce — là où étaient Passer et Trouvé"
+      ],
+      [
+        "captures/tel-07-recap.png",
+        "Production, iPhone 390 × 844 — Le récapitulatif : « Pause », « Tour 1 sur 6 », « ? »"
+      ],
+      [
+        "captures/ipad-02-table.png",
+        "Production, iPad couché 1 024 × 768 — La table en deux colonnes : tout tient sur un écran, sans défiler"
+      ],
+      [
+        "captures/ipad-05-carte.png",
+        "Production, iPad couché 1 024 × 768 — La carte, l'image à côté du mot"
+      ],
+      [
+        "captures/ipad-06-pause.png",
+        "Production, iPad couché 1 024 × 768 — La feuille Pause, centrée"
+      ],
+      [
+        "captures/ordi-01-demo.png",
+        "Production, ordinateur 1 440 × 900 — La démonstration en deux colonnes ; la barre posée sur le cadre du contenu"
+      ],
+      [
+        "captures/ordi-05-carte.png",
+        "Production, ordinateur 1 440 × 900 — La carte sur un cadre : « Passer » et « Trouvé » ne s'étirent plus"
+      ],
+      [
+        "captures/ordi-06-pause.png",
+        "Production, ordinateur 1 440 × 900 — La feuille Pause (Échap ou P au clavier ; → Trouvé, ← Passer)"
+      ],
+      [
+        "captures/ordi-07-recap.png",
+        "Production, ordinateur 1 440 × 900 — Le récapitulatif en deux colonnes"
+      ]
+    ]
   }
 ]

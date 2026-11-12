@@ -12,6 +12,25 @@ Dépôt réservé aux aperçus et aux captures de Pulse : rien ici n'est le code
 - Recettes — le comparateur rempli, en démonstration (prix fictifs) : https://weighted-meanwhile-endless-delete.trycloudflare.com/recettes/comparer/demonstration?scenario=incomplet
 - Recettes — le comparateur en démonstration, version statique (prix fictifs, sans tunnel) : https://castillet66.github.io/recettes/comparer/demonstration/?scenario=incomplet
 
+## Qui suis-je ? v4 — une navigation d'application : « Pause » au même endroit partout, l'écran sur le front ou dans les mains, tablettes et ordinateurs (12/11/2026)
+
+EN PRODUCTION sur werup.app (déploiement 79ecd433, code 4817a7a3b), captures du 12/11 vers 19 h 15, Chromium émulé. Partie menée jusqu'au récapitulatif du 1er tour, jamais jusqu'au bilan (rien écrit en base). Les « joueurs » sont des programmes, pas des personnes : rien n'a été essayé sur un vrai iPhone, iPad ou Android — la liste de contrôle est dans docs/JEUX.md §11.8.
+
+- PNG — Production, iPhone 390 × 844 — « Comment on joue » : le « ‹ » de l'application en haut à gauche ; « tourne l'écran vers les autres, sur son front ou dans ses mains » : https://castillet66.github.io/qui-suis-je-v4-2026-11-12/captures/tel-01-demo.png
+- PNG — Production, iPhone 390 × 844 — La table : « ‹ » et « ? », les disques de l'application : https://castillet66.github.io/qui-suis-je-v4-2026-11-12/captures/tel-02-table.png
+- PNG — Production, iPhone 390 × 844 — « Léa devine » : « ‖ Pause » en haut à gauche — le même objet, au même endroit, sur chaque écran de la partie : https://castillet66.github.io/qui-suis-je-v4-2026-11-12/captures/tel-03-au-tour-de.png
+- PNG — Production, iPhone 390 × 844 — Les cinq secondes : « Léa, tourne l'écran vers les autres, sans le regarder ! » — « Pause » au même endroit (il remplace « Annuler ») : https://castillet66.github.io/qui-suis-je-v4-2026-11-12/captures/tel-04-preparation.png
+- PNG — Production, iPhone 390 × 844 — La carte : « Pause » toujours au même endroit ; le jaune de la note colore aussi les barres du navigateur : https://castillet66.github.io/qui-suis-je-v4-2026-11-12/captures/tel-05-carte.png
+- PNG — Production, iPhone 390 × 844 — LA feuille Pause : Quitter la partie, Finir ce tour, et « Reprendre » en bas, sous le pouce — là où étaient Passer et Trouvé : https://castillet66.github.io/qui-suis-je-v4-2026-11-12/captures/tel-06-pause.png
+- PNG — Production, iPhone 390 × 844 — Le récapitulatif : « Pause », « Tour 1 sur 6 », « ? » : https://castillet66.github.io/qui-suis-je-v4-2026-11-12/captures/tel-07-recap.png
+- PNG — Production, iPad couché 1 024 × 768 — La table en deux colonnes : tout tient sur un écran, sans défiler : https://castillet66.github.io/qui-suis-je-v4-2026-11-12/captures/ipad-02-table.png
+- PNG — Production, iPad couché 1 024 × 768 — La carte, l'image à côté du mot : https://castillet66.github.io/qui-suis-je-v4-2026-11-12/captures/ipad-05-carte.png
+- PNG — Production, iPad couché 1 024 × 768 — La feuille Pause, centrée : https://castillet66.github.io/qui-suis-je-v4-2026-11-12/captures/ipad-06-pause.png
+- PNG — Production, ordinateur 1 440 × 900 — La démonstration en deux colonnes ; la barre posée sur le cadre du contenu : https://castillet66.github.io/qui-suis-je-v4-2026-11-12/captures/ordi-01-demo.png
+- PNG — Production, ordinateur 1 440 × 900 — La carte sur un cadre : « Passer » et « Trouvé » ne s'étirent plus : https://castillet66.github.io/qui-suis-je-v4-2026-11-12/captures/ordi-05-carte.png
+- PNG — Production, ordinateur 1 440 × 900 — La feuille Pause (Échap ou P au clavier ; → Trouvé, ← Passer) : https://castillet66.github.io/qui-suis-je-v4-2026-11-12/captures/ordi-06-pause.png
+- PNG — Production, ordinateur 1 440 × 900 — Le récapitulatif en deux colonnes : https://castillet66.github.io/qui-suis-je-v4-2026-11-12/captures/ordi-07-recap.png
+
 ## Qui suis-je ? v3 — simplifié après ton retour : mots faciles, aucun geste, rien qui défile tout seul (12/11/2026)
 
 EN PRODUCTION sur werup.app (déploiement d9fea35a, code 1ddc80625). Captures de werup.app le 12/11 vers 13 h 15 : Chromium émulé iPhone 390 × 844 ×2, et iPad 1024 × 1366 ; partie menée jusqu'au récapitulatif du 1er tour, jamais jusqu'au bilan (rien écrit en base). Les personnes du parcours sont des AGENTS : rien n'a été essayé sur un vrai iPhone, iPad ou Android — la liste de contrôle est dans docs/JEUX.md §11.8.
