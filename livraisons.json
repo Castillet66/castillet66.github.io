@@ -2752,5 +2752,74 @@
         "Elne (66, témoin) — Flash"
       ]
     ]
+  },
+  {
+    "dossier": "qui-suis-je-v3-2026-11-12",
+    "date": "12/11/2026",
+    "titre": "Qui suis-je ? v3 — simplifié après ton retour : mots faciles, aucun geste, rien qui défile tout seul",
+    "note": "EN PRODUCTION sur werup.app (déploiement d9fea35a, code 1ddc80625). Captures de werup.app le 12/11 vers 13 h 15 : Chromium émulé iPhone 390 × 844 ×2, et iPad 1024 × 1366 ; partie menée jusqu'au récapitulatif du 1er tour, jamais jusqu'au bilan (rien écrit en base). Les personnes du parcours sont des AGENTS : rien n'a été essayé sur un vrai iPhone, iPad ou Android — la liste de contrôle est dans docs/JEUX.md §11.8.",
+    "pages": [],
+    "captures": [
+      [
+        "captures/01-demo-1.png",
+        "Production — La démonstration, image 1 : le téléphone debout sur le front. Elle ne défile plus toute seule : on lit, puis on touche « Suivant »"
+      ],
+      [
+        "captures/02-demo-2.png",
+        "Production — Image 2 : les autres le font deviner, sans dire le mot"
+      ],
+      [
+        "captures/03-demo-3.png",
+        "Production — Image 3 : les autres touchent « Trouvé » ou « Passer ». « Jouer » en haut pour sauter la démonstration"
+      ],
+      [
+        "captures/04-table.png",
+        "Production — La table : qui joue, la règle du score en une phrase"
+      ],
+      [
+        "captures/05-table-reglages.png",
+        "Production — Deux choix seulement : « Faciles » (par défaut, une image pour chaque mot) ou « Difficiles » ; « 90 secondes » ou « Sans limite »"
+      ],
+      [
+        "captures/06-au-tour-de-lea.png",
+        "Production — « Léa devine » : la consigne du front écrite sur cet écran qui attend ; les boutons rappelés au premier tour"
+      ],
+      [
+        "captures/07-preparation.png",
+        "Production — La préparation, cinq secondes : « Léa, mets le téléphone sur ton front »"
+      ],
+      [
+        "captures/08-carte.png",
+        "Production — Une carte facile : le mot en très grand, son image, Passer / Trouvé. Le chrono est calme : ni tic, ni vibration, ni rouge"
+      ],
+      [
+        "captures/09-trouve.png",
+        "Production — « +1 Trouvé ! »"
+      ],
+      [
+        "captures/10-carte-suivante.png",
+        "Production — La carte suivante"
+      ],
+      [
+        "captures/11-pause.png",
+        "Production — La pause, d'un toucher : le temps s'arrête"
+      ],
+      [
+        "captures/12-recap.png",
+        "Production — Le récapitulatif du tour : ce que Léa a trouvé, puis « Au tour de Papa »"
+      ],
+      [
+        "captures/ipad-04-table.png",
+        "Production, iPad 1024 × 1366 — La table, agrandie pour la tablette"
+      ],
+      [
+        "captures/ipad-06-au-tour-de-lea.png",
+        "Production, iPad 1024 × 1366 — « Léa devine »"
+      ],
+      [
+        "captures/ipad-08-carte.png",
+        "Production, iPad 1024 × 1366 — Une carte, à la taille de l'iPad"
+      ]
+    ]
   }
 ]

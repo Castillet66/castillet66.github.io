@@ -12,6 +12,26 @@ Dépôt réservé aux aperçus et aux captures de Pulse : rien ici n'est le code
 - Recettes — le comparateur rempli, en démonstration (prix fictifs) : https://weighted-meanwhile-endless-delete.trycloudflare.com/recettes/comparer/demonstration?scenario=incomplet
 - Recettes — le comparateur en démonstration, version statique (prix fictifs, sans tunnel) : https://castillet66.github.io/recettes/comparer/demonstration/?scenario=incomplet
 
+## Qui suis-je ? v3 — simplifié après ton retour : mots faciles, aucun geste, rien qui défile tout seul (12/11/2026)
+
+EN PRODUCTION sur werup.app (déploiement d9fea35a, code 1ddc80625). Captures de werup.app le 12/11 vers 13 h 15 : Chromium émulé iPhone 390 × 844 ×2, et iPad 1024 × 1366 ; partie menée jusqu'au récapitulatif du 1er tour, jamais jusqu'au bilan (rien écrit en base). Les personnes du parcours sont des AGENTS : rien n'a été essayé sur un vrai iPhone, iPad ou Android — la liste de contrôle est dans docs/JEUX.md §11.8.
+
+- PNG — Production — La démonstration, image 1 : le téléphone debout sur le front. Elle ne défile plus toute seule : on lit, puis on touche « Suivant » : https://castillet66.github.io/qui-suis-je-v3-2026-11-12/captures/01-demo-1.png
+- PNG — Production — Image 2 : les autres le font deviner, sans dire le mot : https://castillet66.github.io/qui-suis-je-v3-2026-11-12/captures/02-demo-2.png
+- PNG — Production — Image 3 : les autres touchent « Trouvé » ou « Passer ». « Jouer » en haut pour sauter la démonstration : https://castillet66.github.io/qui-suis-je-v3-2026-11-12/captures/03-demo-3.png
+- PNG — Production — La table : qui joue, la règle du score en une phrase : https://castillet66.github.io/qui-suis-je-v3-2026-11-12/captures/04-table.png
+- PNG — Production — Deux choix seulement : « Faciles » (par défaut, une image pour chaque mot) ou « Difficiles » ; « 90 secondes » ou « Sans limite » : https://castillet66.github.io/qui-suis-je-v3-2026-11-12/captures/05-table-reglages.png
+- PNG — Production — « Léa devine » : la consigne du front écrite sur cet écran qui attend ; les boutons rappelés au premier tour : https://castillet66.github.io/qui-suis-je-v3-2026-11-12/captures/06-au-tour-de-lea.png
+- PNG — Production — La préparation, cinq secondes : « Léa, mets le téléphone sur ton front » : https://castillet66.github.io/qui-suis-je-v3-2026-11-12/captures/07-preparation.png
+- PNG — Production — Une carte facile : le mot en très grand, son image, Passer / Trouvé. Le chrono est calme : ni tic, ni vibration, ni rouge : https://castillet66.github.io/qui-suis-je-v3-2026-11-12/captures/08-carte.png
+- PNG — Production — « +1 Trouvé ! » : https://castillet66.github.io/qui-suis-je-v3-2026-11-12/captures/09-trouve.png
+- PNG — Production — La carte suivante : https://castillet66.github.io/qui-suis-je-v3-2026-11-12/captures/10-carte-suivante.png
+- PNG — Production — La pause, d'un toucher : le temps s'arrête : https://castillet66.github.io/qui-suis-je-v3-2026-11-12/captures/11-pause.png
+- PNG — Production — Le récapitulatif du tour : ce que Léa a trouvé, puis « Au tour de Papa » : https://castillet66.github.io/qui-suis-je-v3-2026-11-12/captures/12-recap.png
+- PNG — Production, iPad 1024 × 1366 — La table, agrandie pour la tablette : https://castillet66.github.io/qui-suis-je-v3-2026-11-12/captures/ipad-04-table.png
+- PNG — Production, iPad 1024 × 1366 — « Léa devine » : https://castillet66.github.io/qui-suis-je-v3-2026-11-12/captures/ipad-06-au-tour-de-lea.png
+- PNG — Production, iPad 1024 × 1366 — Une carte, à la taille de l'iPad : https://castillet66.github.io/qui-suis-je-v3-2026-11-12/captures/ipad-08-carte.png
+
 ## Werup national — préversion raccordée : commune, météo, carburant, Flash, sorties (12/11/2026)
 
 Rien n'est publié sur werup.app. Commit 66676ff91 (branche chantier/national-lot1), construit et servi par le Worker réel en local ; parcours Chromium 390 × 844 ×2, commune choisie dans le sélecteur ; sources réelles (Open-Meteo gratuit faute d'abonnement, prix des carburants et OpenStreetMap, flux France 3) ; agenda sur l'index figé du 12/11, déposé dans la préversion seulement. Matrice relevée automatiquement dans la page. Rien essayé sur un vrai iPhone.
