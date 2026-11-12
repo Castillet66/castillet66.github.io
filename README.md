@@ -12,6 +12,29 @@ Dépôt réservé aux aperçus et aux captures de Pulse : rien ici n'est le code
 - Recettes — le comparateur rempli, en démonstration (prix fictifs) : https://weighted-meanwhile-endless-delete.trycloudflare.com/recettes/comparer/demonstration?scenario=incomplet
 - Recettes — le comparateur en démonstration, version statique (prix fictifs, sans tunnel) : https://castillet66.github.io/recettes/comparer/demonstration/?scenario=incomplet
 
+## Qui suis-je ? v2 — refondu après l'essai sur iPhone (12/11/2026)
+
+EN PRODUCTION sur werup.app (déploiement efc08746, code 04c7dae4c). « Production » : captures de werup.app le 12/11 vers 11 h 45, Chromium émulé iPhone 390 × 844 ×2, capteurs SIMULÉS ; partie menée jusqu'au 2e tour, jamais jusqu'au bilan (la réclamation de jetons écrirait en base). « Local » : serveur de développement de la même version, partie à dix jouée par un agent (390 × 844, ×1) ; le service des jetons n'y répond pas. Rien n'a été essayé sur un vrai téléphone : la liste de contrôle est dans docs/JEUX.md §11.8.
+
+- PNG — Production — La démonstration, image 1 : un joueur, le téléphone sur le front ; lui seul ne voit pas le mot : https://castillet66.github.io/qui-suis-je-v2-2026-11-12/captures/01-demo-1.png
+- PNG — Production — Image 2 : les autres le font deviner, tous ensemble, sans dire le mot : https://castillet66.github.io/qui-suis-je-v2-2026-11-12/captures/02-demo-2.png
+- PNG — Production — Image 3 : trouvé, tête en avant ; on passe, tête en arrière ; « Pause » arrête tout : https://castillet66.github.io/qui-suis-je-v2-2026-11-12/captures/03-demo-3.png
+- PNG — Production — La table : la règle du score dite avant de jouer, les joueurs et leur niveau, « Règles » en haut : https://castillet66.github.io/qui-suis-je-v2-2026-11-12/captures/04-table.png
+- PNG — Production — « Au tour de Léa » : Léa devine, les autres font deviner ; la tenue ; le geste rappelé au premier tour seulement : https://castillet66.github.io/qui-suis-je-v2-2026-11-12/captures/05-au-tour-de-lea.png
+- PNG — Production — L'essai du geste, la première fois sur ce téléphone : poser le téléphone, 3 secondes : https://castillet66.github.io/qui-suis-je-v2-2026-11-12/captures/06-essai-pose.png
+- PNG — Production — La fausse carte « Essai », lue par la table : « Dites à Léa : penche la tête en avant » : https://castillet66.github.io/qui-suis-je-v2-2026-11-12/captures/07-essai-dites-a-lea.png
+- PNG — Production — L'essai : le geste reconnu : https://castillet66.github.io/qui-suis-je-v2-2026-11-12/captures/08-essai-trouve.png
+- PNG — Production — La préparation : cinq vraies secondes, que rien d'autre que « C'est parti » ne lance : https://castillet66.github.io/qui-suis-je-v2-2026-11-12/captures/09-preparation.png
+- PNG — Production — La carte Petit : le mot en très grand, l'illustration entière en tuile, Pause, chrono, Passer / Trouvé : https://castillet66.github.io/qui-suis-je-v2-2026-11-12/captures/10-carte-petit.png
+- PNG — Production — Après un « Trouvé » : la carte suivante, ses boutons estompés le temps de la garde (300 ms) : https://castillet66.github.io/qui-suis-je-v2-2026-11-12/captures/11-retour-trouve.png
+- PNG — Production — La pause, d'un toucher : la carte disparaît, le chrono s'arrête : https://castillet66.github.io/qui-suis-je-v2-2026-11-12/captures/12-pause.png
+- PNG — Production — Le récapitulatif : « Léa a trouvé 1 mot », la miniature, le classement, une seule action : https://castillet66.github.io/qui-suis-je-v2-2026-11-12/captures/13-recap.png
+- PNG — Production — Le tour suivant : plus de rappel du geste : https://castillet66.github.io/qui-suis-je-v2-2026-11-12/captures/14-au-tour-de-papa.png
+- PNG — Production — Une carte Famille illustrée : https://castillet66.github.io/qui-suis-je-v2-2026-11-12/captures/15-carte-famille.png
+- PNG — Local, partie à dix — le récapitulatif défilé jusqu'en bas : « Pause » reste en haut, le classement se lit de haut en bas : https://castillet66.github.io/qui-suis-je-v2-2026-11-12/captures/local-v390-R10-recap-bas.png
+- PNG — Local, partie à dix — le podium : quatre ex æquo sur une marche deviennent « 4 joueurs » : https://castillet66.github.io/qui-suis-je-v2-2026-11-12/captures/local-v390-B3-podium.png
+- PNG — Local, partie à dix — le bilan défilé jusqu'en bas : « Quitter » reste à l'écran : https://castillet66.github.io/qui-suis-je-v2-2026-11-12/captures/local-v390-B4-bilan-bas.png
+
 ## Werup national — essai d'articles et choix de la météo (12/11/2026)
 
 Préversion distincte, rien n'est publié dans l'application. Articles : trois exemples rédigés avec l'aide d'une IA à partir de sources primaires (CRE ; SNCF Réseau et Région Occitanie ; Département de la Haute-Savoie, Sibra, Transdev), puis relus par un second contrôle automatique des faits et des droits qui a rouvert chaque source (14 à 20 corrections chacun) ; versions corrigées ; images Wikimedia Commons, crédits et licences sous chaque image ; pas encore de relecture humaine. Météo : mesure réelle du 12/11 à 00 h 16 UTC sur cinq communes, un appel par source, données réelles datées. Captures : Chromium, 390 px ×2, depuis les fichiers de la livraison.

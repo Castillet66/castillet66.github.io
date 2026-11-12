@@ -2529,5 +2529,86 @@
     "Météo : Open-Meteo et MET Norway sur cinq communes"
    ]
   ]
+ },
+ {
+  "dossier": "qui-suis-je-v2-2026-11-12",
+  "date": "12/11/2026",
+  "titre": "Qui suis-je ? v2 — refondu après l'essai sur iPhone",
+  "note": "EN PRODUCTION sur werup.app (déploiement efc08746, code 04c7dae4c). « Production » : captures de werup.app le 12/11 vers 11 h 45, Chromium émulé iPhone 390 × 844 ×2, capteurs SIMULÉS ; partie menée jusqu'au 2e tour, jamais jusqu'au bilan (la réclamation de jetons écrirait en base). « Local » : serveur de développement de la même version, partie à dix jouée par un agent (390 × 844, ×1) ; le service des jetons n'y répond pas. Rien n'a été essayé sur un vrai téléphone : la liste de contrôle est dans docs/JEUX.md §11.8.",
+  "pages": [],
+  "captures": [
+   [
+    "captures/01-demo-1.png",
+    "Production — La démonstration, image 1 : un joueur, le téléphone sur le front ; lui seul ne voit pas le mot"
+   ],
+   [
+    "captures/02-demo-2.png",
+    "Production — Image 2 : les autres le font deviner, tous ensemble, sans dire le mot"
+   ],
+   [
+    "captures/03-demo-3.png",
+    "Production — Image 3 : trouvé, tête en avant ; on passe, tête en arrière ; « Pause » arrête tout"
+   ],
+   [
+    "captures/04-table.png",
+    "Production — La table : la règle du score dite avant de jouer, les joueurs et leur niveau, « Règles » en haut"
+   ],
+   [
+    "captures/05-au-tour-de-lea.png",
+    "Production — « Au tour de Léa » : Léa devine, les autres font deviner ; la tenue ; le geste rappelé au premier tour seulement"
+   ],
+   [
+    "captures/06-essai-pose.png",
+    "Production — L'essai du geste, la première fois sur ce téléphone : poser le téléphone, 3 secondes"
+   ],
+   [
+    "captures/07-essai-dites-a-lea.png",
+    "Production — La fausse carte « Essai », lue par la table : « Dites à Léa : penche la tête en avant »"
+   ],
+   [
+    "captures/08-essai-trouve.png",
+    "Production — L'essai : le geste reconnu"
+   ],
+   [
+    "captures/09-preparation.png",
+    "Production — La préparation : cinq vraies secondes, que rien d'autre que « C'est parti » ne lance"
+   ],
+   [
+    "captures/10-carte-petit.png",
+    "Production — La carte Petit : le mot en très grand, l'illustration entière en tuile, Pause, chrono, Passer / Trouvé"
+   ],
+   [
+    "captures/11-retour-trouve.png",
+    "Production — Après un « Trouvé » : la carte suivante, ses boutons estompés le temps de la garde (300 ms)"
+   ],
+   [
+    "captures/12-pause.png",
+    "Production — La pause, d'un toucher : la carte disparaît, le chrono s'arrête"
+   ],
+   [
+    "captures/13-recap.png",
+    "Production — Le récapitulatif : « Léa a trouvé 1 mot », la miniature, le classement, une seule action"
+   ],
+   [
+    "captures/14-au-tour-de-papa.png",
+    "Production — Le tour suivant : plus de rappel du geste"
+   ],
+   [
+    "captures/15-carte-famille.png",
+    "Production — Une carte Famille illustrée"
+   ],
+   [
+    "captures/local-v390-R10-recap-bas.png",
+    "Local, partie à dix — le récapitulatif défilé jusqu'en bas : « Pause » reste en haut, le classement se lit de haut en bas"
+   ],
+   [
+    "captures/local-v390-B3-podium.png",
+    "Local, partie à dix — le podium : quatre ex æquo sur une marche deviennent « 4 joueurs »"
+   ],
+   [
+    "captures/local-v390-B4-bilan-bas.png",
+    "Local, partie à dix — le bilan défilé jusqu'en bas : « Quitter » reste à l'écran"
+   ]
+  ]
  }
 ]
