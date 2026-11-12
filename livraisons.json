@@ -2495,5 +2495,39 @@
     "Atelier — des illustrations Famille sur la carte jaune"
    ]
   ]
+ },
+ {
+  "dossier": "werup-national-2026-11-12",
+  "date": "12/11/2026",
+  "titre": "Werup national — essai d'articles et choix de la météo",
+  "note": "Préversion distincte, rien n'est publié dans l'application. Articles : trois exemples rédigés avec l'aide d'une IA à partir de sources primaires (CRE ; SNCF Réseau et Région Occitanie ; Département de la Haute-Savoie, Sibra, Transdev), puis relus par un second contrôle automatique des faits et des droits qui a rouvert chaque source (14 à 20 corrections chacun) ; versions corrigées ; images Wikimedia Commons, crédits et licences sous chaque image ; pas encore de relecture humaine. Météo : mesure réelle du 12/11 à 00 h 16 UTC sur cinq communes, un appel par source, données réelles datées. Captures : Chromium, 390 px ×2, depuis les fichiers de la livraison.",
+  "pages": [
+   [
+    "articles.html",
+    "Essai : trois articles Werup complets, sources et crédits"
+   ],
+   [
+    "meteo.html",
+    "Météo nationale : A ou B, mesures du 12/11"
+   ]
+  ],
+  "captures": [
+   [
+    "article-1-390.png",
+    "Article national : le prix repère du gaz au 1er décembre"
+   ],
+   [
+    "article-2-390.png",
+    "Toulouse–Montauban : aucun train du 21 au 27 novembre au matin"
+   ],
+   [
+    "article-3-390.png",
+    "Rive est du lac d'Annecy : route coupée jusqu'au 18 décembre"
+   ],
+   [
+    "meteo-390.png",
+    "Météo : Open-Meteo et MET Norway sur cinq communes"
+   ]
+  ]
  }
 ]

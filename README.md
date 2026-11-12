@@ -12,6 +12,17 @@ Dépôt réservé aux aperçus et aux captures de Pulse : rien ici n'est le code
 - Recettes — le comparateur rempli, en démonstration (prix fictifs) : https://weighted-meanwhile-endless-delete.trycloudflare.com/recettes/comparer/demonstration?scenario=incomplet
 - Recettes — le comparateur en démonstration, version statique (prix fictifs, sans tunnel) : https://castillet66.github.io/recettes/comparer/demonstration/?scenario=incomplet
 
+## Werup national — essai d'articles et choix de la météo (12/11/2026)
+
+Préversion distincte, rien n'est publié dans l'application. Articles : trois exemples rédigés avec l'aide d'une IA à partir de sources primaires (CRE ; SNCF Réseau et Région Occitanie ; Département de la Haute-Savoie, Sibra, Transdev), puis relus par un second contrôle automatique des faits et des droits qui a rouvert chaque source (14 à 20 corrections chacun) ; versions corrigées ; images Wikimedia Commons, crédits et licences sous chaque image ; pas encore de relecture humaine. Météo : mesure réelle du 12/11 à 00 h 16 UTC sur cinq communes, un appel par source, données réelles datées. Captures : Chromium, 390 px ×2, depuis les fichiers de la livraison.
+
+- Essai : trois articles Werup complets, sources et crédits : https://castillet66.github.io/werup-national-2026-11-12/articles.html
+- Météo nationale : A ou B, mesures du 12/11 : https://castillet66.github.io/werup-national-2026-11-12/meteo.html
+- PNG — Article national : le prix repère du gaz au 1er décembre : https://castillet66.github.io/werup-national-2026-11-12/article-1-390.png
+- PNG — Toulouse–Montauban : aucun train du 21 au 27 novembre au matin : https://castillet66.github.io/werup-national-2026-11-12/article-2-390.png
+- PNG — Rive est du lac d'Annecy : route coupée jusqu'au 18 décembre : https://castillet66.github.io/werup-national-2026-11-12/article-3-390.png
+- PNG — Météo : Open-Meteo et MET Norway sur cinq communes : https://castillet66.github.io/werup-national-2026-11-12/meteo-390.png
+
 ## Qui suis-je ? — le cinquième jeu : la note sur le front (12/11/2026)
 
 EN PRODUCTION sur werup.app (déploiement bfc49e11, code 6e612afad). « Production » : captures de werup.app le 12/11 vers 0 h 30, Chromium émulé iPhone 390 × 844 ×2, capteurs simulés ; aucune partie menée jusqu'au bilan (rien n'est écrit en base). « Local » : serveur de développement de la branche ; le service des jetons n'y répond pas, d'où le message d'attente au bilan. « Atelier » : planches de travail (emblème, illustrations). Rien n'a été essayé sur un vrai téléphone.
