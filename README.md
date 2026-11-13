@@ -12,6 +12,14 @@ Dépôt réservé aux aperçus et aux captures de Pulse : rien ici n'est le code
 - Recettes — le comparateur rempli, en démonstration (prix fictifs) : https://weighted-meanwhile-endless-delete.trycloudflare.com/recettes/comparer/demonstration?scenario=incomplet
 - Recettes — le comparateur en démonstration, version statique (prix fictifs, sans tunnel) : https://castillet66.github.io/recettes/comparer/demonstration/?scenario=incomplet
 
+## Audyxia — la page du groupe (prête, pas encore en ligne sur audyxia.com) (13/11/2026)
+
+Page unique d’Audyxia, nom de groupe des projets numériques édités par ELEVORO. Contenu réel : SIREN, SIRET du siège et TVA repris de l’attestation RNE du 10/11/2026 et des mentions de werup.app ; directeur de la publication Florian Mendez (RNE) ; téléphone 04 68 88 24 01 repris des mentions de travaux66.fr, à confirmer par Geoffrey. PAS ENCORE EN LIGNE sur audyxia.com : le raccordement DNS attend l’accord explicite de Geoffrey, et contact@audyxia.com ne reçoit pas encore de courrier. Hébergement prévu : GitHub Pages (gratuit).
+
+- La page elle-même, telle qu’elle sera publiée sur audyxia.com : https://castillet66.github.io/audyxia-site-2026-11-13/index.html
+- PNG — Téléphone (390 px), prise juste avant un dernier réglage : le lien « Mentions légales » de l’en-tête est désormais masqué sous 560 px et reste en pied de page : https://castillet66.github.io/audyxia-site-2026-11-13/captures/audyxia-telephone.png
+- PNG — Ordinateur (1280 px) : https://castillet66.github.io/audyxia-site-2026-11-13/captures/audyxia-ordinateur.png
+
 ## Werup Mot — « Le plateau » : la refonte, les sons et la sourdine des cinq jeux, l'entraînement (13/11/2026)
 
 EN PRODUCTION sur werup.app depuis le 13/11 vers 19 h 45 (déploiement a9d92b1e, code main 47c224716). Les quatre premières images sont prises EN PRODUCTION, en WebKit (le moteur de l'iPhone) et en Chromium. Les suivantes ont été prises en local avant la publication, sur le même code. La partie du jour n'a jamais été finie en production (aucun jeton crédité) ; aucune image ne montre la réponse ni l'indice du mot n° 136. Les « joueurs » sont des programmes : rien n'a été essayé sur un vrai iPhone ni un vrai iPad, et le son ne s'entend pas sur une capture — il a été vérifié en production par le téléchargement des sons, pas à l'oreille. La tablette et l'ordinateur ont été pris avant le dernier correctif, qui ne touche que les écrans de moins de 700 px de haut, le « % » des résultats et l'étiquette de l'indice.
