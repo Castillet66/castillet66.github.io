@@ -2886,5 +2886,94 @@
         "Production, ordinateur 1 440 × 900 — Le récapitulatif en deux colonnes"
       ]
     ]
+  },
+  {
+    "dossier": "qui-suis-je-v5-2026-11-13",
+    "date": "13/11/2026",
+    "titre": "Qui suis-je ? v5 — la direction artistique : une bande de dix personnages, une voix propre aux jeux, la démonstration « l'image d'abord », la carte plus grande",
+    "note": "EN PRODUCTION sur werup.app (déploiement 02d5a158, code c9f27b012), captures du 13/11 vers 4 h 20. Partie menée jusqu'au récapitulatif du 1er tour, jamais jusqu'au bilan (rien écrit en base). Les « joueurs » sont des programmes : rien n'a été essayé sur un vrai iPhone, iPad ou Android (QSJ-01, QSJ-23). Les deux premières planches ne sont pas des captures de l'application : la bande à ses tailles réelles, et un essai d'autocollants (aucune commande).",
+    "pages": [],
+    "captures": [
+      [
+        "captures/bande-01-planche.png",
+        "La bande : dix personnages debout, reconnaissables à leur forme — en pastille (40, 64, 96 px), en pied, en joie, et en silhouette noire à 32 et 20 px"
+      ],
+      [
+        "captures/bande-02-autocollants.png",
+        "Essai d'objet dérivé : cinq personnages en autocollants découpés (aucune commande, aucune dépense)"
+      ],
+      [
+        "captures/tel-01-demo-1.png",
+        "Production, iPhone 390 × 844 (WebKit) — Démonstration ① : Boum, le téléphone sur le front, montre la vraie carte du pingouin — l'image d'abord"
+      ],
+      [
+        "captures/tel-02-demo-2.png",
+        "Production, iPhone 390 × 844 (WebKit) — Démonstration ② : Dune mime, Vigie explique en dessins, Tutti ne dit pas le mot"
+      ],
+      [
+        "captures/tel-03-demo-3.png",
+        "Production, iPhone 390 × 844 (WebKit) — Démonstration ③ : le téléphone vu par la table ; « Passer » et « Trouvé » s'essaient"
+      ],
+      [
+        "captures/tel-04-table.png",
+        "Production, iPhone 390 × 844 (WebKit) — La table : le sceau « un jeu Werup », le titre dans la voix des jeux, chaque joueur avec son personnage"
+      ],
+      [
+        "captures/tel-05-au-tour-de.png",
+        "Production, iPhone 390 × 844 (WebKit) — « Au tour de Léa » : Boum debout, la note « ? » sur le front ; les portraits de ceux qui font deviner"
+      ],
+      [
+        "captures/tel-06-preparation.png",
+        "Production, iPhone 390 × 844 (WebKit) — Les cinq secondes"
+      ],
+      [
+        "captures/tel-07-carte.png",
+        "Production, iPhone 390 × 844 (WebKit) — La carte : une seule mise en page pour les mots faciles, l'image grande au milieu, le mot dessous"
+      ],
+      [
+        "captures/tel-08-plus-un.png",
+        "Production, iPhone 390 × 844 (WebKit) — « +1 » : Trouvé !"
+      ],
+      [
+        "captures/tel-09-carte-2.png",
+        "Production, iPhone 390 × 844 (WebKit) — La carte suivante"
+      ],
+      [
+        "captures/tel-10-pause.png",
+        "Production, iPhone 390 × 844 (WebKit) — La pause d'un tour : le devineur et « Pause » en blanc, la feuille dit qui devine et le temps restant"
+      ],
+      [
+        "captures/tel-11-recap.png",
+        "Production, iPhone 390 × 844 (WebKit) — Le récapitulatif : le devineur en joie, le nombre en grand, les mots trouvés en galerie d'images"
+      ],
+      [
+        "captures/ipad-01-demo-1.png",
+        "Production, iPad couché 1 024 × 768 — Démonstration ① en deux colonnes"
+      ],
+      [
+        "captures/ipad-02-demo-2.png",
+        "Production, iPad couché 1 024 × 768 — Démonstration ②"
+      ],
+      [
+        "captures/ipad-04-table.png",
+        "Production, iPad couché 1 024 × 768 — La table en trois colonnes, le sceau sous l'emblème"
+      ],
+      [
+        "captures/ipad-05-au-tour-de.png",
+        "Production, iPad couché 1 024 × 768 — « Au tour de Léa »"
+      ],
+      [
+        "captures/ipad-07-carte.png",
+        "Production, iPad couché 1 024 × 768 — La carte : le groupe image + mot au milieu"
+      ],
+      [
+        "captures/ipad-10-pause.png",
+        "Production, iPad couché 1 024 × 768 — La pause d'un tour, centrée"
+      ],
+      [
+        "captures/ipad-11-recap.png",
+        "Production, iPad couché 1 024 × 768 — Le récapitulatif"
+      ]
+    ]
   }
 ]

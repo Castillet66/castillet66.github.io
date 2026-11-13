@@ -12,6 +12,31 @@ Dépôt réservé aux aperçus et aux captures de Pulse : rien ici n'est le code
 - Recettes — le comparateur rempli, en démonstration (prix fictifs) : https://weighted-meanwhile-endless-delete.trycloudflare.com/recettes/comparer/demonstration?scenario=incomplet
 - Recettes — le comparateur en démonstration, version statique (prix fictifs, sans tunnel) : https://castillet66.github.io/recettes/comparer/demonstration/?scenario=incomplet
 
+## Qui suis-je ? v5 — la direction artistique : une bande de dix personnages, une voix propre aux jeux, la démonstration « l'image d'abord », la carte plus grande (13/11/2026)
+
+EN PRODUCTION sur werup.app (déploiement 02d5a158, code c9f27b012), captures du 13/11 vers 4 h 20. Partie menée jusqu'au récapitulatif du 1er tour, jamais jusqu'au bilan (rien écrit en base). Les « joueurs » sont des programmes : rien n'a été essayé sur un vrai iPhone, iPad ou Android (QSJ-01, QSJ-23). Les deux premières planches ne sont pas des captures de l'application : la bande à ses tailles réelles, et un essai d'autocollants (aucune commande).
+
+- PNG — La bande : dix personnages debout, reconnaissables à leur forme — en pastille (40, 64, 96 px), en pied, en joie, et en silhouette noire à 32 et 20 px : https://castillet66.github.io/qui-suis-je-v5-2026-11-13/captures/bande-01-planche.png
+- PNG — Essai d'objet dérivé : cinq personnages en autocollants découpés (aucune commande, aucune dépense) : https://castillet66.github.io/qui-suis-je-v5-2026-11-13/captures/bande-02-autocollants.png
+- PNG — Production, iPhone 390 × 844 (WebKit) — Démonstration ① : Boum, le téléphone sur le front, montre la vraie carte du pingouin — l'image d'abord : https://castillet66.github.io/qui-suis-je-v5-2026-11-13/captures/tel-01-demo-1.png
+- PNG — Production, iPhone 390 × 844 (WebKit) — Démonstration ② : Dune mime, Vigie explique en dessins, Tutti ne dit pas le mot : https://castillet66.github.io/qui-suis-je-v5-2026-11-13/captures/tel-02-demo-2.png
+- PNG — Production, iPhone 390 × 844 (WebKit) — Démonstration ③ : le téléphone vu par la table ; « Passer » et « Trouvé » s'essaient : https://castillet66.github.io/qui-suis-je-v5-2026-11-13/captures/tel-03-demo-3.png
+- PNG — Production, iPhone 390 × 844 (WebKit) — La table : le sceau « un jeu Werup », le titre dans la voix des jeux, chaque joueur avec son personnage : https://castillet66.github.io/qui-suis-je-v5-2026-11-13/captures/tel-04-table.png
+- PNG — Production, iPhone 390 × 844 (WebKit) — « Au tour de Léa » : Boum debout, la note « ? » sur le front ; les portraits de ceux qui font deviner : https://castillet66.github.io/qui-suis-je-v5-2026-11-13/captures/tel-05-au-tour-de.png
+- PNG — Production, iPhone 390 × 844 (WebKit) — Les cinq secondes : https://castillet66.github.io/qui-suis-je-v5-2026-11-13/captures/tel-06-preparation.png
+- PNG — Production, iPhone 390 × 844 (WebKit) — La carte : une seule mise en page pour les mots faciles, l'image grande au milieu, le mot dessous : https://castillet66.github.io/qui-suis-je-v5-2026-11-13/captures/tel-07-carte.png
+- PNG — Production, iPhone 390 × 844 (WebKit) — « +1 » : Trouvé ! : https://castillet66.github.io/qui-suis-je-v5-2026-11-13/captures/tel-08-plus-un.png
+- PNG — Production, iPhone 390 × 844 (WebKit) — La carte suivante : https://castillet66.github.io/qui-suis-je-v5-2026-11-13/captures/tel-09-carte-2.png
+- PNG — Production, iPhone 390 × 844 (WebKit) — La pause d'un tour : le devineur et « Pause » en blanc, la feuille dit qui devine et le temps restant : https://castillet66.github.io/qui-suis-je-v5-2026-11-13/captures/tel-10-pause.png
+- PNG — Production, iPhone 390 × 844 (WebKit) — Le récapitulatif : le devineur en joie, le nombre en grand, les mots trouvés en galerie d'images : https://castillet66.github.io/qui-suis-je-v5-2026-11-13/captures/tel-11-recap.png
+- PNG — Production, iPad couché 1 024 × 768 — Démonstration ① en deux colonnes : https://castillet66.github.io/qui-suis-je-v5-2026-11-13/captures/ipad-01-demo-1.png
+- PNG — Production, iPad couché 1 024 × 768 — Démonstration ② : https://castillet66.github.io/qui-suis-je-v5-2026-11-13/captures/ipad-02-demo-2.png
+- PNG — Production, iPad couché 1 024 × 768 — La table en trois colonnes, le sceau sous l'emblème : https://castillet66.github.io/qui-suis-je-v5-2026-11-13/captures/ipad-04-table.png
+- PNG — Production, iPad couché 1 024 × 768 — « Au tour de Léa » : https://castillet66.github.io/qui-suis-je-v5-2026-11-13/captures/ipad-05-au-tour-de.png
+- PNG — Production, iPad couché 1 024 × 768 — La carte : le groupe image + mot au milieu : https://castillet66.github.io/qui-suis-je-v5-2026-11-13/captures/ipad-07-carte.png
+- PNG — Production, iPad couché 1 024 × 768 — La pause d'un tour, centrée : https://castillet66.github.io/qui-suis-je-v5-2026-11-13/captures/ipad-10-pause.png
+- PNG — Production, iPad couché 1 024 × 768 — Le récapitulatif : https://castillet66.github.io/qui-suis-je-v5-2026-11-13/captures/ipad-11-recap.png
+
 ## Qui suis-je ? v4 — une navigation d'application : « Pause » au même endroit partout, l'écran sur le front ou dans les mains, tablettes et ordinateurs (12/11/2026)
 
 EN PRODUCTION sur werup.app (déploiement 79ecd433, code 4817a7a3b), captures du 12/11 vers 19 h 15, Chromium émulé. Partie menée jusqu'au récapitulatif du 1er tour, jamais jusqu'au bilan (rien écrit en base). Les « joueurs » sont des programmes, pas des personnes : rien n'a été essayé sur un vrai iPhone, iPad ou Android — la liste de contrôle est dans docs/JEUX.md §11.8.
