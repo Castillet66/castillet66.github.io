@@ -2975,5 +2975,18 @@
         "Production, iPad couché 1 024 × 768 — Le récapitulatif"
       ]
     ]
+  },
+  {
+    "dossier": "sons-des-jeux-2026-11-13",
+    "date": "13/11/2026",
+    "titre": "Les sons des jeux — page d'écoute (proposition pour Werup Mot, puis Qui suis-je ?)",
+    "note": "Page autonome, PAS l'application : chaque son se joue d'un toucher, avec l'événement qu'il accompagnera. Sons enregistrés d'une banque professionnelle sous licence libre CC0 (Kenney), préparés et calés en volume par mesure — personne ne les a encore écoutés : c'est à vous de juger à l'oreille. Épreuve du mode silencieux : iPhone en silencieux, touchez « La rangée gagnante » (rien ne devrait sortir), puis cochez « Jouer même si l'iPhone est en mode silencieux » et retouchez (le son devrait sortir).",
+    "pages": [
+      [
+        "ecoute.html",
+        "Page d'écoute (à ouvrir sur iPhone)"
+      ]
+    ],
+    "captures": []
   }
 ]

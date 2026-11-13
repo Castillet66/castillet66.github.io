@@ -12,6 +12,12 @@ Dépôt réservé aux aperçus et aux captures de Pulse : rien ici n'est le code
 - Recettes — le comparateur rempli, en démonstration (prix fictifs) : https://weighted-meanwhile-endless-delete.trycloudflare.com/recettes/comparer/demonstration?scenario=incomplet
 - Recettes — le comparateur en démonstration, version statique (prix fictifs, sans tunnel) : https://castillet66.github.io/recettes/comparer/demonstration/?scenario=incomplet
 
+## Les sons des jeux — page d'écoute (proposition pour Werup Mot, puis Qui suis-je ?) (13/11/2026)
+
+Page autonome, PAS l'application : chaque son se joue d'un toucher, avec l'événement qu'il accompagnera. Sons enregistrés d'une banque professionnelle sous licence libre CC0 (Kenney), préparés et calés en volume par mesure — personne ne les a encore écoutés : c'est à vous de juger à l'oreille. Épreuve du mode silencieux : iPhone en silencieux, touchez « La rangée gagnante » (rien ne devrait sortir), puis cochez « Jouer même si l'iPhone est en mode silencieux » et retouchez (le son devrait sortir).
+
+- Page d'écoute (à ouvrir sur iPhone) : https://castillet66.github.io/sons-des-jeux-2026-11-13/ecoute.html
+
 ## Qui suis-je ? v5 — la direction artistique : une bande de dix personnages, une voix propre aux jeux, la démonstration « l'image d'abord », la carte plus grande (13/11/2026)
 
 EN PRODUCTION sur werup.app (déploiement 02d5a158, code c9f27b012), captures du 13/11 vers 4 h 20. Partie menée jusqu'au récapitulatif du 1er tour, jamais jusqu'au bilan (rien écrit en base). Les « joueurs » sont des programmes : rien n'a été essayé sur un vrai iPhone, iPad ou Android (QSJ-01, QSJ-23). Les deux premières planches ne sont pas des captures de l'application : la bande à ses tailles réelles, et un essai d'autocollants (aucune commande).
