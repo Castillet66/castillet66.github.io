@@ -12,6 +12,15 @@ Dépôt réservé aux aperçus et aux captures de Pulse : rien ici n'est le code
 - Recettes — le comparateur rempli, en démonstration (prix fictifs) : https://weighted-meanwhile-endless-delete.trycloudflare.com/recettes/comparer/demonstration?scenario=incomplet
 - Recettes — le comparateur en démonstration, version statique (prix fictifs, sans tunnel) : https://castillet66.github.io/recettes/comparer/demonstration/?scenario=incomplet
 
+## Werup pour iPhone — l'app native au simulateur, contre la production (13/11/2026)
+
+Simulateur iOS 27.2 (Xcode 27.2). App compilée depuis chantier/werup-ios (3b0f0abd9), coque Capacitor 8.6.2 qui charge werup.app. Données RÉELLES de la production du 13/11 vers 23 h (Flash info, météo, carburant). Pas un iPhone réel, et pas encore TestFlight.
+
+- PNG — Lancement, iPhone 18 Pro, 1 s après l'ouverture : aplat #111111 et barre d'état claire, sans l'image de démarrage de Capacitor (app de 3b0f0abd9 ; capture de 22 h 50) : https://castillet66.github.io/werup-ios-2026-11-13/captures/1-lancement-iphone18pro.png
+- PNG — Accueil, iPhone 18 Pro (îlot dynamique), contre la production (déploiement b56d5dfd) : mise en page de l'app installée, posée par la marque WerupApp/1 (D-2032) ; capture de 23 h 11 : https://castillet66.github.io/werup-ios-2026-11-13/captures/2-accueil-iphone18pro.png
+- PNG — Accueil, iPhone 17e (encoche), contre la production : l'en-tête sous la vraie zone de sécurité ; capture de 23 h 13 : https://castillet66.github.io/werup-ios-2026-11-13/captures/3-accueil-iphone17e.png
+- PNG — Notifications, iPhone 17e, contre la production : « Non disponibles dans l'application », sans invitation à installer ; capture de 23 h 13 : https://castillet66.github.io/werup-ios-2026-11-13/captures/4-notifications-iphone17e.png
+
 ## Audyxia — la page du groupe (prête, pas encore en ligne sur audyxia.com) (13/11/2026)
 
 Page unique d’Audyxia, nom de groupe des projets numériques édités par ELEVORO. Contenu réel : SIREN, SIRET du siège et TVA repris de l’attestation RNE du 10/11/2026 et des mentions de werup.app ; directeur de la publication Florian Mendez (RNE) ; téléphone 04 68 88 24 01 repris des mentions de travaux66.fr, à confirmer par Geoffrey. PAS ENCORE EN LIGNE sur audyxia.com : le raccordement DNS attend l’accord explicite de Geoffrey, et contact@audyxia.com ne reçoit pas encore de courrier. Hébergement prévu : GitHub Pages (gratuit).
