@@ -2992,10 +2992,26 @@
   {
     "dossier": "mot-le-plateau-2026-11-13",
     "date": "13/11/2026",
-    "titre": "Werup Mot — « Le plateau » : la refonte, les sons et la sourdine, l'entraînement (prêt, pas encore en ligne)",
-    "note": "PAS ENCORE EN PRODUCTION : le code est sur main (47c224716), la publication attend que le connecteur Lovable soit reconnecté. Captures prises le 13/11 vers 19 h 30 sur le serveur de développement, avec le vrai mot du jour mais sans serveur (aucun jeton crédité). Les « joueurs » sont des programmes, en Chromium et en WebKit (le moteur de l'iPhone) : rien n'a été essayé sur un vrai iPhone ni un vrai iPad, et le son ne s'entend pas sur une capture. Aucune image ne montre la réponse ni l'indice du mot du jour n° 136 : la victoire, l'indice payé et le bilan viendront avec les captures de production. La tablette et l'ordinateur ont été pris avant le dernier correctif, qui ne touche que les écrans de moins de 700 px de haut, le « % » des résultats et l'étiquette de l'indice.",
+    "titre": "Werup Mot — « Le plateau » : la refonte, les sons et la sourdine des cinq jeux, l'entraînement",
+    "note": "EN PRODUCTION sur werup.app depuis le 13/11 vers 19 h 45 (déploiement a9d92b1e, code main 47c224716). Les quatre premières images sont prises EN PRODUCTION, en WebKit (le moteur de l'iPhone) et en Chromium. Les suivantes ont été prises en local avant la publication, sur le même code. La partie du jour n'a jamais été finie en production (aucun jeton crédité) ; aucune image ne montre la réponse ni l'indice du mot n° 136. Les « joueurs » sont des programmes : rien n'a été essayé sur un vrai iPhone ni un vrai iPad, et le son ne s'entend pas sur une capture — il a été vérifié en production par le téléchargement des sons, pas à l'oreille. La tablette et l'ordinateur ont été pris avant le dernier correctif, qui ne touche que les écrans de moins de 700 px de haut, le « % » des résultats et l'étiquette de l'indice.",
     "pages": [],
     "captures": [
+      [
+        "captures/00-prod-arrivee-webkit.png",
+        "EN PRODUCTION (WebKit, 390 × 844) : l'arrivée — la table, le plateau, la sourdine dans la barre"
+      ],
+      [
+        "captures/00-prod-rappel-webkit.png",
+        "EN PRODUCTION : rangée pleine, « Valider » s'allume et la ligne dit le geste"
+      ],
+      [
+        "captures/00-prod-menu-sons.png",
+        "EN PRODUCTION : le menu « Mot » — Comment jouer, S'entraîner, et l'interrupteur « Sons des jeux »"
+      ],
+      [
+        "captures/00-prod-entrainement-webkit.png",
+        "EN PRODUCTION : l'entraînement — « Entraînement, sans jetons », pas de chrono ; le retour du système quitte le jeu"
+      ],
       [
         "captures/01-arrivee-iphone.png",
         "L'arrivée (iPhone 390 × 844) : la table tournesol, le plateau d'encre, l'emblème M·O·T, le chrono, la sourdine dans la barre, la pastille « Jokers · dans 3 essais » — le soleil a disparu"
