@@ -2988,5 +2988,62 @@
       ]
     ],
     "captures": []
+  },
+  {
+    "dossier": "mot-le-plateau-2026-11-13",
+    "date": "13/11/2026",
+    "titre": "Werup Mot — « Le plateau » : la refonte, les sons et la sourdine, l'entraînement (prêt, pas encore en ligne)",
+    "note": "PAS ENCORE EN PRODUCTION : le code est sur main (47c224716), la publication attend que le connecteur Lovable soit reconnecté. Captures prises le 13/11 vers 19 h 30 sur le serveur de développement, avec le vrai mot du jour mais sans serveur (aucun jeton crédité). Les « joueurs » sont des programmes, en Chromium et en WebKit (le moteur de l'iPhone) : rien n'a été essayé sur un vrai iPhone ni un vrai iPad, et le son ne s'entend pas sur une capture. Aucune image ne montre la réponse ni l'indice du mot du jour n° 136 : la victoire, l'indice payé et le bilan viendront avec les captures de production. La tablette et l'ordinateur ont été pris avant le dernier correctif, qui ne touche que les écrans de moins de 700 px de haut, le « % » des résultats et l'étiquette de l'indice.",
+    "pages": [],
+    "captures": [
+      [
+        "captures/01-arrivee-iphone.png",
+        "L'arrivée (iPhone 390 × 844) : la table tournesol, le plateau d'encre, l'emblème M·O·T, le chrono, la sourdine dans la barre, la pastille « Jokers · dans 3 essais » — le soleil a disparu"
+      ],
+      [
+        "captures/02-rappel-valider.png",
+        "Rangée pleine : « Valider » devient la seule touche ivoire du casier, et la ligne dit le geste (« Appuie sur Entrée » au clavier, « Appuie sur ✓ Valider » au toucher)"
+      ],
+      [
+        "captures/03-rappel-valider-webkit-375.png",
+        "Le même moment dans WebKit, le moteur de l'iPhone, à 375 × 667"
+      ],
+      [
+        "captures/04-annonce-plaque.png",
+        "Un mot refusé : une plaque d'encre sous le plateau, qui reste jusqu'au geste suivant ; Valider ne se réarme pas tant que la rangée est la même"
+      ],
+      [
+        "captures/05-feuille-joker.png",
+        "La feuille Joker : le prix d'abord (25 → 15 jetons), puis les deux cartes dessinées"
+      ],
+      [
+        "captures/06-comment-jouer.png",
+        "« Comment jouer » : les trois états par la FORME — tuile verte et coche, disque jaune, ardoise — puis Valider, les jokers, les jetons"
+      ],
+      [
+        "captures/07-comment-jouer-posee.png",
+        "La démonstration joue une fois puis se pose sur la synthèse (« Revoir » la rejoue) ; le seul endroit où « un jeu Werup » est écrit"
+      ],
+      [
+        "captures/08-premiere-main-1.png",
+        "La toute première partie : chaque verdict reste à l'écran jusqu'au toucher sur « Suivant » — rien ne se lit sous minuterie"
+      ],
+      [
+        "captures/09-premiere-main-2.png",
+        "Le verdict jaune : « A est ailleurs dans le mot. »"
+      ],
+      [
+        "captures/10-couche-568x320.png",
+        "Téléphone couché (568 × 320) : le plateau et le casier côte à côte"
+      ],
+      [
+        "captures/11-tablette-768x1024.png",
+        "Tablette (768 × 1024)"
+      ],
+      [
+        "captures/12-ordinateur-1440x900.png",
+        "Ordinateur (1440 × 900) : la fiche du jour à côté du plateau, trois cases tenues avant et après la victoire"
+      ]
+    ]
   }
 ]

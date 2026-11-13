@@ -12,6 +12,23 @@ Dépôt réservé aux aperçus et aux captures de Pulse : rien ici n'est le code
 - Recettes — le comparateur rempli, en démonstration (prix fictifs) : https://weighted-meanwhile-endless-delete.trycloudflare.com/recettes/comparer/demonstration?scenario=incomplet
 - Recettes — le comparateur en démonstration, version statique (prix fictifs, sans tunnel) : https://castillet66.github.io/recettes/comparer/demonstration/?scenario=incomplet
 
+## Werup Mot — « Le plateau » : la refonte, les sons et la sourdine, l'entraînement (prêt, pas encore en ligne) (13/11/2026)
+
+PAS ENCORE EN PRODUCTION : le code est sur main (47c224716), la publication attend que le connecteur Lovable soit reconnecté. Captures prises le 13/11 vers 19 h 30 sur le serveur de développement, avec le vrai mot du jour mais sans serveur (aucun jeton crédité). Les « joueurs » sont des programmes, en Chromium et en WebKit (le moteur de l'iPhone) : rien n'a été essayé sur un vrai iPhone ni un vrai iPad, et le son ne s'entend pas sur une capture. Aucune image ne montre la réponse ni l'indice du mot du jour n° 136 : la victoire, l'indice payé et le bilan viendront avec les captures de production. La tablette et l'ordinateur ont été pris avant le dernier correctif, qui ne touche que les écrans de moins de 700 px de haut, le « % » des résultats et l'étiquette de l'indice.
+
+- PNG — L'arrivée (iPhone 390 × 844) : la table tournesol, le plateau d'encre, l'emblème M·O·T, le chrono, la sourdine dans la barre, la pastille « Jokers · dans 3 essais » — le soleil a disparu : https://castillet66.github.io/mot-le-plateau-2026-11-13/captures/01-arrivee-iphone.png
+- PNG — Rangée pleine : « Valider » devient la seule touche ivoire du casier, et la ligne dit le geste (« Appuie sur Entrée » au clavier, « Appuie sur ✓ Valider » au toucher) : https://castillet66.github.io/mot-le-plateau-2026-11-13/captures/02-rappel-valider.png
+- PNG — Le même moment dans WebKit, le moteur de l'iPhone, à 375 × 667 : https://castillet66.github.io/mot-le-plateau-2026-11-13/captures/03-rappel-valider-webkit-375.png
+- PNG — Un mot refusé : une plaque d'encre sous le plateau, qui reste jusqu'au geste suivant ; Valider ne se réarme pas tant que la rangée est la même : https://castillet66.github.io/mot-le-plateau-2026-11-13/captures/04-annonce-plaque.png
+- PNG — La feuille Joker : le prix d'abord (25 → 15 jetons), puis les deux cartes dessinées : https://castillet66.github.io/mot-le-plateau-2026-11-13/captures/05-feuille-joker.png
+- PNG — « Comment jouer » : les trois états par la FORME — tuile verte et coche, disque jaune, ardoise — puis Valider, les jokers, les jetons : https://castillet66.github.io/mot-le-plateau-2026-11-13/captures/06-comment-jouer.png
+- PNG — La démonstration joue une fois puis se pose sur la synthèse (« Revoir » la rejoue) ; le seul endroit où « un jeu Werup » est écrit : https://castillet66.github.io/mot-le-plateau-2026-11-13/captures/07-comment-jouer-posee.png
+- PNG — La toute première partie : chaque verdict reste à l'écran jusqu'au toucher sur « Suivant » — rien ne se lit sous minuterie : https://castillet66.github.io/mot-le-plateau-2026-11-13/captures/08-premiere-main-1.png
+- PNG — Le verdict jaune : « A est ailleurs dans le mot. » : https://castillet66.github.io/mot-le-plateau-2026-11-13/captures/09-premiere-main-2.png
+- PNG — Téléphone couché (568 × 320) : le plateau et le casier côte à côte : https://castillet66.github.io/mot-le-plateau-2026-11-13/captures/10-couche-568x320.png
+- PNG — Tablette (768 × 1024) : https://castillet66.github.io/mot-le-plateau-2026-11-13/captures/11-tablette-768x1024.png
+- PNG — Ordinateur (1440 × 900) : la fiche du jour à côté du plateau, trois cases tenues avant et après la victoire : https://castillet66.github.io/mot-le-plateau-2026-11-13/captures/12-ordinateur-1440x900.png
+
 ## Les sons des jeux — page d'écoute (proposition pour Werup Mot, puis Qui suis-je ?) (13/11/2026)
 
 Page autonome, PAS l'application : chaque son se joue d'un toucher, avec l'événement qu'il accompagnera. Sons enregistrés d'une banque professionnelle sous licence libre CC0 (Kenney), préparés et calés en volume par mesure — personne ne les a encore écoutés : c'est à vous de juger à l'oreille. Épreuve du mode silencieux : iPhone en silencieux, touchez « La rangée gagnante » (rien ne devrait sortir), puis cochez « Jouer même si l'iPhone est en mode silencieux » et retouchez (le son devrait sortir).
