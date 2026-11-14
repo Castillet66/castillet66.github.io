@@ -12,6 +12,19 @@ Dépôt réservé aux aperçus et aux captures de Pulse : rien ici n'est le code
 - Recettes — le comparateur rempli, en démonstration (prix fictifs) : https://weighted-meanwhile-endless-delete.trycloudflare.com/recettes/comparer/demonstration?scenario=incomplet
 - Recettes — le comparateur en démonstration, version statique (prix fictifs, sans tunnel) : https://castillet66.github.io/recettes/comparer/demonstration/?scenario=incomplet
 
+## Les jeux : le son partout, les feuilles sous la barre de Safari, sortir d'une partie, aucune partie qui défile, le Jackpot aéré (14/11/2026)
+
+EN PRODUCTION sur werup.app depuis le 14/11 à 14 h 51 (déploiement c112d622, code main 2e465176b). Formats : 440 × 796, la hauteur visible d'un iPhone Pro Max dans Safari. Les images 01 à 10 sont prises en local sur le même code (les parties sont construites pour la capture) ; la 11 est prise EN PRODUCTION. Aucune partie finie ni aucun tirage du Jackpot en production.
+
+- PNG — EN PRODUCTION — le Jackpot sur un Pro Max : la machine en grand, l'ananas, « Jouer », et la mention légale en petit avec « Règles et chances » à sa suite. Plus rien ne défile. : https://castillet66.github.io/jeux-finition-2026-11-14/captures/11-jackpot-production.png
+- PNG — Ta capture du vote, refaite : sur un Pro Max dans Safari, tout tient — la table prend la place qui reste, rien ne défile. : https://castillet66.github.io/jeux-finition-2026-11-14/captures/07-intrus-vote-pro-max.png
+- PNG — « C'est à… » : le bouton « Au tour de… » ne passe plus sous le bord (il dépassait de 6 px). : https://castillet66.github.io/jeux-finition-2026-11-14/captures/08-intrus-tour-pro-max.png
+- PNG — La fin de manche : le bouton reste en bas ; si la tablée est longue, seul le milieu défile, comme dans Qui suis-je ?. : https://castillet66.github.io/jeux-finition-2026-11-14/captures/09-intrus-points-pro-max.png
+- PNG — La pause de L'Intrus : Continuer, Nouvelle partie, Revenir à la table, Sortir du jeu — qui sort vraiment (avant, on restait coincé sur le jeu). : https://castillet66.github.io/jeux-finition-2026-11-14/captures/03-intrus-pause.png
+- PNG — « Recommencer à zéro ? » : le bouton visible garde la partie. : https://castillet66.github.io/jeux-finition-2026-11-14/captures/04-intrus-recommencer.png
+- PNG — Téléphone couché : les quatre choix tiennent sans défiler. : https://castillet66.github.io/jeux-finition-2026-11-14/captures/05-intrus-pause-couche.png
+- PNG — Simulateur iPhone, Safari : une feuille ouverte sur une page bleue — la bande sous la barre de Safari reste sombre, dans le prolongement de la feuille (avant : bleue, « en lévitation »). : https://castillet66.github.io/jeux-finition-2026-11-14/captures/01-feuille-safari-page-bleue.png
+
 ## Les jeux : le son sur iPhone, la fin de Mot, le Jackpot, L'Intrus et Connect — le polish de la nuit (14/11/2026)
 
 EN PRODUCTION sur werup.app depuis le 14/11 à 4 h 32 (déploiement c7769429, code main ce39d99af). Les quatre premières images sont prises EN PRODUCTION (WebKit, le moteur de l'iPhone) ; les suivantes, en local sur le même code, après les derniers correctifs, aux formats qu'elles nomment. Aucune partie du jour n'a été finie et aucun tirage du Jackpot lancé en production (jetons). Les « joueurs » sont des programmes : rien n'a été essayé sur un vrai iPhone, et le son ne s'entend pas sur une capture. La capture de Mot est recadrée sur sa ligne pour ne rien dire du mot du jour.
