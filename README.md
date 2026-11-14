@@ -56,8 +56,15 @@ Simulateur iOS 27.2 (Xcode 27.2), iPhone 18 Pro, contre la PRODUCTION (main 64f1
 - PNG — Passage 2, geste lâché en mouvement : l'accueil à mi-écran : https://castillet66.github.io/werup-ios-2026-11-14/captures/p2-03-glissement-lache-en-mouvement.png
 - PNG — … et la transition annulée de nouveau : https://castillet66.github.io/werup-ios-2026-11-14/captures/p2-03-transition-annulee.png
 - PNG — Hors ligne (passage 3, app neuve, serveur éteint) : la page embarquée « Pas de connexion » : https://castillet66.github.io/werup-ios-2026-11-14/captures/p3-10a-hors-ligne.png
-- PNG — DÉFAUT EN COURS (AX-08) : avec un serveur d'essai, « Réessayer » a ouvert Safari sur werup.app. En production, inféré sans effet ; à rejouer : https://castillet66.github.io/werup-ios-2026-11-14/captures/p3-10-reessayer-ouvre-safari.png
-- PNG — Fiche App Store, première capture (iPhone 18 Pro Max, 9 h 41) : l'original est à 1 320 × 2 868 ; les six autres sont à refaire (question « Ouvrir dans Werup ? ») : https://castillet66.github.io/werup-ios-2026-11-14/captures/app-store-01-accueil.png
+- PNG — AVANT correctif (passage 3) : avec un serveur d'essai, « Réessayer » ouvrait Safari sur werup.app — la page relais embarquée renvoyait en dur vers werup.app (AX-08) : https://castillet66.github.io/werup-ios-2026-11-14/captures/p3-10-reessayer-ouvre-safari.png
+- PNG — APRÈS correctif (4 h 45) : « Réessayer » pendant la panne reste dans l'app, la page hors ligne revient : https://castillet66.github.io/werup-ios-2026-11-14/captures/h5-10a2-reessai-pendant-la-panne.png
+- PNG — Le serveur revient : l'app revient seule sur Werup, dans l'app (36 requêtes par le relais de la production) : https://castillet66.github.io/werup-ios-2026-11-14/captures/h5-10b-retour-du-reseau.png
+- PNG — Fiche App Store, épreuve 1/6 (iPhone 18 Pro Max, 9 h 41, original 1 320 × 2 868) : Accueil : https://castillet66.github.io/werup-ios-2026-11-14/captures/app-store-01-accueil.png
+- PNG — Épreuve 2/6 : Météo Live (prise de nuit : « Nuit couverte » ; les définitives se prendront de jour) : https://castillet66.github.io/werup-ios-2026-11-14/captures/app-store-02-meteo.png
+- PNG — Épreuve 3/6 : Sortir, aujourd'hui : https://castillet66.github.io/werup-ios-2026-11-14/captures/app-store-03-sortir.png
+- PNG — Épreuve 4/6 : la carte d'Autour, position simulée au cœur de Perpignan : https://castillet66.github.io/werup-ios-2026-11-14/captures/app-store-04-autour.png
+- PNG — Épreuve 5/6 : Sur la route : https://castillet66.github.io/werup-ios-2026-11-14/captures/app-store-05-sur-la-route.png
+- PNG — Épreuve 6/6 : Jeux. Werup Intelligence, sans adresse propre, reste à capturer en ouvrant sa couche : https://castillet66.github.io/werup-ios-2026-11-14/captures/app-store-06-jeux.png
 
 ## Werup pour iPhone — l'app native au simulateur, contre la production (13/11/2026)
 

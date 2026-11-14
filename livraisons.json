@@ -3209,11 +3209,39 @@
       ],
       [
         "captures/p3-10-reessayer-ouvre-safari.png",
-        "DÉFAUT EN COURS (AX-08) : avec un serveur d'essai, « Réessayer » a ouvert Safari sur werup.app. En production, inféré sans effet ; à rejouer"
+        "AVANT correctif (passage 3) : avec un serveur d'essai, « Réessayer » ouvrait Safari sur werup.app — la page relais embarquée renvoyait en dur vers werup.app (AX-08)"
+      ],
+      [
+        "captures/h5-10a2-reessai-pendant-la-panne.png",
+        "APRÈS correctif (4 h 45) : « Réessayer » pendant la panne reste dans l'app, la page hors ligne revient"
+      ],
+      [
+        "captures/h5-10b-retour-du-reseau.png",
+        "Le serveur revient : l'app revient seule sur Werup, dans l'app (36 requêtes par le relais de la production)"
       ],
       [
         "captures/app-store-01-accueil.png",
-        "Fiche App Store, première capture (iPhone 18 Pro Max, 9 h 41) : l'original est à 1 320 × 2 868 ; les six autres sont à refaire (question « Ouvrir dans Werup ? »)"
+        "Fiche App Store, épreuve 1/6 (iPhone 18 Pro Max, 9 h 41, original 1 320 × 2 868) : Accueil"
+      ],
+      [
+        "captures/app-store-02-meteo.png",
+        "Épreuve 2/6 : Météo Live (prise de nuit : « Nuit couverte » ; les définitives se prendront de jour)"
+      ],
+      [
+        "captures/app-store-03-sortir.png",
+        "Épreuve 3/6 : Sortir, aujourd'hui"
+      ],
+      [
+        "captures/app-store-04-autour.png",
+        "Épreuve 4/6 : la carte d'Autour, position simulée au cœur de Perpignan"
+      ],
+      [
+        "captures/app-store-05-sur-la-route.png",
+        "Épreuve 5/6 : Sur la route"
+      ],
+      [
+        "captures/app-store-06-jeux.png",
+        "Épreuve 6/6 : Jeux. Werup Intelligence, sans adresse propre, reste à capturer en ouvrant sa couche"
       ]
     ],
     "note": "Simulateur iOS 27.2 (Xcode 27.2), iPhone 18 Pro, contre la PRODUCTION (main 64f1c2013, déploiement 88f695fe, servi à 2 h 36). Images tirées des captures des essais XCUITest et de leurs enregistrements d'écran (préfixe p1, p2, p3 : passage). Données réelles du 14/11 vers 2 h–3 h 30. Pas un iPhone réel."
