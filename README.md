@@ -12,6 +12,23 @@ Dépôt réservé aux aperçus et aux captures de Pulse : rien ici n'est le code
 - Recettes — le comparateur rempli, en démonstration (prix fictifs) : https://weighted-meanwhile-endless-delete.trycloudflare.com/recettes/comparer/demonstration?scenario=incomplet
 - Recettes — le comparateur en démonstration, version statique (prix fictifs, sans tunnel) : https://castillet66.github.io/recettes/comparer/demonstration/?scenario=incomplet
 
+## Les jeux : le son sur iPhone, la fin de Mot, le Jackpot, L'Intrus et Connect — le polish de la nuit (14/11/2026)
+
+EN PRODUCTION sur werup.app depuis le 14/11 à 4 h 32 (déploiement c7769429, code main ce39d99af). Les quatre premières images sont prises EN PRODUCTION (WebKit, le moteur de l'iPhone) ; les suivantes, en local sur le même code, après les derniers correctifs, aux formats qu'elles nomment. Aucune partie du jour n'a été finie et aucun tirage du Jackpot lancé en production (jetons). Les « joueurs » sont des programmes : rien n'a été essayé sur un vrai iPhone, et le son ne s'entend pas sur une capture. La capture de Mot est recadrée sur sa ligne pour ne rien dire du mot du jour.
+
+- PNG — EN PRODUCTION — Mot : le rappel « Appuie sur Entrée », la pastille des jokers, la sourdine dans la barre : https://castillet66.github.io/jeux-polish-2026-11-14/captures/01-prod-mot.png
+- PNG — EN PRODUCTION — le Jackpot : la touche Werup (voix des jeux, laque, « Jouer » en or crème), la mention légale équilibrée : https://castillet66.github.io/jeux-polish-2026-11-14/captures/02-prod-jackpot.png
+- PNG — EN PRODUCTION — Connect : les tuiles en Panneau, la chaîne des erreurs, la voix des jeux : https://castillet66.github.io/jeux-polish-2026-11-14/captures/03-prod-connect.png
+- PNG — EN PRODUCTION — L'Intrus, l'accueil : la table attend ses joueurs : https://castillet66.github.io/jeux-polish-2026-11-14/captures/04-prod-intrus-accueil.png
+- PNG — L'Intrus : les dix personnages de la bande Werup à table, en jetons à la couleur de chaque joueur (390 × 844) : https://castillet66.github.io/jeux-polish-2026-11-14/captures/05-intrus-table-bande.png
+- PNG — L'Intrus couché (844 × 390) : la table à gauche, le texte et le bouton à droite — la page tient l'écran : https://castillet66.github.io/jeux-polish-2026-11-14/captures/06-intrus-paysage-deux-colonnes.png
+- PNG — L'Intrus couché : le verdict, la carte de l'accusé à gauche : https://castillet66.github.io/jeux-polish-2026-11-14/captures/07-intrus-paysage-verdict.png
+- PNG — Le Jackpot : la fête du jackpot, les jetons qui tombent : https://castillet66.github.io/jeux-polish-2026-11-14/captures/08-jackpot-fete-jetons.png
+- PNG — Le Jackpot : un gain posé sur sa plaque : https://castillet66.github.io/jeux-polish-2026-11-14/captures/09-jackpot-gain.png
+- PNG — Connect : le bilan, « Connect n° 137 » écrit dans la feuille à 18 px : https://castillet66.github.io/jeux-polish-2026-11-14/captures/10-connect-bilan.png
+- PNG — Connect : « Comment jouer », les deux étapes de la démonstration à 18 px : https://castillet66.github.io/jeux-polish-2026-11-14/captures/11-connect-comment-jouer.png
+- PNG — Mot sur iPhone SE (320 × 568) : « Tout le mot. » sur une ligne, la pastille garde ses cartes : https://castillet66.github.io/jeux-polish-2026-11-14/captures/12-mot-iphone-se-tout-le-mot.png
+
 ## Werup pour iPhone — la nuit du 14/11 : essais contre la production, garde de l'app, clavier, hors ligne (14/11/2026)
 
 Simulateur iOS 27.2 (Xcode 27.2), iPhone 18 Pro, contre la PRODUCTION (main 64f1c2013, déploiement 88f695fe, servi à 2 h 36). Images tirées des captures des essais XCUITest et de leurs enregistrements d'écran (préfixe p1, p2, p3 : passage). Données réelles du 14/11 vers 2 h–3 h 30. Pas un iPhone réel.
