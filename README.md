@@ -12,6 +12,36 @@ Dépôt réservé aux aperçus et aux captures de Pulse : rien ici n'est le code
 - Recettes — le comparateur rempli, en démonstration (prix fictifs) : https://weighted-meanwhile-endless-delete.trycloudflare.com/recettes/comparer/demonstration?scenario=incomplet
 - Recettes — le comparateur en démonstration, version statique (prix fictifs, sans tunnel) : https://castillet66.github.io/recettes/comparer/demonstration/?scenario=incomplet
 
+## Werup pour iPhone — la nuit du 14/11 : essais contre la production, garde de l'app, clavier, hors ligne (14/11/2026)
+
+Simulateur iOS 27.2 (Xcode 27.2), iPhone 18 Pro, contre la PRODUCTION (main 64f1c2013, déploiement 88f695fe, servi à 2 h 36). Images tirées des captures des essais XCUITest et de leurs enregistrements d'écran (préfixe p1, p2, p3 : passage). Données réelles du 14/11 vers 2 h–3 h 30. Pas un iPhone réel.
+
+- PNG — Passage 3 (3 h 18), production 88f695fe, app neuve : l'accueil en mode app : https://castillet66.github.io/werup-ios-2026-11-14/captures/p3-01-accueil.png
+- PNG — Le clavier dans la recherche : le champ reste visible au-dessus : https://castillet66.github.io/werup-ios-2026-11-14/captures/p3-02-clavier.png
+- PNG — Arrière-plan puis reprise : la page est gardée, sans recharger l'accueil : https://castillet66.github.io/werup-ios-2026-11-14/captures/p3-04-reprise.png
+- PNG — Lien werup://credits : l'app ouvre sa page : https://castillet66.github.io/werup-ios-2026-11-14/captures/p3-05-lien-werup.png
+- PNG — Un lien externe s'ouvre dans Safari : https://castillet66.github.io/werup-ios-2026-11-14/captures/p3-06-safari.png
+- PNG — Position : iOS demande, une seule fois : https://castillet66.github.io/werup-ios-2026-11-14/captures/p3-07a-demande-ios.png
+- PNG — Position refusée : la feuille dit le réglage, sans seconde fenêtre : https://castillet66.github.io/werup-ios-2026-11-14/captures/p3-07b-refus-reglage.png
+- PNG — Position accordée : la position simulée donne Collioure : https://castillet66.github.io/werup-ios-2026-11-14/captures/p3-08-position-collioure.png
+- PNG — AVANT D-2040 (passage 1) : lieu choisi au clavier, l'accueil reste 255 px plus bas, en-tête replié : https://castillet66.github.io/werup-ios-2026-11-14/captures/p1-09-clavier-avant-correctif.png
+- PNG — Témoin (passage 1) : le même choix SANS clavier laisse la page en haut : https://castillet66.github.io/werup-ios-2026-11-14/captures/p1-08-sans-clavier-page-en-haut.png
+- PNG — APRÈS D-2040 (passage 3, production) : lieu choisi au clavier, la page est en haut, la capsule dit Elne : https://castillet66.github.io/werup-ios-2026-11-14/captures/p3-09a-elne-choisie.png
+- PNG — Relance : l'app rouvre sur le lieu d'ouverture (position, Collioure), pas sur la commune de la visite (D-1485) : https://castillet66.github.io/werup-ios-2026-11-14/captures/p3-09b-relance-lieu-d-ouverture.png
+- PNG — werup://pro/espace dans l'app : la page « Dans Safari », aucune inscription Pro (D-2038, D-2039) : https://castillet66.github.io/werup-ios-2026-11-14/captures/p3-11a-pro-dans-safari.png
+- PNG — « Ouvrir dans Safari » : Werup Pro s'ouvre dans Safari, où le site n'a pas changé : https://castillet66.github.io/werup-ios-2026-11-14/captures/p3-11b-pro-ouvert-dans-safari.png
+- PNG — werup://control dans l'app : l'espace de l'équipe s'ouvre dans Safari : https://castillet66.github.io/werup-ios-2026-11-14/captures/p3-13-control-dans-safari.png
+- PNG — Partage : la feuille de partage d'iOS s'ouvre : https://castillet66.github.io/werup-ios-2026-11-14/captures/p3-12-partage.png
+- PNG — Une sous-page porte son bouton de retour : https://castillet66.github.io/werup-ios-2026-11-14/captures/p3-14a-credits-avec-retour.png
+- PNG — Le bouton de retour ramène à la page précédente : un retour toujours utilisable : https://castillet66.github.io/werup-ios-2026-11-14/captures/p3-14b-retour-a-sortir.png
+- PNG — Glissement depuis le bord (passage 1, t = 10,8 s) : la transition est reconnue, l'accueil glisse sous le doigt : https://castillet66.github.io/werup-ios-2026-11-14/captures/p1-03-glissement-reconnu.png
+- PNG — … puis annulée au lâcher : Sortir revient. Non démontré au simulateur, à éprouver sur l'iPhone réel : https://castillet66.github.io/werup-ios-2026-11-14/captures/p1-03-glissement-annule.png
+- PNG — Passage 2, geste lâché en mouvement : l'accueil à mi-écran : https://castillet66.github.io/werup-ios-2026-11-14/captures/p2-03-glissement-lache-en-mouvement.png
+- PNG — … et la transition annulée de nouveau : https://castillet66.github.io/werup-ios-2026-11-14/captures/p2-03-transition-annulee.png
+- PNG — Hors ligne (passage 3, app neuve, serveur éteint) : la page embarquée « Pas de connexion » : https://castillet66.github.io/werup-ios-2026-11-14/captures/p3-10a-hors-ligne.png
+- PNG — DÉFAUT EN COURS (AX-08) : avec un serveur d'essai, « Réessayer » a ouvert Safari sur werup.app. En production, inféré sans effet ; à rejouer : https://castillet66.github.io/werup-ios-2026-11-14/captures/p3-10-reessayer-ouvre-safari.png
+- PNG — Fiche App Store, première capture (iPhone 18 Pro Max, 9 h 41) : l'original est à 1 320 × 2 868 ; les six autres sont à refaire (question « Ouvrir dans Werup ? ») : https://castillet66.github.io/werup-ios-2026-11-14/captures/app-store-01-accueil.png
+
 ## Werup pour iPhone — l'app native au simulateur, contre la production (13/11/2026)
 
 Simulateur iOS 27.2 (Xcode 27.2). App compilée depuis chantier/werup-ios (3b0f0abd9), coque Capacitor 8.6.2 qui charge werup.app. Données RÉELLES de la production du 13/11 vers 23 h (Flash info, météo, carburant). Pas un iPhone réel, et pas encore TestFlight.

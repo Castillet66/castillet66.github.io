@@ -3108,5 +3108,114 @@
    ]
   ],
   "note": "Simulateur iOS 27.2 (Xcode 27.2). App compilée depuis chantier/werup-ios (3b0f0abd9), coque Capacitor 8.6.2 qui charge werup.app. Données RÉELLES de la production du 13/11 vers 23 h (Flash info, météo, carburant). Pas un iPhone réel, et pas encore TestFlight."
+ },
+ {
+  "dossier": "werup-ios-2026-11-14",
+  "date": "14/11/2026",
+  "titre": "Werup pour iPhone — la nuit du 14/11 : essais contre la production, garde de l'app, clavier, hors ligne",
+  "pages": [],
+  "captures": [
+   [
+    "captures/p3-01-accueil.png",
+    "Passage 3 (3 h 18), production 88f695fe, app neuve : l'accueil en mode app"
+   ],
+   [
+    "captures/p3-02-clavier.png",
+    "Le clavier dans la recherche : le champ reste visible au-dessus"
+   ],
+   [
+    "captures/p3-04-reprise.png",
+    "Arrière-plan puis reprise : la page est gardée, sans recharger l'accueil"
+   ],
+   [
+    "captures/p3-05-lien-werup.png",
+    "Lien werup://credits : l'app ouvre sa page"
+   ],
+   [
+    "captures/p3-06-safari.png",
+    "Un lien externe s'ouvre dans Safari"
+   ],
+   [
+    "captures/p3-07a-demande-ios.png",
+    "Position : iOS demande, une seule fois"
+   ],
+   [
+    "captures/p3-07b-refus-reglage.png",
+    "Position refusée : la feuille dit le réglage, sans seconde fenêtre"
+   ],
+   [
+    "captures/p3-08-position-collioure.png",
+    "Position accordée : la position simulée donne Collioure"
+   ],
+   [
+    "captures/p1-09-clavier-avant-correctif.png",
+    "AVANT D-2040 (passage 1) : lieu choisi au clavier, l'accueil reste 255 px plus bas, en-tête replié"
+   ],
+   [
+    "captures/p1-08-sans-clavier-page-en-haut.png",
+    "Témoin (passage 1) : le même choix SANS clavier laisse la page en haut"
+   ],
+   [
+    "captures/p3-09a-elne-choisie.png",
+    "APRÈS D-2040 (passage 3, production) : lieu choisi au clavier, la page est en haut, la capsule dit Elne"
+   ],
+   [
+    "captures/p3-09b-relance-lieu-d-ouverture.png",
+    "Relance : l'app rouvre sur le lieu d'ouverture (position, Collioure), pas sur la commune de la visite (D-1485)"
+   ],
+   [
+    "captures/p3-11a-pro-dans-safari.png",
+    "werup://pro/espace dans l'app : la page « Dans Safari », aucune inscription Pro (D-2038, D-2039)"
+   ],
+   [
+    "captures/p3-11b-pro-ouvert-dans-safari.png",
+    "« Ouvrir dans Safari » : Werup Pro s'ouvre dans Safari, où le site n'a pas changé"
+   ],
+   [
+    "captures/p3-13-control-dans-safari.png",
+    "werup://control dans l'app : l'espace de l'équipe s'ouvre dans Safari"
+   ],
+   [
+    "captures/p3-12-partage.png",
+    "Partage : la feuille de partage d'iOS s'ouvre"
+   ],
+   [
+    "captures/p3-14a-credits-avec-retour.png",
+    "Une sous-page porte son bouton de retour"
+   ],
+   [
+    "captures/p3-14b-retour-a-sortir.png",
+    "Le bouton de retour ramène à la page précédente : un retour toujours utilisable"
+   ],
+   [
+    "captures/p1-03-glissement-reconnu.png",
+    "Glissement depuis le bord (passage 1, t = 10,8 s) : la transition est reconnue, l'accueil glisse sous le doigt"
+   ],
+   [
+    "captures/p1-03-glissement-annule.png",
+    "… puis annulée au lâcher : Sortir revient. Non démontré au simulateur, à éprouver sur l'iPhone réel"
+   ],
+   [
+    "captures/p2-03-glissement-lache-en-mouvement.png",
+    "Passage 2, geste lâché en mouvement : l'accueil à mi-écran"
+   ],
+   [
+    "captures/p2-03-transition-annulee.png",
+    "… et la transition annulée de nouveau"
+   ],
+   [
+    "captures/p3-10a-hors-ligne.png",
+    "Hors ligne (passage 3, app neuve, serveur éteint) : la page embarquée « Pas de connexion »"
+   ],
+   [
+    "captures/p3-10-reessayer-ouvre-safari.png",
+    "DÉFAUT EN COURS (AX-08) : avec un serveur d'essai, « Réessayer » a ouvert Safari sur werup.app. En production, inféré sans effet ; à rejouer"
+   ],
+   [
+    "captures/app-store-01-accueil.png",
+    "Fiche App Store, première capture (iPhone 18 Pro Max, 9 h 41) : l'original est à 1 320 × 2 868 ; les six autres sont à refaire (question « Ouvrir dans Werup ? »)"
+   ]
+  ],
+  "note": "Simulateur iOS 27.2 (Xcode 27.2), iPhone 18 Pro, contre la PRODUCTION (main 64f1c2013, déploiement 88f695fe, servi à 2 h 36). Images tirées des captures des essais XCUITest et de leurs enregistrements d'écran (préfixe p1, p2, p3 : passage). Données réelles du 14/11 vers 2 h–3 h 30. Pas un iPhone réel."
  }
 ]
