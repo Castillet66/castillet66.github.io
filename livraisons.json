@@ -3343,5 +3343,22 @@
     "Simulateur iPhone, Safari : une feuille ouverte sur une page bleue — la bande sous la barre de Safari reste sombre, dans le prolongement de la feuille (avant : bleue, « en lévitation »)."
    ]
   ]
+ },
+ {
+  "dossier": "sport-ux-2026-11-16",
+  "date": "16/11/2026",
+  "titre": "Werup Sport : proposition de présentation (plusieurs sports, Mes équipes, rail de l'accueil, NRL)",
+  "note": "Document de travail pour ChatGPT, pas encore une livraison de l'application. Construit le 16/11 par un travail de conception en lecture seule (état des lieux du code, charte, données réelles en base, références d'applications de sport), trois directions concurrentes jugées puis fusionnées. Données citées : réelles, relevées le 16/11/2026. La production n'a pas changé pour cette proposition.",
+  "pages": [
+   [
+    "index.html",
+    "La proposition, lisible"
+   ],
+   [
+    "proposition.md",
+    "La même, en Markdown"
+   ]
+  ],
+  "captures": []
  }
 ]

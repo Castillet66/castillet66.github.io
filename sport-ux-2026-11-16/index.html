@@ -1,0 +1,862 @@
+<!doctype html><html lang="fr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex"><title>Werup Sport — proposition de présentation (16/11/2026)</title>
+<style>body{font:16px/1.55 -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;background:#0f0f10;color:#e9e9ea;max-width:860px;margin:0 auto;padding:24px 18px 80px}a{color:#ff7a33}h1,h2,h3{line-height:1.25}h2{margin-top:2.2em;border-top:1px solid #2a2a2d;padding-top:1em}table{border-collapse:collapse;width:100%;font-size:14px;margin:1em 0}td,th{border:1px solid #2f2f33;padding:6px 8px;vertical-align:top}th{background:#1b1b1d}code{background:#1d1d20;padding:1px 4px;border-radius:4px;font-size:.92em}blockquote{border-left:3px solid #ff7a33;margin:1em 0;padding:.2em 1em;color:#c9c9cc}.meta{color:#9a9aa0;font-size:14px}</style></head><body><p class="meta">Werup Sport — proposition de présentation, 16/11/2026. Document de travail : aucune ligne de code de l'application n'a encore changé pour cette proposition. Données citées : réelles, relevées le 16/11/2026.</p><h1>Werup Sport : proposition finale</h1>
+<p><em>16 novembre 2026. Pour ChatGPT, qui organise le projet, et pour le développeur. Trois propositions, notées par deux jurys, sont fusionnées ici. Rien n&#39;a été codé : tout a été lu, et les points contestés ont été revérifiés dans le dépôt (voir §18).</em></p>
+<hr>
+<h2>0. L&#39;idée en une phrase</h2>
+<p><strong>Le Sport de Werup part des équipes que la personne suit.</strong> Ces équipes passent devant partout : à l&#39;accueil, dans la rubrique et dans les compétitions. Le reste du sport réellement alimenté est rangé dans un sommaire sobre, par sport puis par compétition, et ce sommaire se construit à partir des données. Le football, le rugby à XV et le rugby à XIII utilisent les mêmes gabarits. Ajouter une compétition, comme la NRL, revient à ajouter une ligne de configuration, sans refonte.</p>
+<hr>
+<h2>1. Comment cette proposition a été construite</h2>
+<ul>
+<li><strong>Trois propositions :</strong><ul>
+<li>P1 « Mes équipes d&#39;abord » ;</li>
+<li>P2 « Les compétitions d&#39;abord » ;</li>
+<li>P3 « Le moment d&#39;abord ».</li>
+</ul>
+</li>
+<li><strong>Les jurys ne sont pas d&#39;accord sur la gagnante :</strong><ul>
+<li>jury 1 : P1 46, P2 45, P3 40 ;</li>
+<li>jury 2 : P2 47, P3 43, P1 42 ;</li>
+<li>cumul : P2 92, P1 88, P3 83.</li>
+</ul>
+</li>
+<li><strong>Mais leurs greffes mènent au même hybride.</strong> C&#39;est cet hybride qui est écrit ici :<ul>
+<li><strong>Le squelette vient de P2</strong> : un sommaire construit par les données, la sobriété, une porte d&#39;activation stricte, et les équipes du territoire montrées seulement quand elles jouent.</li>
+<li><strong>Le cœur vient de P1</strong> : Mes équipes partout, une feuille de choix, une page d&#39;équipe générique avec un complément propre à chaque club, et le lot 0 de corrections livré en premier.</li>
+<li><strong>Les greffes viennent de P3</strong> :<ul>
+<li>une vraie adresse par sport ;</li>
+<li>la section « Aujourd&#39;hui », avec les matchs en cours en tête ;</li>
+<li>le repli « Autres matchs (N) » ;</li>
+<li>le masquage du score en direct garanti dans le composant ;</li>
+<li>un plafond de 30 équipes ;</li>
+<li>les redirections vers <code>/rugby/*</code> ;</li>
+<li>une feuille de match qui reprend ce que faisait la fiche club.</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><strong>Corrections.</strong> Les erreurs factuelles relevées par les jurys ont été revérifiées dans le dépôt, puis corrigées (§15).</li>
+<li><strong>Hors périmètre.</strong> Le titre et le hero de l&#39;accueil ne sont pas rouverts : ils ont été arbitrés ailleurs.</li>
+</ul>
+<hr>
+<h2>2. Point de départ (constaté)</h2>
+<ul>
+<li><strong>Le chapitre Sport de l&#39;accueil</strong> n&#39;a que deux cartes, USAP et Dragons, écrites en dur. Toucher une carte ouvre la fiche du club, qui mène à la page du club.</li>
+<li><strong>Les deux clubs sont soudés dans au moins 10 contrats</strong> : <code>EQUIPES_ACCUEIL</code>, <code>ClubRugby</code>, <code>ClubPulse</code>, <code>ClubSuivable</code>, <code>ClubId</code>, <code>BLASONS</code>, <code>PremiumNewsCard.club</code>, <code>LigueRugby</code>, <code>CLUBS</code> et <code>PAGE_DU_CLUB</code>. Suivre un club écrit aujourd&#39;hui l&#39;univers <code>usap</code> ou <code>dragons</code> dans <code>pulse:univers</code>.</li>
+<li><strong>Le modèle commun en base est déjà générique</strong> (<code>lecture.server.ts</code>). Pourtant, le football, France XV et la Ligue des nations ne sont visibles que sur <code>/sport/technique</code>, une page interne en noindex vers laquelle aucun lien ne mène.</li>
+<li><strong>Les pages <code>/rugby/usap</code> (1 169 lignes) et <code>/rugby/dragons-catalans</code> (1 446 lignes)</strong> utilisent le même gabarit, recopié deux fois.</li>
+<li><strong>D-2079 n&#39;est appliquée qu&#39;à moitié.</strong> Le chapitre n&#39;est masqué que s&#39;il n&#39;y a aucun lieu (MN-02 n&#39;est pas fait).</li>
+<li><strong>Défauts visibles en production :</strong><ul>
+<li>« &amp;rsquo; » s&#39;affiche en clair dans 5 titres d&#39;actualité des Dragons ;</li>
+<li>« Calendrier et scores : TheSportsDB » apparaît à 5 endroits. C&#39;est inexact pour l&#39;USAP, et D-321 interdit de toute façon de nommer un fournisseur ;</li>
+<li>« L&#39;Indépendant » est cité parmi les sources des Dragons alors qu&#39;il a été retiré.</li>
+</ul>
+</li>
+</ul>
+<hr>
+<h2>3. Direction : les huit règles qui tranchent le reste</h2>
+<ol>
+<li><strong>On suit des équipes</strong>, jamais des sports ni des compétitions. Les compétitions se déduisent : suivre l&#39;USAP montre le Top 14 ET la Challenge Cup.</li>
+<li><strong>Mes équipes passent devant, et rien n&#39;est caché.</strong> Une préférence change l&#39;ordre, jamais ce qui existe. Ne rien suivre est un choix valide.</li>
+<li><strong>Un match ouvre une feuille.</strong> Une compétition ou une équipe ouvre une page.</li>
+<li><strong>Un seul dessin pour les trois sports</strong> : une carte de match, une ligne de match, un tableau de classement, une page d&#39;équipe, une page de compétition.</li>
+<li><strong>On ne montre que ce qu&#39;une source réelle alimente.</strong> Une compétition sans données n&#39;apparaît nulle part : pas de « bientôt », pas d&#39;onglet vide.</li>
+<li><strong>Le vivant d&#39;abord, partout</strong> : en cours, puis aujourd&#39;hui, puis le résultat récent, puis le prochain match.</li>
+<li><strong>Aucune ville par défaut.</strong> Le lieu choisi ajoute seulement les équipes de son territoire, et seulement quand elles jouent.</li>
+<li><strong>Aucune nouvelle grammaire.</strong> On n&#39;utilise que les composants de la charte.</li>
+</ol>
+<hr>
+<h2>4. Architecture</h2>
+<h3>4.1 Hiérarchie</h3>
+<p><strong>Sport</strong> (la rubrique) → <strong>sport</strong> (Football, Rugby à XV, Rugby à XIII) → <strong>compétition</strong> (une page) → <strong>équipe</strong> (une page).</p>
+<ul>
+<li>Il n&#39;y a jamais un « Rugby » unique : le XV et le XIII ont deux publics distincts (raisonnement de D-165, toujours valable).</li>
+<li>Le match n&#39;est jamais une page : il s&#39;ouvre en feuille.</li>
+<li>Une équipe joue plusieurs compétitions. Sa page n&#39;est donc rangée sous aucune d&#39;elles.</li>
+</ul>
+<h3>4.2 Adresses</h3>
+<table>
+<thead>
+<tr>
+<th>Adresse</th>
+<th>Ce qu&#39;elle sert</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><code>/sport</code></td>
+<td>Le sommaire, onglet « Tout ».</td>
+</tr>
+<tr>
+<td><code>/sport/football</code>, <code>/sport/rugby-a-xv</code>, <code>/sport/rugby-a-xiii</code></td>
+<td>Le même sommaire, filtré, avec le même composant. Changer d&#39;onglet est une navigation <code>replace</code> avec <code>state: true</code> : rien ne s&#39;empile dans l&#39;historique, et Retour rend l&#39;onglet et le défilement.</td>
+</tr>
+<tr>
+<td><code>/sport/{sport}/{competition}</code></td>
+<td>Par exemple <code>/sport/rugby-a-xv/top-14</code>. Le segment est l&#39;identifiant du catalogue, après les deux-points.</td>
+</tr>
+<tr>
+<td><code>/sport/{sport}/equipe/{slug}</code></td>
+<td>Le slug est l&#39;identifiant de <code>sport_equipes</code>, après les deux-points.</td>
+</tr>
+<tr>
+<td><code>/rugby/usap</code>, <code>/rugby/dragons-catalans</code></td>
+<td>Elles restent les adresses officielles de ces deux clubs et passent sur le gabarit d&#39;équipe commun. <code>/sport/rugby-a-xv/equipe/usap</code> et <code>/sport/rugby-a-xiii/equipe/catalans-dragons</code> y redirigent en 301, ce qui évite le contenu dupliqué (question 5).</td>
+</tr>
+<tr>
+<td><code>/sport/technique</code></td>
+<td>Inchangée : interne, noindex.</td>
+</tr>
+</tbody></table>
+<ul>
+<li>Un résolveur unique, <code>pageDeLEquipe(id)</code>, remplace les deux <code>PAGE_DU_CLUB</code>.</li>
+<li>Une compétition inactive, ou sans rencontre dans la saison, rend une 404 propre. Un sport sans compétition active rend une 404 et n&#39;a pas d&#39;onglet.</li>
+<li><strong>Pourquoi une adresse par sport :</strong> quand un sport arrive, il faut une adresse stable à communiquer (werup.app/sport/rugby-a-xiii). Ce n&#39;est pas une page mince : elle montre le sommaire filtré.</li>
+<li>Une nouvelle visite de <code>/sport</code> s&#39;ouvre toujours sur « Tout ». Un sport choisi ne devient jamais un filtre caché.</li>
+</ul>
+<h3>4.3 En-tête et retour</h3>
+<ul>
+<li><strong>En-tête.</strong> <code>getPageLabel</code> dit « Sport » sur <code>/sport/**</code> ET sur <code>/rugby/**</code>. Aujourd&#39;hui il dit « Rugby » (<code>page-label.ts:111</code>).</li>
+<li><strong>Titre.</strong> Le nom de la compétition ou de l&#39;équipe est le titre du contenu (<code>.ouverture-page</code>), pas celui de l&#39;en-tête.</li>
+<li><strong>Pas de rangée de capsules</strong> sur ces pages.</li>
+<li><strong>Replis</strong> déclarés dans <code>lib/navigation/repli.ts</code> :<ul>
+<li>compétition → <code>/sport/{sport}</code> ;</li>
+<li>équipe → <code>/sport/{sport}</code> ;</li>
+<li><code>/rugby/*</code> → <code>/sport/rugby-a-xv</code> ou <code>/sport/rugby-a-xiii</code>, ce qui met fin à <code>SANS_PARENT &quot;/rugby/&quot;</code> ;</li>
+<li><code>/sport</code> → l&#39;accueil.</li>
+</ul>
+</li>
+<li><strong>Retour</strong> rend l&#39;onglet, le défilement (ancres <code>ViewportMount</code>) et les blocs « Voir les N autres » déjà dépliés.</li>
+<li><strong>Fil d&#39;Ariane</strong> en JSON-LD seulement, invisible à l&#39;écran.</li>
+</ul>
+<h3>4.4 Entrées dans la navigation existante</h3>
+<p>La barre basse ne change pas : c&#39;est une ligne rouge. On arrive au Sport par cinq chemins.</p>
+<ol>
+<li><strong>L&#39;accueil</strong> : le chapitre Sport reçoit la porte « Tout voir » vers <code>/sport</code>. Elle existe enfin, puisqu&#39;il y a désormais un index (charte §2).</li>
+<li><strong>La Recherche</strong> :<ul>
+<li>une porte vers <code>/sport</code> dans le groupe Sport (question 13) ;</li>
+<li>l&#39;index de saisie, généré depuis le catalogue et <code>sport_equipes</code> : « psg », « top 14 », « xiii » et « foot » mènent aux bonnes pages.</li>
+</ul>
+</li>
+<li><strong>Mon Werup › Suivis</strong> : chaque équipe mène à sa page, et « Modifier » ouvre la feuille Mes équipes.</li>
+<li><strong>Le menu « Explorer Werup » du pied</strong> : une entrée « Sport » (<code>portes.ts</code>), qui appartient à la session « Werup cleanup et SEO national » (D-2083).</li>
+<li><strong>Les raccourcis de la rangée de tête</strong> : USAP et Dragons restent choisissables. Rien n&#39;est ajouté.</li>
+</ol>
+<hr>
+<h2>5. Le chapitre Sport de l&#39;accueil (le « rail de présentation »)</h2>
+<p><strong>Ce qui ne change pas :</strong></p>
+<ul>
+<li>le titre et le hero de l&#39;accueil ;</li>
+<li>le titre « Sport » (<code>TitreChapitre</code>, D-1881) ;</li>
+<li>sa place : 4e par défaut, masquable et ordonnable ;</li>
+<li>le <code>ViewportMount</code> avec l&#39;ancre « sport » et sa hauteur réservée ;</li>
+<li>le <code>RailChapitre</code> ;</li>
+<li>les dimensions des cartes : 86 % de largeur (92 % sous 375 px, 96 % sous 340 px), au moins 132 px de haut, grille de 2 colonnes en <code>lg</code>.</li>
+</ul>
+<p><strong>Ce qui change :</strong> le contenu, la règle d&#39;apparition, la porte « Tout voir » et ce qu&#39;ouvre le toucher.</p>
+<h3>5.1 Quand le chapitre paraît (D-2079 réalisée)</h3>
+<ul>
+<li><strong>a)</strong> Au moins une équipe est suivie : il paraît toujours, même sans lieu.</li>
+<li><strong>b)</strong> Aucune équipe n&#39;est suivie, mais le lieu choisi est dans un territoire qui a des équipes déclarées (aujourd&#39;hui seulement le 66 : USAP et Dragons), ET l&#39;une d&#39;elles a une carte vivante. Une carte vivante veut dire : un match en cours, un match aujourd&#39;hui, un résultat de moins de 14 jours, ou un prochain match.</li>
+<li><strong>Dans tous les autres cas, il ne paraît pas.</strong> Aucune carte d&#39;invitation, aucun remplissage (question 2).</li>
+<li><strong>Conséquences voulues :</strong><ul>
+<li>une personne dont le lieu est hors du 66 et qui ne suit rien ne voit plus le chapitre (c&#39;est le défaut actuel, corrigé) ;</li>
+<li>un Perpignanais qui ne suit personne ne voit pas, pendant trois mois, des Dragons figés au 11 septembre.</li>
+</ul>
+</li>
+</ul>
+<h3>5.2 Quelles cartes</h3>
+<ul>
+<li><strong>Chaque équipe suivie</strong> a toujours sa carte, même « Aucun match programmé pour l&#39;instant » : la personne l&#39;a choisie.</li>
+<li><strong>Ensuite</strong>, si le lieu est dans leur territoire, les équipes du territoire non suivies, <strong>seulement si elles sont vivantes</strong> (question 3).</li>
+<li><strong>Un match entre deux équipes de la liste ne fait qu&#39;une carte.</strong></li>
+<li><strong>8 cartes au plus.</strong> Au-delà, « Tout voir » mène au reste.</li>
+<li><strong>Le territoire est une donnée portée par l&#39;équipe</strong> (<code>territoire: &quot;66&quot;</code>), posée seulement quand elle est vérifiée. Ce n&#39;est pas une constante du moteur (question 4).</li>
+</ul>
+<h3>5.3 Ordre : <code>ordreDesClubs</code> devient <code>ordreDesEquipes</code></h3>
+<ol>
+<li>Match en cours : statut de jeu relevé il y a 15 minutes au plus.</li>
+<li>Match d&#39;aujourd&#39;hui, pas encore commencé.</li>
+<li>Résultat de moins de 48 h.</li>
+<li>Prochain match, le plus proche d&#39;abord.</li>
+<li>Résultat de 14 jours au plus, sans match à venir.</li>
+<li>Équipe sans match.</li>
+</ol>
+<p>À égalité, une équipe suivie passe avant une équipe du territoire, puis la date la plus proche départage. Il n&#39;y a jamais d&#39;ordre éditorial figé.</p>
+<h3>5.4 Toucher une carte</h3>
+<p><strong>La carte ouvre la feuille de match</strong> (§6.4). Cette feuille garde tout ce que la fiche club apportait : la vidéo, une actualité, « Voir la page » et « Suivre ».</p>
+<ul>
+<li><strong>Pourquoi :</strong> avec N équipes, une carte peut opposer deux équipes suivies. Elle représente un match, pas un club. C&#39;est aussi la règle de la charte : un match ouvre une feuille.</li>
+<li><strong>C&#39;est un changement visible du parcours.</strong> Il fait partie de la refonte demandée, et il sera annoncé.</li>
+</ul>
+<h3>5.5 États</h3>
+<ul>
+<li><strong>Chargement :</strong> deux squelettes aux dimensions finales. Les suivis sont stockés sur l&#39;appareil, donc le chapitre s&#39;hydrate côté client.</li>
+<li><strong>Une équipe en erreur :</strong> sa carte dit « Calendrier indisponible pour le moment ».</li>
+<li><strong>Tout en erreur :</strong> le chapitre se tait.</li>
+<li><strong>Match en cours :</strong> <code>PastilleDirect</code> et « En cours », sans score (D-2120).</li>
+</ul>
+<h3>5.6 Couleur, en attendant l&#39;arbitrage</h3>
+<p>L&#39;USAP (<code>#7c1220</code>) et les Dragons (<code>#9a6a00</code>) gardent leur teinte : on ne retire rien d&#39;identitaire sans accord. Toutes les autres équipes sont en anthracite neutre. La règle finale fait l&#39;objet de la question 1.</p>
+<h3>5.7 Données et propriété</h3>
+<ul>
+<li><strong>Données :</strong> une seule lecture serveur, <code>rencontresDesEquipes(ids)</code>, remplace les deux requêtes <code>[usap]</code> et <code>[dragons]</code> du loader. Dans le registre <code>chapitres.ts</code>, la source devient « les calendriers et résultats des équipes que tu suis ».</li>
+<li><strong>Propriété :</strong> ces cartes et leur règle appartiennent à la session « Werup cleanup et SEO national » (MN-02). Il faut une coordination écrite dans <code>docs/CHANTIERS.md</code> <strong>avant la première ligne de code</strong>.</li>
+</ul>
+<hr>
+<h2>6. Les pages</h2>
+<h3>6.1 <code>/sport</code> : le sommaire (et <code>/sport/{sport}</code>, la même page filtrée)</h3>
+<ol>
+<li><strong>Ouverture</strong> (<code>.ouverture-page</code>) :<ul>
+<li>l&#39;en-tête dit « Sport », le h1 est masqué ;</li>
+<li>les onglets « Tout · Football · Rugby à XV · Rugby à XIII » utilisent <code>OngletsChapitre</code> en mode défilant : casse normale, un filet sous l&#39;onglet actif, cible de 44 px. Ils ne sont pas collants, et on ne glisse pas d&#39;un sport à l&#39;autre ;</li>
+<li>un onglet n&#39;existe que si son sport a au moins une compétition active qui a des rencontres ;</li>
+<li>si aucune équipe n&#39;est suivie, un seul bouton texte sur la ligne utile : « Choisir mes équipes », qui ouvre la feuille de choix. Aucune phrase d&#39;explication.</li>
+</ul>
+</li>
+<li><strong>Mes équipes</strong> (seulement si au moins une équipe suivie appartient au sport filtré) :<ul>
+<li>un <code>.titre-section</code> et, sur la même ligne, l&#39;action « Modifier » (<code>PorteChapitre</code>, forme bouton) ;</li>
+<li>le même rail que l&#39;accueil : mêmes cartes, même ordre, une carte par match.</li>
+</ul>
+</li>
+<li><strong>Aujourd&#39;hui</strong> (seulement s&#39;il y a au moins un match aujourd&#39;hui dans le filtre) :<ul>
+<li>les matchs en cours d&#39;abord (« En cours », sans score), puis ceux à venir par heure, puis ceux terminés ;</li>
+<li>groupés par compétition. Les groupes se rangent ainsi : d&#39;abord celui qui a un match en cours, puis celui qui contient une équipe suivie, puis le coup d&#39;envoi le plus proche ;</li>
+<li>4 lignes par groupe, puis « Voir les N autres », déplié sur place ;</li>
+<li>pour une compétition de sélections (Ligue des nations) : la France et les équipes suivies d&#39;abord, les autres repliées sous « Autres matchs (N) ».</li>
+</ul>
+</li>
+<li><strong>Les sports et leurs compétitions :</strong><ul>
+<li>En « Tout », un <code>.titre-section</code> par sport. Dans un sport filtré, pas de titre de sport.</li>
+<li>Chaque compétition active est un bloc (<code>surface-flow</code>, filets internes <code>divide-white/[0.07]</code>).</li>
+<li><strong>La tête du bloc :</strong> le nom de la compétition, avec « Tout voir » à droite vers sa page.</li>
+<li><strong>La ligne d&#39;état</strong>, à 55 % : « Journée 10 · 28 – 30 nov. », « Poules · journée 3 » ou « Phase de ligue terminée ».</li>
+<li><strong>Jusqu&#39;à 3 lignes de match</strong>, choisies dans cet ordre :<ul>
+<li>(a) la journée en cours, ou la prochaine si elle commence dans les 7 jours, sans répéter les matchs déjà montrés dans Aujourd&#39;hui ;</li>
+<li>(b) à défaut, les résultats de la dernière journée jouée il y a 3 jours au plus ;</li>
+<li>(c) à défaut, un <strong>bloc compact</strong> : la tête et « Aucun match programmé pour l&#39;instant ». On ajoute « Prochain match : sam. 6 févr. » seulement si cette date réelle est en base. Le bloc compact est placé en fin de son sport.</li>
+</ul>
+</li>
+<li><strong>Dans un bloc :</strong> les matchs en cours d&#39;abord, puis ceux de mes équipes, puis l&#39;ordre des heures.</li>
+<li><strong>Ordre en « Tout » :</strong><ul>
+<li>d&#39;abord les sports de mes équipes, puis Football, Rugby à XV, Rugby à XIII (question 9) ;</li>
+<li>dans un sport : d&#39;abord les compétitions de mes équipes, puis championnat, coupe, sélections.</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><strong>Pied :</strong> une mention de fraîcheur (« Mis à jour à 21 h 04 ») et la mention de non-affiliation. Aucun nom de fournisseur.</li>
+</ol>
+<p><strong>États :</strong></p>
+<ul>
+<li>squelettes aux dimensions finales, section par section : Mes équipes s&#39;hydrate seul, le reste est rendu côté serveur pour le référencement national ;</li>
+<li>une erreur se dit en une phrase, à l&#39;endroit concerné ;</li>
+<li>aucune section n&#39;est rendue vide ;</li>
+<li>au moins un bloc par compétition active reste toujours présent, donc l&#39;écran n&#39;est jamais vide ;</li>
+<li>en intersaison, des blocs compacts honnêtes, jamais « Saison terminée » (D-1729).</li>
+</ul>
+<p><strong>Tablette :</strong> les blocs passent sur deux colonnes. <strong>Bureau :</strong> largeurs bornées.</p>
+<h3>6.2 <code>/sport/{sport}/{competition}</code> : la page d&#39;une compétition</h3>
+<ol>
+<li><strong>Ouverture.</strong> Le titre est le nom (« Top 14 »), d&#39;une seule encre. La ligne utile : « Rugby à XV · 2026-2027 ». Pas de logo de compétition tant que la question 12 n&#39;est pas tranchée.</li>
+<li><strong>Matchs.</strong> <code>OngletsChapitre</code> « À venir · Résultats » :<ul>
+<li>groupés par journée, ou par tour pour une coupe (« Journée 10 · 21 – 23 nov. »), en lignes denses ;</li>
+<li>la journée du moment en entier, puis « Voir la journée suivante » (ou « précédente ») ;</li>
+<li>les équipes suivies se repèrent par la graisse, jamais par la couleur ;</li>
+<li>une rencontre reportée ou annulée garde sa ligne, grisée, avec « Reporté » ou « Annulé » en texte <code>--alerte</code> et sans score. C&#39;est une extension de contrat, à écrire (§7) ;</li>
+<li>pour une compétition de sélections, le repli « Autres matchs (N) ».</li>
+</ul>
+</li>
+<li><strong>Classement</strong>, seulement s&#39;il est publié : Super League (calculé, 0 écart avec le classement officiel) et Ligue 1.<ul>
+<li><strong>Contenu :</strong> un tableau commun (rang en Geist Mono, écusson de 24 px, nom court qui s&#39;enroule, J, diff., Pts), puis <code>MentionClassement</code>.</li>
+<li><strong>Règles :</strong> une seule phase (D-2103), aucune zone de qualification sans règlement sourcé.</li>
+<li><strong>Top 14 :</strong> voir la question 10. Challenge Cup, Nations Championship et Ligue des nations : pas de section.</li>
+<li><strong>Hors saison :</strong> quand aucun match n&#39;est prévu dans les 7 jours, le classement final passe devant les matchs, et l&#39;onglet « Résultats » s&#39;ouvre par défaut.</li>
+</ul>
+</li>
+<li><strong>Les équipes.</strong> Une grille d&#39;écussons réels (<code>BlasonEquipe</code>, aire égalisée, sans disque), le nom court dessous et une cible de 44 px au moins. Chaque écusson mène à la page de l&#39;équipe. Les équipes suivies d&#39;abord, puis l&#39;ordre alphabétique.</li>
+<li><strong>Mentions</strong> : fraîcheur et non-affiliation.</li>
+</ol>
+<p><strong>États :</strong> squelettes de journée et de tableau ; « Aucun match programmé pour l&#39;instant » ; une erreur en une phrase par section ; une compétition inactive rend une 404.</p>
+<h3>6.3 <code>/sport/{sport}/equipe/{slug}</code> : la page d&#39;une équipe</h3>
+<p><code>/rugby/usap</code> et <code>/rugby/dragons-catalans</code> utilisent ce même gabarit.</p>
+<ol>
+<li><strong>La tête :</strong><ul>
+<li><strong>Visuel.</strong> Une photo réelle du club, sous licence, s&#39;il en existe une (USAP, Dragons) : elle porte <code>voile-texte</code> et <code>data-sous-entete=&quot;image&quot;</code>. Sinon, un grand écusson égalisé sur l&#39;obsidienne, sans fond flouté.</li>
+<li><strong>Nom, et une ligne dessous</strong> : « Rugby à XV · Top 14 · Challenge Cup », déduite des rencontres de la saison.</li>
+<li><strong>Le bouton « Suivre » / « Suivie »</strong>, blanc à texte sombre, visible au premier écran à 390 × 844.</li>
+</ul>
+</li>
+<li><strong>Le match</strong> : <code>BlocMatch</code> au format « page ». Il montre le match en cours, sinon celui d&#39;aujourd&#39;hui, sinon le prochain et le dernier résultat. Il ouvre la feuille de match.</li>
+<li><strong>Calendrier</strong> : <code>OngletsChapitre</code> « À venir · Résultats », 6 lignes puis « Voir les N autres ». Une ligne ne nomme sa compétition que si ce n&#39;est pas la compétition principale de l&#39;équipe (« Challenge Cup »).</li>
+<li><strong>Classement</strong>, s&#39;il est publié : un extrait de 5 lignes centré sur l&#39;équipe, sa ligne en graisse, puis une porte vers le classement complet.</li>
+<li><strong>Vidéos</strong>, seulement si une chaîne officielle intégrable est déclarée pour l&#39;équipe : un rail de vignettes, le lecteur monté au toucher.</li>
+<li><strong>Actualités</strong>, seulement si une source réelle existe (aujourd&#39;hui l&#39;USAP et les Dragons) : titre, source et date, sans extrait de tiers (question 11).</li>
+<li><strong>Complément du club</strong> : un emplacement facultatif, rempli seulement avec des faits vérifiés. Il contient le stade et sa capacité, la billetterie et le site officiel (jamais en premier geste), et pour les Dragons la signature « Allez papa d&#39;amour ♥ Alma », intacte et protégée par son test (question 6).</li>
+<li><strong>Mentions</strong> : fraîcheur et non-affiliation. Aucun nom de fournisseur.</li>
+</ol>
+<p><strong>États :</strong></p>
+<ul>
+<li>« Aucun match programmé pour l&#39;instant », avec le dernier résultat et sa date ;</li>
+<li>une sélection nationale hors fenêtre de compétition affiche le même texte, sans rien inventer sur la compétition suivante ;</li>
+<li>« Calendrier indisponible pour le moment » en cas d&#39;erreur ;</li>
+<li>une équipe inconnue, ou appartenant seulement à des compétitions inactives, rend une 404.</li>
+</ul>
+<h3>6.4 La feuille de match</h3>
+<p>C&#39;est une <code>PulseModal</code> de nature « lire » : panneau opaque, croix et glissement, sans pied, une seule couche visible.</p>
+<ol>
+<li><strong>Le visuel de tête</strong> : la vignette réelle de la rencontre si la source en fournit une, sinon rien. Jamais de vidéo en tête.</li>
+<li><strong><code>BlocMatch</code> au format « fiche »</strong> : écussons de 52 à 56 px, noms entiers, et au centre l&#39;état (heure, « En cours », score final).</li>
+<li><strong><code>LigneMeta</code></strong> : compétition · journée ou tour · lieu, plus « Heure à confirmer » quand il y a lieu.</li>
+<li><strong>Le résumé</strong> : la vidéo officielle, dans la feuille, avec le lecteur monté au toucher. Pour la Ligue 1, elle n&#39;est lisible qu&#39;en France, et la feuille le dit si la lecture échoue.</li>
+<li><strong>Les deux équipes</strong>, une rangée chacune : écusson, nom, rang et points si le classement est publié, puis « Voir la page » et « Suivre ». Ouverte depuis une carte d&#39;équipe, la feuille place cette équipe en premier, avec son actualité si une source existe (<code>RangeeActuClub</code>). On garde ainsi tout ce que la fiche club avait.</li>
+</ol>
+<ul>
+<li><strong>États :</strong> ceux de la carte (§7).</li>
+<li><strong>Pas de partage</strong>, puisqu&#39;il n&#39;existe pas de page publique stable pour un match.</li>
+<li><strong>Ouverte depuis une page d&#39;équipe</strong>, la feuille la couvre sans la fermer.</li>
+<li><strong><code>FicheClubSheet</code> est absorbée</strong> par cette feuille.</li>
+</ul>
+<h3>6.5 La feuille « Mes équipes »</h3>
+<p>C&#39;est une <code>PulseModal</code> de nature « choisir » : verre fumé, texte au contraste 4,5:1.</p>
+<p><strong>D&#39;où on l&#39;ouvre :</strong> depuis <code>/sport</code> (« Choisir mes équipes » ou « Modifier ») et depuis Mon Werup. <strong>Jamais depuis l&#39;accueil.</strong></p>
+<ol>
+<li><strong>Une recherche par nom</strong>, en tête. « Toulouse » montre le Stade Toulousain ET le Toulouse FC, chacun avec son sport écrit.</li>
+<li><strong>« Suivies »</strong>, si au moins une équipe est suivie : une rangée de ronds (le rond veut dire « suivie », D-1714). Toucher retire l&#39;équipe, avec un toast « Annuler ».</li>
+<li><strong>Des onglets</strong> « Football · Rugby à XV · Rugby à XIII ».</li>
+<li><strong>« Près de toi »</strong>, seulement si le lieu choisi est dans un territoire vérifié. Jamais de ville par défaut.</li>
+<li><strong>Une sous-section par compétition active</strong> : une grille d&#39;écussons (4 par rangée à 390 px), le nom court dessous, une cible de 44 px au moins. Toucher suit ou ne suit plus, sur place : une coche ET le mot « Suivie », pas seulement une couleur.</li>
+</ol>
+<ul>
+<li><strong>Aucun ordre manuel, aucun glisser</strong> : l&#39;ordre vivant suffit.</li>
+<li><strong>Plafond de 30 équipes</strong> : au-delà, un toast refuse la nouvelle équipe, et rien n&#39;est retiré en silence.</li>
+<li><strong>Aucun questionnaire au démarrage.</strong> Ne rien choisir est valide.</li>
+</ul>
+<h3>6.6 Mon Werup › Suivis</h3>
+<ul>
+<li><strong>N équipes en ronds</strong>, au lieu de 2, à côté des salles de cinéma suivies.</li>
+<li><strong>Ordre d&#39;ajout</strong> : Mon Werup est une bibliothèque, pas un moment.</li>
+<li><strong>Chaque équipe mène à sa page.</strong> On retire une équipe par le geste existant.</li>
+<li><strong>Aucune équipe suivie :</strong> la section suit la règle actuelle, sans invitation.</li>
+<li><strong>Un identifiant inconnu est écarté</strong> à la lecture.</li>
+</ul>
+<h3>6.7 Recherche, groupe Sport</h3>
+<ul>
+<li>La tuile d&#39;identifiant « sport » est <strong>« Sport et sensations »</strong> : c&#39;est la pratique, et elle mène à Sortir. <strong>On n&#39;y touche pas.</strong></li>
+<li><strong>Proposé (sans dépense) :</strong> une porte « Tout voir » vers <code>/sport</code> sur la ligne de titre du groupe. Cela demande une petite extension de <code>GroupeCatalogue</code>, qui n&#39;a pas de porte aujourd&#39;hui.</li>
+<li><strong>Les tuiles du groupe</strong> (aujourd&#39;hui USAP et Dragons pour tout le monde) : leur devenir est à trancher avec la session du ménage national (question 13).</li>
+</ul>
+<hr>
+<h2>7. La carte de match (<code>BlocMatch</code>)</h2>
+<p><strong>Un seul dessin pour le XV, le XIII et le football.</strong> Il est alimenté par <strong>un adaptateur générique</strong> <code>RencontreLue → VueMatch</code>, qui remplace, pour les nouvelles surfaces, <code>resumeUsap</code>, <code>resumeDragons</code> et <code>matchDepuis*</code>. Tout texte vient de <code>etat-match</code> : aucun libellé n&#39;est déduit dans un composant.</p>
+<p><strong>Formats :</strong></p>
+<ul>
+<li>« carte » : pour les rails, écussons de 52 à 56 px ;</li>
+<li>« ligne » : <code>LigneMatch</code>, extraite des deux <code>FixtureRow</code> recopiés, écussons de 24 à 28 px ;</li>
+<li>« fiche » et « page ».</li>
+</ul>
+<p><strong>La perspective devient facultative.</strong> Aujourd&#39;hui <code>BlocMatch</code> exige une <code>equipe</code>. Sans équipe, la carte est neutre (sommaire, journée). Avec une équipe suivie, celle-ci est appuyée par la graisse.</p>
+<p><strong>Anatomie de la carte :</strong></p>
+<ul>
+<li><strong>En haut</strong>, une ligne à 55 % : la compétition, dite une seule fois, avec la journée (« Top 14 · J10 »). Jamais « SPORT ».</li>
+<li><strong>Au centre</strong> : écusson, nom, bloc central, nom, écusson. Les noms courts viennent de la table vérifiée. Ils s&#39;enroulent ou réduisent leur taille, jamais tronqués.</li>
+<li><strong>Le bloc central</strong> est en Geist Mono tabulaire.</li>
+<li><strong>La surface</strong> : <code>surface-raised</code>, sans ombre dans un rail, <code>rounded-3xl</code>.</li>
+</ul>
+<p><strong>États.</strong> Ce sont ceux du contrat réel de <code>etat-match.ts:73-88</code>.</p>
+<ol>
+<li><strong>À venir</strong> (<code>a-venir</code>) : « sam. 28 nov. » et « 16:35 », à l&#39;heure de l&#39;appareil (la NRL tombera donc vers 9 h).</li>
+<li><strong>Aujourd&#39;hui</strong> (<code>jour-j</code>) : « Aujourd&#39;hui » et l&#39;heure.</li>
+<li><strong>Heure à confirmer</strong> : c&#39;est un modificateur. Quand <code>horaireConfirme</code> est faux, la date reste et « Heure à confirmer » remplace l&#39;heure (D-1716).</li>
+<li><strong>En cours</strong> (<code>en-cours</code>) :<ul>
+<li>il exige un statut de jeu relevé il y a 15 minutes au plus ;</li>
+<li>il s&#39;affiche par <code>PastilleDirect</code> et « En cours » (« Mi-temps » si la source le dit) ;</li>
+<li><strong>aucun score tant que le flux (compétition × fournisseur) n&#39;est pas qualifié</strong> (D-2120). Aucun flux ne l&#39;est au 16/11 ;</li>
+<li>jamais de « 0–0 » ;</li>
+<li><strong>cette garde est testée dans le composant</strong>, ce n&#39;est pas une simple convention ;</li>
+<li>une fois le flux qualifié : le score, avec « relevé à 21 h 04 » ;</li>
+<li>si la fraîcheur se perd, on repasse aussitôt à l&#39;affichage sans score.</li>
+</ul>
+</li>
+<li><strong>Résultat attendu</strong> (<code>resultat-attendu</code>) : l&#39;heure est passée, le résultat n&#39;est pas encore là, sans score supposé. Au-delà de 24 h, la rencontre devient <code>sans-nouvelle</code> et ne se lit plus : c&#39;est la rencontre suivante qui parle.</li>
+<li><strong>Terminé</strong> (<code>termine</code>) :<ul>
+<li>score en 26 px tabulaire ;</li>
+<li>le vainqueur à 100 %, le perdant à 55 %, un nul à égalité. Jamais de vert ni de rouge ;</li>
+<li>« Terminé · ven. 7 nov. », puis le mot « Résumé » si une vidéo officielle existe.</li>
+</ul>
+</li>
+<li><strong>Intersaison</strong>, pour une équipe sans match : « Aucun match programmé pour l&#39;instant », avec le dernier résultat s&#39;il date de moins de 14 jours. Jamais « Saison terminée ».</li>
+<li><strong>Reporté, annulé, abandonné</strong> (<code>retiree</code>) :<ul>
+<li><strong>dans une carte de rail</strong> (la vue d&#39;une équipe), le contrat actuel ne change pas : la rencontre ne se lit plus, c&#39;est la suivante qui parle ;</li>
+<li><strong>dans une liste</strong> (journée, calendrier), <em>extension du contrat, à écrire et à tester</em> : la ligne garde sa place, grisée, avec « Reporté » ou « Annulé » en <code>--alerte</code>, sans score, et la nouvelle date seulement si la source la donne.</li>
+</ul>
+</li>
+</ol>
+<p><strong>Écusson qui échoue au chargement :</strong> l&#39;emplacement reste vide, à la même taille. Jamais de lettres ni de monogramme. L&#39;anomalie est consignée. C&#39;est rare, puisque la porte d&#39;activation exige 100 % d&#39;écussons.</p>
+<p><strong>Interdits sur la carte :</strong> cote, pari, publicité, bouton de partage, teinte de club non validée, initiales, W de la marque, <code>#FF5A00</code>, turquoise, corail, <code>border</code>, <code>ring</code>, ombre dans un rail, animation de score.</p>
+<p><strong>Accessibilité :</strong></p>
+<ul>
+<li>la carte entière est un bouton de 44 px au moins ;</li>
+<li>son <code>aria-label</code> est la phrase de l&#39;état (« USAP contre La Rochelle, samedi 28 novembre, 16 h 35, Top 14 journée 10 ») ;</li>
+<li>l&#39;<code>alt</code> de chaque écusson est le nom de l&#39;équipe ;</li>
+<li>elle se lit à 320 px et avec un texte agrandi à 150 % ;</li>
+<li>transitions de 200 à 400 ms, <code>prefers-reduced-motion</code> respecté.</li>
+</ul>
+<hr>
+<h2>8. Choisir ses équipes et trier son sport</h2>
+<ul>
+<li><strong>Un seul geste : « Suivre », sur une équipe.</strong><ul>
+<li>Les compétitions s&#39;en déduisent (<code>competitionsDeLEquipe</code>).</li>
+<li>On évite ainsi le défaut d&#39;Apple Sports, où suivre une équipe ne montre pas sa ligue.</li>
+<li>Il n&#39;y a pas d&#39;épinglage de compétition sans équipe dans cette première version (question 14).</li>
+</ul>
+</li>
+<li><strong>Où l&#39;on suit :</strong><ul>
+<li>la tête de la page d&#39;une équipe ;</li>
+<li>les rangées d&#39;équipe de la feuille de match ;</li>
+<li>la feuille Mes équipes ;</li>
+<li>Mon Werup.</li>
+<li>Un toast confirme : « PSG rejoint tes suivis ».</li>
+</ul>
+</li>
+<li><strong>Ce que le suivi change :</strong><ul>
+<li>Mes équipes en tête de <code>/sport</code> et sur l&#39;accueil ;</li>
+<li>leurs sports et leurs compétitions passent devant dans « Tout » ;</li>
+<li>leurs lignes sont appuyées par la graisse.</li>
+<li><strong>Rien n&#39;est caché.</strong> La forme des cartes ne change pas.</li>
+</ul>
+</li>
+<li><strong>Trier par sport :</strong> ce sont les onglets de <code>/sport</code>. C&#39;est un geste explicite, gardé dans l&#39;adresse, et jamais appliqué ailleurs par défaut.</li>
+<li><strong>Stockage :</strong> voici le plan corrigé (voir §15, erreur n° 1).<ul>
+<li><strong>Aujourd&#39;hui</strong>, suivre un club écrit l&#39;univers <code>usap</code> ou <code>dragons</code> dans <code>pulse:univers</code>, par <code>ajouterUnivers</code> et <code>useUniversChoisis</code>. Ces univers sont lus par <code>bouton-suivre-club</code>, <code>bouton-suivre-univers</code>, <code>bouton-suivre-groupe</code>, <code>section-suivis</code> et <code>bibliotheque.ts</code>.</li>
+<li><strong>Le repère <code>{ type: &quot;club&quot; }</code></strong> (<code>types.ts:408</code>) n&#39;a aucun écrivain, et <code>clubsSuivis</code> n&#39;a aucun consommateur.</li>
+<li><strong>À l&#39;arrivée</strong>, un repère <code>{ type: &quot;equipe&quot;; id: &quot;xv:usap&quot; }</code> dans le magasin des repères (<code>pulse:mon-pulse:reperes:v1</code>, <code>reperes.ts:52</code>). Il remplace le repère <code>club</code> mort. Les identifiants sont revalidés contre <code>sport_equipes</code> à la lecture (patron <code>cinemas-suivis.ts</code>).</li>
+<li><strong>Migration</strong>, une seule fois et sans perte :<ul>
+<li>univers <code>usap</code> → <code>xv:usap</code> ;</li>
+<li>univers <code>dragons</code> → <code>xiii:catalans-dragons</code>.</li>
+</ul>
+</li>
+<li><strong>Pendant la transition</strong>, les deux univers sont tenus en miroir à chaque suivi ou retrait de ces deux clubs, tant que leurs autres lecteurs n&#39;ont pas migré. Ce travail est consigné au backlog.</li>
+<li><strong>Le test de non-perte lit le VRAI magasin.</strong></li>
+</ul>
+</li>
+<li><strong>Compte futur :</strong> une liste d&#39;identifiants stables, sans donnée personnelle. SPT-07 et SPT-08 la recopieront telle quelle dans l&#39;abonnement push, puis dans le compte. Il n&#39;y aura pas de second système de suivi.</li>
+</ul>
+<hr>
+<h2>9. Ajouter une compétition ou un sport</h2>
+<h3>9.1 Une compétition, c&#39;est une entrée de catalogue, pas une refonte (D-2101)</h3>
+<p><strong>La porte d&#39;activation.</strong> Une compétition passe à <code>actif: true</code> seulement si les sept conditions suivantes sont remplies. Un test garde ce qui peut l&#39;être.</p>
+<ol>
+<li>Les identifiants du fournisseur sont vérifiés par une réponse réelle.</li>
+<li>La saison courante est en base, avec la pré-saison exclue.</li>
+<li><strong>100 % des équipes ont un écusson réel</strong>, rattaché à la bonne équipe (D-2107, D-246).</li>
+<li>Les correspondances sont posées : aucune « deuxième USAP ».</li>
+<li>La règle de classement est l&#39;une de ces trois :<ul>
+<li>« fournisseur », relu ;</li>
+<li>« calcul », avec un règlement sourcé et une contre-épreuve à 0 écart ;</li>
+<li>« aucun ».</li>
+</ul>
+</li>
+<li>Les heures sont lues correctement en heure de Paris, et les vidéos sont vérifiées intégrables (<code>videos.list</code>, SPT-09).</li>
+<li>Le direct se qualifie à part, flux par flux (D-2120). Tant que ce n&#39;est pas fait, il reste sans score.</li>
+</ol>
+<p><strong>Ensuite, sans écrire de code d&#39;interface :</strong></p>
+<ul>
+<li>son bloc entre dans le sommaire ;</li>
+<li>sa page existe ;</li>
+<li>ses équipes ont leur page et deviennent suivables ;</li>
+<li>la feuille Mes équipes, l&#39;index de Recherche et le plan du site la reçoivent.</li>
+</ul>
+<p>Une compétition activée mais encore vide reste invisible.</p>
+<h3>9.2 Un sport de plus</h3>
+<ul>
+<li><strong>Sport de rencontre</strong> (basket, hand) : on étend <code>Sport</code> (<code>modele.ts</code>) et la contrainte SQL de <code>sport_equipes</code>, on ajoute un libellé, un segment d&#39;adresse (<code>/sport/basket</code>) et sa configuration de direct. Son onglet paraît avec sa première compétition active. Les gabarits restent les mêmes.</li>
+<li><strong>Course ou tableau</strong> (F1, cyclisme, tennis) : ils n&#39;entrent pas dans un modèle à deux équipes. C&#39;est un autre chantier, de niveau D, à signaler et non à improviser.</li>
+</ul>
+<h3>9.3 Annoncer une nouveauté</h3>
+<ul>
+<li><strong>Quand :</strong> une fois la compétition réellement alimentée, avec au moins un match dans les 14 jours.</li>
+<li><strong>Comment, dans l&#39;app :</strong><ul>
+<li>le point blanc <code>PastilleNouveaute</code> sur la tête de son bloc (ou sur l&#39;onglet d&#39;un nouveau sport) et sur sa rangée dans la feuille Mes équipes ;</li>
+<li>il s&#39;éteint à la première visite de la page, et au plus tard après 14 jours (question 15).</li>
+</ul>
+</li>
+<li><strong>Jamais</strong> de badge rouge, d&#39;orange, de bandeau ni de carte d&#39;annonce.</li>
+<li><strong>Hors de l&#39;app :</strong> Geoffrey communique sur les réseaux, avec l&#39;adresse stable de la page (werup.app/sport/rugby-a-xiii/nrl).</li>
+<li><strong>Une notification « Nouveau : la NRL »</strong> passera seulement par SPT-08 et par le consentement aux notifications.</li>
+</ul>
+<h3>9.4 La NRL</h3>
+<p>Voir le verdict séparé. En résumé : elle est faisable avec l&#39;abonnement TheSportsDB déjà payé. On la prépare maintenant, invisible, et on l&#39;active quand le calendrier 2027 est en base.</p>
+<hr>
+<h2>10. Ce qu&#39;on peut montrer au 16/11, sans rien inventer</h2>
+<table>
+<thead>
+<tr>
+<th>Compétition</th>
+<th>Sport</th>
+<th>Faits</th>
+<th>Classement</th>
+<th>Direct</th>
+<th>Vidéos</th>
+<th>Actualités</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>Top 14</td>
+<td>XV</td>
+<td>API-Rugby, complété par TheSportsDB</td>
+<td>Non (D-2114)</td>
+<td>« En cours » sans score ; flux XV jamais éprouvé en match</td>
+<td>Chaîne USAP, liens TheSportsDB</td>
+<td>USAP</td>
+</tr>
+<tr>
+<td>Challenge Cup</td>
+<td>XV</td>
+<td>TheSportsDB</td>
+<td>Non</td>
+<td>Sans score</td>
+<td>Liens TheSportsDB</td>
+<td>—</td>
+</tr>
+<tr>
+<td>Nations Championship</td>
+<td>XV (France)</td>
+<td>API-Rugby seul</td>
+<td>Non</td>
+<td>Sans score</td>
+<td>Non vérifié</td>
+<td>—</td>
+</tr>
+<tr>
+<td>Super League</td>
+<td>XIII</td>
+<td>TheSportsDB</td>
+<td>Oui, calculé, 0 écart</td>
+<td>Aucun ; 2027 pas encore publié</td>
+<td>Archives 2026, chaîne officielle</td>
+<td>Dragons</td>
+</tr>
+<tr>
+<td>Ligue 1</td>
+<td>Football</td>
+<td>API-Football, puis TheSportsDB (D-2110)</td>
+<td>Oui (fournisseur)</td>
+<td>Qualifiable, score masqué</td>
+<td>Chaînes officielles, France seulement</td>
+<td>—</td>
+</tr>
+<tr>
+<td>Ligue des nations</td>
+<td>Football</td>
+<td>API-Football, puis TheSportsDB</td>
+<td>Non</td>
+<td>Qualifiable, score masqué</td>
+<td>Non vérifié</td>
+<td>—</td>
+</tr>
+</tbody></table>
+<p><strong>Ne paraissent nulle part :</strong></p>
+<ul>
+<li>les compétitions préparées et inactives (Champions Cup, Six Nations, Ligue des champions, Liga, Serie A) ;</li>
+<li>la NRL ;</li>
+<li>le classement du Top 14 ;</li>
+<li>un score en direct non qualifié ;</li>
+<li>les statistiques, compositions et marqueurs ;</li>
+<li>des actualités pour les équipes qui n&#39;ont pas de source.</li>
+</ul>
+<p><strong>Échéances des abonnements :</strong></p>
+<ul>
+<li>API-Rugby Pro et API-Football Pro : payés pour un mois, jusqu&#39;au 16/12/2026, <strong>sans renouvellement automatique</strong> (D-2108) ;</li>
+<li>TheSportsDB Premium : 9 € TTC par mois, période en cours du 06/11 au 06/12. Son renouvellement automatique n&#39;est pas vérifié.</li>
+</ul>
+<hr>
+<h2>11. Conformité à la charte (l&#39;essentiel)</h2>
+<p><strong>Composants et feuilles :</strong></p>
+<ul>
+<li><code>PulseModal</code> pour toute feuille : nature « lire » pour le match, nature « choisir » pour Mes équipes ;</li>
+<li>un seul <code>BlocMatch</code>, une <code>LigneMatch</code>, un <code>TableauClassement</code>, une page d&#39;équipe et une page de compétition. Aucun composant par club ni par sport.</li>
+</ul>
+<p><strong>Sélection et rails :</strong></p>
+<ul>
+<li>sélection par <code>OngletsChapitre</code> ;</li>
+<li>rails par <code>RailChapitre</code>, sans ombre ni fondu de bord ;</li>
+<li>listes à lire en colonnes avec filets internes (D-378) ;</li>
+<li>porte « Tout voir » sur la ligne de titre, seulement si une destination existe.</li>
+</ul>
+<p><strong>Navigation :</strong></p>
+<ul>
+<li>barre basse inchangée ;</li>
+<li>pas de capsules de l&#39;en-tête comme filtre ;</li>
+<li>rien de collant sous l&#39;en-tête ;</li>
+<li>aucun glissement latéral entre sports ;</li>
+<li>retour par l&#39;en-tête, avec des replis déclarés.</li>
+</ul>
+<p><strong>Surfaces et couleurs :</strong></p>
+<ul>
+<li><code>surface-raised</code> pour une carte qui se touche, <code>surface-flow</code> pour une liste ;</li>
+<li>aucun <code>border</code>, <code>ring</code> ni <code>shadow</code> dans un composant ;</li>
+<li>page sur l&#39;obsidienne, sans nouvelle lumière ;</li>
+<li><code>--live</code> seulement par <code>PastilleDirect</code>, <code>--alerte</code> seulement pour Reporté ou Annulé ;</li>
+<li>résultats lus par la graisse ;</li>
+<li>teinte de club seulement par une exception nommée et mesurée (question 1).</li>
+</ul>
+<p><strong>Typographie :</strong></p>
+<ul>
+<li><code>.titre-section</code> et <code>.ouverture-page</code> ;</li>
+<li>Geist Mono pour les heures et les scores ;</li>
+<li>Inter en casse normale, 12 px au moins ;</li>
+<li>aucun titre tronqué, aucun surtitre en capitales, aucun slogan, aucun « du 66 » ni « catalan » comme titre.</li>
+</ul>
+<p><strong>Données et textes :</strong></p>
+<ul>
+<li>écussons réels partout, et suppression du repli sur initiales de <code>Blason()</code> ;</li>
+<li>aucun nom de fournisseur à l&#39;écran : l&#39;attribution due va sur <code>/credits</code> (D-321) ;</li>
+<li>pas de pictogramme de ballon : on écrit le mot ;</li>
+<li>PWA et navigateur ont le même rendu, sans règle <code>standalone</code> nécessaire.</li>
+</ul>
+<p><strong>Documents à réécrire dans le même mouvement :</strong></p>
+<ul>
+<li><strong>Charte §12</strong>, qui dit encore « pas d&#39;univers Sport » alors que D-2100 l&#39;a renversé. Si un univers <code>sport</code> est ajouté, la réécriture se fait dans le même commit, avec <code>inventaire-charte.test.ts</code> au vert.</li>
+<li><strong>D-1726</strong> (« Source citée (TheSportsDB) »), à aligner sur D-321.</li>
+<li><strong>SPORT.md §9</strong> :<ul>
+<li>il dit « aucune actualité Dragons », alors que la page en sert ;</li>
+<li>il présente la Ligue des champions comme alimentée, alors que le §10 la dit inactive.</li>
+</ul>
+</li>
+</ul>
+<hr>
+<h2>12. Risques</h2>
+<ol>
+<li><strong>Soudure à deux clubs, dans au moins 10 contrats.</strong> C&#39;est un chantier de niveau D. Une migration du suivi ratée ferait perdre leurs suivis aux utilisateurs.</li>
+<li><strong>Périmètre partagé.</strong> Les cartes de l&#39;accueil et la règle D-2079 (MN-02), le menu « Explorer Werup » (<code>portes.ts</code>) et la Recherche touchent la session « Werup cleanup et SEO national ». Les sections de Mon Werup touchent aussi d&#39;autres sessions. Une coordination écrite dans <code>CHANTIERS.md</code> est obligatoire avant d&#39;écrire.</li>
+<li><strong>Changement visible.</strong> Le rail garde sa forme et ses dimensions, et rien n&#39;est ajouté hors du sport. La cible du toucher change (feuille de match) : c&#39;est dans la refonte demandée, et c&#39;est annoncé.</li>
+<li><strong>Abonnements au 16/12.</strong> Sans renouvellement :<ul>
+<li>le Nations Championship s&#39;éteint ;</li>
+<li>le Top 14 et la Ligue 1 retombent sur TheSportsDB ;</li>
+<li>le Six Nations devra changer de fournisseur fondateur.
+Le sommaire retire proprement ce qui devient inactif, mais il maigrit.</li>
+</ul>
+</li>
+<li><strong>Écussons.</strong> Des dizaines d&#39;équipes de football et de coupes d&#39;Europe dépendent de SPT-10. Sans lui, la porte d&#39;activation bloque leur compétition.</li>
+<li><strong>Intersaison.</strong><ul>
+<li>Le XIII n&#39;a pas de match avant février.</li>
+<li>La France football et la France XV n&#39;ont plus de « prochain match » après novembre.
+Le dessin doit rester beau avec des blocs compacts, sans remplissage.</li>
+</ul>
+</li>
+<li><strong>Volume et longueur.</strong><ul>
+<li>La Ligue des nations réunit toutes les sélections UEFA (d&#39;où « Autres matchs (N) »).</li>
+<li>À 15 compétitions, la vue « Tout » s&#39;allonge. Les garde-fous : 3 lignes par bloc, blocs compacts en fin de sport, onglets.</li>
+</ul>
+</li>
+<li><strong>Faux direct.</strong> Le flux du XV n&#39;a jamais été éprouvé en match. Le masquage doit être une garde testée dans le composant.</li>
+<li><strong>Doublons d&#39;équipes entre deux fournisseurs non rapprochés.</strong> L&#39;identifiant est figé dès sa création, mais un club vu sous deux noms peut naître deux fois. Il faut surveiller <code>sport_rapprochements</code> (SPT-15).</li>
+<li><strong>Actualités.</strong><ul>
+<li>Le flux des Dragons mêle la brasserie et la boutique.</li>
+<li>Les photos de L&#39;Indépendant sont à remplacer, sauf accord de l&#39;éditeur.</li>
+</ul>
+</li>
+<li><strong>Coût de lecture.</strong> Le sommaire lit 6 compétitions. Il faut une lecture serveur groupée, bornée à une fenêtre de dates et mise en cache par le cache nommé de D-2012 (le cache de bord est inerte).</li>
+<li><strong>Restes à deux clubs, hors de ce chantier</strong>, à consigner au backlog sans les traiter au passage :<ul>
+<li>le domaine Intelligence « sport » ;</li>
+<li><code>sport-to-events</code> ;</li>
+<li><code>GROUPES_RUBRIQUES</code>, sans rendu ;</li>
+<li>les anciennes tables (SPT-11).</li>
+</ul>
+</li>
+</ol>
+<hr>
+<h2>13. Lots, dans l&#39;ordre</h2>
+<p>Chaque lot est livré seul, avec ses tests écrits et passés avant le commit. Un seul traitement lourd à la fois sur la machine.</p>
+<h3>A. Sans regret : à construire tout de suite, sans attendre d&#39;arbitrage</h3>
+<table>
+<thead>
+<tr>
+<th>Lot</th>
+<th>Contenu</th>
+<th>Niveau</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><strong>A0. Défauts visibles</strong></td>
+<td>• Décoder les entités nommées des actualités Dragons. • Retirer « Calendrier et scores : TheSportsDB » (5 endroits) au profit d&#39;une mention de fraîcheur, et poser l&#39;attribution due sur <code>/credits</code>. • Retirer « L&#39;Indépendant » des sources Dragons. • Corriger SPORT.md §9. • Tests ciblés : entités, aucun nom de fournisseur.</td>
+<td>B</td>
+</tr>
+<tr>
+<td><strong>A1. Socle de lecture</strong> (invisible)</td>
+<td>• Dans <code>lecture.server.ts</code> : <code>rencontresDesEquipes(ids)</code>, <code>competitionsDeLEquipe(id, saison)</code>, <code>equipesDeLaCompetition(id, saison)</code>, <code>competitionsAlimentees()</code>, <code>resumeDuSommaire(fenêtre)</code>, avec le cache nommé. • L&#39;adaptateur générique <code>RencontreLue → VueMatch</code>. • <code>ordreDesEquipes</code> avec dédoublonnage par match. • Le champ <code>territoire</code>, vérifié (66 pour USAP et Dragons). • Le test de la porte d&#39;activation. • Contre-épreuves : aucune compétition inactive lue, aucun score en jeu sans flux qualifié.</td>
+<td>D</td>
+</tr>
+<tr>
+<td><strong>A2. Suivre N équipes</strong> (invisible tant que les pages n&#39;existent pas)</td>
+<td>• Repère <code>equipe</code>. • Migration depuis <code>pulse:univers</code>, avec miroir des deux univers. • Revalidation. • Plafond de 30. • <code>BoutonSuivreEquipe</code>. • Test de non-perte sur le vrai magasin. • Coordination Mon Werup écrite.</td>
+<td>D</td>
+</tr>
+<tr>
+<td><strong>A3. Écussons partout (SPT-10)</strong></td>
+<td>• Écusson du fournisseur servi par le proxy. • Contrôle de l&#39;homonyme. • Suppression des initiales. • Égalisation mesurée généralisée. • Garde « 100 % d&#39;écussons » pour activer une compétition.</td>
+<td>C</td>
+</tr>
+<tr>
+<td><strong>A4. Pièces communes</strong>, rendu identique</td>
+<td>• Extraire <code>LigneMatch</code>, <code>TableauClassement</code>, le calendrier à onglets et la tête d&#39;équipe. • <code>BlocMatch</code> à perspective facultative, avec la garde D-2120 testée. • La feuille de match. • <code>/rugby/usap</code> et <code>/rugby/dragons-catalans</code> reconstruites sur le gabarit d&#39;équipe, avec l&#39;emplacement « complément du club » (signature intacte, avec son test). • Captures avant / après à 390 et 1280 px : identiques, sauf les corrections de A0.</td>
+<td>C</td>
+</tr>
+<tr>
+<td><strong>A5. NRL préparée, invisible</strong></td>
+<td>Voir le verdict NRL.</td>
+<td>C</td>
+</tr>
+</tbody></table>
+<h3>B. Après arbitrage, ou après coordination</h3>
+<table>
+<thead>
+<tr>
+<th>Lot</th>
+<th>Contenu</th>
+<th>Attend</th>
+<th>Niveau</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><strong>B1. Pages nationales</strong></td>
+<td>• <code>/sport</code>, <code>/sport/{sport}</code>, la page de compétition, la page d&#39;équipe. • Les 301 vers <code>/rugby/*</code>. • En-tête « Sport », replis, SEO (titres, canonique, plan du site, 404), en coordination avec la session SEO. • La feuille Mes équipes. • Mon Werup › Suivis à N équipes. • L&#39;extension de contrat « retiree dans une liste ». • La charte §12. • Responsive à 320, 390 et 1280 px.</td>
+<td>Questions 5, 9, 10, 14 (des valeurs par défaut sont proposées : on peut commencer)</td>
+<td>D</td>
+</tr>
+<tr>
+<td><strong>B2. Chapitre Sport de l&#39;accueil</strong></td>
+<td>• D-2079 réalisée. • Équipes suivies, puis équipes du territoire vivantes. • 8 cartes. • Porte « Tout voir ». • Toucher → feuille de match. • Mêmes dimensions. • <code>chapitres.ts</code>.</td>
+<td>Questions 2, 3, 4 et la coordination écrite MN-02</td>
+<td>C</td>
+</tr>
+<tr>
+<td><strong>B3. Entrées</strong></td>
+<td>• Porte du groupe Sport de la Recherche. • Index de saisie. • Lien dans « Explorer Werup ».</td>
+<td>Question 13 et la session ménage</td>
+<td>B</td>
+</tr>
+<tr>
+<td><strong>B4. Activations</strong></td>
+<td>• Champions Cup (décembre). • Six Nations (février). • Compétitions qui redonnent un prochain match aux Bleus du football. • NRL et World Club Challenge. • <code>PastilleNouveaute</code>.</td>
+<td>Questions 7, 8, 15</td>
+<td>C</td>
+</tr>
+<tr>
+<td><strong>B5. Teinte des équipes</strong></td>
+<td>Règle systémique, ou neutre pour toutes.</td>
+<td>Question 1</td>
+<td>B</td>
+</tr>
+</tbody></table>
+<hr>
+<h2>14. Questions qui demandent un arbitrage</h2>
+<p>Elles sont listées séparément dans le champ « questions ». Chacune porte une recommandation, et les lots A n&#39;en dépendent pas. Celles qui touchent à l&#39;identité, à une dépense ou à un choix personnel reviennent à Geoffrey, en une phrase simple et une à la fois : la 1, la 6 et la 7.</p>
+<hr>
+<h2>15. Erreurs factuelles corrigées</h2>
+<p>Elles ont été relevées par les jurys, puis vérifiées dans le dépôt (HEAD <code>66055c6ea</code> du worktree sport).</p>
+<ol>
+<li><strong>Le suivi d&#39;un club n&#39;est pas un repère <code>{ type: &quot;club&quot; }</code>.</strong> C&#39;est l&#39;univers <code>usap</code> ou <code>dragons</code> dans <code>pulse:univers</code> (<code>univers.ts:227</code>, <code>bouton-suivre-club.tsx</code>, <code>section-suivis.tsx:63-67</code>). Le repère <code>club</code> (<code>types.ts:408</code>) n&#39;a aucun écrivain. Une migration « repère club → equipe » n&#39;aurait migré personne. <em>Vérifié.</em></li>
+<li><strong>Le magasin des repères est <code>pulse:mon-pulse:reperes:v1</code></strong> (<code>reperes.ts:52</code>). <code>pulse:mon-werup:persistance:v1</code> est la marque de <code>navigator.storage.persist()</code> (<code>persistance.ts:44</code>). <em>Vérifié.</em></li>
+<li><strong>Il n&#39;existe pas de tuile « Sport » de la rubrique dans la Recherche.</strong> <code>GROUPE_SPORT</code> ne contient que USAP et Dragons. La tuile d&#39;identifiant « sport » est « Sport et sensations », la pratique, qui mène à Sortir. La repointer casserait D-1724. <em>Vérifié.</em></li>
+<li><strong>Le Six Nations n&#39;est pas « déjà payé ».</strong> Son fondateur est <code>api-rugby</code> (<code>catalogue.ts:150-161</code>), dont l&#39;abonnement s&#39;arrête le 16/12. En février, il faudra renouveler, ou basculer le fondateur sur TheSportsDB 4714. <em>Vérifié.</em></li>
+<li><strong><code>etat-match</code> a six états lisibles</strong> : <code>a-venir</code>, <code>jour-j</code>, <code>en-cours</code>, <code>resultat-attendu</code>, <code>termine</code> et <code>intersaison</code>. <code>sans-nouvelle</code> et <code>retiree</code> ne se lisent pas. « Résultat attendu » n&#39;est pas <code>sans-nouvelle</code>. Afficher « Reporté » dans une liste est une <strong>extension</strong> du contrat, pas une réutilisation. <em>Vérifié</em> (<code>etat-match.ts:73-88</code>).</li>
+<li><strong>L&#39;identifiant <code>football:&lt;slug&gt;</code> est figé dès sa création</strong> : <code>resoudreEquipe</code> renvoie l&#39;identifiant déjà connu par <code>sport_correspondances</code> (<code>persistance.ts:240-256</code>). Le vrai risque est un doublon entre deux fournisseurs non rapprochés. <em>Vérifié.</em></li>
+<li><strong>D-2100 ne garde pas les adresses <code>/rugby/*</code>.</strong> Il garde USAP et Dragons comme entrées. L&#39;argument SEO tient, mais aucune décision ne le porte encore : d&#39;où la question 5. <em>Vérifié.</em></li>
+<li><strong>Le cache n&#39;est pas « impossible ».</strong> D-2012 constate que le cache de bord est inerte et le remplace par un cache nommé, utilisable pour le sommaire. <em>Vérifié</em> (titre de D-2012).</li>
+<li><strong>Ligue 1 et Ligue des nations : le fondateur est TheSportsDB</strong> (c&#39;est lui qui crée les équipes), et les faits viennent d&#39;abord d&#39;API-Football (D-2110). <em>Vérifié.</em></li>
+<li><strong>La NRL est absente du catalogue</strong> (11 entrées). « Sans nouvel abonnement » veut dire : portée par TheSportsDB Premium, déjà payé (9 € TTC par mois). Ce n&#39;est pas gratuit. <em>Vérifié.</em></li>
+<li><strong>Calendriers 2027 de la NRL et de la Super League : toujours vides chez TheSportsDB le 16/11 dans l&#39;après-midi</strong> (<code>{&quot;events&quot;:null}</code>, relu avec la clé de test publique). La date du 16/11 annoncée par la presse australienne n&#39;est pas confirmée. <em>Observé.</em></li>
+<li><strong>Attribution de la porte.</strong> Le refus d&#39;une porte « faute de destination » vient de la charte §2 (« Rugby catalan a deux pages et aucun index »), et non de D-196 / D-198. <em>Relevé par le jury 2, non relu.</em></li>
+</ol>
+<hr>
+<h2>16. Idées écartées, et pourquoi</h2>
+<table>
+<thead>
+<tr>
+<th>Idée</th>
+<th>Pourquoi elle est écartée</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>Réordonner ses équipes à la main (P1)</td>
+<td>De la complexité sans bénéfice prouvé : l&#39;ordre vivant suffit. On le rajoutera si le besoin se constate.</td>
+</tr>
+<tr>
+<td>Hub en cinq sections temporelles, dont « À venir 7 jours » (P3)</td>
+<td>Trop long, et il gonfle à chaque compétition ajoutée.</td>
+</tr>
+<tr>
+<td>« Ce soir » au lieu d&#39;« Aujourd&#39;hui » après 18 h (P3)</td>
+<td>Ambigu : les matchs de 15 h sont encore « aujourd&#39;hui ».</td>
+</tr>
+<tr>
+<td>Fond flouté de l&#39;écusson en tête d&#39;équipe (P3)</td>
+<td>C&#39;est une ambiance d&#39;identité non validée.</td>
+</tr>
+<tr>
+<td>Une section « Résumés » sur la page de compétition (P1)</td>
+<td>Le mot « Résumé » sur la ligne, qui ouvre la feuille, suffit.</td>
+</tr>
+<tr>
+<td><code>/sport/&lt;sport&gt;</code> qui redirige vers <code>?sport=</code> (P2)</td>
+<td>Pas d&#39;adresse stable à communiquer quand un sport arrive.</td>
+</tr>
+<tr>
+<td>La carte qui ouvre la fiche équipe (P1)</td>
+<td>Ambigu quand deux équipes suivies s&#39;affrontent, et contraire à la règle « un match ouvre une feuille ».</td>
+</tr>
+<tr>
+<td>Les pastilles ivoire de Sortir pour les sports (P1)</td>
+<td>Les onglets texte laissent les écussons comme objets les plus lumineux, et ils sont déjà employés par Streaming.</td>
+</tr>
+<tr>
+<td>Repointer la tuile « sport » de la Recherche (P1, P3)</td>
+<td>Elle est « Sport et sensations ».</td>
+</tr>
+<tr>
+<td>Activer le Six Nations « avec les abonnements actuels » (P3)</td>
+<td>Son fondateur est API-Rugby, qui s&#39;arrête le 16/12.</td>
+</tr>
+</tbody></table>
+<hr>
+<h2>17. Décisions à écrire</h2>
+<p>Elles se placent dans la plage réservée à la session Sport, D-2121 à D-2129.</p>
+<ul>
+<li><strong>D-2121</strong> Architecture du Sport : hiérarchie, adresses, en-tête « Sport », replis.</li>
+<li><strong>D-2122</strong> On suit des équipes : repère <code>equipe</code>, migration depuis <code>pulse:univers</code>, miroir temporaire, plafond de 30.</li>
+<li><strong>D-2123</strong> Une carte de match ouvre la feuille de match ; <code>FicheClubSheet</code> est absorbée.</li>
+<li><strong>D-2124</strong> Une rencontre retirée garde sa ligne dans une liste (extension de <code>etat-match</code>).</li>
+<li><strong>D-2125</strong> La porte d&#39;activation d&#39;une compétition (sept conditions, écussons à 100 %).</li>
+<li><strong>D-2126</strong> Le chapitre Sport de l&#39;accueil : apparition, ordre, territoire (avec MN-02).</li>
+<li><strong>D-2127</strong> <code>OngletsChapitre</code> pour choisir un sport.</li>
+<li><strong>D-2128</strong> La NRL préparée, inactive.</li>
+<li><strong>D-2129</strong> réservée à l&#39;arbitrage des couleurs d&#39;équipe.</li>
+</ul>
+<hr>
+<h2>18. Ce qui est vérifié, et ce qui ne l&#39;est pas</h2>
+<ul>
+<li><strong>Observé dans cette passe</strong> :<ul>
+<li>lecture du dépôt (worktree sport, HEAD <code>66055c6ea</code>) : stockage du suivi, clés de stockage, catalogue, <code>etat-match</code>, <code>resoudreEquipe</code>, groupe Sport de la Recherche, composants partagés existants (<code>PastilleNouveaute</code>, <code>OngletsChapitre</code>, <code>PorteChapitre</code>, <code>RailChapitre</code>, <code>PastilleDirect</code>, <code>BandeTemporelle</code>, route <code>/credits</code>) ;</li>
+<li>D-2100, D-2108 et D-2110 ;</li>
+<li>calendriers 2027 NRL et Super League vides chez TheSportsDB ;</li>
+<li>presse australienne : seulement des articles d&#39;avant la publication du calendrier NRL 2027.</li>
+</ul>
+</li>
+<li><strong>Repris des études, non revérifié ici</strong> :<ul>
+<li>HTML servi le 16/11 vers 16 h 33 UTC (défauts du lot A0, contenu des pages) ;</li>
+<li>mesures NRL 2026 avec la clé de Werup (229 rencontres, 18 écussons, 225 vidéos) ;</li>
+<li>numéros de ligne cités par les études.</li>
+</ul>
+</li>
+<li><strong>Non vérifié</strong> :<ul>
+<li>aucun rendu dans un navigateur, à aucune largeur ;</li>
+<li>aucun test lancé ;</li>
+<li>le commit servi en production n&#39;a pas été relevé ;</li>
+<li>le renouvellement automatique de TheSportsDB Premium ;</li>
+<li>la présence de toutes les équipes de chaque compétition dans <code>sport_equipes</code> (inférée) ;</li>
+<li>les identifiants API-Football des ligues candidates ;</li>
+<li>les vidéos NRL réellement intégrables.</li>
+</ul>
+</li>
+</ul>
+</body></html>

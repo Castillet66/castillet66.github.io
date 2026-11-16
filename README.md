@@ -12,6 +12,13 @@ Dépôt réservé aux aperçus et aux captures de Pulse : rien ici n'est le code
 - Recettes — le comparateur rempli, en démonstration (prix fictifs) : https://weighted-meanwhile-endless-delete.trycloudflare.com/recettes/comparer/demonstration?scenario=incomplet
 - Recettes — le comparateur en démonstration, version statique (prix fictifs, sans tunnel) : https://castillet66.github.io/recettes/comparer/demonstration/?scenario=incomplet
 
+## Werup Sport : proposition de présentation (plusieurs sports, Mes équipes, rail de l'accueil, NRL) (16/11/2026)
+
+Document de travail pour ChatGPT, pas encore une livraison de l'application. Construit le 16/11 par un travail de conception en lecture seule (état des lieux du code, charte, données réelles en base, références d'applications de sport), trois directions concurrentes jugées puis fusionnées. Données citées : réelles, relevées le 16/11/2026. La production n'a pas changé pour cette proposition.
+
+- La proposition, lisible : https://castillet66.github.io/sport-ux-2026-11-16/index.html
+- La même, en Markdown : https://castillet66.github.io/sport-ux-2026-11-16/proposition.md
+
 ## Les jeux : le son partout, les feuilles sous la barre de Safari, sortir d'une partie, aucune partie qui défile, le Jackpot aéré (14/11/2026)
 
 EN PRODUCTION sur werup.app depuis le 14/11 à 14 h 51 (déploiement c112d622, code main 2e465176b). Formats : 440 × 796, la hauteur visible d'un iPhone Pro Max dans Safari. Les images 01 à 10 sont prises en local sur le même code (les parties sont construites pour la capture) ; la 11 est prise EN PRODUCTION. Aucune partie finie ni aucun tirage du Jackpot en production.
