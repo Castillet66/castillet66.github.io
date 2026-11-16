@@ -3360,5 +3360,18 @@
    ]
   ],
   "captures": []
+ },
+ {
+  "dossier": "sport-maquettes-2026-11-16",
+  "date": "16/11/2026",
+  "titre": "Werup Sport : les maquettes à valider (football d'abord, Mes équipes, feuille de match, Ligue 1, USAP, Super League, rituel Mon Werup)",
+  "note": "Dossier de travail pour ChatGPT et Geoffrey, PAS une livraison de l'application : aucune ligne de code n'a changé pour ces maquettes. 54 images au format iPhone (390 × 844, rendues ×2), toutes faites avec les vraies données de la base de production relues le 16/11/2026 au soir (classements, matchs, écussons, résumés officiels) ; les états « en direct » sont des reconstitutions datées d'un instant réel, dites comme telles sur chaque image. Contre-vérifié à la main : France 2-1 Turquie (15/11), Lens 1-2 Marseille (J10), cinq victoires de suite de Marseille.",
+  "pages": [
+   [
+    "index.html",
+    "Le dossier complet : images, parcours, direction, décisions"
+   ]
+  ],
+  "captures": []
  }
 ]

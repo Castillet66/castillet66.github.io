@@ -12,6 +12,12 @@ Dépôt réservé aux aperçus et aux captures de Pulse : rien ici n'est le code
 - Recettes — le comparateur rempli, en démonstration (prix fictifs) : https://weighted-meanwhile-endless-delete.trycloudflare.com/recettes/comparer/demonstration?scenario=incomplet
 - Recettes — le comparateur en démonstration, version statique (prix fictifs, sans tunnel) : https://castillet66.github.io/recettes/comparer/demonstration/?scenario=incomplet
 
+## Werup Sport : les maquettes à valider (football d'abord, Mes équipes, feuille de match, Ligue 1, USAP, Super League, rituel Mon Werup) (16/11/2026)
+
+Dossier de travail pour ChatGPT et Geoffrey, PAS une livraison de l'application : aucune ligne de code n'a changé pour ces maquettes. 54 images au format iPhone (390 × 844, rendues ×2), toutes faites avec les vraies données de la base de production relues le 16/11/2026 au soir (classements, matchs, écussons, résumés officiels) ; les états « en direct » sont des reconstitutions datées d'un instant réel, dites comme telles sur chaque image. Contre-vérifié à la main : France 2-1 Turquie (15/11), Lens 1-2 Marseille (J10), cinq victoires de suite de Marseille.
+
+- Le dossier complet : images, parcours, direction, décisions : https://castillet66.github.io/sport-maquettes-2026-11-16/index.html
+
 ## Werup Sport : proposition de présentation (plusieurs sports, Mes équipes, rail de l'accueil, NRL) (16/11/2026)
 
 Document de travail pour ChatGPT, pas encore une livraison de l'application. Construit le 16/11 par un travail de conception en lecture seule (état des lieux du code, charte, données réelles en base, références d'applications de sport), trois directions concurrentes jugées puis fusionnées. Données citées : réelles, relevées le 16/11/2026. La production n'a pas changé pour cette proposition.
