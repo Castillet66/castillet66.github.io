@@ -12,6 +12,12 @@ Dépôt réservé aux aperçus et aux captures de Pulse : rien ici n'est le code
 - Recettes — le comparateur rempli, en démonstration (prix fictifs) : https://weighted-meanwhile-endless-delete.trycloudflare.com/recettes/comparer/demonstration?scenario=incomplet
 - Recettes — le comparateur en démonstration, version statique (prix fictifs, sans tunnel) : https://castillet66.github.io/recettes/comparer/demonstration/?scenario=incomplet
 
+## La voix de Werup : les titres comparés (avant, hier, réglée, minuscules) (17/11/2026)
+
+Captures de l'accueil réel (werup.app) sur iPhone ; les variantes sont le vrai code, appliqué sur la page de production le temps de la capture. La version 3 est celle publiée le 17/11 (D-2179).
+
+- La comparaison, sur l'iPhone : https://castillet66.github.io/voix-werup-2026-11-17/index.html
+
 ## Werup Sport publié : la rubrique en images, la fiche de match aux couleurs des clubs, l'accueil (17/11/2026)
 
 Captures de la VRAIE application en ligne (werup.app), iPhone 390 × 844, prises le 17/11 vers 4 h après la publication (déploiement 66266f8b). Les deux dernières images comparent les titres avant / après l'essai de la voix du sport (D-2165), à confirmer par Geoffrey.
