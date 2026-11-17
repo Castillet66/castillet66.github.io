@@ -12,6 +12,12 @@ Dépôt réservé aux aperçus et aux captures de Pulse : rien ici n'est le code
 - Recettes — le comparateur rempli, en démonstration (prix fictifs) : https://weighted-meanwhile-endless-delete.trycloudflare.com/recettes/comparer/demonstration?scenario=incomplet
 - Recettes — le comparateur en démonstration, version statique (prix fictifs, sans tunnel) : https://castillet66.github.io/recettes/comparer/demonstration/?scenario=incomplet
 
+## Werup Sport publié : la rubrique en images, la fiche de match aux couleurs des clubs, l'accueil (17/11/2026)
+
+Captures de la VRAIE application en ligne (werup.app), iPhone 390 × 844, prises le 17/11 vers 4 h après la publication (déploiement 66266f8b). Les deux dernières images comparent les titres avant / après l'essai de la voix du sport (D-2165), à confirmer par Geoffrey.
+
+- Les captures, à regarder sur l'iPhone : https://castillet66.github.io/sport-publie-2026-11-17/index.html
+
 ## Werup Sport : les maquettes à valider (football d'abord, Mes équipes, feuille de match, Ligue 1, USAP, Super League, rituel Mon Werup) (16/11/2026)
 
 Dossier de travail pour ChatGPT et Geoffrey, PAS une livraison de l'application : aucune ligne de code n'a changé pour ces maquettes. 54 images au format iPhone (390 × 844, rendues ×2), toutes faites avec les vraies données de la base de production relues le 16/11/2026 au soir (classements, matchs, écussons, résumés officiels) ; les états « en direct » sont des reconstitutions datées d'un instant réel, dites comme telles sur chaque image. Contre-vérifié à la main : France 2-1 Turquie (15/11), Lens 1-2 Marseille (J10), cinq victoires de suite de Marseille.
