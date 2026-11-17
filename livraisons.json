@@ -3399,5 +3399,18 @@
    ]
   ],
   "captures": []
+ },
+ {
+  "dossier": "accueil-sections-2026-11-17",
+  "date": "17/11/2026",
+  "titre": "Les sections de l'accueil : titres au vouvoiement, la route en quatre sections",
+  "note": "Captures de werup.app en production (déploiement 79e370a2), le 17/11 à 20 h 40, iPhone 16, SE, Z Flip et Pro Max ; vraies données.",
+  "pages": [
+   [
+    "index.html",
+    "Les sections, sur l'iPhone"
+   ]
+  ],
+  "captures": []
  }
 ]
