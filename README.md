@@ -12,9 +12,9 @@ Dépôt réservé aux aperçus et aux captures de Pulse : rien ici n'est le code
 - Recettes — le comparateur rempli, en démonstration (prix fictifs) : https://weighted-meanwhile-endless-delete.trycloudflare.com/recettes/comparer/demonstration?scenario=incomplet
 - Recettes — le comparateur en démonstration, version statique (prix fictifs, sans tunnel) : https://castillet66.github.io/recettes/comparer/demonstration/?scenario=incomplet
 
-## Les sections de l'accueil : titres au vouvoiement, la route en quatre sections (17/11/2026)
+## Les sections de l'accueil : titres au vouvoiement, sections principales seulement (17/11/2026)
 
-Captures de werup.app en production (déploiement 79e370a2), le 17/11 à 20 h 40, iPhone 16, SE, Z Flip et Pro Max ; vraies données.
+Captures de werup.app en production, le 17/11 au soir (déploiements 79e370a2 puis 6ede6941) ; vraies données. La route, la recette et l'horoscope ont quitté l'accueil à 21 h 40.
 
 - Les sections, sur l'iPhone : https://castillet66.github.io/accueil-sections-2026-11-17/index.html
 
