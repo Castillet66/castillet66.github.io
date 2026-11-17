@@ -3399,5 +3399,50 @@
    ]
   ],
   "captures": []
+ },
+ {
+  "dossier": "agir-2026-11-17",
+  "date": "17/11/2026",
+  "titre": "Agir : les missions de bénévolat près de chez vous (avant la clé)",
+  "note": "Branche chantier/agir-planete, commit 25dfe6780 — aperçu, rien en production. Données FICTIVES : la copie d'essai officielle de l'API Engagement (3 missions de démonstration, Paris, Lyon, Marseille). Les photos sont les vignettes officielles de l'API (celles des missions de démonstration sont des liens morts). Le bandeau « Données d'essai » n'existe qu'en essai. Captures WebKit, profils iPhone.",
+  "pages": [],
+  "captures": [
+   [
+    "01-sans-ville.png",
+    "Sans ville choisie : une sélection de France et l'invitation à choisir sa ville"
+   ],
+   [
+    "02-autour-de-marseille.png",
+    "Autour de Marseille : thèmes et distance"
+   ],
+   [
+    "03-fiche.png",
+    "La fiche : photo, lieu, dates, « Je participe », partage (en haut à droite)"
+   ],
+   [
+    "04-fiche-suite.png",
+    "La fiche, plus bas : repères, la mission, ce que vous ferez"
+   ],
+   [
+    "05-aucune-mission.png",
+    "Aucune mission dans le rayon : élargir en un geste"
+   ],
+   [
+    "06-section-accueil.png",
+    "La section de l'accueil, « Agissez près de chez vous » (écrite, pas encore branchée)"
+   ],
+   [
+    "07-iphone-se.png",
+    "iPhone SE (320 px) : la liste"
+   ],
+   [
+    "09-iphone-se-fiche.png",
+    "iPhone SE : « Je participe » tient au premier écran"
+   ],
+   [
+    "08-pro-max-fiche.png",
+    "iPhone 15 Pro Max : la fiche"
+   ]
+  ]
  }
 ]

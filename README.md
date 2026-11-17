@@ -12,6 +12,20 @@ Dépôt réservé aux aperçus et aux captures de Pulse : rien ici n'est le code
 - Recettes — le comparateur rempli, en démonstration (prix fictifs) : https://weighted-meanwhile-endless-delete.trycloudflare.com/recettes/comparer/demonstration?scenario=incomplet
 - Recettes — le comparateur en démonstration, version statique (prix fictifs, sans tunnel) : https://castillet66.github.io/recettes/comparer/demonstration/?scenario=incomplet
 
+## Agir : les missions de bénévolat près de chez vous (avant la clé) (17/11/2026)
+
+Branche chantier/agir-planete, commit 25dfe6780 — aperçu, rien en production. Données FICTIVES : la copie d'essai officielle de l'API Engagement (3 missions de démonstration, Paris, Lyon, Marseille). Les photos sont les vignettes officielles de l'API (celles des missions de démonstration sont des liens morts). Le bandeau « Données d'essai » n'existe qu'en essai. Captures WebKit, profils iPhone.
+
+- PNG — Sans ville choisie : une sélection de France et l'invitation à choisir sa ville : https://castillet66.github.io/agir-2026-11-17/01-sans-ville.png
+- PNG — Autour de Marseille : thèmes et distance : https://castillet66.github.io/agir-2026-11-17/02-autour-de-marseille.png
+- PNG — La fiche : photo, lieu, dates, « Je participe », partage (en haut à droite) : https://castillet66.github.io/agir-2026-11-17/03-fiche.png
+- PNG — La fiche, plus bas : repères, la mission, ce que vous ferez : https://castillet66.github.io/agir-2026-11-17/04-fiche-suite.png
+- PNG — Aucune mission dans le rayon : élargir en un geste : https://castillet66.github.io/agir-2026-11-17/05-aucune-mission.png
+- PNG — La section de l'accueil, « Agissez près de chez vous » (écrite, pas encore branchée) : https://castillet66.github.io/agir-2026-11-17/06-section-accueil.png
+- PNG — iPhone SE (320 px) : la liste : https://castillet66.github.io/agir-2026-11-17/07-iphone-se.png
+- PNG — iPhone SE : « Je participe » tient au premier écran : https://castillet66.github.io/agir-2026-11-17/09-iphone-se-fiche.png
+- PNG — iPhone 15 Pro Max : la fiche : https://castillet66.github.io/agir-2026-11-17/08-pro-max-fiche.png
+
 ## La voix de Werup : les titres comparés (avant, hier, réglée, minuscules) (17/11/2026)
 
 Captures de l'accueil réel (werup.app) sur iPhone ; les variantes sont le vrai code, appliqué sur la page de production le temps de la capture. La version 3 est celle publiée le 17/11 (D-2179).
