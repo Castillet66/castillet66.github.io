@@ -12,6 +12,20 @@ Dépôt réservé aux aperçus et aux captures de Pulse : rien ici n'est le code
 - Recettes — le comparateur rempli, en démonstration (prix fictifs) : https://weighted-meanwhile-endless-delete.trycloudflare.com/recettes/comparer/demonstration?scenario=incomplet
 - Recettes — le comparateur en démonstration, version statique (prix fictifs, sans tunnel) : https://castillet66.github.io/recettes/comparer/demonstration/?scenario=incomplet
 
+## Agir : les vraies missions près de chez vous (avant publication) (18/11/2026)
+
+Branche chantier/agir-planete, commit de154e78b — aperçu, RIEN sur werup.app. Données RÉELLES du 18/11 : missions de l'API Engagement (JeVeuxAider.gouv.fr), collectes de don du sang de l'EFS, actualité Futura / 20 Minutes / Sciences et Avenir. Ville réglée sur Elne (Paris pour la dernière). Captures WebKit, profils iPhone.
+
+- PNG — La page Agir à Elne : la mission la plus proche en grand : https://castillet66.github.io/agir-2026-11-18/01-agir-elne.png
+- PNG — Pour la nature, pour les animaux : des rails, « Tout voir » ouvre la liste : https://castillet66.github.io/agir-2026-11-18/02-rails.png
+- PNG — Donner son sang : les prochaines collectes publiques près de chez vous : https://castillet66.github.io/agir-2026-11-18/03-don-du-sang.png
+- PNG — L'actualité de la planète, sans politique ni nouvelles anxiogènes : https://castillet66.github.io/agir-2026-11-18/04-actualite.png
+- PNG — La fiche d'une mission : couleur de son thème, « Je participe », partage : https://castillet66.github.io/agir-2026-11-18/05-fiche.png
+- PNG — La fiche, plus bas : la mission telle que l'association l'écrit : https://castillet66.github.io/agir-2026-11-18/06-fiche-suite.png
+- PNG — Sur l'accueil : « Agissez près de chez vous », après le sport : https://castillet66.github.io/agir-2026-11-18/07-accueil.png
+- PNG — iPhone SE (320 px) : https://castillet66.github.io/agir-2026-11-18/08-iphone-se.png
+- PNG — La même page à Paris : https://castillet66.github.io/agir-2026-11-18/09-paris.png
+
 ## Tout lieu a une image : la photo de son type, ou la sienne (18/11/2026)
 
 Captures de werup.app en production le 18/11 vers 2 h (déploiement d8d28378) ; vraies données.
