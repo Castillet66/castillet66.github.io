@@ -3425,5 +3425,18 @@
       ]
     ],
     "captures": []
+  },
+  {
+    "dossier": "lieux-une-image-2026-11-18",
+    "date": "18/11/2026",
+    "titre": "Tout lieu a une image : la photo de son type, ou la sienne",
+    "note": "Captures de werup.app en production le 18/11 vers 2 h (déploiement d8d28378) ; vraies données.",
+    "pages": [
+      [
+        "index.html",
+        "Les lieux, sur l'iPhone"
+      ]
+    ],
+    "captures": []
   }
 ]

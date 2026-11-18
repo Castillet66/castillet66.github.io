@@ -12,6 +12,12 @@ Dépôt réservé aux aperçus et aux captures de Pulse : rien ici n'est le code
 - Recettes — le comparateur rempli, en démonstration (prix fictifs) : https://weighted-meanwhile-endless-delete.trycloudflare.com/recettes/comparer/demonstration?scenario=incomplet
 - Recettes — le comparateur en démonstration, version statique (prix fictifs, sans tunnel) : https://castillet66.github.io/recettes/comparer/demonstration/?scenario=incomplet
 
+## Tout lieu a une image : la photo de son type, ou la sienne (18/11/2026)
+
+Captures de werup.app en production le 18/11 vers 2 h (déploiement d8d28378) ; vraies données.
+
+- Les lieux, sur l'iPhone : https://castillet66.github.io/lieux-une-image-2026-11-18/index.html
+
 ## Les feuilles en couleur : « Sur la route » et la fiche d'une sortie (17/11/2026)
 
 Captures de werup.app en production le 17/11 vers minuit (déploiement 664e6f71) ; vraies données, position Perpignan.
