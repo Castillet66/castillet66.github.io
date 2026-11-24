@@ -1063,3 +1063,9 @@ Maquette de l'écran du 29/10, pour en juger la composition ; durées visées, n
 - Écran proposé (à ouvrir sur téléphone) : https://castillet66.github.io/recettes-2026-10-29/ecran.html
 - PNG — Premier écran, iPhone : https://castillet66.github.io/recettes-2026-10-29/captures/ecran-iphone.png
 - PNG — Écran entier : https://castillet66.github.io/recettes-2026-10-29/captures/ecran-iphone-complet.png
+
+## Cinema — le repli « cinemas pres de vous » (sans AlloCine) (24/11/2026)
+
+Le nouveau bloc de repli, hors d'un territoire a seances (exemple : Annecy) : fiche + lien programme, « Y aller » pret pour Apple Plans, attribution OpenStreetMap en petit « i ». Rendu avec le CSS reel de l'app et des donnees d'exemple (maquette, pas la page en direct).
+
+- PNG — Le bloc de repli, iPhone : https://castillet66.github.io/cinema-repli-2026-11-24/captures/bloc-cinemas-proches.png

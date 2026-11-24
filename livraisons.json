@@ -1,5 +1,18 @@
 [
   {
+    "dossier": "cinema-repli-2026-11-24",
+    "date": "24/11/2026",
+    "titre": "Cinema — le repli « cinemas pres de vous » (sans AlloCine)",
+    "note": "Le nouveau bloc de repli, hors d'un territoire a seances (exemple : Annecy) : fiche + lien programme, « Y aller » pret pour Apple Plans, attribution OpenStreetMap en petit « i ». Rendu avec le CSS reel de l'app et des donnees d'exemple (maquette, pas la page en direct).",
+    "pages": [],
+    "captures": [
+      [
+        "captures/bloc-cinemas-proches.png",
+        "Le bloc de repli, iPhone"
+      ]
+    ]
+  },
+  {
     "dossier": "recettes-2026-10-29",
     "date": "29/10/2026",
     "titre": "Recettes — écran proposé (maquette)",
