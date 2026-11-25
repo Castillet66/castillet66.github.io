@@ -12,6 +12,13 @@ Dépôt réservé aux aperçus et aux captures de Pulse : rien ici n'est le code
 - Recettes — le comparateur rempli, en démonstration (prix fictifs) : https://weighted-meanwhile-endless-delete.trycloudflare.com/recettes/comparer/demonstration?scenario=incomplet
 - Recettes — le comparateur en démonstration, version statique (prix fictifs, sans tunnel) : https://castillet66.github.io/recettes/comparer/demonstration/?scenario=incomplet
 
+## Les couleurs des catégories de Sortir : avant / après (25/11/2026)
+
+Proposition de nouvelle palette, à valider sur iPhone. Rien n'est changé dans l'application. Photos des catégories de Sortir (Adobe Stock), exemples de sorties illustratifs.
+
+- La planche, à lire sur iPhone : https://castillet66.github.io/palette-categories/index.html
+- PNG — La planche entière (capture WebKit, 390 px) : https://castillet66.github.io/palette-categories/planche.png
+
 ## Agir : les vraies missions près de chez vous (avant publication) (18/11/2026)
 
 Branche chantier/agir-planete, commit de154e78b — aperçu, RIEN sur werup.app. Données RÉELLES du 18/11 : missions de l'API Engagement (JeVeuxAider.gouv.fr), collectes de don du sang de l'EFS, actualité Futura / 20 Minutes / Sciences et Avenir. Ville réglée sur Elne (Paris pour la dernière). Captures WebKit, profils iPhone.

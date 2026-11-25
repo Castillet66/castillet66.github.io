@@ -3496,5 +3496,23 @@
         "La même page à Paris"
       ]
     ]
+  },
+  {
+    "dossier": "palette-categories",
+    "date": "25/11/2026",
+    "titre": "Les couleurs des catégories de Sortir : avant / après",
+    "note": "Proposition de nouvelle palette, à valider sur iPhone. Rien n'est changé dans l'application. Photos des catégories de Sortir (Adobe Stock), exemples de sorties illustratifs.",
+    "pages": [
+      [
+        "index.html",
+        "La planche, à lire sur iPhone"
+      ]
+    ],
+    "captures": [
+      [
+        "planche.png",
+        "La planche entière (capture WebKit, 390 px)"
+      ]
+    ]
   }
 ]
