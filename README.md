@@ -12,6 +12,12 @@ Dépôt réservé aux aperçus et aux captures de Pulse : rien ici n'est le code
 - Recettes — le comparateur rempli, en démonstration (prix fictifs) : https://weighted-meanwhile-endless-delete.trycloudflare.com/recettes/comparer/demonstration?scenario=incomplet
 - Recettes — le comparateur en démonstration, version statique (prix fictifs, sans tunnel) : https://castillet66.github.io/recettes/comparer/demonstration/?scenario=incomplet
 
+## Les cartes de Sortir : A, B ou C ? (25/11/2026)
+
+Trois façons de mettre la couleur sur les mêmes cartes (vraies sorties de l'agenda) ; B recommandée. Rien n'est changé dans l'application.
+
+- La page, à lire sur iPhone : https://castillet66.github.io/directions-cartes/index.html
+
 ## Les couleurs des catégories de Sortir : avant / après (25/11/2026)
 
 Proposition de nouvelle palette, à valider sur iPhone. Rien n'est changé dans l'application. Photos des catégories de Sortir (Adobe Stock), exemples de sorties illustratifs.

@@ -3514,5 +3514,18 @@
         "La planche entière (capture WebKit, 390 px)"
       ]
     ]
+  },
+  {
+    "dossier": "directions-cartes",
+    "date": "25/11/2026",
+    "titre": "Les cartes de Sortir : A, B ou C ?",
+    "note": "Trois façons de mettre la couleur sur les mêmes cartes (vraies sorties de l'agenda) ; B recommandée. Rien n'est changé dans l'application.",
+    "pages": [
+      [
+        "index.html",
+        "La page, à lire sur iPhone"
+      ]
+    ],
+    "captures": []
   }
 ]
