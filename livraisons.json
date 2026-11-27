@@ -3540,5 +3540,18 @@
       ]
     ],
     "captures": []
+  },
+  {
+    "dossier": "raccourcis-menu-2026-11-27",
+    "date": "27/11/2026",
+    "titre": "Le bouton des raccourcis : le style et la feuille",
+    "note": "Quatre carrés pleins à droite de l'en-tête ; trois façons d'organiser ses capsules en verre fumé. Recommandé : A et 1. Rien n'est changé dans l'application.",
+    "pages": [
+      [
+        "index.html",
+        "La page, à lire sur iPhone"
+      ]
+    ],
+    "captures": []
   }
 ]
