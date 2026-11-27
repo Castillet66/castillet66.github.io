@@ -12,6 +12,12 @@ Dépôt réservé aux aperçus et aux captures de Pulse : rien ici n'est le code
 - Recettes — le comparateur rempli, en démonstration (prix fictifs) : https://weighted-meanwhile-endless-delete.trycloudflare.com/recettes/comparer/demonstration?scenario=incomplet
 - Recettes — le comparateur en démonstration, version statique (prix fictifs, sans tunnel) : https://castillet66.github.io/recettes/comparer/demonstration/?scenario=incomplet
 
+## La flèche des titres de l'accueil : A, B ou C ? (27/11/2026)
+
+Une petite flèche collée au titre, sans rond ; trois couleurs sur la vraie page, et la loupe du centrage. A (gris) recommandée. Rien n'est changé dans l'application.
+
+- La page, à lire sur iPhone : https://castillet66.github.io/fleche-des-titres-2026-11-27/index.html
+
 ## Les cartes de Sortir : A, B ou C ? (25/11/2026)
 
 Trois façons de mettre la couleur sur les mêmes cartes (vraies sorties de l'agenda) ; B recommandée. Rien n'est changé dans l'application.
